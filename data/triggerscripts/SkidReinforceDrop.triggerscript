@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="" Type="TriggerScript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0" External="false">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="11" Type="Vector" Name="NullVectorVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="12" Type="Float" Name="NullFloatVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="13" Type="Bool" Name="NullBoolVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="14" Type="ProtoSquadList" Name="NullProtoSquadListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="15" Type="Player" Name="NullPlayerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="16" Type="SquadList" Name="NullSquadListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="17" Type="ProtoObject" Name="NullProtoObjectVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="18" Type="Object" Name="NullObjectVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="19" Type="ObjectList" Name="NullObjectListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="20" Type="Power" Name="NullPowerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="21" Type="Squad" Name="NullSquadVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="22" Type="Unit" Name="NullUnitVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="23" Type="Cost" Name="NullCostVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="24" Type="UnitList" Name="NullUnitListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="1" Type="Player" Name="newVar1439495" IsNull="false"></TriggerVar>
+    <TriggerVar ID="2" Type="Vector" Name="newVar9830076" IsNull="false"></TriggerVar>
+    <TriggerVar ID="3" Type="Float" Name="newVar8343980" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="4" Type="Float" Name="newVar4303056" IsNull="false">20</TriggerVar>
+    <TriggerVar ID="5" Type="Float" Name="newVar8893285" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="6" Type="Bool" Name="newVar3441320" IsNull="false">False</TriggerVar>
+    <TriggerVar ID="7" Type="Vector" Name="newVar790842" IsNull="false"></TriggerVar>
+    <TriggerVar ID="8" Type="ProtoSquadList" Name="newVar1971648" IsNull="false">skid_inf_vanguard_01,skid_inf_vanguard_01,skid_inf_vanguard_01</TriggerVar>
+    <TriggerVar ID="9" Type="ProtoObject" Name="" IsNull="false">drop_beacon_01</TriggerVar>
+    <TriggerVar ID="10" Type="Trigger" Name="TriggerVar0" IsNull="false">0</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="4" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" X="0" Y="0">
+            <Output Name="Player" SigID="1" Optional="true">1</Output>
+            <Output Name="Power" SigID="2" Optional="true">20</Output>
+            <Output Name="Squad" SigID="3" Optional="true">21</Output>
+            <Output Name="Unit" SigID="4" Optional="true">22</Output>
+            <Output Name="Cost" SigID="5" Optional="true">23</Output>
+            <Output Name="UnitList" SigID="6" Optional="true">24</Output>
+            <Output Name="SquadList" SigID="7" Optional="true">16</Output>
+          </Condition>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="5" Type="CanRetrieveExternalLocation" DBID="440" Version="1" CommentOut="false" X="0" Y="0">
+            <Output Name="ExternalLocation" SigID="1" Optional="false">2</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="LocationAdjust" DBID="59" Version="3" CommentOut="false" X="0" Y="0">
+          <Input Name="SourceLoc" SigID="1" Optional="false">2</Input>
+          <Input Name="AdjustX" SigID="2" Optional="true">3</Input>
+          <Input Name="AdjustY" SigID="4" Optional="true">4</Input>
+          <Input Name="AdjustZ" SigID="5" Optional="true">5</Input>
+          <Input Name="AdjustVector" SigID="6" Optional="true">11</Input>
+          <Input Name="InUseMultiply" SigID="7" Optional="true">6</Input>
+          <Output Name="ResultLoc" SigID="3" Optional="false">7</Output>
+        </Effect>
+        <Effect ID="1" Type="CreateSquads" DBID="875" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InProtoSquads" SigID="1" Optional="false">8</Input>
+          <Input Name="InPlayer" SigID="2" Optional="false">1</Input>
+          <Input Name="InCreatePosition" SigID="3" Optional="false">2</Input>
+          <Input Name="InFacing" SigID="4" Optional="true">11</Input>
+          <Input Name="InFlyInStart" SigID="5" Optional="true">7</Input>
+          <Input Name="InFlyInEnd" SigID="6" Optional="true">7</Input>
+          <Input Name="InRallyPoint" SigID="7" Optional="true">11</Input>
+          <Input Name="InAttackMoveRallyPoint" SigID="8" Optional="true">13</Input>
+          <Input Name="ClearExisting" SigID="11" Optional="true">13</Input>
+          <Output Name="CreatedSquads" SigID="9" Optional="true">16</Output>
+          <Output Name="AddToList" SigID="10" Optional="true">16</Output>
+        </Effect>
+        <Effect ID="2" Type="CreateObject" DBID="35" Version="6" CommentOut="false" X="0" Y="0">
+          <Input Name="ProtoObject" SigID="1" Optional="false">9</Input>
+          <Input Name="Location" SigID="2" Optional="false">2</Input>
+          <Input Name="Player" SigID="3" Optional="false">1</Input>
+          <Input Name="AddToObjectList" SigID="8" Optional="true">19</Input>
+          <Input Name="ClearExisting" SigID="9" Optional="true">13</Input>
+          <Input Name="Facing" SigID="10" Optional="true">11</Input>
+          <Input Name="NoPhysics" SigID="11" Optional="true">13</Input>
+          <Output Name="CreatedObject" SigID="4" Optional="true">18</Output>
+        </Effect>
+        <Effect ID="3" Type="INVALID [56] [v1]" DBID="56" Version="1" CommentOut="false" X="0" Y="0" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+  <Metadata>
+    <VariableMetadata>
+      <Variable ID="1">
+        <Metadata>
+          <X>-78450</X>
+          <Y>-13980</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="2">
+        <Metadata>
+          <X>-77100</X>
+          <Y>-14520</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="3">
+        <Metadata>
+          <X>-79050</X>
+          <Y>-12544</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="4">
+        <Metadata>
+          <X>-79050</X>
+          <Y>-12188</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="5">
+        <Metadata>
+          <X>-79050</X>
+          <Y>-11832</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="6">
+        <Metadata>
+          <X>-79050</X>
+          <Y>-11476</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="7">
+        <Metadata>
+          <X>-77850</X>
+          <Y>-12544</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="8">
+        <Metadata>
+          <X>-76727.9</X>
+          <Y>-13520.61</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="9">
+        <Metadata>
+          <X>-74550</X>
+          <Y>-12454</Y>
+        </Metadata>
+      </Variable>
+    </VariableMetadata>
+    <TriggerMetadata>
+      <Trigger ID="0">
+        <Metadata>
+          <X>-80300</X>
+          <Y>-14900</Y>
+        </Metadata>
+      </Trigger>
+    </TriggerMetadata>
+    <EffectMetadata>
+      <Effect ID="0">
+        <Metadata>
+          <X>-78450</X>
+          <Y>-13374</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="1">
+        <Metadata>
+          <X>-75900</X>
+          <Y>-13374</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="2">
+        <Metadata>
+          <X>-73950</X>
+          <Y>-13374</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="3">
+        <Metadata>
+          <X>-72600</X>
+          <Y>-13374</Y>
+        </Metadata>
+      </Effect>
+    </EffectMetadata>
+    <ConditionMetadata>
+      <Condition ID="4">
+        <Metadata>
+          <X>-79050</X>
+          <Y>-14900</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="5">
+        <Metadata>
+          <X>-77700</X>
+          <Y>-14900</Y>
+        </Metadata>
+      </Condition>
+    </ConditionMetadata>
+  </Metadata>
+</TriggerSystem>

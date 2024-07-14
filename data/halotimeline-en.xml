@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Timeline>
+	<LockedImage>img://art\ui\flash\shared\textures\timeline\timeline_locked.ddx</LockedImage>
+	<Event>
+		<Name>Mod01</Name>
+		<Status>Unlocked</Status>
+		<Position>1</Position>
+		<Title>The Concept</Title>
+		<Date>12 March 2024</Date>
+		<DetailText>The Spirit of Fire, a marvel of engineering, was conceived during the spring of 2024 by the ingenious engineer known as Kuru, whose expertise and craftsmanship breathed life into this magnificent vessel.</DetailText>
+		<UnlockedImage>img://art\ui\flash\shared\textures\timeline\timeline_unsc.ddx</UnlockedImage>
+	</Event>
+	<Event>
+		<Name>Mod021</Name>
+		<Status>Unlocked</Status>
+		<Position>2</Position>
+		<Title>The Beginning</Title>
+		<Date>25 March 2024</Date>
+		<DetailText>The endeavor to craft the Spirit of Fire commenced on March 25, 2024, under the watchful guidance of Captain Cutter aboard the vessel itself. Following rigorous testing and meticulous scrutiny, it was deemed fit for duty on the UNSC test field located on Arcadia, where its capabilities were scrutinized and ultimately endorsed.</DetailText>
+		<UnlockedImage>img://art\ui\flash\shared\textures\timeline\timeline_unsc.ddx</UnlockedImage>
+	</Event>
+</Timeline>
