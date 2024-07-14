@@ -33183,6 +33183,7 @@
 		<PopCapAddition Type="Unit">0</PopCapAddition>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Bounty>14</Bounty>
+		<Tactics>skid_bldg_command_01.tactics</Tactics>
 		<ObstructionRadiusX>8</ObstructionRadiusX>
 		<ObstructionRadiusY>8</ObstructionRadiusY>
 		<ObstructionRadiusZ>8</ObstructionRadiusZ>
