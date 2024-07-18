@@ -2883,7 +2883,6 @@
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>ObstructsAir</Flag>
 	</Object>
 	<Object name="game_tool_socketObs_01" is="0" id="0" dbid="2744">
 		<ObjectClass>Building</ObjectClass>
@@ -3881,7 +3880,6 @@
 		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
 		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -4007,7 +4005,6 @@
 		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
 		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -4132,7 +4129,6 @@
 		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
 		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -4773,7 +4769,6 @@
 		<RallyPoint>Military</RallyPoint>
 		<Socket Player="Player">BuildingSocket</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -7439,7 +7434,6 @@
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 		<Socket Player="Any">PowerSocketBase</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -7551,7 +7545,6 @@
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 		<Socket Player="Any">PowerSocketBase</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -7664,7 +7657,6 @@
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 		<Socket Player="Any">PowerSocketBase</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -7944,7 +7936,6 @@
 		<HPBar offset="5,25,0">COV_Bldg_HealthShield</HPBar>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -8431,7 +8422,6 @@
 		<RallyPoint>Military</RallyPoint>
 		<Socket Player="Player">BuildingSocket</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -8610,7 +8600,6 @@
 		<RallyPoint>Military</RallyPoint>
 		<Socket Player="Player">BuildingSocket</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -8711,7 +8700,6 @@
 		<RallyPoint>Military</RallyPoint>
 		<Socket Player="Player">BuildingSocket</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -8808,7 +8796,6 @@
 		<RallyPoint>Military</RallyPoint>
 		<Socket Player="Player">BuildingSocket</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -9057,7 +9044,6 @@
 		<ObjectType>NonFlying</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>NonCollideable</Flag>
@@ -9075,7 +9061,6 @@
 		<ObstructionRadiusZ>14.5</ObstructionRadiusZ>
 		<TerrainHeightTolerance>10</TerrainHeightTolerance>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>PlayerOwnsObstruction</Flag>
 		<Flag>Immoveable</Flag>
 		<Flag>Invulnerable</Flag>
@@ -11453,7 +11438,6 @@
 		<Sound Type="Death">play_fx_proj_flood_travel</Sound>
 		<Socket Player="Any">PowerSocketBase</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -11514,7 +11498,6 @@
 		<SurfaceType>Metal</SurfaceType>
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Socket Player="Any">PowerSocketBase</Socket>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -11573,7 +11556,6 @@
 		<SurfaceType>Metal</SurfaceType>
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Socket Player="Any">PowerSocketBase</Socket>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -11633,7 +11615,6 @@
 		<SurfaceType>Metal</SurfaceType>
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Socket Player="Any">PowerSocketBase</Socket>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -11697,7 +11678,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Socket Player="Any">PowerSocketBase</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -11761,7 +11741,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Socket Player="Any">PowerSocketBase</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -11825,7 +11804,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Socket Player="Any">PowerSocketBase</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -11889,7 +11867,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Socket Player="Any">PowerSocketBase</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -11953,7 +11930,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Socket Player="Any">PowerSocketBase</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -12017,7 +11993,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Socket Player="Any">PowerSocketBase</Socket>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -15035,7 +15010,6 @@
 		<Flag>SoundBehindFOW</Flag>
 		<Flag>CommandableByAnyPlayer</Flag>
 		<Flag>ForceUpdateContainedUnits</Flag>
-		<Flag>ObstructsAir</Flag>
 	</Object>
 	<Object name="hook_bonus_house_01" is="0" id="2072" dbid="3476">
 		<ObjectClass>Building</ObjectClass>
@@ -15085,7 +15059,6 @@
 		<Flag>SoundBehindFOW</Flag>
 		<Flag>CommandableByAnyPlayer</Flag>
 		<Flag>ForceUpdateContainedUnits</Flag>
-		<Flag>ObstructsAir</Flag>
 	</Object>
 	<Object name="hook_buff_healing_01" is="0" id="2026" dbid="3194">
 		<ObjectClass>Building</ObjectClass>
@@ -15098,7 +15071,6 @@
 		<ObstructionRadiusX>8</ObstructionRadiusX>
 		<ObstructionRadiusY>14</ObstructionRadiusY>
 		<ObstructionRadiusZ>8</ObstructionRadiusZ>
-		<Flag>ObstructsAir</Flag>
 		<SelectedRadiusX>7</SelectedRadiusX>
 		<SelectedRadiusZ>7</SelectedRadiusZ>
 		<SelectType>SingleUnit</SelectType>
@@ -15524,7 +15496,6 @@
 		<Flag>SoundBehindFOW</Flag>
 		<Flag>CommandableByAnyPlayer</Flag>
 		<Flag>ForceUpdateContainedUnits</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Build</Flag>
 		<Flag>NoGrayMapDoppledInCampaign</Flag>
 	</Object>
@@ -16496,7 +16467,6 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>CommandableByAnyPlayer</Flag>
-		<Flag>ObstructsAir</Flag>
 		<HPBar>UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="cpgn_scn02_methanestorage_01" is="0" id="2133" dbid="3335">
@@ -18383,7 +18353,6 @@
 		<Flag>Immoveable</Flag>
 		<Flag>NoCorpse</Flag>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>NoRandomMoveAnimStart</Flag>
 		<Flag>HasHPBar</Flag>
 		<HPBar>COV_Health</HPBar>
@@ -23080,7 +23049,6 @@
 		<Flag>SelectedRect</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>Immoveable</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>HasHPBar</Flag>
 		<HPBar>UNSC_Health</HPBar>
 		<Flag>TriggersBattleMusicWhenAttacked</Flag>
@@ -23828,7 +23796,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -23842,7 +23809,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -23952,7 +23918,6 @@
 		<Flag>Doppled</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -24086,7 +24051,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -24130,7 +24094,6 @@
 		<Flag>Doppled</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -24195,7 +24158,6 @@
 		<Flag>Doppled</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -25182,7 +25144,6 @@
 		<ObstructionRadiusX>10</ObstructionRadiusX>
 		<ObstructionRadiusY>15</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
-		<Flag>ObstructsAir</Flag>
 		<DamageType direction="Full">Heavy</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
@@ -25198,7 +25159,6 @@
 		<ObstructionRadiusX>8</ObstructionRadiusX>
 		<ObstructionRadiusY>17</ObstructionRadiusY>
 		<ObstructionRadiusZ>8</ObstructionRadiusZ>
-		<Flag>ObstructsAir</Flag>
 		<DamageType direction="Full">Heavy</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
@@ -25214,7 +25174,6 @@
 		<ObstructionRadiusX>8</ObstructionRadiusX>
 		<ObstructionRadiusY>13</ObstructionRadiusY>
 		<ObstructionRadiusZ>8</ObstructionRadiusZ>
-		<Flag>ObstructsAir</Flag>
 		<DamageType direction="Full">Heavy</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
@@ -25411,7 +25370,6 @@
 		<Flag>Doppled</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -25487,7 +25445,6 @@
 		<ObstructionRadiusZ>26</ObstructionRadiusZ>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>NoRender</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Immoveable</Flag>
@@ -25502,7 +25459,6 @@
 		<ObstructionRadiusZ>13</ObstructionRadiusZ>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>NoRender</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Immoveable</Flag>
@@ -25517,7 +25473,6 @@
 		<ObstructionRadiusZ>6.5</ObstructionRadiusZ>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>NoRender</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Immoveable</Flag>
@@ -25685,7 +25640,6 @@
 		<ObstructionRadiusX>10</ObstructionRadiusX>
 		<ObstructionRadiusY>14</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
-		<Flag>ObstructsAir</Flag>
 		<DamageType direction="Full">Heavy</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
@@ -25715,7 +25669,6 @@
 		<ObstructionRadiusX>8</ObstructionRadiusX>
 		<ObstructionRadiusY>17</ObstructionRadiusY>
 		<ObstructionRadiusZ>8</ObstructionRadiusZ>
-		<Flag>ObstructsAir</Flag>
 		<DamageType direction="Full">Heavy</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
@@ -25801,7 +25754,6 @@
 		<ObstructionRadiusX>8</ObstructionRadiusX>
 		<ObstructionRadiusY>13</ObstructionRadiusY>
 		<ObstructionRadiusZ>8</ObstructionRadiusZ>
-		<Flag>ObstructsAir</Flag>
 		<DamageType direction="Full">Heavy</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
@@ -26069,7 +26021,6 @@
 		<ObstructionRadiusX>15</ObstructionRadiusX>
 		<ObstructionRadiusY>10</ObstructionRadiusY>
 		<ObstructionRadiusZ>12</ObstructionRadiusZ>
-		<Flag>ObstructsAir</Flag>
 		<DamageType direction="Full">Heavy</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
@@ -26085,7 +26036,6 @@
 		<ObstructionRadiusX>10</ObstructionRadiusX>
 		<ObstructionRadiusY>8</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
-		<Flag>ObstructsAir</Flag>
 		<DamageType direction="Full">Heavy</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
@@ -26108,7 +26058,6 @@
 		<ObstructionRadiusX>10</ObstructionRadiusX>
 		<ObstructionRadiusY>12</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
-		<Flag>ObstructsAir</Flag>
 		<DamageType direction="Full">Heavy</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
@@ -26197,7 +26146,6 @@
 		<ObjectType>FloodTrainer</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -26289,7 +26237,6 @@
 		<Flag>Doppled</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -29139,7 +29086,6 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -29154,7 +29100,6 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -29299,7 +29244,6 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -29343,7 +29287,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -29363,7 +29306,6 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -29459,7 +29401,6 @@
 		<Flag>Doppled</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -29675,7 +29616,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -29895,7 +29835,6 @@
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -29939,7 +29878,6 @@
 		<ObjectType>_LOSObstructable</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>GrayMapDoppled</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 	</Object>
@@ -33242,7 +33180,6 @@
 		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
 		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
