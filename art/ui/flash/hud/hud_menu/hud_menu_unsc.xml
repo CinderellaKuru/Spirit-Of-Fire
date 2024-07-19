@@ -257,7 +257,7 @@
 	<Icon type="powericon" name="orbital" name2="specialPWR1" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscLeaderOrbitalBombard" owner="UnscLeaderOrbitalBombard">-1</Icon>
 	<Icon type="powericon" name="cryo" name2="specialPWR4" texture="art\ui\flash\shared\textures\unsc\icons\power\CryoBomb" owner="UnscLeaderCryo">-1</Icon>
 	<Icon type="powericon" name="disruption" name2="specialPWR4" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscLeaderDisruption" owner="UnscLeaderDisruption">-1</Icon>
-	<Icon type="powericon" name="transport" name2="specialPWR1" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscLeaderOrbitalBombard" owner="UnscCivTransport">-1</Icon>
+	<Icon type="powericon" name="transport" name2="specialPWR1" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscCivTransport" owner="UnscCivTransport">-1</Icon>
 	<Icon type="powericon" name="HookMegaTurret" name2="specialPWR1" texture="art\ui\flash\shared\textures\unsc\icons\power\HookMegaTurret" owner="HookMegaTurret">-1</Icon>
 	<Icon type="powericon" name="repair" name2="specialPWR2" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscLeaderRepair" owner="UnscLeaderRepair">-1</Icon>
 	<Icon type="powericon" name="pel_drop" name2="specialPWR5" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscCivTransport" owner="UnscCivTransport">-1</Icon>
@@ -851,9 +851,14 @@
 	<Icon type="abilityicon" name="ForMonitorHeal" texture="art\ui\flash\shared\textures\forerunner\icons\ability\ForMonitorHeal" owner="ForMonitorHeal">-1</Icon>
 	<Icon type="abilityicon" name="ForMonitorShield" texture="art\ui\flash\shared\textures\forerunner\icons\ability\ForMonitorShield" owner="ForMonitorShield">-1</Icon>
 	
+	<!-- New Stuff for Vanilla Leaders -->
+
+    <Icon type="powericon" name="Jeromedrp" name2="Jeromedrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="UnscJeromeDrop">-1</Icon>
+    <Icon type="uniticon" name="Jerome" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="unsc_inf_jerome_01">-1</Icon>
+
 	<!-- Skidbladnir -->
 
 	<Icon type="buildingicon" name="command1" texture="art\ui\flash\shared\textures\skid\icons\bldg\skid_bldg_command_01" owner="skid_bldg_command_01">-1</Icon>
 	<Icon type="uniticon" name="marine1" texture="art\ui\flash\shared\textures\skid\icons\unit\skid_inf_vanguard_01" owner="skid_inf_vanguard_01">-1</Icon>
-	<Icon type="powericon" name="drop1" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscLeaderOrbitalBombard" owner="UnscCivTransport">-1</Icon>
+	<Icon type="powericon" name="drop1" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscCivTransport" owner="UnscCivTransport">-1</Icon>
 </FlashMovieDefinition>
