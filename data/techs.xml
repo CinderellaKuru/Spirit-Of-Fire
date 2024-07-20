@@ -5484,6 +5484,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="GodPower" amount="0">UnscOdstDrop</Effect>
+			<Effect type="GodPower" amount="0">UnscJeromeDrop</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderOrbitalBombard</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
@@ -5545,6 +5546,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="GodPower" amount="0">UnscDouglasDrop</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderCarpetBombing</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_supplyPad_02</Target>
