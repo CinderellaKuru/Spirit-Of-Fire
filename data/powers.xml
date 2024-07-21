@@ -1029,7 +1029,7 @@
 
 	<Power name="UnscJeromeDrop">
         <Attributes>
-            <Cost Supplies="500" Power="1" />
+            <Cost Supplies="0" Power="0" />
             <Pop Type="Spartan">1</Pop>
             <AutoRecharge>120000</AutoRecharge>
             <UIRadius>10</UIRadius>
@@ -1081,7 +1081,34 @@
         </Attributes>
         <TriggerScript>UnscDouglasDropDo.triggerscript</TriggerScript>
     </Power>
-
+<Power name="UnscAliceDrop">
+        <Attributes>
+            <Cost Supplies="500" Power="1" />
+            <Pop Type="Spartan">1</Pop>
+            <AutoRecharge>120000</AutoRecharge>
+            <UIRadius>10</UIRadius>
+            <DisplayNameID>30009</DisplayNameID>
+            <RolloverTextID>30010</RolloverTextID>
+            <PrereqTextID>252</PrereqTextID>
+            <ShowLimit />
+            <LeaderPower />
+            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+            <IconLocation>5</IconLocation>
+            <CameraZoomMin>200</CameraZoomMin>
+            <CameraZoomMax>200</CameraZoomMax>
+            <CameraPitchMin>55</CameraPitchMin>
+            <CameraPitchMax>55</CameraPitchMax>
+            <CameraEnableUserScroll>true</CameraEnableUserScroll>
+            <CameraEnableUserYaw>false</CameraEnableUserYaw>
+            <CameraEnableUserZoom>true</CameraEnableUserZoom>
+            <FlashUI>
+                <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+                <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+            </FlashUI>
+        </Attributes>
+        <TriggerScript>UnscAliceDropDo.triggerscript</TriggerScript>
+    </Power>
+    
 	<!-- Skidbladnir -->
 
 	<Power name="SkidReinforceDrop">

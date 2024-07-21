@@ -5484,7 +5484,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="GodPower" amount="0">UnscOdstDrop</Effect>
-			<Effect type="GodPower" amount="0">UnscJeromeDrop</Effect>
+			<Effect type="GodPower" amount="1">UnscJeromeDrop</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderOrbitalBombard</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
@@ -5608,6 +5608,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="GodPower" amount="0">UnscAliceDrop</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderCryo</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="0.5" relativity="Percent">
 				<Target type="Tech">unsc_marine_upgrade1</Target>
