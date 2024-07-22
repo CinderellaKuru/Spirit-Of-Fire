@@ -1,38 +1,26 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>GroundToGroundMissileLauncher</Name>
-		<AttackRate>2</AttackRate>
+		<Name>Minigun</Name>
+		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>600</DamagePerSecond>
-		<WeaponType>Missile</WeaponType>
-		<Projectile>fx_proj_missile_01</Projectile>
-		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
-		<MaxVelocityLead>10</MaxVelocityLead>
-		<MaxRange>75</MaxRange>
-		<Accuracy>0</Accuracy>
-		<MaxDeviation>10</MaxDeviation>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_rotaryMG_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rifle_01</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
 		<MovingAccuracy>0</MovingAccuracy>
-		<MovingMaxDeviation>15</MovingMaxDeviation>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<AOERadius>3</AOERadius>
-		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
-		<AOEDistanceFactor>0.25</AOEDistanceFactor>
-		<AOEDamageFactor>0.25</AOEDamageFactor>
-		<VisualAmmo>4</VisualAmmo>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
-	</Weapon>
-	<Weapon>
-		<Name>GroundToAirMissileLauncher</Name>
-		<AttackRate>2</AttackRate>
-		<DamagePerSecond>500</DamagePerSecond>
-		<WeaponType>Missile</WeaponType>
-		<Projectile>fx_proj_missile_01</Projectile>
-		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
-		<MaxVelocityLead>10</MaxVelocityLead>
-		<MaxRange>75</MaxRange>
-		<VisualAmmo>4</VisualAmmo>
-		<TargetPriority type="Aircraft">10</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Torso</Hardpoint>
+		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
 		<Name>Melee</Name>
@@ -48,20 +36,17 @@
 		<Hardpoint>Torso</Hardpoint>
 	</Weapon>
 	<Action>
-		<Name>GroundToGroundMissileLauncherAttackAction</Name>
+		<Name>MinigunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>GroundToGroundMissileLauncherAttack</Anim>
-		<ReloadAnim>MissileLauncherReload</ReloadAnim>
-		<Weapon>GroundToGroundMissileLauncher</Weapon>
+		<StartAnim noInterrupt="true">Prefire</StartAnim>
+		<Anim>MinigunAttack</Anim>
+		<EndAnim SoundCue="stop_spartan_smg_silenced">Postfire</EndAnim>
+		<Weapon>Minigun</Weapon>
+		<Strafing maxDistance="35" turnRate="360" trackingSpeed="40" jitter="20" />
 		<MainAttack />
-	</Action>
-	<Action>
-		<Name>GroundToAirMissileLauncherAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>GroundToAirMissileLauncherAttack</Anim>
-		<ReloadAnim>MissileLauncherReload</ReloadAnim>
-		<Weapon>GroundToAirMissileLauncher</Weapon>
-		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+		<FindBetterAction />
 	</Action>
 	<Action>
 		<Name>MeleeAttackAction</Name>
@@ -126,7 +111,7 @@
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
 		<Resource>Supplies</Resource>
-		<WorkRate>12</WorkRate>
+		<WorkRate>5</WorkRate>
 		<WorkRange>3</WorkRange>
 		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
@@ -150,8 +135,9 @@
 	<Action>
 		<Name>VehicleTakeOver</Name>
 		<ActionType>Join</ActionType>
-		<WorkRange>5</WorkRange>
+		<WorkRange>8</WorkRange>
 		<MergeType>Ground</MergeType>
+		<ProtoObject>fx_hijacked</ProtoObject>
 		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" boardTime="5" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
 		<DamageModifiers damage="1.5" damageTaken="0.666000009" byCombatValue="false" />
 		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraith_01</Fatality>
@@ -221,23 +207,17 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>GroundToGroundMissileLauncherAttackAction</Action>
+			<Action>MinigunAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
-			<Action>GroundToAirMissileLauncherAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Self</Relation>
-			<TargetType>unsc_air_pelican_01</TargetType>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
 			<Action>GarrisonPelican</Action>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Ungarrison</Ability>
-			<Relation>Self</Relation>
-			<TargetType>unsc_air_pelican_01</TargetType>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
 			<Action>UngarrisonPelican</Action>
 		</TargetRule>
 		<TargetRule>
