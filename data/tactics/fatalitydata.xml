@@ -2538,12 +2538,10 @@
 			<target>
 				<asset attackerAssetIndex="0" targetAssetIndex="0" orientOffset="0.000000 1.000000 0.000000 -0.000259" posOffset="0.015529 0.000000 1.499479" weight="1" />unsc_air_hornet_01</target>AircraftTakeOver</action>
 	</Tactic>
-</FatalityData>
 
 
      <!-- New Stuff for Vanilla Leaders -->
 
-</FatalityData>
     <Tactic attacker="unsc_inf_jerome_01" tactic="unsc_inf_jerome_01.tactics">
 		<action>
 			<target>

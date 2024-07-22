@@ -1029,7 +1029,7 @@
 
 	<Power name="UnscJeromeDrop">
         <Attributes>
-            <Cost Supplies="0" Power="0" />
+            <Cost Supplies="500" Power="1" />
             <Pop Type="Spartan">1</Pop>
             <AutoRecharge>120000</AutoRecharge>
             <UIRadius>10</UIRadius>
