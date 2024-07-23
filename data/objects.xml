@@ -2830,6 +2830,7 @@
 		<DeathFadeDelayTime>0</DeathFadeDelayTime>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
 		<Flag>Noncollideable</Flag>
