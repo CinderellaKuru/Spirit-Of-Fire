@@ -19,7 +19,7 @@
 		<StartingUnit Offset="0,0,0" BuildOther="skid_bldg_command_01" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="55,0,0">skid_inf_vanguard_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">skid_inf_vanguard_01</StartingSquad>
-		<StartingSquad FlyIn="true" Offset="70,0,0">unsc_veh_warthog_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="70,0,0">skid_veh_viper_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
