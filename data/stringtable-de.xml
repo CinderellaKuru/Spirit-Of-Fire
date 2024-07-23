@@ -4859,6 +4859,10 @@
 		<String _locID="30006" category="Powers" subtitle="false">Drops Spartan 042-Douglas onto the battlefield.</String>
 		<String _locID="30007" category="Squads" subtitle="false">042-DOUGLAS</String>
 		<String _locID="30008" category="Squads" subtitle="false">Spartan 042-Douglas is part of Spartan team red. Don't let his optimism fool you. He is just as deadly as the rest of team red. </String>
+		<String _locID="30009" category="Powers" subtitle="false">ALICE DROP</String>
+		<String _locID="30010" category="Powers" subtitle="false">Drops Spartan 130-Alice onto the battlefield.</String>
+		<String _locID="30011" category="Squads" subtitle="false">130-ALICE</String>
+		<String _locID="30012" category="Squads" subtitle="false">Spartan 130-Alice is part of Spartan team red. She strives for challenge to the point of appearing reckless. But this impression is only brought on by her sheer confidence in her abilities. </String>
 
 		<!-- Skidbladnir -->
 		

@@ -857,6 +857,8 @@
     <Icon type="uniticon" name="Jerome" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="unsc_inf_jerome_01">-1</Icon>
     <Icon type="powericon" name="Douglasdrp" name2="Douglasdrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanRocket_01" owner="UnscDouglasDrop">-1</Icon>
     <Icon type="uniticon" name="Douglas" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanRocket_01" owner="unsc_inf_douglas_01">-1</Icon>
+    <Icon type="powericon" name="Alicedrp" name2="Alicedrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanmg_01" owner="UnscAliceDrop">-1</Icon>
+    <Icon type="uniticon" name="Alice" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanmg_01" owner="unsc_inf_alice_01">-1</Icon>
 
 	<!-- Skidbladnir -->
 
