@@ -3,10 +3,10 @@
 	<Weapon>
 		<Name>Machinegun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>145</DamagePerSecond>
+		<DamagePerSecond>136.350006</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_machineGun_01</Projectile>
-		<ImpactEffect size="Medium">unsc_rifle_01</ImpactEffect>
+		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>0.100000001</Accuracy>
@@ -25,21 +25,21 @@
 	<Weapon>
 		<Name>Cannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>145</DamagePerSecond>
+		<DamagePerSecond>136.350006</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_cannon_02</Projectile>
-		<ImpactEffect size="Medium">tankshell_02</ImpactEffect>
+		<Projectile>fx_proj_cannon_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>70</MaxRange>
-		<Accuracy>0.400000006</Accuracy>
-		<MaxDeviation>5</MaxDeviation>
-		<MovingAccuracy>0.400000006</MovingAccuracy>
-		<MovingMaxDeviation>7</MovingMaxDeviation>
+		<MaxRange>65</MaxRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<AOERadius>8</AOERadius>
-		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEPrimaryTargetFactor>0.25</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.5</AOEDistanceFactor>
 		<AOEDamageFactor>0.25</AOEDamageFactor>
 		<Hardpoint>CannonTurret</Hardpoint>
@@ -59,7 +59,7 @@
 	<Weapon>
 		<Name>specialAttack</Name>
 		<AttackRate>30</AttackRate>
-		<DamagePerSecond>2100</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
@@ -77,7 +77,7 @@
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.5</AOEDistanceFactor>
 		<AOEDamageFactor>0.5</AOEDamageFactor>
-		<Hardpoint>MGTurret</Hardpoint>
+		<Hardpoint>CannonTurret</Hardpoint>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
@@ -85,8 +85,7 @@
 		<PhysicsForceMax>600</PhysicsForceMax>
 		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
 		<TargetsFootOfUnit />
-		<Dodgeable />
-	</Weapon>
+		<Dodgeable />Q</Weapon>
 	<Action>
 		<Name>CannonAttackAction</Name>
 		<ActionType>SlaveTurretAttack</ActionType>
@@ -106,7 +105,7 @@
 	<Action>
 		<Name>specialAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>MachinegunAttack</Anim>
+		<Anim>SpecialCannonAttack</Anim>
 		<Weapon>specialAttack</Weapon>
 		<MainAttack />
 		<DontLoopAttackAnim />
@@ -157,7 +156,6 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>MachinegunAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
