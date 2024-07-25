@@ -1048,6 +1048,12 @@
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<Effects>
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_bldg_watchtower_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="los" relativity="Percent">
+				<Target type="ProtoUnit">unsc_bldg_watchtower_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="LightCannon1AttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_turret_01</Target>
 			</Effect>
@@ -1160,6 +1166,12 @@
 			<TechStatus status="Active">unsc_turret_upgrade1</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_bldg_watchtower_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="los" relativity="Percent">
+				<Target type="ProtoUnit">unsc_bldg_watchtower_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="LightCannon2AttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_turret_01</Target>
 			</Effect>
@@ -5530,6 +5542,7 @@
 		<Effects>
 			<Effect type="GodPower" amount="0">UnscOdstDrop</Effect>
 			<Effect type="GodPower" amount="0">UnscJeromeDrop</Effect>
+			<Effect type="GodPower" amount="0">UnscWatchtowerDrop</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderOrbitalBombard</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
@@ -5592,6 +5605,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="GodPower" amount="0">UnscDouglasDrop</Effect>
+			<Effect type="GodPower" amount="0">UnscWatchtowerDrop</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderCarpetBombing</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_supplyPad_02</Target>
@@ -5654,6 +5668,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="GodPower" amount="0">UnscAliceDrop</Effect>
+			<Effect type="GodPower" amount="0">UnscWatchtowerDrop</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderCryo</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="0.5" relativity="Percent">
 				<Target type="Tech">unsc_marine_upgrade1</Target>
