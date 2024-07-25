@@ -33392,6 +33392,64 @@
 		</FlashUI>
 		<HPBar>UNSC_HealthShield</HPBar>
 	</Object>
+	<Object name="unsc_bldg_watchtower_01" id="0" dbid="4233">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>creep\rebel\watchtower_01\watchtower_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>30015</DisplayNameID>
+		<RoleTextID>516</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>500</Hitpoints>
+		<AttackGradeDPS>225</AttackGradeDPS>
+		<CombatValue>1</CombatValue>
+		<LOS>130</LOS>
+		<Pop Type="Watchtower">1</Pop>
+		<BuildPoints>20</BuildPoints>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>4.5</PickRadius>
+		<PickOffset>4.5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Building</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Sound Type="Create">play_vog_building_turret</Sound>
+		<Sound Type="Death">play_turret_01_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonRotatable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>DamagedDeathReplacement</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar>UNSC_Bldg_Health</HPBar>
+		<TrueLOSHeight>10</TrueLOSHeight>
+	</Object>
 
 	<!-- Skidbladnir -->
 	

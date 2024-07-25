@@ -1,0 +1,8 @@
+﻿<HWMod ManifestVersion="1" ModID="13F5B2240278AE1A06A8B0CC81BD63D895279827191FDCB50C478A3FBF5C840C">
+  <RequiredData Title="SpiritofFire" Author="Kuru and Doktor Obvious" Version="Early Access" />
+  <OptionalData>
+    <BannerArt></BannerArt>
+    <Icon></Icon>
+    <Description>Le modding</Description>
+  </OptionalData>
+</HWMod>
