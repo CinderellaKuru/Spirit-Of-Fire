@@ -4636,7 +4636,7 @@
 		<LOS>55</LOS>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="Power">2</Cost>
 		<Bounty>6</Bounty>
 		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -10543,6 +10543,7 @@
 		<Sound Type="Exist">start_exist_minister</Sound>
 		<Sound Type="StopExist">stop_exist_minister</Sound>
 		<ExtendedSoundBank>xtnd_ui_prophet.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">MediumAir</DamageType>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full">CovenantLeader</DamageType>
