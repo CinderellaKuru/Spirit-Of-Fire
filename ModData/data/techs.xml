@@ -4051,8 +4051,7 @@
 		<DBID>1915</DBID>
 		<DisplayNameID>1084</DisplayNameID>
 		<RolloverTextID>1085</RolloverTextID>
-		<Cost resourcetype="Supplies">200</Cost>
-		<Cost resourcetype="Power">1</Cost>
+		<Flag>Shadow</Flag>
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
