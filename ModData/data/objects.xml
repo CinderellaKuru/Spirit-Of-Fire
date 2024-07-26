@@ -9220,7 +9220,8 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>577</Hitpoints>
+		<Hitpoints>377</Hitpoints>
+		<Shieldpoints>200</Shieldpoints>
 		<AttackGradeDPS>12</AttackGradeDPS>
 		<CombatValue>0.8</CombatValue>
 		<LOS>55</LOS>
@@ -9259,6 +9260,7 @@
 		<Sound Type="Pain">play_cov_grunt_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -9283,7 +9285,7 @@
 		<Flag>TargetsFootOfUnit</Flag>
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
-		<HPBar>COV_Health</HPBar>
+		<HPBar>Cov_HealthShield</HPBar>
 	</Object>
 	<Object name="cov_inf_grunt_02" id="0" dbid="3682">
 		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
@@ -9298,7 +9300,8 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>577</Hitpoints>
+		<Hitpoints>377</Hitpoints>
+		<Shieldpoints>200</Shieldpoints>
 		<AttackGradeDPS>12</AttackGradeDPS>
 		<CombatValue>0.01</CombatValue>
 		<LOS>55</LOS>
@@ -9334,6 +9337,7 @@
 		<Sound Type="Pain">play_cov_grunt_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -9358,7 +9362,7 @@
 		<Flag>TargetsFootOfUnit</Flag>
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
-		<HPBar>COV_Health</HPBar>
+		<HPBar>Cov_HealthShield</HPBar>
 	</Object>
 	<Object name="cov_inf_needlerGrunt_01" id="0" dbid="192">
 		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
@@ -9373,7 +9377,8 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>577</Hitpoints>
+		<Hitpoints>377</Hitpoints>
+		<Shieldpoints>200</Shieldpoints>
 		<AttackGradeDPS>12</AttackGradeDPS>
 		<CombatValue>0.8</CombatValue>
 		<LOS>55</LOS>
@@ -9410,6 +9415,7 @@
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -9434,7 +9440,7 @@
 		<Flag>TargetsFootOfUnit</Flag>
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
-		<HPBar>COV_Health</HPBar>
+		<HPBar>Cov_HealthShield</HPBar>
 	</Object>
 	<Object name="cov_inf_needlerGrunt_02" id="0" dbid="3683">
 		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
@@ -9449,7 +9455,8 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>577</Hitpoints>
+		<Hitpoints>377</Hitpoints>
+		<Shieldpoints>200</Shieldpoints>
 		<AttackGradeDPS>12</AttackGradeDPS>
 		<CombatValue>0.01</CombatValue>
 		<LOS>55</LOS>
@@ -9484,6 +9491,7 @@
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -9508,7 +9516,7 @@
 		<Flag>TargetsFootOfUnit</Flag>
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
-		<HPBar>COV_Health</HPBar>
+		<HPBar>Cov_HealthShield</HPBar>
 	</Object>
 	<Object name="cov_inf_gruntDeacon_01" id="0" dbid="3684">
 		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
@@ -9523,7 +9531,8 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>577</Hitpoints>
+		<Hitpoints>377</Hitpoints>
+		<Shieldpoints>200</Shieldpoints>
 		<AttackGradeDPS>12</AttackGradeDPS>
 		<CombatValue>0.01</CombatValue>
 		<LOS>55</LOS>
@@ -9558,6 +9567,7 @@
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -9583,7 +9593,7 @@
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
 		<Flag>DieLast</Flag>
-		<HPBar>COV_Health</HPBar>
+		<HPBar>Cov_HealthShield</HPBar>
 	</Object>
 	<Object name="cov_inf_eliteLeader_01" id="0" dbid="195">
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -9598,7 +9608,8 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1114</Hitpoints>
+		<Hitpoints>557</Hitpoints>
+		<Shieldpoints>557</Shieldpoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
 		<LOS>55</LOS>
@@ -9637,6 +9648,7 @@
 		<Sound Type="Ability">play_cov_elite_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -9659,7 +9671,7 @@
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
 		<Flag>DieLast</Flag>
-		<HPBar>COV_Health</HPBar>
+		<HPBar>Cov_HealthShield</HPBar>
 	</Object>
 	<Object name="cov_inf_eliteCommando_01" id="0" dbid="2452">
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -9826,7 +9838,8 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1114</Hitpoints>
+		<Hitpoints>557</Hitpoints>
+		<Shieldpoints>557</Shieldpoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
 		<LOS>55</LOS>
@@ -9862,6 +9875,7 @@
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
 		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -9884,7 +9898,7 @@
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
 		<Flag>DieLast</Flag>
-		<HPBar>COV_Health</HPBar>
+		<HPBar>Cov_HealthShield</HPBar>
 	</Object>
 	<Object name="cov_inf_jackalShield_01" id="0" dbid="4010">
 		<Visual>covenant\infantry\jackal_01\jackalShield_01.vis</Visual>
