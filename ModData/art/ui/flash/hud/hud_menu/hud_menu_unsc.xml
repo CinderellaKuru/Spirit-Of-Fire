@@ -861,6 +861,11 @@
     <Icon type="uniticon" name="Alice" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanmg_01" owner="unsc_inf_alice_01">-1</Icon>
     <Icon type="powericon" name="Watchtwrdrp" name2="Watchtwrdrp2" texture="art\ui\flash\shared\textures\creeps\creep_rebel_watchtower_01" owner="UnscWatchtowerDrop">-1</Icon>
     <Icon type="buildingicon" name="Watchtower" texture="art\ui\flash\shared\textures\creeps\creep_rebel_watchtower_01" owner="unsc_bldg_watchtower_01">-1</Icon>
+    <Icon type="uniticon" name="rhino" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_veh_scn06Rhino_01" owner="unsc_veh_rhino_01">-1</Icon>
+    <Icon type="techicon" name="cobraupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_veh_scn06Rhino_01" owner="unsc_rhino_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cobraupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_veh_scn06Rhino_01" owner="unsc_rhino_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cobraupgrade3" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_veh_scn06Rhino_01" owner="unsc_rhino_upgrade3">-1</Icon>
+
 
 	<!-- Skidbladnir -->
 

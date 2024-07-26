@@ -714,6 +714,9 @@
 				<Target type="ProtoSquad">unsc_veh_gremlin_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_elephant_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
@@ -902,6 +905,15 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cryo_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_odst_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>
@@ -937,6 +949,9 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_elephant_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_rhino_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_supplyDepot_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
@@ -1386,6 +1401,9 @@
 			</Effect>
 			<Effect type="Data" amount="0.75" subtype="buildPoints" allactions="1" relativity="Percent">
 				<Target type="ProtoSquad">unsc_veh_gremlin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0.75" subtype="buildPoints" allactions="1" relativity="Percent">
+				<Target type="ProtoSquad">unsc_veh_rhino_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0.75" subtype="buildPoints" allactions="1" relativity="Percent">
 				<Target type="ProtoSquad">unsc_air_hawk_01</Target>
@@ -5955,6 +5973,24 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cryo_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_gremlin_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
 			</Effect>
@@ -5963,6 +5999,12 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_gremlin_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_rhino_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_cobra_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -6832,6 +6874,96 @@
 			</Effect>
 		</Effects>
 		<Flag>HiddenFromStats</Flag>
+	</Tech>
+
+	<!-- New Stuff for Vanilla Leaders -->
+
+    <Tech name="unsc_rhino_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30016</DisplayNameID>
+		<RolloverTextID>30017</RolloverTextID>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Flag>Shadow</Flag>
+		<ResearchPoints>20</ResearchPoints>
+		<Prereqs>
+			<TechStatus status="Active">unsc_basic</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_rhino_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_rhino_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30018</DisplayNameID>
+		<RolloverTextID>30019</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_deflectionplating</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">unsc_rhino_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="Deflect" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_rhino_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_rhino_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30020</DisplayNameID>
+		<RolloverTextID>30021</RolloverTextID>
+		<PrereqTextID>234</PrereqTextID>
+		<Cost resourcetype="Supplies">900</Cost>
+		<Cost resourcetype="Power">4</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_piercingshot</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">unsc_rhino_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="ArtilleryAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="LockdownAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="ArtilleryAttackPlasmaAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="LockdownAttackPlasmaAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_rhino_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_rhino_01</Target>
+			</Effect>
+		</Effects>
 	</Tech>
 
 	<!-- Skidbladnir -->
