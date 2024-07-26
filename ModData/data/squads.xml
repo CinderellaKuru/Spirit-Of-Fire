@@ -220,7 +220,7 @@
 		<RoleTextID>505</RoleTextID>
 		<BuildPoints>22.5</BuildPoints>
 		<Cost resourcetype="Supplies">300</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>5100</SubSelectSort>
 		<LeashDistance>25</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
@@ -249,8 +249,8 @@
 		<PrereqTextID>233</PrereqTextID>
 		<RoleTextID>504</RoleTextID>
 		<BuildPoints>26</BuildPoints>
-		<Cost resourcetype="Supplies">350</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>5075</SubSelectSort>
 		<Birth anim0="Train" anim1="Train" anim2="Train" trainerAnim="TrainVehicles" spawnpoint="bone_spawnPoint01" endPoint="bone_endPoint01">Trained</Birth>
 		<LeashDistance>20</LeashDistance>
@@ -4858,6 +4858,34 @@
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
+	</Squad>
+	<Squad name="unsc_veh_rhino_01" dbid="1318">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3024</DisplayNameID>
+		<RolloverTextID>3025</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<RoleTextID>25641</RoleTextID>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<BuildPoints>26</BuildPoints>
+		<SubSelectSort>5300</SubSelectSort>
+		<Birth anim0="Train" anim1="Train" anim2="Train" trainerAnim="TrainVehicles" spawnpoint="bone_spawnPoint01" endPoint="bone_endPoint01">Trained</Birth>
+		<HPBar offset="0,12,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">unsc_veh_rhino_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+		<Flag>KBAware</Flag>
 	</Squad>
 
 	<!-- Skidbladnir -->

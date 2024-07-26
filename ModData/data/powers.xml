@@ -1112,7 +1112,7 @@
         <Attributes>
             <Cost Supplies="300" Power="1" />
             <Pop Type="Watchtower">1</Pop>
-            <AutoRecharge>1</AutoRecharge>
+            <AutoRecharge>60000</AutoRecharge>
             <UIRadius>10</UIRadius>
             <DisplayNameID>30013</DisplayNameID>
             <RolloverTextID>30014</RolloverTextID>
