@@ -4272,7 +4272,7 @@
 		<ObstructionRadiusY>3</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
 		<TerrainHeightTolerance>10</TerrainHeightTolerance>
-		<Command Type="Research" Position="0">unsc_reactor_upgrade1</Command>
+	    <Command Type="Research" Position="0" AutoClose="true">unsc_reactor_upgrade1</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_reactor</Sound>
 		<Sound Type="Death">play_unsc_bldg_reactor_01_death</Sound>
@@ -4429,7 +4429,7 @@
 		<PickOffset>4</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Command</SelectType>
-		<Command Type="Research" Position="0">unsc_supplyPad_upgrade1</Command>
+		<Command Type="Research" Position="0" AutoClose="true">unsc_supplyPad_upgrade1</Command>
 		<Command Type="Tribute" Position="4" />
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_supplypad</Sound>
@@ -4902,9 +4902,9 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>5.9</SelectedRadiusX>
 		<SelectedRadiusZ>5.6</SelectedRadiusZ>
-		<Command Type="Research" Position="1">unsc_turret_upgradeAI</Command>
-		<Command Type="Research" Position="2">unsc_turret_upgradeAV</Command>
-		<Command Type="Research" Position="3">unsc_turret_upgradeAA</Command>
+		<Command Type="Research" Position="1" AutoClose="true">unsc_turret_upgradeAI</Command>
+		<Command Type="Research" Position="2" AutoClose="true">unsc_turret_upgradeAV</Command>
+		<Command Type="Research" Position="3" AutoClose="true">unsc_turret_upgradeAA</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_turret_01_death</Sound>
@@ -4932,7 +4932,6 @@
 		<Flag>DamagedDeathReplacement</Flag>
 		<Flag>ForceAnimRate</Flag>
 		<Flag>SelectionDontConformToTerrain</Flag>
-		<Flag>CheckLOSAgainstBase</Flag>
 		<FlashUI>
 			<CircleMenuFrameIDNormal />
 			<CircleMenuFrameIDHighlight />
@@ -4975,8 +4974,8 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>5.9</SelectedRadiusX>
 		<SelectedRadiusZ>5.6</SelectedRadiusZ>
-		<Command Type="Research" Position="2">unsc_turret_upgradeAV</Command>
-		<Command Type="Research" Position="3">unsc_turret_upgradeAA</Command>
+		<Command Type="Research" Position="2" AutoClose="true">unsc_turret_upgradeAV</Command>
+		<Command Type="Research" Position="3" AutoClose="true">unsc_turret_upgradeAA</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_turret_01_death</Sound>
@@ -5002,7 +5001,6 @@
 		<Flag>DamageGarrisoned</Flag>
 		<Flag>DamagedDeathReplacement</Flag>
 		<Flag>SelectionDontConformToTerrain</Flag>
-		<Flag>CheckLOSAgainstBase</Flag>
 		<FlashUI>
 			<CircleMenuFrameIDNormal />
 			<CircleMenuFrameIDHighlight />
@@ -5045,8 +5043,8 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>5.9</SelectedRadiusX>
 		<SelectedRadiusZ>5.6</SelectedRadiusZ>
-		<Command Type="Research" Position="1">unsc_turret_upgradeAI</Command>
-		<Command Type="Research" Position="3">unsc_turret_upgradeAA</Command>
+		<Command Type="Research" Position="1" AutoClose="true">unsc_turret_upgradeAI</Command>
+		<Command Type="Research" Position="3" AutoClose="true">unsc_turret_upgradeAA</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_turret_01_death</Sound>
@@ -5072,7 +5070,6 @@
 		<Flag>DamageGarrisoned</Flag>
 		<Flag>DamagedDeathReplacement</Flag>
 		<Flag>SelectionDontConformToTerrain</Flag>
-		<Flag>CheckLOSAgainstBase</Flag>
 		<FlashUI>
 			<CircleMenuFrameIDNormal />
 			<CircleMenuFrameIDHighlight />
@@ -5115,8 +5112,8 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>5.9</SelectedRadiusX>
 		<SelectedRadiusZ>5.6</SelectedRadiusZ>
-		<Command Type="Research" Position="1">unsc_turret_upgradeAI</Command>
-		<Command Type="Research" Position="2">unsc_turret_upgradeAV</Command>
+		<Command Type="Research" Position="1" AutoClose="true">unsc_turret_upgradeAI</Command>
+		<Command Type="Research" Position="2" AutoClose="true">unsc_turret_upgradeAV</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_turret_01_death</Sound>
@@ -5142,7 +5139,6 @@
 		<Flag>DamageGarrisoned</Flag>
 		<Flag>DamagedDeathReplacement</Flag>
 		<Flag>SelectionDontConformToTerrain</Flag>
-		<Flag>CheckLOSAgainstBase</Flag>
 		<FlashUI>
 			<CircleMenuFrameIDNormal />
 			<CircleMenuFrameIDHighlight />
@@ -7778,7 +7774,7 @@
 		<Sound Type="Create">play_vog_building_warehouse</Sound>
 		<Sound Type="StopExist">stop_cov_build_beam</Sound>
 		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
-		<Command Type="Research" Position="0">cov_supplyDepot_upgrade1</Command>
+		<Command Type="Research" Position="0" AutoClose="true">cov_supplyDepot_upgrade1</Command>
 		<Command Type="Tribute" Position="4" />
 		<Command Type="Kill" Position="4" />
 		<DamageType direction="Full">Building</DamageType>
@@ -8049,9 +8045,9 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>3.3</SelectedRadiusX>
 		<SelectedRadiusZ>3.4</SelectedRadiusZ>
-		<Command Type="Research" Position="1">cov_turret_upgradeAI</Command>
-		<Command Type="Research" Position="2">cov_turret_upgradeAV</Command>
-		<Command Type="Research" Position="3">cov_turret_upgradeAA</Command>
+		<Command Type="Research" Position="1" AutoClose="true">cov_turret_upgradeAI</Command>
+		<Command Type="Research" Position="2" AutoClose="true">cov_turret_upgradeAV</Command>
+		<Command Type="Research" Position="3" AutoClose="true">cov_turret_upgradeAA</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -8081,7 +8077,6 @@
 		<Flag>UnlimitedResources</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>DamagedDeathReplacement</Flag>
-		<Flag>CheckLOSAgainstBase</Flag>
 		<HPBar offset="0,10,0">COV_Bldg_Health</HPBar>
 	</Object>
 	<Object name="cov_bldg_turretAI_01" id="0" dbid="3095">
@@ -8120,8 +8115,8 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>3.3</SelectedRadiusX>
 		<SelectedRadiusZ>3.4</SelectedRadiusZ>
-		<Command Type="Research" Position="2">cov_turret_upgradeAV</Command>
-		<Command Type="Research" Position="3">cov_turret_upgradeAA</Command>
+		<Command Type="Research" Position="2" AutoClose="true">cov_turret_upgradeAV</Command>
+		<Command Type="Research" Position="3" AutoClose="true">cov_turret_upgradeAA</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -8145,7 +8140,6 @@
 		<Flag>UnlimitedResources</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>DamagedDeathReplacement</Flag>
-		<Flag>CheckLOSAgainstBase</Flag>
 		<HPBar offset="0,10,0">COV_Bldg_Health</HPBar>
 	</Object>
 	<Object name="cov_bldg_turretAA_01" id="0" dbid="177">
@@ -8184,8 +8178,8 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>3.3</SelectedRadiusX>
 		<SelectedRadiusZ>3.4</SelectedRadiusZ>
-		<Command Type="Research" Position="1">cov_turret_upgradeAI</Command>
-		<Command Type="Research" Position="2">cov_turret_upgradeAV</Command>
+		<Command Type="Research" Position="1" AutoClose="true">cov_turret_upgradeAI</Command>
+		<Command Type="Research" Position="2" AutoClose="true">cov_turret_upgradeAV</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -8209,7 +8203,6 @@
 		<Flag>UnlimitedResources</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>DamagedDeathReplacement</Flag>
-		<Flag>CheckLOSAgainstBase</Flag>
 		<HPBar offset="0,10,0">COV_Bldg_Health</HPBar>
 	</Object>
 	<Object name="cov_bldg_turretAV_01" id="0" dbid="178">
@@ -8248,8 +8241,8 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>3.3</SelectedRadiusX>
 		<SelectedRadiusZ>3.4</SelectedRadiusZ>
-		<Command Type="Research" Position="1">cov_turret_upgradeAI</Command>
-		<Command Type="Research" Position="3">cov_turret_upgradeAA</Command>
+		<Command Type="Research" Position="1" AutoClose="true">cov_turret_upgradeAI</Command>
+		<Command Type="Research" Position="3" AutoClose="true">cov_turret_upgradeAA</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -8273,7 +8266,6 @@
 		<Flag>UnlimitedResources</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>DamagedDeathReplacement</Flag>
-		<Flag>CheckLOSAgainstBase</Flag>
 		<HPBar offset="0,10,0">COV_Bldg_Health</HPBar>
 	</Object>
 	<Object name="cov_bldg_barracks_01" id="0" dbid="185">
