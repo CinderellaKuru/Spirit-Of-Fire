@@ -4863,6 +4863,16 @@
 		<String _locID="30010" category="Powers" subtitle="false">Drops Spartan 130-Alice onto the battlefield.</String>
 		<String _locID="30011" category="Squads" subtitle="false">130-ALICE</String>
 		<String _locID="30012" category="Squads" subtitle="false">Spartan 130-Alice is part of Spartan team red. She strives for challenge to the point of appearing reckless. But this impression is only brought on by her sheer confidence in her abilities. </String>
+		<String _locID="30013" category="Powers" subtitle="false">WATCHTOWER DROP</String>
+		<String _locID="30014" category="Powers" subtitle="false">Drops a watchtower onto the battlefield.</String>
+		<String _locID="30015" category="Squads" subtitle="false">Watchtower</String>
+		<String _locID="30016" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30017" category="Techs" subtitle="false"></String>
+		<String _locID="30018" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30019" category="Techs" subtitle="false"></String>
+		<String _locID="30020" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30021" category="Techs" subtitle="false"></String>
+
 
 		<!-- Skidbladnir -->
 		
