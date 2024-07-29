@@ -4866,11 +4866,11 @@
 		<String _locID="30013" category="Powers" subtitle="false">WATCHTOWER DROP</String>
 		<String _locID="30014" category="Powers" subtitle="false">Drops a watchtower onto the battlefield.</String>
 		<String _locID="30015" category="Squads" subtitle="false">Watchtower</String>
-		<String _locID="30016" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30016" category="Techs" subtitle="false">Placeholder1</String>
 		<String _locID="30017" category="Techs" subtitle="false"></String>
-		<String _locID="30018" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30018" category="Techs" subtitle="false">Placeholder2</String>
 		<String _locID="30019" category="Techs" subtitle="false"></String>
-		<String _locID="30020" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30020" category="Techs" subtitle="false">Placeholder3</String>
 		<String _locID="30021" category="Techs" subtitle="false"></String>
 
 

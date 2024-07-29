@@ -37,10 +37,10 @@
 		<FlashImg>orbital</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Collectable">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">9999</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="55,0,0">unsc_inf_battleodst_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">unsc_inf_battleodst_01</StartingSquad>
@@ -63,10 +63,10 @@
 		<FlashImg>14thdivision</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\forge.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_forge.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">9999</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="55,0,0">unsc_inf_marine_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">unsc_inf_marine_01</StartingSquad>
@@ -89,10 +89,10 @@
 		<FlashImg>oni</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\Anders.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_anders.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">9999</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="55,0,0">unsc_inf_marine_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">unsc_inf_marine_01</StartingSquad>
@@ -123,10 +123,10 @@
 		<FlashImg>arbiter</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\arbiter.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_arbiter.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">9999</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="55,0,0">cov_inf_grunt_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">cov_inf_grunt_01</StartingSquad>
@@ -150,10 +150,10 @@
 		<FlashImg>bruteleader</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">9999</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="55,0,0">cov_inf_grunt_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">cov_inf_grunt_01</StartingSquad>
@@ -177,10 +177,10 @@
 		<FlashImg>prophet</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">9999</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="55,0,0">cov_inf_grunt_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">cov_inf_grunt_01</StartingSquad>
