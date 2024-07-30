@@ -6426,9 +6426,9 @@
 				<Target type="Tech">unsc_wolverine_upgrade1</Target>
 				<Target type="Tech">unsc_wolverine_upgrade2</Target>
 				<Target type="Tech">unsc_wolverine_upgrade3</Target>
-				<Target type="Tech">unsc_cobra_upgrade1</Target>
-				<Target type="Tech">unsc_cobra_upgrade2</Target>
-				<Target type="Tech">unsc_cobra_upgrade3</Target>
+				<Target type="Tech">unsc_rhino_upgrade1</Target>
+				<Target type="Tech">unsc_rhino_upgrade2</Target>
+				<Target type="Tech">unsc_rhino_upgrade3</Target>
 				<Target type="Tech">unsc_hornet_upgrade1</Target>
 				<Target type="Tech">unsc_hornet_upgrade2</Target>
 				<Target type="Tech">unsc_hornet_upgrade3</Target>
