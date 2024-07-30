@@ -6391,7 +6391,6 @@
 		<Command Type="TrainSquad" Position="1">unsc_inf_battleodst_01</Command>
 		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
-		<Command Type="TrainSquad" Position="3">unsc_inf_spartan_01</Command>
 		<Command Type="ChangeMode" Position="6">Normal</Command>
 		<Command Type="RallyPoint" Position="5" />
 		<Sound Type="Create">play_unsc_elephant_birth</Sound>
@@ -6507,7 +6506,6 @@
 		<Command Type="TrainSquad" Position="1">unsc_inf_battleodst_01</Command>
 		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
-		<Command Type="TrainSquad" Position="3">unsc_inf_spartan_01</Command>
 		<Command Type="ChangeMode" Position="6">Normal</Command>
 		<Command Type="RallyPoint" Position="5" />
 		<Flag>KBAware</Flag>

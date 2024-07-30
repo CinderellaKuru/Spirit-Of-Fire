@@ -2502,6 +2502,7 @@
 		<DisplayNameID> 30016</DisplayNameID>
 		<RolloverTextID>30017</RolloverTextID>
 		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchPoints>20</ResearchPoints>
 		<Prereqs>
@@ -5255,6 +5256,7 @@
 				<Target type="ProtoSquad">unsc_veh_cobra_01</Target>
 				<Target type="ProtoSquad">unsc_veh_elephant_01</Target>
 				<Target type="ProtoSquad">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoSquad">unsc_veh_rhino_01</Target>
 				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
 				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
@@ -5336,6 +5338,24 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_grizzly_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_hawk_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_airpad_01</Target>
 			</Effect>
@@ -5351,16 +5371,6 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_rhino_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
-			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_hawk_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_airpad_01</Target>
 			</Effect>
@@ -5383,6 +5393,9 @@
 				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_grizzly_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_cobra_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_rhino_01" relativity="Absolute">
@@ -5754,8 +5767,20 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_battleodst_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_cobra_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_battleodst_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_elephant_01</Target>
@@ -5806,10 +5831,22 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_grizzly_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_cyclops_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
 				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
 				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_cobra_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
 			</Effect>
 			<Effect type="TransformProtoUnit" FromType="unsc_bldg_supplyPad_01" ToType="unsc_bldg_supplyPad_02" />
 		</Effects>
