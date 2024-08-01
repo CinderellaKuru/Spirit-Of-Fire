@@ -4848,29 +4848,47 @@
 		<String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">Automatic</String>
 		<String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">Difficulty</String>
 
-	<!-- New stuff for vanilla Leaders -->
+	    <!-- New stuff for vanilla Leaders -->
+
+	    <String _locID="30004" category="Code" subtitle="false">Spartan</String>
+	    <String _locID="30013" category="Powers" subtitle="false">WATCHTOWER DROP</String>
+	    <String _locID="30014" category="Powers" subtitle="false">Drops a watchtower onto the battlefield.</String>
+	    <String _locID="30015" category="Squads" subtitle="false">Watchtower</String>
+
+	    <!--Captain Cutter-->
 
 		<String _locID="30000" category="Powers" subtitle="false">JEROME DROP</String>
 		<String _locID="30001" category="Powers" subtitle="false">Drops Spartan 092-Jerome onto the battlefield.</String>
 		<String _locID="30002" category="Squads" subtitle="false">092-JEROME</String>
 		<String _locID="30003" category="Squads" subtitle="false">Spartan 092-Jerome is the leader of Spartan team red. He prefers to fight at a distance so he can be often seen with mid to long range weapons.</String>
-		<String _locID="30004" category="Code" subtitle="false">Spartan</String>
+
+	    <!--Sergeant Forge-->
+
 		<String _locID="30005" category="Powers" subtitle="false">DOUGLAS DROP</String>
 		<String _locID="30006" category="Powers" subtitle="false">Drops Spartan 042-Douglas onto the battlefield.</String>
 		<String _locID="30007" category="Squads" subtitle="false">042-DOUGLAS</String>
 		<String _locID="30008" category="Squads" subtitle="false">Spartan 042-Douglas is part of Spartan team red. Don't let his optimism fool you. He is just as deadly as the rest of team red. </String>
+		<String _locID="30022" category="Squads" subtitle="false">SHOTGUNMARINE</String>
+		<String _locID="30023" category="Squads" subtitle="false">These anti infantry marine carry shotguns. They excel at close quarters. They can eventually be upgraded to have a rapid fire ability.</String>
+		<String _locID="30024" category="Objects" subtitle="false">SHOTGUNMARINE</String>
+		<String _locID="30025" category="Techs" subtitle="false">Shotgun Placeholder1</String>
+		<String _locID="30026" category="Techs" subtitle="false"></String>
+		<String _locID="30027" category="Techs" subtitle="false">Shotgun Placeholder2</String>
+		<String _locID="30028" category="Techs" subtitle="false"></String>
+		<String _locID="30029" category="Techs" subtitle="false">Shotgun Placeholder3</String>
+		<String _locID="30030" category="Techs" subtitle="false"></String>
+
+	    <!--Professor Anders-->
+
 		<String _locID="30009" category="Powers" subtitle="false">ALICE DROP</String>
 		<String _locID="30010" category="Powers" subtitle="false">Drops Spartan 130-Alice onto the battlefield.</String>
 		<String _locID="30011" category="Squads" subtitle="false">130-ALICE</String>
 		<String _locID="30012" category="Squads" subtitle="false">Spartan 130-Alice is part of Spartan team red. She strives for challenge to the point of appearing reckless. But this impression is only brought on by her sheer confidence in her abilities. </String>
-		<String _locID="30013" category="Powers" subtitle="false">WATCHTOWER DROP</String>
-		<String _locID="30014" category="Powers" subtitle="false">Drops a watchtower onto the battlefield.</String>
-		<String _locID="30015" category="Squads" subtitle="false">Watchtower</String>
-		<String _locID="30016" category="Techs" subtitle="false">Placeholder1</String>
+		<String _locID="30016" category="Techs" subtitle="false">Rhino Placeholder1</String>
 		<String _locID="30017" category="Techs" subtitle="false"></String>
-		<String _locID="30018" category="Techs" subtitle="false">Placeholder2</String>
+		<String _locID="30018" category="Techs" subtitle="false">Rhino Placeholder2</String>
 		<String _locID="30019" category="Techs" subtitle="false"></String>
-		<String _locID="30020" category="Techs" subtitle="false">Placeholder3</String>
+		<String _locID="30020" category="Techs" subtitle="false">Rhino Placeholder3</String>
 		<String _locID="30021" category="Techs" subtitle="false"></String>
 
 
