@@ -4851,9 +4851,17 @@
 	    <!-- New stuff for vanilla Leaders -->
 
 	    <String _locID="30004" category="Code" subtitle="false">Spartan</String>
+	    <String _locID="30047" category="Code" subtitle="false">Medic</String>
 	    <String _locID="30013" category="Powers" subtitle="false">WATCHTOWER DROP</String>
 	    <String _locID="30014" category="Powers" subtitle="false">Drops a watchtower onto the battlefield.</String>
 	    <String _locID="30015" category="Squads" subtitle="false">Watchtower</String>
+	    <String _locID="30040" category="Squads" subtitle="false">MEDIC</String>
+		<String _locID="30041" category="Squads" subtitle="false">The Medic Marine heals everything he can from infantry to buildings with the right upgrades.</String>
+		<String _locID="30042" category="Objects" subtitle="false">MEDIC</String>
+		<String _locID="30043" category="Techs" subtitle="false">VEHICLE REPAIR</String>
+		<String _locID="30044" category="Techs" subtitle="false">Allows the Medic to also repair vehicles and buildings.</String>
+		<String _locID="30045" category="Techs" subtitle="false">IMPROVED HEALING</String>
+		<String _locID="30046" category="Techs" subtitle="false">Upgrades the Medic's heal and repair to be faster and longer range.</String>
 
 	    <!--Captain Cutter-->
 

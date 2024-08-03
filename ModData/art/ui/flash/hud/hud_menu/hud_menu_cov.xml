@@ -855,6 +855,9 @@
 
     <Icon type="powericon" name="Watchtwrdrp" name2="Watchtwrdrp2" texture="art\ui\flash\shared\textures\creeps\creep_rebel_watchtower_01" owner="UnscWatchtowerDrop">-1</Icon>
     <Icon type="buildingicon" name="Watchtower" texture="art\ui\flash\shared\textures\creeps\creep_rebel_watchtower_01" owner="unsc_bldg_watchtower_01">-1</Icon>
+     <Icon type="uniticon" name="Medic" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_inf_medicmarine_01">-1</Icon>
+    <Icon type="techicon" name="medicupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_medic_upgrade1">-1</Icon>
+	<Icon type="techicon" name="medicupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_medic_upgrade2">-1</Icon>
 
     <!--Captain Cutter-->
 
@@ -866,7 +869,7 @@
     <Icon type="powericon" name="Douglasdrp" name2="Douglasdrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanRocket_01" owner="UnscDouglasDrop">-1</Icon>
     <Icon type="uniticon" name="Douglas" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanRocket_01" owner="unsc_inf_douglas_01">-1</Icon>
     <Icon type="uniticon" name="Shotgunmarine" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_npc_forge_01" owner="unsc_inf_shotgunmarine_01">-1</Icon>
-    <Icon type="techicon" name="shotgunmarineupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_npc_forge_01" owner="unsc_shotgunmarine_upgrade1">-1</Icon>
+    <Icon type="techicon" name="shotgunmarineupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\ability\unsc_forge_blast" owner="unsc_shotgunmarine_upgrade1">-1</Icon>
 	<Icon type="techicon" name="shotgunmarineupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_npc_forge_01" owner="unsc_shotgunmarine_upgrade2">-1</Icon>
 	<Icon type="techicon" name="shotgunmarineupgrade3" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_npc_forge_01" owner="unsc_shotgunmarine_upgrade3">-1</Icon>
 
