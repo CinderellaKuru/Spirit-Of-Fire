@@ -2599,6 +2599,12 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_shotgunmarine_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_shotgunmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpecialAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_shotgunmarine_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_shotgunmarine_01</Target>
 			</Effect>
@@ -2704,8 +2710,58 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
-	<!-- UNSC Tech -->
+	<Tech name="unsc_medic_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30043</DisplayNameID>
+		<RolloverTextID>30044</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_repairkit</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_medicmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairInfantry" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_medicmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairAll" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_medicmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_medicmarine_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_medic_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30045</DisplayNameID>
+		<RolloverTextID>30046</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">900</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_stateofgrace</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">unsc_medic_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairAll" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_medicmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="BetterRepairAll" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_medicmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_medicmarine_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 
 	<Tech name="unsc_tech_adrenaline" type="Normal">
 		<DisplayNameID>1108</DisplayNameID>
@@ -2740,6 +2796,9 @@
 				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
 				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
 				<Target type="ProtoSquad">unsc_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">unsc_inf_shotgunmarine_01</Target>
+				<Target type="ProtoSquad">unsc_inf_snipermarine_01</Target>
+				<Target type="ProtoSquad">unsc_inf_medicmarine_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
 				<Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
@@ -5372,6 +5431,7 @@
 				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
 				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
+				<Target type="ProtoSquad">unsc_inf_medicmarine_01</Target>
 				<Target type="ProtoSquad">unsc_air_hawk_01</Target>
 				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
@@ -6049,6 +6109,8 @@
 				<Target type="Tech">unsc_snipermarine_upgrade1</Target>
 				<Target type="Tech">unsc_snipermarine_upgrade2</Target>
 				<Target type="Tech">unsc_snipermarine_upgrade3</Target>
+				<Target type="Tech">unsc_medic_upgrade1</Target>
+				<Target type="Tech">unsc_medic_upgrade2</Target>
 				<Target type="Tech">unsc_spartan_upgrade1</Target>
 				<Target type="Tech">unsc_spartan_upgrade2</Target>
 				<Target type="Tech">unsc_spartan_upgrade3</Target>
@@ -6092,6 +6154,8 @@
 				<Target type="Tech">unsc_snipermarine_upgrade1</Target>
 				<Target type="Tech">unsc_snipermarine_upgrade2</Target>
 				<Target type="Tech">unsc_snipermarine_upgrade3</Target>
+				<Target type="Tech">unsc_medic_upgrade1</Target>
+				<Target type="Tech">unsc_medic_upgrade2</Target>
 				<Target type="Tech">unsc_spartan_upgrade1</Target>
 				<Target type="Tech">unsc_spartan_upgrade2</Target>
 				<Target type="Tech">unsc_spartan_upgrade3</Target>
