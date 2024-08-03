@@ -6771,6 +6771,17 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="unsc_veh_cobra_up" type="Normal">
+		<DBID>1917</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="2" subtype="AttackRate" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 
 	<!-- Tech Data Info -->
 	
