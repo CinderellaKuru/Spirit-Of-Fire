@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
-	<Weapon>
+	<!--<Weapon>
 		<Name>InCoverAssaultRifle</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>22</DamagePerSecond>
@@ -62,16 +62,16 @@
 		<ReloadAnim>AssaultRifleReload</ReloadAnim>
 		<Weapon>AssaultRifle</Weapon>
 		<MainAttack />
-	</Action>
+	</Action>-->
 	<Action>
 		<Name>RepairInfantry</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
 		<WorkRange>20</WorkRange>
 		<WorkRate>0.150000006</WorkRate>
-		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99000001" AutoRepairSearchDistance="45" />
 		<ProtoObject bone="GrannyRootBone">fx_covhealbeam</ProtoObject>
+		<FindBetterAction />
 	</Action>
 	<Action>
 		<Name>RepairAll</Name>
@@ -79,9 +79,9 @@
 		<Anim>Repair</Anim>
 		<WorkRange>20</WorkRange>
 		<WorkRate>0.150000006</WorkRate>
-		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99000001" AutoRepairSearchDistance="45" />
 		<ProtoObject bone="GrannyRootBone">fx_covhealbeam</ProtoObject>
+		<FindBetterAction />
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -90,9 +90,9 @@
 		<Anim>Repair</Anim>
 		<WorkRange>30</WorkRange>
 		<WorkRate>0.300000006</WorkRate>
-		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99000001" AutoRepairSearchDistance="60" />
 		<ProtoObject bone="GrannyRootBone">fx_covhealbeam</ProtoObject>
+		<FindBetterAction />
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -224,22 +224,12 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>InCoverRocketAttackAction</Action>
-			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
 			<Action>InCoverAssaultRifleAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>AssaultRifleAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>RocketAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>

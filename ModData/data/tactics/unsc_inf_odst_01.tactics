@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>InCoverRocketWeapon</Name>
-		<AttackRate>0.2</AttackRate>
+		<AttackRate>0.3</AttackRate>
 		<DamagePerSecond>28</DamagePerSecond>
 		<WeaponType>Grenade</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
@@ -71,12 +71,12 @@
 		<Dodgeable />
 	</Weapon>
 	<Weapon>
-		<Name>InCoverAssaultRifle</Name>
+		<Name>InCoverShotgun</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>22</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
-		<Projectile>fx_proj_rifle_01</Projectile>
-		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+		<Projectile>fx_proj_shotgun_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>0.100000001</Accuracy>
@@ -87,7 +87,7 @@
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>8</VisualAmmo>
-		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
+		<ReloadAnimation>ShotgunReload</ReloadAnimation>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
@@ -95,7 +95,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>RocketWeapon</Name>
-		<AttackRate>0.2</AttackRate>
+		<AttackRate>0.3</AttackRate>
 		<DamagePerSecond>70</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Grenade</WeaponType>
@@ -122,12 +122,12 @@
 		<Dodgeable />
 	</Weapon>
 	<Weapon>
-		<Name>AssaultRifle</Name>
+		<Name>Shotgun</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>11</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
-		<Projectile>fx_proj_rifle_01</Projectile>
-		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+		<Projectile>fx_proj_shotgun_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>25</MaxRange>
 		<Accuracy>0.100000001</Accuracy>
@@ -138,7 +138,7 @@
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>8</VisualAmmo>
-		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
+		<ReloadAnimation>ShotgunReload</ReloadAnimation>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
@@ -152,14 +152,13 @@
 		<BaseDPSWeapon>InCoverAssaultRifle</BaseDPSWeapon>
 		<MainAttack />
 		<FindBetterAction />
-		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>InCoverAssaultRifleAttackAction</Name>
+		<Name>InCoverShotgunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>AssaultRifleAttack</Anim>
-		<ReloadAnim>AssaultRifleReload</ReloadAnim>
-		<Weapon>InCoverAssaultRifle</Weapon>
+		<Anim>ShotgunAttack</Anim>
+		<ReloadAnim>ShotgunReload</ReloadAnim>
+		<Weapon>InCoverShotgun</Weapon>
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -171,16 +170,14 @@
 		<BaseDPSWeapon>AssaultRifle</BaseDPSWeapon>
 		<MainAttack />
 		<FindBetterAction />
-		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>AssaultRifleAttackAction</Name>
+		<Name>ShotgunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>AssaultRifleAttack</Anim>
-		<ReloadAnim>AssaultRifleReload</ReloadAnim>
-		<Weapon>AssaultRifle</Weapon>
+		<Anim>ShotgunAttack</Anim>
+		<ReloadAnim>ShotgunReload</ReloadAnim>
+		<Weapon>Shotgun</Weapon>
 		<MainAttack />
-		<FindBetterAction />
 	</Action>
 	<Action>
 		<Name>GrenadeAttackAction</Name>
@@ -291,7 +288,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>InCoverAssaultRifleAttackAction</Action>
+			<Action>InCoverShotgunAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>
@@ -313,7 +310,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>AssaultRifleAttackAction</Action>
+			<Action>ShotgunAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
