@@ -166,7 +166,7 @@
 		<String _locID="1014" category="Techs" subtitle="false">FRISCHFLEISCH</String>
 		<String _locID="1015" category="Techs" subtitle="false">Stattet den Trupp mit einem zusätzlichen Marine aus, wodurch die Kampfeffizienz des Trupps erhöht wird.</String>
 		<String _locID="1016" category="Techs" subtitle="false">BAZOOKA</String>
-		<String _locID="1017" category="Techs" subtitle="false">Ein Marine mit aktiver Granatenfähigkeit erhält eine aktive Raketenfähigkeit. Raketen haben eine höhere Reichweite als Granaten.</String>
+		<String _locID="1017" category="Techs" subtitle="false">Jeder Marine erhält eine passive Raketenfähigkeit um besser Fahrzeuge bekämpfen zu können.</String>
 		<String _locID="1018" category="Techs" subtitle="false" />
 		<String _locID="1019" category="Techs" subtitle="false" />
 		<String _locID="1020" category="Techs" subtitle="false" />
@@ -326,7 +326,7 @@
 		<String _locID="1174" category="Techs" subtitle="false" />
 		<String _locID="1175" category="Techs" subtitle="false" />
 		<String _locID="3000" category="Squads" subtitle="false">MARINE</String>
-		<String _locID="3001" category="Squads" subtitle="false">Marines sind die wichtigsten Infanterieeinheiten der UNSC, die gegen nahezu alles eingesetzt werden können. Sie verfügen über eine aktive Granatenfähigkeit, die zu einer aktiven Raketenfähigkeit verbessert werden kann.</String>
+		<String _locID="3001" category="Squads" subtitle="false">Marines sind die wichtigsten Infanterieeinheiten der UNSC, die gegen nahezu alles eingesetzt werden können. Sie verfügen über eine aktive Granatenfähigkeit und können mit upgrades passiv Raketenwerfer verwenden.</String>
 		<String _locID="3002" category="Squads" subtitle="false" />
 		<String _locID="3003" category="Squads" subtitle="false" />
 		<String _locID="3004" category="Squads" subtitle="false" />

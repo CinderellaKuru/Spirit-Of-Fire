@@ -166,7 +166,7 @@
 		<String _locID="1014" category="Techs" subtitle="false">NEW BLOOD</String>
 		<String _locID="1015" category="Techs" subtitle="false">Adds another Marine to the squad. This increases the combat effectiveness of the squad.</String>
 		<String _locID="1016" category="Techs" subtitle="false">RPG ABILITY</String>
-		<String _locID="1017" category="Techs" subtitle="false">Marine active Grenade Ability upgraded to active Rocket Ability. Rockets can attack from a longer range than Grenades.</String>
+		<String _locID="1017" category="Techs" subtitle="false">In addition to their grenade ability every Marine gains a passive rocket ability.</String>
 		<String _locID="1018" category="Techs" subtitle="false" />
 		<String _locID="1019" category="Techs" subtitle="false" />
 		<String _locID="1020" category="Techs" subtitle="false" />
@@ -326,7 +326,7 @@
 		<String _locID="1174" category="Techs" subtitle="false" />
 		<String _locID="1175" category="Techs" subtitle="false" />
 		<String _locID="3000" category="Squads" subtitle="false">MARINE</String>
-		<String _locID="3001" category="Squads" subtitle="false">Marines are the main UNSC infantry unit. They are good against most everything. They have an active Grenade Ability that can eventually be upgraded to an active Rocket Ability.</String>
+		<String _locID="3001" category="Squads" subtitle="false">Marines are the main UNSC infantry unit. They are good against most everything. They have an active Grenade Ability and eventually gain a passive rocket ability.</String>
 		<String _locID="3002" category="Squads" subtitle="false" />
 		<String _locID="3003" category="Squads" subtitle="false" />
 		<String _locID="3004" category="Squads" subtitle="false" />
