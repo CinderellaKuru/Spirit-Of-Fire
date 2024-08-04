@@ -2,6 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>InCoverRocketWeapon</Name>
+		<AttackRate>0.2</AttackRate>
 		<DamagePerSecond>28</DamagePerSecond>
 		<WeaponType>Grenade</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
@@ -18,14 +19,11 @@
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>900</PhysicsForceMin>
 		<PhysicsForceMax>1100</PhysicsForceMax>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>8</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>32</PostAttackCooldownMax>
 		<Dodgeable />
 	</Weapon>
 	<Weapon>
 		<Name>InCoverGrenade</Name>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>14</DamagePerSecond>
 		<WeaponType>Grenade</WeaponType>
 		<Projectile>fx_proj_grenade_01</Projectile>
@@ -45,10 +43,6 @@
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>900</PhysicsForceMin>
 		<PhysicsForceMax>1100</PhysicsForceMax>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>12</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>36</PostAttackCooldownMax>
 		<Dodgeable />
 	</Weapon>
 	<Weapon>
@@ -101,13 +95,20 @@
 	</Weapon>
 	<Weapon>
 		<Name>RocketWeapon</Name>
+		<AttackRate>0.2</AttackRate>
 		<DamagePerSecond>70</DamagePerSecond>
+		<UseDPSasDPA />
 		<WeaponType>Grenade</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
-		<MaxRange>25</MaxRange>
+		<MaxRange>60</MaxRange>
 		<Accuracy>100</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>100</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.25</AOEDistanceFactor>
@@ -117,10 +118,7 @@
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>900</PhysicsForceMin>
 		<PhysicsForceMax>1100</PhysicsForceMax>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>8</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>32</PostAttackCooldownMax>
+	    <Hardpoint>Torso</Hardpoint>
 		<Dodgeable />
 	</Weapon>
 	<Weapon>

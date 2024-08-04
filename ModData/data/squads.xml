@@ -904,9 +904,8 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="4" role="normal">unsc_inf_marine_01</Unit>
-			<Unit count="1" role="normal">unsc_inf_marine_02</Unit>
-			<Unit count="1" role="normal">unsc_inf_medic_01</Unit>
+			<Unit count="4" role="normal">unsc_inf_battleodst_01</Unit>
+			<Unit count="2" role="normal">unsc_inf_battleodst_02</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
@@ -1352,7 +1351,7 @@
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
 			<Unit count="4" role="normal">unsc_inf_battleodst_01</Unit>
-			<Unit count="2" role="normal">unsc_inf_battleodst_01</Unit>
+			<Unit count="2" role="normal">unsc_inf_battleodst_02</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
@@ -1428,7 +1427,7 @@
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
-	<Squad name="unsc_inf_medicmarine_01" formationType="Flock" dbid="877">
+	<Squad name="unsc_inf_medic_01" formationType="Flock" dbid="877">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
@@ -1449,7 +1448,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">unsc_inf_medicmarine_01</Unit>
+			<Unit count="1" role="normal">unsc_inf_medic_01</Unit>
 		</Units>
 		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
 		<Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
