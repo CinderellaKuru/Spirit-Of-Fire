@@ -427,21 +427,21 @@
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\sniper_attack_01</file>
 				<weight>1</weight>
-				<tag type="Particle" start="0" position="0.0949999988" end="1" name="effects\Unit_FX\unsc\marine\muzzleblast" tobone="bone_launchpoint_sniper" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.660000026" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Attack" start="0" position="0.101000004" end="1" tobone="bone_launchpoint_sniper" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.103" end="1" name="play_weap_unsc_sniper" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.0949999988" end="0.1" name="effects\Unit_FX\unsc\marine\muzzleblast" tobone="bone_launchpoint_sniper" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.660000026" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.101000004" end="0.1" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.103" end="0.1" name="play_weap_unsc_sniper" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\sniper_attack_02</file>
 				<weight>1</weight>
-				<tag type="Attack" start="0" position="0.107000001" end="1" tobone="bone_launchpoint_sniper" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.107000001" end="1" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.109999999" end="1" name="effects\Unit_FX\unsc\marine\muzzleblast" tobone="bone_launchpoint_sniper" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.660000026" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.109999999" end="1" name="play_weap_unsc_sniper" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\sniper_attack_03</file>
 				<weight>1</weight>
-				<tag type="Attack" start="0" position="0.175999999" end="1" tobone="bone_launchpoint_sniper" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.175999999" end="1" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.180000007" end="1" name="effects\Unit_FX\unsc\marine\muzzleblast" tobone="bone_launchpoint_sniper" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.660000026" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.180000007" end="1" name="play_weap_unsc_sniper" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
