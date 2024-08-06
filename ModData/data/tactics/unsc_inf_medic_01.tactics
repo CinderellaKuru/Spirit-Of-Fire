@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Action>
-		<Name>RepairInfantry</Name>
-		<ActionType>RepairOther</ActionType>
-		<Anim>Repair</Anim>
-		<WorkRange>20</WorkRange>
-		<WorkRate>0.150000006</WorkRate>
-		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99000001" AutoRepairSearchDistance="45" />
-		<ProtoObject bone="GrannyRootBone">fx_covhealbeam</ProtoObject>
-	</Action>
-	<Action>
-		<Name>RepairAll</Name>
-		<ActionType>RepairOther</ActionType>
-		<Anim>Repair</Anim>
-		<WorkRange>20</WorkRange>
-		<WorkRate>0.150000006</WorkRate>
-		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99000001" AutoRepairSearchDistance="45" />
-		<ProtoObject bone="GrannyRootBone">fx_covhealbeam</ProtoObject>
-		<StartDisabled />
-	</Action>
-	<Action>
-		<Name>BetterRepairAll</Name>
-		<ActionType>RepairOther</ActionType>
-		<Anim>Repair</Anim>
-		<WorkRange>30</WorkRange>
-		<WorkRate>0.300000006</WorkRate>
-		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99000001" AutoRepairSearchDistance="60" />
-		<ProtoObject bone="GrannyRootBone">fx_covhealbeam</ProtoObject>
-		<StartDisabled />
-	</Action>
-	<Action>
 		<Name>GatherSupplies</Name>
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
@@ -67,7 +38,7 @@
 		<Name>Capture</Name>
 		<ActionType>Capture</ActionType>
 		<Anim>Build</Anim>
-		<WorkRate>0.166999996</WorkRate>
+		<WorkRate>0.167</WorkRate>
 		<WorkRange>4</WorkRange>
 	</Action>
 	<Action>
@@ -90,21 +61,34 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>3</WorkRange>
 	</Action>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Heal</Anim>
+		<WorkRange>20</WorkRange>
+		<WorkRate>0.1</WorkRate>
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+	</Action>
+	<Action>
+		<Name>RepairScarab</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Heal</Anim>
+		<WorkRange>20</WorkRange>
+		<WorkRate>0.150000006</WorkRate>
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99000001" AutoRepairSearchDistance="45" />
+		<ProtoObject bone="torso">fx_covhealbeam</ProtoObject>
+		<StartDisabled />
+	</Action>
 	<Tactic>
-		<TargetRule>
+	<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>infantry</TargetType>
-			<Action>RepairInfantry</Action>
+			<Action>RepairOther</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Military</TargetType>
-			<Action>RepairAll</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>Military</TargetType>
-			<Action>BetterRepairAll</Action>
+			<Action>RepairScarab</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

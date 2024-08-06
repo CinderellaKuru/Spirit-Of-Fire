@@ -1427,28 +1427,28 @@
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
-	<Squad name="unsc_inf_testmedic_01" formationType="Flock" dbid="2825">
+	<Squad name="unsc_inf_medic_01" formationType="Flock" dbid="877">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>23524</DisplayNameID>
-		<RolloverTextID>23525</RolloverTextID>
-		<PrereqTextID>231</PrereqTextID>
-		<RoleTextID>507</RoleTextID>
-		<BuildPoints>20</BuildPoints>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">0</Cost>
-		<SubSelectSort>3200</SubSelectSort>
-		<LeashDistance>80</LeashDistance>
-		<LeashDeadzone>20</LeashDeadzone>
+		<DisplayNameID>30040</DisplayNameID>
+		<RolloverTextID>30041</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>30047</RoleTextID>
+		<BuildPoints>15</BuildPoints>
+		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>3400</SubSelectSort>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>25</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>40</AggroDistance>
+		<AggroDistance>35</AggroDistance>
 		<Birth anim0="Train" anim1="Train" anim2="TrainAirlock" anim3="ElephantTrain" trainerAnim="TrainInfantry" spawnpoint="bone_spawnPoint02" endPoint="bone_endPoint02">Trained</Birth>
 		<HPBar offset="0,9,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">unsc_inf_testmedic_01</Unit>
+			<Unit count="1" role="normal">unsc_inf_medic_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>

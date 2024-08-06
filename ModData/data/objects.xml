@@ -4578,7 +4578,7 @@
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_shotgunmarine_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_snipermarine_01</Command>
-		<Command Type="TrainSquad" Position="3">unsc_inf_testmedic_01</Command>
+		<Command Type="TrainSquad" Position="3">unsc_inf_medic_01</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade3</Command>
@@ -33157,7 +33157,7 @@
 		<HPBar>UNSC_Bldg_Health</HPBar>
 		<TrueLOSHeight>10</TrueLOSHeight>
 	</Object>
-	<Object name="unsc_inf_testmedic_01" id="0" dbid="3224">
+	<Object name="unsc_inf_medic_01" id="0" dbid="3224">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>unsc\infantry\medic_01\medic_01.vis</Visual>

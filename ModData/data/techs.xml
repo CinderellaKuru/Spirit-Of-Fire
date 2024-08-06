@@ -1195,7 +1195,7 @@
 			<TechStatus status="Active">unsc_marine_upgrade1</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="2" subtype="Techlevel" allactions="1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_marine_02</Target>
 				<Target type="ProtoSquad">unsc_inf_battleodst_02</Target>
 			</Effect>
@@ -2646,10 +2646,7 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_medic_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairInfantry" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_medic_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairAll" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairScarab" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_medic_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
@@ -2675,10 +2672,10 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_medic_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairAll" relativity="Absolute">
+			<Effect type="Data" amount="2" subtype="WorkRange" action="RepairScarab" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_medic_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="BetterRepairAll" relativity="Absolute">
+			<Effect type="Data" amount="2" subtype="WorkRate" action="RepairScarab" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_medic_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
@@ -5355,7 +5352,7 @@
 				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
 				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
-				<Target type="ProtoSquad">unsc_inf_testmedic_01</Target>
+				<Target type="ProtoSquad">unsc_inf_medic_01</Target>
 				<Target type="ProtoSquad">unsc_air_hawk_01</Target>
 				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
