@@ -5355,7 +5355,7 @@
 				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
 				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
-				<Target type="ProtoSquad">unsc_inf_medic_01</Target>
+				<Target type="ProtoSquad">unsc_inf_testmedic_01</Target>
 				<Target type="ProtoSquad">unsc_air_hawk_01</Target>
 				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
