@@ -1438,7 +1438,7 @@
 		<BuildPoints>15</BuildPoints>
 		<Cost resourcetype="Supplies">200</Cost>
 		<Cost resourcetype="Power">1</Cost>
-		<SubSelectSort>3400</SubSelectSort>
+		<SubSelectSort>3401</SubSelectSort>
 		<LeashDistance>55</LeashDistance>
 		<LeashDeadzone>25</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>

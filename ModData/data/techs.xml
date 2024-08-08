@@ -713,12 +713,6 @@
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<Effects>
-			<Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_bldg_watchtower_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="los" relativity="Percent">
-				<Target type="ProtoUnit">unsc_bldg_watchtower_01</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="LightCannon1AttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_turret_01</Target>
 			</Effect>
@@ -831,12 +825,6 @@
 			<TechStatus status="Active">unsc_turret_upgrade1</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_bldg_watchtower_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="los" relativity="Percent">
-				<Target type="ProtoUnit">unsc_bldg_watchtower_01</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="LightCannon2AttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_turret_01</Target>
 			</Effect>
@@ -5342,7 +5330,18 @@
 			<Effect type="GodPower" amount="1">UnscLeaderDisruption</Effect>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
 			<Effect type="GodPower" amount="1">UnscCivTransport</Effect>
+			
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airpad_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
+				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_supplypad_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_turret_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
 				<Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
 				<Target type="ProtoSquad">unsc_inf_flameMarine_01</Target>
 				<Target type="ProtoSquad">unsc_inf_shotgunmarine_01</Target>
@@ -5364,17 +5363,8 @@
 				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
 				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
-				<Target type="ProtoUnit">unsc_bldg_airpad_01</Target>
-				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
-				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
-				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
-				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
-				<Target type="ProtoUnit">unsc_bldg_supplypad_01</Target>
-				<Target type="ProtoUnit">unsc_bldg_turret_01</Target>
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
 			</Effect>
+
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_carpetBomb_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
@@ -5829,7 +5819,6 @@
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_airPad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
@@ -6161,9 +6150,6 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_rhino_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_veh_rhino_01</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 
@@ -6476,7 +6462,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="covenant_LeaderProphet_nerf" type="Normal">
+	<!--<Tech name="covenant_LeaderProphet_nerf" type="Normal">
 		<DBID>1917</DBID>
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
@@ -6492,7 +6478,7 @@
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
 			</Effect>
 		</Effects>
-	</Tech>
+	</Tech>-->
 	<Tech name="cov_vampire_upgrade2_up" type="Normal">
 		<DBID>1917</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -6692,17 +6678,17 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="unsc_veh_cobra_up" type="Normal">
+	<!--<Tech name="unsc_veh_cobra_up" type="Normal">
 		<DBID>1917</DBID>
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="2" subtype="AttackRate" relativity="Percent">
+			<Effect type="Data" amount="99" subtype="AmmoRegenRate" action="LockdownAttackAction" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
 			</Effect>
 		</Effects>
-	</Tech>
+	</Tech>-->
 
 	<!-- Tech Data Info -->
 	
