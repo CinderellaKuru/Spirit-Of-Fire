@@ -6678,17 +6678,20 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<!--<Tech name="unsc_veh_cobra_up" type="Normal">
+	<Tech name="unsc_veh_cobra_up" type="Normal">
 		<DBID>1917</DBID>
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="99" subtype="AmmoRegenRate" action="LockdownAttackAction" relativity="Percent">
+			<Effect type="Data" amount="2" subtype="Accuracy" action="LockdownAttackAction" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+			</Effect>
+			<Effect type="Data" amount="2" subtype="Accuracy" action="UpgradedLockdownArtillery" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
 			</Effect>
 		</Effects>
-	</Tech>-->
+	</Tech>
 
 	<!-- Tech Data Info -->
 	

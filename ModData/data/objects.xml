@@ -33849,7 +33849,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Flesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
-		<!--<AbilityCommand>cpgnForgeSpecial</AbilityCommand>-->
+		<AbilityCommand>cpgnForgeSpecial</AbilityCommand>
 		<Flag>KBAware</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>

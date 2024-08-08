@@ -690,10 +690,15 @@
 				<file>unsc\vehicle\cobra_01\lockdownAttack_01</file>
 				<weight>1</weight>
 				<tag type="Sound" start="0" position="0.0500000007" end="1" name="play_unsc_rhino_cannon" tobone="Bonelaunchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5000000007" end="1" name="play_unsc_rhino_cannon" tobone="Bonelaunchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.0500000007" end="1" tobone="Bonelaunchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.500000007" end="1" tobone="Bonelaunchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.0500000007" end="1" name="effects\vehicle_fx\unsc\cobra\muzzleblast_01" tobone="bonelaunchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.05999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5000000007" end="1" name="effects\vehicle_fx\unsc\cobra\muzzleblast_01" tobone="bonelaunchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.05999994" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="CameraShake" start="0" position="0.0500000007" end="1" tobone="Bonelaunchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.5" force2="0" lifespan="0.150000006" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.5000000007" end="1" tobone="Bonelaunchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.5" force2="0" lifespan="0.150000006" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Rumble" start="0" position="0.0500000007" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.899999976" force2="0.899999976" lifespan="0.100000001" userData="" leftRumbleType="Fixed" rightRumbleType="Fixed" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Rumble" start="0" position="0.5000000007" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.899999976" force2="0.899999976" lifespan="0.100000001" userData="" leftRumbleType="Fixed" rightRumbleType="Fixed" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 		</anim>
 		<anim type="AnchorDown" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
@@ -714,10 +719,15 @@
 				<file>unsc\vehicle\cobra_01\lockdownAttack_02</file>
 				<weight>1</weight>
 				<tag type="Sound" start="0" position="0.0500000007" end="1" name="play_unsc_rhino_cannon" tobone="bonelaunchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5000000007" end="1" name="play_unsc_rhino_cannon" tobone="bonelaunchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.0500000007" end="1" tobone="Bonelaunchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5000000007" end="1" tobone="Bonelaunchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.0500000007" end="1" name="effects\vehicle_fx\unsc\cobra\muzzleblast_01" tobone="bonelaunchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.05999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5000000007" end="1" name="effects\vehicle_fx\unsc\cobra\muzzleblast_01" tobone="bonelaunchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.05999994" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="CameraShake" start="0" position="0.0500000007" end="1" tobone="Bonelaunchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.5" force2="0" lifespan="0.150000006" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.5000000007" end="1" tobone="Bonelaunchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.5" force2="0" lifespan="0.150000006" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Rumble" start="0" position="0.0500000007" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.899999976" force2="0.899999976" lifespan="0.100000001" userData="" leftRumbleType="Fixed" rightRumbleType="Fixed" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Rumble" start="0" position="0.5000000007" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.899999976" force2="0.899999976" lifespan="0.100000001" userData="" leftRumbleType="Fixed" rightRumbleType="Fixed" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 		</anim>
 	</model>
