@@ -19,6 +19,8 @@
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>900</PhysicsForceMin>
 		<PhysicsForceMax>1100</PhysicsForceMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>5</PostAttackCooldownMax>
 		<Dodgeable />
 	</Weapon>
 	<Weapon>
@@ -118,6 +120,8 @@
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>900</PhysicsForceMin>
 		<PhysicsForceMax>1100</PhysicsForceMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>5</PostAttackCooldownMax>
 	    <Hardpoint>Torso</Hardpoint>
 		<Dodgeable />
 	</Weapon>

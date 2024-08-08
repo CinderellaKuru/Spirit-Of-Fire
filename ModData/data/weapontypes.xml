@@ -170,7 +170,7 @@
 		<DamageModifier rating="1" type="Medium">2</DamageModifier>
 		<DamageModifier rating="1" type="MediumAir">0.8</DamageModifier>
 		<DamageModifier rating="1" type="Heavy">1.2</DamageModifier>
-		<DamageModifier rating="1" type="Building">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.4</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
