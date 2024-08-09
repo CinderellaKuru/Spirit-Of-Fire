@@ -5567,7 +5567,6 @@
 		<Effects>
 			<Effect type="GodPower" amount="1">UnscLeaderRepair</Effect>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
-
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
@@ -5602,7 +5601,6 @@
 				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
@@ -5618,7 +5616,6 @@
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
@@ -5634,7 +5631,6 @@
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChief_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
@@ -5650,7 +5646,6 @@
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_brute_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
@@ -5666,7 +5661,6 @@
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_cleansing_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
@@ -5682,7 +5676,6 @@
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
@@ -5698,7 +5691,6 @@
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
@@ -5714,7 +5706,6 @@
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_gravityWave_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
@@ -5730,7 +5721,6 @@
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_prophet_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
@@ -5746,7 +5736,6 @@
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_rage_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
@@ -5762,7 +5751,6 @@
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_suicideGrunt_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
@@ -5778,7 +5766,6 @@
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
-
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_arbiter_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
@@ -5819,27 +5806,27 @@
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_airPad_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="Enable" commandType="BuildOther" CommandData="unsc_bldg_airPad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_barracks_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="Enable" commandType="BuildOther" CommandData="unsc_bldg_barracks_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_fieldArmory_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="Enable" commandType="BuildOther" CommandData="unsc_bldg_fieldArmory_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_reactor_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="Enable" commandType="BuildOther" CommandData="unsc_bldg_reactor_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_supplypad_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="Enable" commandType="BuildOther" CommandData="unsc_bldg_supplypad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_vehicleDepot_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="Enable" commandType="BuildOther" CommandData="unsc_bldg_vehicleDepot_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 			</Effect>
