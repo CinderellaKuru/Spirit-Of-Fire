@@ -4,7 +4,7 @@
 		<Name>InCoverRocketWeapon</Name>
 		<AttackRate>0.2</AttackRate>
 		<DamagePerSecond>28</DamagePerSecond>
-		<WeaponType>Grenade</WeaponType>
+		<WeaponType>Rocket</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
@@ -56,7 +56,7 @@
 		<Projectile>fx_proj_grenade_01</Projectile>
 		<ImpactEffect size="Medium">tankshell</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
+		<MaxRange>50</MaxRange>
 		<Accuracy>0.300000012</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
 		<MovingAccuracy>0.300000012</MovingAccuracy>
@@ -100,11 +100,11 @@
 		<AttackRate>0.2</AttackRate>
 		<DamagePerSecond>70</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Grenade</WeaponType>
+		<WeaponType>Rocket</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
+		<MaxRange>50</MaxRange>
 		<Accuracy>100</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
 		<MovingAccuracy>100</MovingAccuracy>

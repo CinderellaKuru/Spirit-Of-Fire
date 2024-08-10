@@ -138,7 +138,7 @@
 		<WorkRange>8</WorkRange>
 		<MergeType>Ground</MergeType>
 		<ProtoObject>fx_hijacked</ProtoObject>
-		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" boardTime="5" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="1" boardTime="8" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
 		<DamageModifiers damage="1.5" damageTaken="0.666000009" byCombatValue="false" />
 		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraith_01</Fatality>
 		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraithLCE_01</Fatality>
