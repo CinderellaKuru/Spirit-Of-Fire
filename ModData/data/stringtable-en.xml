@@ -4851,7 +4851,6 @@
 	    <!-- New stuff for vanilla Leaders -->
 
 	    <String _locID="30004" category="Code" subtitle="false">Spartan</String>
-	    <String _locID="30047" category="Code" subtitle="false">Medic</String>
 	    <String _locID="30013" category="Powers" subtitle="false">WATCHTOWER DROP</String>
 	    <String _locID="30014" category="Powers" subtitle="false">Drops a watchtower onto the battlefield.</String>
 	    <String _locID="30015" category="Squads" subtitle="false">Watchtower</String>
@@ -4862,6 +4861,7 @@
 		<String _locID="30044" category="Techs" subtitle="false">Allows the Medic to also repair vehicles and buildings.</String>
 		<String _locID="30045" category="Techs" subtitle="false">IMPROVED HEALING</String>
 		<String _locID="30046" category="Techs" subtitle="false">Upgrades the Medic's heal and repair to be faster and longer range.</String>
+		<String _locID="30047" category="Code" subtitle="false">Medic</String>
 
 	    <!--Captain Cutter-->
 
@@ -4907,6 +4907,18 @@
 		<String _locID="30037" category="Techs" subtitle="false"></String>
 		<String _locID="30038" category="Techs" subtitle="false">Sniper Placeholder3</String>
 		<String _locID="30039" category="Techs" subtitle="false"></String>
+
+		<!--Arbiter-->
+
+        <String _locID="30048" category="Squads" subtitle="false">ELITE SQUAD</String>
+		<String _locID="30049" category="Squads" subtitle="false">A squad of elites. They start out with a weak plasmarifle but can be upgraded to wield needlers.</String>
+		<String _locID="30050" category="Objects" subtitle="false">ELITE SQUAD</String>
+		<String _locID="30051" category="Techs" subtitle="false">PEONS</String>
+		<String _locID="30052" category="Techs" subtitle="false">Elite-squads now have 1 extra elite.</String>
+		<String _locID="30053" category="Techs" subtitle="false">NEEDLER</String>
+		<String _locID="30054" category="Techs" subtitle="false">Elite-squads now have needlers.</String>
+		<String _locID="30055" category="Techs" subtitle="false">LEADER</String>
+		<String _locID="30056" category="Techs" subtitle="false">Elite-squads gain an extra elite in the form of a commando which increases combat effitiency massively.</String>
 
 
 		<!-- Skidbladnir -->
