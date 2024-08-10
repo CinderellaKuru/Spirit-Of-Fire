@@ -952,6 +952,20 @@
 		<MaxProjectileHeight>1</MaxProjectileHeight>
 		<ImpactDecal sizeX="2" sizeZ="2" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\artilary_scorch01</ImpactDecal>
 	</Object>
+	<Object name="fx_proj_unscsniperrifle_01" id="0" dbid="35">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects/projectiles/unsc/sniperrifle_01/sniperrifle_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>400</Velocity>
+		<Tactics>fx_proj_rifle_01.tactics</Tactics>
+		<Lifespan>2</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\bullet_scorch01</ImpactDecal>
+	</Object>
 	<Object name="fx_proj_spartanlaser_01" id="0" dbid="3828">
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\unsc\spartanlaser_01\spartanlaser_01.vis</Visual>
@@ -1090,7 +1104,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/machineGun_01/machineGun_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>100</Velocity>
+		<Velocity>200</Velocity>
 		<Tactics>fx_proj_machineGun_01.tactics</Tactics>
 		<Lifespan>2</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1104,7 +1118,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/machineGun_02/machineGun_02.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>100</Velocity>
+		<Velocity>200</Velocity>
 		<Tactics>fx_proj_machineGun_02.tactics</Tactics>
 		<Lifespan>1</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1203,7 +1217,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/rifle_01/rifle_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>100</Velocity>
+		<Velocity>200</Velocity>
 		<Tactics>fx_proj_rifle_01.tactics</Tactics>
 		<Lifespan>2</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1217,7 +1231,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/rifle_02/rifle_02.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>100</Velocity>
+		<Velocity>200</Velocity>
 		<Tactics>fx_proj_rifle_02.tactics</Tactics>
 		<Lifespan>2</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -33800,18 +33814,16 @@
 		<Hitpoints>1292</Hitpoints>
 		<AttackGradeDPS>15</AttackGradeDPS>
 		<CombatValue>1</CombatValue>
-		<LOS>55</LOS>
+		<LOS>60</LOS>
 		<Pop Type="Unit">0.5</Pop>
 		<Bounty>1</Bounty>
 		<RamDodgeFactor>0.5</RamDodgeFactor>
-		<Veterancy Level="1" XP="4" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
-		<Veterancy Level="2" XP="10" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="1" XP="8" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="16" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
 		<Veterancy Level="3" XP="18" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
-		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
-		<AmmoMax>200</AmmoMax>
-		<AmmoRegenRate>9</AmmoRegenRate>
+		<AmmoMax>4</AmmoMax>
+		<AmmoRegenRate>0.1</AmmoRegenRate>
 		<Tactics>unsc_inf_snipermarine_01.tactics</Tactics>
 		<RepairPoints>25</RepairPoints>
 		<ObstructionRadiusX>1</ObstructionRadiusX>
@@ -33862,7 +33874,7 @@
 			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
 			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
 		</FlashUI>
-		<HPBar>UNSC_Health</HPBar>
+		<HPBar>UNSC_HealthAmmo</HPBar>
 	</Object>
 	<Object name="unsc_veh_rhino_01" id="0" dbid="1317">
 		<ObjectClass>Squad</ObjectClass>

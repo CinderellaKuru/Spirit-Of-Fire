@@ -9,12 +9,12 @@
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>75</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingAccuracy>0.05</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>12</VisualAmmo>
 		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
@@ -28,23 +28,22 @@
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>40</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
-		<Projectile>fx_proj_rifle_01</Projectile>
+		<Projectile>fx_proj_unscsniperrifle_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
-		<MaxRange>50</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingAccuracy>0.05</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<VisualAmmo>12</VisualAmmo>
+		<VisualAmmo>4</VisualAmmo>
 		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
-		<SmallArmsDeflectable />
 	</Weapon>
 	<Action>
 		<Name>InCoverSniperAttackAction</Name>
