@@ -613,21 +613,21 @@
 		<String _locID="6032" category="Abilities" subtitle="false">SHIELDS</String>
 		<String _locID="6033" category="Abilities" subtitle="false">UNPACK</String>
 		<String _locID="6034" category="Abilities" subtitle="false">UNPACK TURRET</String>
-		<String _locID="7000" category="Leaders" subtitle="false">Captain Cutter</String>
+		<String _locID="7000" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
 		<String _locID="7001" category="Leaders" subtitle="false">Unique Unit: ELEPHANT, Leader Power: MAC Blast, Super Unit: ODST, Bonus: All bases start at 1 higher tech level.</String>
-		<String _locID="7002" category="Leaders" subtitle="false">Sergeant Forge</String>
+		<String _locID="7002" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
 		<String _locID="7003" category="Leaders" subtitle="false">Unique Unit: CYCLOPS, Leader Power: Carpet Bomb, Super Unit: GRIZZLY, Bonus: Builds Heavy Supply Pads right away.</String>
-		<String _locID="7004" category="Leaders" subtitle="false">Professor Anders</String>
+		<String _locID="7004" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
 		<String _locID="7005" category="Leaders" subtitle="false">Unique Unit: GREMLIN, Leader Power: Cryo Bomb, Super Unit: HAWK, Bonus: All unit upgrades are half-price and research in half the time.</String>
 		<String _locID="7006" category="Leaders" subtitle="false" />
 		<String _locID="7007" category="Leaders" subtitle="false" />
 		<String _locID="7008" category="Leaders" subtitle="false" />
 		<String _locID="7009" category="Leaders" subtitle="false" />
-		<String _locID="7010" category="Leaders" subtitle="false">Arbiter</String>
+		<String _locID="7010" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
 		<String _locID="7011" category="Leaders" subtitle="false">Unique Unit: SUICIDE GRUNT, Leader Power: Rage</String>
-		<String _locID="7012" category="Leaders" subtitle="false">Brute Chieftain</String>
+		<String _locID="7012" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
 		<String _locID="7013" category="Leaders" subtitle="false">Unique Unit: BRUTE, BRUTE CHOPPER, Leader Power: Vortex</String>
-		<String _locID="7014" category="Leaders" subtitle="false">Prophet of Regret</String>
+		<String _locID="7014" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
 		<String _locID="7015" category="Leaders" subtitle="false">Unique Unit: ELITE HONOR GUARD, Leader Power: Cleansing</String>
 		<String _locID="7016" category="Leaders" subtitle="false" />
 		<String _locID="7017" category="Leaders" subtitle="false" />
@@ -936,12 +936,12 @@
 		<String _locID="22310" category="Skirmish" subtitle="false">3v3 Gulch SWI</String>
 		<String _locID="22311" category="Skirmish" subtitle="false">3v3 SnakeRiver</String>
 		<String _locID="22312" category="Skirmish" subtitle="false">Halo_fast</String>
-		<String _locID="22313" category="Skirmish" subtitle="false">BEASLEY'S PLATEAU (2v2)</String>
+		<String _locID="22313" category="Skirmish" subtitle="false">BEASLEY'S PLATEAU (2v2) (unsupported)</String>
 		<String _locID="22314" category="Skirmish" subtitle="false">2v2 Harvest Dip</String>
 		<String _locID="22315" category="Skirmish" subtitle="false">2v2 Artifact</String>
 		<String _locID="22316" category="Skirmish" subtitle="false">2v2 Wasteland SWI</String>
 		<String _locID="22317" category="Skirmish" subtitle="false">1v1 Wasteland SWI</String>
-		<String _locID="22318" category="Skirmish" subtitle="false">TUNDRA (1v1)</String>
+		<String _locID="22318" category="Skirmish" subtitle="false">TUNDRA (1v1) (unsupported)</String>
 		<String _locID="22319" category="Skirmish" subtitle="false">2v2 Greatlake SWI</String>
 		<String _locID="22320" category="Skirmish" subtitle="false">1v1 TwinPeaks HAR</String>
 		<String _locID="22321" category="Skirmish" subtitle="false">3v3 Suddendeath</String>
@@ -1027,7 +1027,7 @@
 		<String _locID="22413" category="Techs" subtitle="false">Increases energy rate at all Monuments.</String>
 		<String _locID="22414" category="Campaign" scenario="9" subtitle="false">Destroy Flood Boss</String>
 		<String _locID="22415" category="Skirmish" subtitle="false">Bases in this region must be heavily defended at night, when Flood Swarms emerge from their hiding places.</String>
-		<String _locID="22416" category="Skirmish" subtitle="false">CREVICE (2v2)</String>
+		<String _locID="22416" category="Skirmish" subtitle="false">CREVICE (2v2) (unsupported)</String>
 		<String _locID="22417" category="Skirmish" subtitle="false">Enemies might be hiding around every corner on this map where large Forerunner structures dominate the landscape</String>
 		<String _locID="22418" category="Skirmish" subtitle="false">2v2 Maze</String>
 		<String _locID="22419" category="Objects" subtitle="false">Special Ops Center</String>
@@ -2359,11 +2359,11 @@
 		<String _locID="23957" category="Objects" subtitle="false" />
 		<String _locID="23958" category="Objects" subtitle="false">BASE RALLY POINT</String>
 		<String _locID="23959" category="Objects" subtitle="false">New units from this base will move to this location when training is complete. Use the Global Rally Point to override this behavior.</String>
-		<String _locID="23960" category="Skirmish" subtitle="false">CHASMS (1v1)</String>
+		<String _locID="23960" category="Skirmish" subtitle="false">CHASMS (1v1) (unsupported)</String>
 		<String _locID="23961" category="Skirmish" subtitle="false">The area is dominated by large mountains and chasms, but there are still many possible approaches to traverse the rugged landscape. Scattered Sniper Towers are positioned perfectly to defend key tactical locations.</String>
 		<String _locID="23962" category="Skirmish" subtitle="false">REPOSITORY (2v2)</String>
 		<String _locID="23963" category="Skirmish" subtitle="false">With many supplies up for grabs in the middle and dangerous enemies lurking everywhere, the fight for control of this region will be nasty, brutal, and short.</String>
-		<String _locID="23964" category="Skirmish" subtitle="false">FROZEN VALLEY (3v3)</String>
+		<String _locID="23964" category="Skirmish" subtitle="false">FROZEN VALLEY (3v3) (unsupported)</String>
 		<String _locID="23965" category="Skirmish" subtitle="false">A wide open map, this cold wasteland features two bonus Reactors and a Forerunner Spire of Healing.</String>
 		<String _locID="23966" category="Objects" subtitle="false">Landing Pad</String>
 		<String _locID="23967" category="Objects" subtitle="false" />
@@ -2644,9 +2644,9 @@
 		<String _locID="24320" category="Skirmish" scenario="FloodControl" subtitle="false">Wave Type 3</String>
 		<String _locID="24321" category="Skirmish" scenario="FloodControl" subtitle="false">Wave Type 4</String>
 		<String _locID="24322" category="Skirmish" scenario="FloodControl" subtitle="false">Wave Type 5</String>
-		<String _locID="24323" category="Skirmish" scenario="" subtitle="false">LABYRINTH (2v2)</String>
+		<String _locID="24323" category="Skirmish" scenario="" subtitle="false">LABYRINTH (2v2) (unsupported)</String>
 		<String _locID="24324" category="Skirmish" subtitle="false">A maze of Forerunner structures creates a complex and challenging battlefield. The Forerunner Protector units may hold the key to victory.</String>
-		<String _locID="24325" category="Skirmish" subtitle="false">RELEASE (1v1)</String>
+		<String _locID="24325" category="Skirmish" subtitle="false">RELEASE (1v1) (unsupported)</String>
 		<String _locID="24326" category="Campaign" scenario="6" subtitle="true">The Dome power supply is overloaded, we got it!</String>
 		<String _locID="24327" category="Campaign" scenario="6" subtitle="true">Only one more Rhino to get into position.</String>
 		<String _locID="24328" category="Campaign" scenario="6" subtitle="true">MAC is coming online, single turret available.</String>
@@ -2949,9 +2949,9 @@
 		<String _locID="24638" category="Squads" subtitle="false">INFECTED BRUTES</String>
 		<String _locID="24639" category="Squads" subtitle="false">infected Brute description</String>
 		<String _locID="24640" scenario="11" subtitle="false">Optional: Destroy 100 Sentinels</String>
-		<String _locID="24645" category="Skirmish" scenario="Map Name" subtitle="false">THE DOCKS (2v2)</String>
+		<String _locID="24645" category="Skirmish" scenario="Map Name" subtitle="false">THE DOCKS (2v2) (unsupported)</String>
 		<String _locID="24646" category="Skirmish" scenario="Map Description" subtitle="false">This densely built-up urban region of Arcadia features several sniper towers protecting key areas.</String>
-		<String _locID="24647" category="Skirmish" scenario="Map Name" subtitle="false">EXILE (3v3)</String>
+		<String _locID="24647" category="Skirmish" scenario="Map Name" subtitle="false">EXILE (3v3) (unsupported)</String>
 		<String _locID="24648" category="Skirmish" scenario="Map Description" subtitle="false">Impassable terrain creates a nested trio of rings that defines this large battlefield. More base sites are found on the outermost ring, but controlling the center is tactically superior.</String>
 		<String _locID="24649" category="Objects" subtitle="false">POWER NODE</String>
 		<String _locID="24650" category="Objects" subtitle="false">REBEL BASE</String>
@@ -2968,13 +2968,13 @@
 		<String _locID="24661" category="Campaign" scenario="8" subtitle="true">Stay away from me - you're one of them! Bllaahhhh!</String>
 		<String _locID="24662" category="Objects" subtitle="false">ENERGY WALL</String>
 		<String _locID="24663" category="Objects" subtitle="false">Impassable Energy Wall (when garrisoned)</String>
-		<String _locID="24664" category="Skirmish" subtitle="false">PIRTH OUTSKIRTS (1v1)</String>
+		<String _locID="24664" category="Skirmish" subtitle="false">PIRTH OUTSKIRTS (1v1) (unsupported)</String>
 		<String _locID="24665" category="Skirmish" subtitle="false">The swampy outskirts of Arcadia's capital city features unclaimed bonus Reactors and offers alternate routes for attacks.</String>
-		<String _locID="24666" category="Skirmish" subtitle="false">BLOOD GULCH (1v1)</String>
+		<String _locID="24666" category="Skirmish" subtitle="false">BLOOD GULCH (1v1) (unsupported)</String>
 		<String _locID="24667" category="Skirmish" subtitle="false">A fast and brutal fight awaits in Blood Gulch. Teleporters allow for surprise attacks, while bonus Reactors offer opportunities for the aggressive.</String>
-		<String _locID="24668" category="Skirmish" subtitle="false">TERMINAL MORAINE (2v2)</String>
+		<String _locID="24668" category="Skirmish" subtitle="false">TERMINAL MORAINE (2v2) (unsupported)</String>
 		<String _locID="24669" category="Skirmish" subtitle="false">Sections of the map are only accessible by timed light bridges. Watch for the bridges to start blinking - any units on the bridges when the bridges turn off are doomed.</String>
-		<String _locID="24670" category="Skirmish" subtitle="false">FORT DEEN (3v3)</String>
+		<String _locID="24670" category="Skirmish" subtitle="false">FORT DEEN (3v3) (unsupported)</String>
 		<String _locID="24671" category="Skirmish" subtitle="false">Named for a famous UNSC colonel who broke a Covenant siege, this divided map features highly defendable lanes, but strategically-placed teleporters offer clever attackers alternatives.</String>
 		<String _locID="24672" category="UI" subtitle="false">E3 Demo</String>
 		<String _locID="24673" category="UI" subtitle="false">E3 Demonstration mode</String>
@@ -4242,11 +4242,11 @@
 		<String _locID="26028" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Start with high resources and all techs. Bases provide more population.</String>
 		<String _locID="26029" category="Skirmish" scenario="CTF" subtitle="false" Update="true">CAPTURE 3 FLAGS TO WIN</String>
 		<String _locID="26030" category="Skirmish" scenario="game mode" subtitle="false" Update="true">TUG OF WAR</String>
-		<String _locID="26031" category="Skirmish" subtitle="false" Update="true">BARRENS (1v1)</String>
+		<String _locID="26031" category="Skirmish" subtitle="false" Update="true">BARRENS (1v1) (unsupported)</String>
 		<String _locID="26032" category="Skirmish" subtitle="false" Update="true">Difficult terrain channels units into killing zones. The side that controls the Forerunner artifacts will have the advantage.</String>
-		<String _locID="26033" category="Skirmish" subtitle="false" Update="true">BLOOD RIVER (1v1)</String>
+		<String _locID="26033" category="Skirmish" subtitle="false" Update="true">BLOOD RIVER (1v1) (unsupported)</String>
 		<String _locID="26034" category="Skirmish" subtitle="false" Update="true">Secure base locations on nearby cliffs overlook this naturally red-tinged river. The soldiers that fought over its two narrow crossings gave the river its name, which has since taken on a greater meaning.</String>
-		<String _locID="26035" category="Skirmish" subtitle="false" Update="true">MEMORIAL BASIN (2v2)</String>
+		<String _locID="26035" category="Skirmish" subtitle="false" Update="true">MEMORIAL BASIN (2v2) (unsupported)</String>
 		<String _locID="26036" category="Skirmish" subtitle="false" Update="true">The high ground in the middle offers good cover for infantry, while the generally open terrain transforms organized battle plans into bloodbaths.</String>
 		<String _locID="26037" category="UI" subtitle="false" Update="true">DOWNLOADABLE CONTENT</String>
 		<String _locID="26038" category="UI" subtitle="false" Update="true">Halo Wars downloadable content is available. Select Options and Extras off the main menu.</String>
@@ -4285,7 +4285,7 @@
 		<String _locID="26076" category="UI" scenario="Options" subtitle="false" Update="true">ALLIES</String>
 		<String _locID="26077" category="UI" scenario="Options" subtitle="false" Update="true">ENEMIES</String>
 		<String _locID="26078" category="UI" subtitle="false" Update="true">Player %1!s! is missing the downloadable content required for this map.</String>
-		<String _locID="26081" category="Skirmish" scenario=" Map Name" subtitle="false">GLACIAL RAVINE (3v3)</String>
+		<String _locID="26081" category="Skirmish" scenario=" Map Name" subtitle="false">GLACIAL RAVINE (3v3) (unsupported)</String>
 		<String _locID="26082" category="Skirmish" scenario="Map Description" subtitle="false">A snow-topped mountain range forms a natural barrier that cuts this region in half.  Control of the two energy walls at the narrow central pass often determines the outcome of the battle, though clever use of the Sentinel Factories may play a role as well.</String>
 		<String _locID="26083" category="UI" scenario="Options" subtitle="false" Update="true">Graphics Option Test A</String>
 		<String _locID="26084" category="UI" scenario="Options" subtitle="false">This is a test Graphics Options for PC.</String>
@@ -4911,7 +4911,7 @@
 
 		<!-- Skidbladnir -->
 		
-		<String _locID="26754" category="Leaders" subtitle="false">Skidbladnir</String>
+		<String _locID="26754" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
 		<String _locID="26755" category="Leaders" subtitle="false">None.</String>
 		<String _locID="26756" category="Objects" subtitle="false">CALL STATION</String>
 		<String _locID="26757" category="Objects" subtitle="false"></String>
