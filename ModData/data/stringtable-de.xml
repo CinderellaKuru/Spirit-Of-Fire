@@ -4852,7 +4852,6 @@ des Echo-Teams</String>
 		<!-- New stuff for vanilla Leaders -->
 
 		<String _locID="30004" category="Code" subtitle="false">Spartan</String>
-		<String _locID="30047" category="Code" subtitle="false">Sanitäter</String>
 		<String _locID="30013" category="Powers" subtitle="false">WACHTURM ABWURF</String>
 		<String _locID="30014" category="Powers" subtitle="false">Setzt einen Wachturm auf das Schlachtfeld ab</String>
 		<String _locID="30015" category="Squads" subtitle="false">Wachturm</String>
@@ -4863,6 +4862,7 @@ des Echo-Teams</String>
 		<String _locID="30044" category="Techs" subtitle="false">Erlaubt dem Sanitäter das reparieren von Fahrzeugen und Gebäuden.</String>
 		<String _locID="30045" category="Techs" subtitle="false">VERBESSERTE HEILUNG</String>
 		<String _locID="30046" category="Techs" subtitle="false">Verbessert die Fähigkeiten des Sanitäters um Heilung und Reperatur zu beschleunigen. Außerdem erhält er eine höhere Reichweite.</String>
+		<String _locID="30047" category="Code" subtitle="false">Sanitäter</String>
 
 		<!--Captain Cutter-->
 
@@ -4908,6 +4908,18 @@ des Echo-Teams</String>
 		<String _locID="30037" category="Techs" subtitle="false"></String>
 		<String _locID="30038" category="Techs" subtitle="false">Sniper Placeholder3</String>
 		<String _locID="30039" category="Techs" subtitle="false"></String>
+
+		<!--Arbiter-->
+
+        <String _locID="30048" category="Squads" subtitle="false">ELITE SQUAD</String>
+		<String _locID="30049" category="Squads" subtitle="false">Eine Einheit bestehend aus Eliten. Sie fangen mit recht schwachen Plasmagewehren an aber können später mit einem Nadelwerfer ausgestattet werden.</String>
+		<String _locID="30050" category="Objects" subtitle="false">ELITE SQUAD</String>
+		<String _locID="30051" category="Techs" subtitle="false">GEFOLGSLEUTE</String>
+		<String _locID="30052" category="Techs" subtitle="false">Elite-trupps haben nun einen Eliten mehr.</String>
+		<String _locID="30053" category="Techs" subtitle="false">NADELWERFER</String>
+		<String _locID="30054" category="Techs" subtitle="false">Elite-trupps erhalten Nadelwerfer.</String>
+		<String _locID="30055" category="Techs" subtitle="false">ANFÜHRER</String>
+		<String _locID="30056" category="Techs" subtitle="false">Elite-trupps erhalten einen zusätzlichen Eliten in form einer Ehrengarde welcher die Kampfeffizienz immenz steigert.</String>
 
 		<!-- Skidbladnir -->
 		
