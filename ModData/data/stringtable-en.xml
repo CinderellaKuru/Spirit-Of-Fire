@@ -4919,6 +4919,15 @@
 		<String _locID="30054" category="Techs" subtitle="false">Elite-squads now have needlers.</String>
 		<String _locID="30055" category="Techs" subtitle="false">LEADER</String>
 		<String _locID="30056" category="Techs" subtitle="false">Elite-squads gain an extra elite in the form of a commando which increases combat effitiency massively.</String>
+		<String _locID="30057" category="Squads" subtitle="false">SNIPER ELITEN</String>
+		<String _locID="30058" category="Squads" subtitle="false">A squad consisting of sniper-elites. They start out with weak weapons and no shield but both of those can be upgraded considerably.</String>
+		<String _locID="30059" category="Objects" subtitle="false">SNIPER ELITE</String>
+		<String _locID="30060" category="Techs" subtitle="false">PERSONAL SHIELD</String>
+		<String _locID="30061" category="Techs" subtitle="false">Sniper-elites receive a personal shield.</String>
+		<String _locID="30062" category="Techs" subtitle="false">BEAMRIFLE</String>
+		<String _locID="30063" category="Techs" subtitle="false">Sniper-elites receive beamrifles</String>
+		<String _locID="30064" category="Techs" subtitle="false">STRONGER SHIELD</String>
+		<String _locID="30065" category="Techs" subtitle="false">Sniper-elites gain a super strong shield that can deflect incoming damage.</String>
 
 
 		<!-- Skidbladnir -->

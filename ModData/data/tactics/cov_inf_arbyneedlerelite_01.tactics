@@ -9,10 +9,10 @@
 		<ImpactEffect size="Medium">needler_01</ImpactEffect>
 		<MaxVelocityLead>12</MaxVelocityLead>
 		<MaxRange>30</MaxRange>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>16</VisualAmmo>
 		<TargetPriority type="Infantry">10</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
