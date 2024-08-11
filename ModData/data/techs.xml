@@ -3762,6 +3762,91 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="cov_fuelrodelite_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30069</DisplayNameID>
+		<RolloverTextID>30070</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<ResearchPoints>20</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_bondedshield</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.4" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="Deflect" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_fuelrodelite_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30071</DisplayNameID>
+		<RolloverTextID>30072</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_bondedshield</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_fuelrodelite_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_fuelrodelite_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30073</DisplayNameID>
+		<RolloverTextID>30074</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_fuelrodelite_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.4" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="3" subtype="Accuracy" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="3" subtype="MovingAccuracy" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="cov_prophet_upgrade1" type="Normal">
 		<DBID>1915</DBID>
 		<DisplayNameID>24400</DisplayNameID>
@@ -5932,6 +6017,7 @@
 				<Target type="ProtoSquad">cov_inf_arbyelite_02</Target>
 				<Target type="ProtoSquad">cov_inf_arbyelite_03</Target>
 				<Target type="ProtoSquad">cov_inf_sniperelite_01</Target>
+				<Target type="ProtoSquad">cov_inf_fuelrodelite_01</Target>
 				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
 				<Target type="ProtoSquad">cov_inf_grunt_02</Target>
 				<Target type="ProtoSquad">cov_inf_grunt_03</Target>
@@ -6160,6 +6246,26 @@
 			</Effect>
 
 
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_fuelrodelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_fuelrodelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_fuelrodelite_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+
+
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_arbiter_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
@@ -6215,6 +6321,12 @@
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			 <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_jackal_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_fuelrodelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hunter_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 
@@ -6644,9 +6756,6 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbyelite_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_arbiter_01</Target>
-			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_sniperelite_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
@@ -6655,6 +6764,20 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_sniperelite_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_fuelrodelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_fuelrodelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_fuelrodelite_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+
+
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_arbiter_01</Target>
 			</Effect>
 
 
@@ -6679,6 +6802,9 @@
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_sniperelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_fuelrodelite_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 		</Effects>
@@ -6769,11 +6895,22 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_jackal_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
 
 
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_bruteChief_01</Target>
 			</Effect>
+
+
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteChief_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
@@ -6795,6 +6932,9 @@
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_jackal_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hunter_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 		</Effects>
@@ -6885,11 +7025,22 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_jackal_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
 
 
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_prophet_01</Target>
 			</Effect>
+
+			
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_prophet_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
@@ -6909,6 +7060,9 @@
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_jackal_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hunter_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 		</Effects>
