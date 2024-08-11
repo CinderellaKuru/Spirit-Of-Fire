@@ -2,24 +2,31 @@
 <TacticData>
 	<Weapon>
 		<Name>Needler</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>13</DamagePerSecond>
-		<WeaponType>AASmallArms</WeaponType>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>15</DamagePerSecond>
+		<WeaponType>AANeedler</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
 		<ImpactEffect size="Medium">needler_01</ImpactEffect>
 		<MaxVelocityLead>12</MaxVelocityLead>
-		<MaxRange>30</MaxRange>
+		<MaxRange>40</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>16</VisualAmmo>
-		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Air">10</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
 		<Name>InCoverNeedler</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>26</DamagePerSecond>
-		<WeaponType>AASmallArms</WeaponType>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>AANeedler</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
 		<ImpactEffect size="Medium">needler_01</ImpactEffect>
 		<MaxVelocityLead>12</MaxVelocityLead>
@@ -68,7 +75,7 @@
 		<Projectile>fx_proj_plasmaGrenade_01</Projectile>
 		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
+		<MaxRange>50</MaxRange>
 		<Accuracy>0.300000012</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
 		<MovingAccuracy>0.300000012</MovingAccuracy>
