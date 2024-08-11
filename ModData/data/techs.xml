@@ -1201,6 +1201,18 @@
 				<Target type="ProtoUnit">unsc_inf_battleodst_01</Target>
 				<Target type="ProtoUnit">unsc_inf_battleodst_02</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_marine_01</Target>
+				<Target type="ProtoUnit">unsc_inf_marine_02</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_01</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverGrenadeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_marine_01</Target>
+				<Target type="ProtoUnit">unsc_inf_marine_02</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_01</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_02</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RocketAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_marine_01</Target>
 				<Target type="ProtoUnit">unsc_inf_marine_02</Target>
@@ -3804,10 +3816,7 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_fuelrodelite_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.2" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.2" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.4" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_fuelrodelite_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">

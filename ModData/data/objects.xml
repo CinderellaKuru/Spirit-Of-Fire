@@ -34438,8 +34438,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>800</Hitpoints>
-		<Shieldpoints>800</Shieldpoints>
+		<Hitpoints>1600</Hitpoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
 		<LOS>55</LOS>
@@ -34500,7 +34499,7 @@
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
 		<Flag>DieLast</Flag>
-		<HPBar>Cov_HealthShield</HPBar>
+		<HPBar>Cov_Health</HPBar>
 	</Object>
 
 
