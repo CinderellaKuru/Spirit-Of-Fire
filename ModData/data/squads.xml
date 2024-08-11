@@ -3609,6 +3609,37 @@
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
+	<Squad name="cov_inf_sniperelite_01" formationType="Flock" dbid="911">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30057</DisplayNameID>
+		<RolloverTextID>30058</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<BuildPoints>8</BuildPoints>
+		<Cost resourcetype="Supplies">100</Cost>
+		<SubSelectSort>4600</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,8,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="2" role="normal">cov_inf_sniperelite_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 
 	<!-- Rebels -->
 	

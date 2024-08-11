@@ -4920,6 +4920,15 @@ des Echo-Teams</String>
 		<String _locID="30054" category="Techs" subtitle="false">Elite-trupps erhalten Nadelwerfer.</String>
 		<String _locID="30055" category="Techs" subtitle="false">ANFÜHRER</String>
 		<String _locID="30056" category="Techs" subtitle="false">Elite-trupps erhalten einen zusätzlichen Eliten in form einer Ehrengarde welcher die Kampfeffizienz immenz steigert.</String>
+		<String _locID="30057" category="Squads" subtitle="false">SCHARFSCHÜTZEN ELITEN</String>
+		<String _locID="30058" category="Squads" subtitle="false">Eine Einheit bestehend aus Scharfschützen-Eliten. Sie starten mit karabinern und recht schwachen schilden, können aber in beiden belangen deutlich verbessert werden.</String>
+		<String _locID="30059" category="Objects" subtitle="false">SCHARFSCHÜTZEN ELITEN</String>
+		<String _locID="30060" category="Techs" subtitle="false">PERSÖNLICHER SCHILD</String>
+		<String _locID="30061" category="Techs" subtitle="false">Scharfschützen-Eliten erhalten einen persönlichen Schild.</String>
+		<String _locID="30062" category="Techs" subtitle="false">STRAHLENGEWEHR</String>
+		<String _locID="30063" category="Techs" subtitle="false">Scharfschützen-Eliten werden mit Strahlengewehren ausgestattet.</String>
+		<String _locID="30064" category="Techs" subtitle="false">VERSTÄRKTER SCHILD</String>
+		<String _locID="30065" category="Techs" subtitle="false">Scharfschützen-Eliten erhalten einen stark verbesserten Schild welcher schaden zurückwerfen kann.</String>
 
 		<!-- Skidbladnir -->
 		
