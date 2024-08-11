@@ -4849,10 +4849,11 @@ des Echo-Teams</String>
 		<String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">Automatisch</String>
 		<String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">Schwierigkeit</String>
 
+
 		<!-- New stuff for vanilla Leaders -->
 
+
 		<String _locID="30004" category="Code" subtitle="false">Spartan</String>
-		<String _locID="30047" category="Code" subtitle="false">Sanitäter</String>
 		<String _locID="30013" category="Powers" subtitle="false">WACHTURM ABWURF</String>
 		<String _locID="30014" category="Powers" subtitle="false">Setzt einen Wachturm auf das Schlachtfeld ab</String>
 		<String _locID="30015" category="Squads" subtitle="false">Wachturm</String>
@@ -4863,15 +4864,20 @@ des Echo-Teams</String>
 		<String _locID="30044" category="Techs" subtitle="false">Erlaubt dem Sanitäter das reparieren von Fahrzeugen und Gebäuden.</String>
 		<String _locID="30045" category="Techs" subtitle="false">VERBESSERTE HEILUNG</String>
 		<String _locID="30046" category="Techs" subtitle="false">Verbessert die Fähigkeiten des Sanitäters um Heilung und Reperatur zu beschleunigen. Außerdem erhält er eine höhere Reichweite.</String>
+		<String _locID="30047" category="Code" subtitle="false">Sanitäter</String>
+
 
 		<!--Captain Cutter-->
+
 
 		<String _locID="30000" category="Powers" subtitle="false">JEROME-EINSATZ</String>
 		<String _locID="30001" category="Powers" subtitle="false">Wirft Spartan 092-Jerome auf dem Schlachtfeld ab.</String>
 		<String _locID="30002" category="Squads" subtitle="false">092-JEROME</String>
 		<String _locID="30003" category="Squads" subtitle="false">Spartan 092-Jerome ist der Anführer von Spartan Team Rot. Da er den Kampf auf Distanz bevorzugt sieht man ihn oft mit Langstreckenwaffen.</String>
 
+
 		<!--Sergeant Forge-->
+
 
 		<String _locID="30005" category="Powers" subtitle="false">DOUGLAS-EINSATZ</String>
 		<String _locID="30006" category="Powers" subtitle="false">Wirft Spartan 042-Douglas auf dem Schlachtfeld ab.</String>
@@ -4887,7 +4893,9 @@ des Echo-Teams</String>
 		<String _locID="30029" category="Techs" subtitle="false">Shotgun Placeholder3</String>
 		<String _locID="30030" category="Techs" subtitle="false"></String>
 
+
 		<!--Professor Anders-->
+
 
 		<String _locID="30009" category="Powers" subtitle="false">ALICE DROP</String>
 		<String _locID="30010" category="Powers" subtitle="false">Wirft Spartan 130-Alice auf dem Schlachtfeld ab.</String>
@@ -4909,8 +4917,46 @@ des Echo-Teams</String>
 		<String _locID="30038" category="Techs" subtitle="false">Sniper Placeholder3</String>
 		<String _locID="30039" category="Techs" subtitle="false"></String>
 
+
+		<!--Arbiter-->
+
+
+        <String _locID="30048" category="Squads" subtitle="false">ELITE SQUAD</String>
+		<String _locID="30049" category="Squads" subtitle="false">Eine Einheit bestehend aus Eliten. Sie fangen mit recht schwachen Plasmagewehren an aber können später mit einem Nadelwerfer ausgestattet werden.</String>
+		<String _locID="30050" category="Objects" subtitle="false">ELITE SQUAD</String>
+		<String _locID="30051" category="Techs" subtitle="false">GEFOLGSLEUTE</String>
+		<String _locID="30052" category="Techs" subtitle="false">Elite-trupps haben nun einen Eliten mehr.</String>
+		<String _locID="30053" category="Techs" subtitle="false">NADELWERFER</String>
+		<String _locID="30054" category="Techs" subtitle="false">Elite-trupps erhalten Nadelwerfer.</String>
+		<String _locID="30055" category="Techs" subtitle="false">ANFÜHRER</String>
+		<String _locID="30056" category="Techs" subtitle="false">Elite-trupps erhalten einen zusätzlichen Eliten in form einer Ehrengarde welcher die Kampfeffizienz immenz steigert.</String>
+
+
+		<String _locID="30057" category="Squads" subtitle="false">SCHARFSCHÜTZEN ELITEN</String>
+		<String _locID="30058" category="Squads" subtitle="false">Eine Einheit bestehend aus Scharfschützen-Eliten. Sie starten mit karabinern und recht schwachen schilden, können aber in beiden belangen deutlich verbessert werden.</String>
+		<String _locID="30059" category="Objects" subtitle="false">SCHARFSCHÜTZEN ELITEN</String>
+		<String _locID="30060" category="Techs" subtitle="false">PERSÖNLICHER SCHILD</String>
+		<String _locID="30061" category="Techs" subtitle="false">Scharfschützen-Eliten erhalten einen persönlichen Schild.</String>
+		<String _locID="30062" category="Techs" subtitle="false">STRAHLENGEWEHR</String>
+		<String _locID="30063" category="Techs" subtitle="false">Scharfschützen-Eliten werden mit Strahlengewehren ausgestattet.</String>
+		<String _locID="30064" category="Techs" subtitle="false">VERSTÄRKTER SCHILD</String>
+		<String _locID="30065" category="Techs" subtitle="false">Scharfschützen-Eliten erhalten einen stark verbesserten Schild welcher schaden zurückwerfen kann.</String>
+
+
+		<String _locID="30066" category="Squads" subtitle="false">SCHWERE ELITEN</String>
+		<String _locID="30067" category="Squads" subtitle="false">Eine Einheit bestehend aus Eliten ausgestattet mit Flakkanonen. Diese eignen sich sehr gut im Kampf gegen Fahrzeuge.</String>
+		<String _locID="30068" category="Objects" subtitle="false">SCHWERE ELITEN</String>
+		<String _locID="30069" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30070" category="Techs" subtitle="false">Health and Damage</String>
+		<String _locID="30071" category="Techs" subtitle="false">VERBESSERTE RÜSTUNG</String>
+		<String _locID="30072" category="Techs" subtitle="false">Mit dieser verbesserten Rüstung halten die Eliten viel mehr im Kampf gegen Fahrzeuge aus.</String>
+		<String _locID="30073" category="Techs" subtitle="false">VERBESSERTES ZIEHLEN</String>
+		<String _locID="30074" category="Techs" subtitle="false">Der Squad erhält eine neue Version ihrer Waffe welche wesentlich ziehlsicherer ist.</String>
+
+
 		<!-- Skidbladnir -->
 		
+
 		<String _locID="26754" category="Leaders" subtitle="false">Skidbladnir</String>
 		<String _locID="26755" category="Leaders" subtitle="false">None.</String>
 		<String _locID="26756" category="Objects" subtitle="false">FUNK STATION</String>

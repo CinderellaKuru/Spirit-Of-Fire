@@ -43,9 +43,9 @@
 	<whitePointMin>1.943</whitePointMin>
 	<whitePointMax>11.295</whitePointMax>
 	<zFogColor>174,184,194</zFogColor>
-	<zFogIntensity>4.5</zFogIntensity>
+	<zFogIntensity>1</zFogIntensity>
 	<zFogStart>140.339</zFogStart>
-	<zFogDensity>1.397</zFogDensity>
+	<zFogDensity>1</zFogDensity>
 	<planarFogColor>0,129,161</planarFogColor>
 	<planarFogIntensity>6.364</planarFogIntensity>
 	<planarFogStart>-7.987</planarFogStart>

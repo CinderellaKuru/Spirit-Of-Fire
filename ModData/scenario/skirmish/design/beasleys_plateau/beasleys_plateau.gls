@@ -45,7 +45,7 @@
 	<zFogColor>23,38,23</zFogColor>
 	<zFogIntensity>0.51</zFogIntensity>
 	<zFogStart>159.601</zFogStart>
-	<zFogDensity>4.278</zFogDensity>
+	<zFogDensity>0</zFogDensity>
 	<planarFogColor>100,161,126</planarFogColor>
 	<planarFogIntensity>0.539</planarFogIntensity>
 	<planarFogStart>-18.449</planarFogStart>
