@@ -613,21 +613,21 @@
 		<String _locID="6032" category="Abilities" subtitle="false">SHIELDS</String>
 		<String _locID="6033" category="Abilities" subtitle="false">UNPACK</String>
 		<String _locID="6034" category="Abilities" subtitle="false">UNPACK TURRET</String>
-		<String _locID="7000" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
+		<String _locID="7000" category="Leaders" subtitle="false">Captain Cutter</String>
 		<String _locID="7001" category="Leaders" subtitle="false">Unique Unit: ELEPHANT, Leader Power: MAC Blast, Super Unit: ODST, Bonus: All bases start at 1 higher tech level.</String>
-		<String _locID="7002" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
+		<String _locID="7002" category="Leaders" subtitle="false">Sergeant Forge</String>
 		<String _locID="7003" category="Leaders" subtitle="false">Unique Unit: CYCLOPS, Leader Power: Carpet Bomb, Super Unit: GRIZZLY, Bonus: Builds Heavy Supply Pads right away.</String>
-		<String _locID="7004" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
+		<String _locID="7004" category="Leaders" subtitle="false">Professor Anders</String>
 		<String _locID="7005" category="Leaders" subtitle="false">Unique Unit: GREMLIN, Leader Power: Cryo Bomb, Super Unit: HAWK, Bonus: All unit upgrades are half-price and research in half the time.</String>
 		<String _locID="7006" category="Leaders" subtitle="false" />
 		<String _locID="7007" category="Leaders" subtitle="false" />
 		<String _locID="7008" category="Leaders" subtitle="false" />
 		<String _locID="7009" category="Leaders" subtitle="false" />
-		<String _locID="7010" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
+		<String _locID="7010" category="Leaders" subtitle="false">Arbiter</String>
 		<String _locID="7011" category="Leaders" subtitle="false">Unique Unit: SUICIDE GRUNT, Leader Power: Rage</String>
-		<String _locID="7012" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
+		<String _locID="7012" category="Leaders" subtitle="false">Brute Chieftain</String>
 		<String _locID="7013" category="Leaders" subtitle="false">Unique Unit: BRUTE, BRUTE CHOPPER, Leader Power: Vortex</String>
-		<String _locID="7014" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
+		<String _locID="7014" category="Leaders" subtitle="false">Prophet of Regret</String>
 		<String _locID="7015" category="Leaders" subtitle="false">Unique Unit: ELITE HONOR GUARD, Leader Power: Cleansing</String>
 		<String _locID="7016" category="Leaders" subtitle="false" />
 		<String _locID="7017" category="Leaders" subtitle="false" />
@@ -4911,7 +4911,7 @@
 
 		<!-- Skidbladnir -->
 		
-		<String _locID="26754" category="Leaders" subtitle="false">Spirit Of Fire: Early Access</String>
+		<String _locID="26754" category="Leaders" subtitle="false">Skidbladnir</String>
 		<String _locID="26755" category="Leaders" subtitle="false">None.</String>
 		<String _locID="26756" category="Objects" subtitle="false">CALL STATION</String>
 		<String _locID="26757" category="Objects" subtitle="false"></String>
