@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>InCoverShotgun</Name>
+		<Name>InCoverShotgun1</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>125</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
@@ -24,7 +24,7 @@
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
-		<Name>Shotgun</Name>
+		<Name>Shotgun1</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>62</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
@@ -40,6 +40,52 @@
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>8</VisualAmmo>
+		<ReloadAnimation>ShotgunReload</ReloadAnimation>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>InCoverShotgun2</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>125</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_shotgun_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>12</VisualAmmo>
+		<ReloadAnimation>ShotgunReload</ReloadAnimation>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>Shotgun2</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>62</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_shotgun_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>25</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>12</VisualAmmo>
 		<ReloadAnimation>ShotgunReload</ReloadAnimation>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
@@ -67,21 +113,40 @@
 		<PhysicsForceMax>600</PhysicsForceMax>
 	</Weapon>
 	<Action>
-		<Name>InCoverShotgunAttackAction</Name>
+		<Name>InCoverShotgunAttackAction1</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>ShotgunAttack</Anim>
 		<ReloadAnim>ShotgunReload</ReloadAnim>
-		<Weapon>InCoverShotgun</Weapon>
+		<Weapon>InCoverShotgun1</Weapon>
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
 	<Action>
-		<Name>ShotgunAttackAction</Name>
+		<Name>ShotgunAttackAction1</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>ShotgunAttack</Anim>
 		<ReloadAnim>ShotgunReload</ReloadAnim>
-		<Weapon>Shotgun</Weapon>
+		<Weapon>Shotgun1</Weapon>
 		<MainAttack />
+	</Action>
+	<Action>
+		<Name>InCoverShotgunAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShotgunAttack</Anim>
+		<ReloadAnim>ShotgunReload</ReloadAnim>
+		<Weapon>InCoverShotgun2</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ShotgunAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShotgunAttack</Anim>
+		<ReloadAnim>ShotgunReload</ReloadAnim>
+		<Weapon>Shotgun2</Weapon>
+		<MainAttack />
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>SpecialAttackAction</Name>
@@ -200,17 +265,27 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>InCoverShotgunAttackAction</Action>
+			<Action>ShotgunAttackAction1</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverShotgunAttackAction1</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ShotgunAttackAction2</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverShotgunAttackAction2</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Action>SpecialAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>ShotgunAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

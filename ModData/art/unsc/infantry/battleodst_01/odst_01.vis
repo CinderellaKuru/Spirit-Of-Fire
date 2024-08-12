@@ -2,11 +2,31 @@
 <visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
 	<model name="Default">
 		<component>
+			<logic type="Variation">
+				<logicdata value="v1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\odst_01\odst_rookie_01</file>
+						<damagefile>template\defaultInfantry</damagefile>
+					</asset>
+				</logicdata>
+				<logicdata value="v2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\odst_01\odst_rookie_02</file>
+						<damagefile>template\defaultInfantry</damagefile>
+					</asset>
+				</logicdata>
+			</logic>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>unsc\infantry\odst_01\odst_01</file>
+				<file>unsc\infantry\odst_01\odst_rookie_01</file>
 				<damagefile>template\defaultInfantry</damagefile>
 			</asset>
 			<point pointType="Launch" bone="bone_launchpoint" pointData="Metal" />

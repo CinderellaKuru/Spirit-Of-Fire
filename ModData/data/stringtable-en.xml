@@ -4879,12 +4879,12 @@
 		<String _locID="30022" category="Squads" subtitle="false">SHOTGUNMARINE</String>
 		<String _locID="30023" category="Squads" subtitle="false">These anti infantry marine carry shotguns. They excel at close quarters. They can eventually be upgraded to have a rapid fire ability.</String>
 		<String _locID="30024" category="Objects" subtitle="false">SHOTGUNMARINE</String>
-		<String _locID="30025" category="Techs" subtitle="false">Shotgun Placeholder1</String>
-		<String _locID="30026" category="Techs" subtitle="false"></String>
-		<String _locID="30027" category="Techs" subtitle="false">Shotgun Placeholder2</String>
-		<String _locID="30028" category="Techs" subtitle="false"></String>
-		<String _locID="30029" category="Techs" subtitle="false">Shotgun Placeholder3</String>
-		<String _locID="30030" category="Techs" subtitle="false"></String>
+		<String _locID="30025" category="Techs" subtitle="false">RAPID FIRE ABILITY</String>
+		<String _locID="30026" category="Techs" subtitle="false">The squad gains the ability to rapid fire for shot periods of time.</String>
+		<String _locID="30027" category="Techs" subtitle="false">MORE AMMO</String>
+		<String _locID="30028" category="Techs" subtitle="false">The marines gain more ammo.</String>
+		<String _locID="30029" category="Techs" subtitle="false">BETTER TRAINING</String>
+		<String _locID="30030" category="Techs" subtitle="false">The marines receive better training to hit their shots more consistently.</String>
 
 	    <!--Professor Anders-->
 
@@ -4894,10 +4894,12 @@
 		<String _locID="30012" category="Squads" subtitle="false">Spartan 130-Alice is part of Spartan team red. She strives for challenge to the point of appearing reckless. But this impression is only brought on by her sheer confidence in her abilities. </String>
 		<String _locID="30016" category="Techs" subtitle="false">Rhino Placeholder1</String>
 		<String _locID="30017" category="Techs" subtitle="false"></String>
-		<String _locID="30018" category="Techs" subtitle="false">Rhino Placeholder2</String>
-		<String _locID="30019" category="Techs" subtitle="false"></String>
-		<String _locID="30020" category="Techs" subtitle="false">Rhino Placeholder3</String>
-		<String _locID="30021" category="Techs" subtitle="false"></String>
+		<String _locID="30018" category="Techs" subtitle="false">DEFLECTION PLATING</String>
+		<String _locID="30019" category="Techs" subtitle="false">Hardened steel plates give the Rhino extra protection when locked down.</String>
+		<String _locID="30020" category="Techs" subtitle="false">PLASMA MODULATOR</String>
+		<String _locID="30021" category="Techs" subtitle="false">Improved Plasma systems allow the Rhino to fire at much larger ranges.</String>
+
+
 		<String _locID="30031" category="Squads" subtitle="false">SNIPERMARINE</String>
 		<String _locID="30032" category="Squads" subtitle="false">These anti infantry marine carry sniperrifles. They excel at large distances. They can eventually be upgraded to have a (REDACTED) ability.</String>
 		<String _locID="30033" category="Objects" subtitle="false">SNIPERMARINE</String>

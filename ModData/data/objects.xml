@@ -5566,7 +5566,6 @@
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Flesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
-		<AbilityCommand>UnscMarineRockets</AbilityCommand>
 		<Flag>KBAware</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasTrackMask</Flag>
@@ -33203,7 +33202,7 @@
 		<AttackGradeDPS>15</AttackGradeDPS>
 		<CombatValue>0.00999999978</CombatValue>
 		<LOS>55</LOS>
-		<Pop Type="Unit">0</Pop>
+		<Pop Type="Unit">2</Pop>
 		<Bounty>0</Bounty>
 		<RamDodgeFactor>0.5</RamDodgeFactor>
 		<Veterancy Level="1" XP="1" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />

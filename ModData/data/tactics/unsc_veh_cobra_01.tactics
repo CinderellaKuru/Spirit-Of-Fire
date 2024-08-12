@@ -35,7 +35,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>LockdownArtillery</Name>
-		<DamagePerSecond>210</DamagePerSecond>
+		<DamagePerSecond>420</DamagePerSecond>
 		<WeaponType>ArmorPiercing</WeaponType>
 		<Projectile>fx_proj_Railgun_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
@@ -99,7 +99,7 @@
 	<Weapon>
 		<Name>UpgradedLockdownArtillery</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>210</DamagePerSecond>
+		<DamagePerSecond>420</DamagePerSecond>
 		<WeaponType>ArmorPiercing</WeaponType>
 		<Projectile>fx_proj_Railgun_02</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
