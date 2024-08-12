@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>Artillery</Name>
+		<Name>Artillery1</Name>
 		<AttackRate>5</AttackRate>
 		<DamagePerSecond>175</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
@@ -36,7 +36,7 @@
 		<Deflectable />
 	</Weapon>
 	<Weapon>
-		<Name>LockdownArtillery</Name>
+		<Name>LockdownArtillery1</Name>
 		<AttackRate>5</AttackRate>
 		<DamagePerSecond>275</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
@@ -67,19 +67,111 @@
 		<Dodgeable />
 		<Deflectable />
 	</Weapon>
+	<Weapon>
+		<Name>Artillery2</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>175</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_plasmaartillery_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>6</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<DamageRatingOverride type="Unarmored">0</DamageRatingOverride>
+		<DamageRatingOverride type="Air">0</DamageRatingOverride>
+		<DamageRatingOverride type="Vehicle">0</DamageRatingOverride>
+		<DamageRatingOverride type="Building">0</DamageRatingOverride>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+	<Weapon>
+		<Name>LockdownArtillery2</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>275</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_plasmaartillery_01</Projectile>
+		<ImpactEffect size="Medium">Rhinoshell</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>200</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>0</Accuracy>
+		<MaxDeviation>18</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>18</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>9</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<Hardpoint>LockDownTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
 	<Action>
-		<Name>ArtilleryAttackAction</Name>
+		<Name>ArtilleryAttackAction1</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>ArtilleryAttack</Anim>
-		<Weapon>Artillery</Weapon>
+		<Weapon>Artillery1</Weapon>
 		<MainAttack />
 	</Action>
 	<Action>
-		<Name>LockdownAttackAction</Name>
+		<Name>LockdownAttackAction1</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>LockdownArtilleryAttack</Anim>
-		<Weapon>LockdownArtillery</Weapon>
+		<Weapon>LockdownArtillery1</Weapon>
 		<MainAttack />
+	</Action>
+	<Action>
+		<Name>ArtilleryAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ArtilleryAttack</Anim>
+		<Weapon>Artillery2</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>LockdownAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LockdownArtilleryAttack</Anim>
+		<Weapon>LockdownArtillery2</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>Deflect</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.5</DeflectChanceMin>
+		<DeflectChanceMax>0.5</DeflectChanceMax>
+		<DeflectMaxAngle>180</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<MultiDeflect />
+		<SquadMode>LockDown</SquadMode>
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
@@ -129,6 +221,7 @@
 		<WorkRange>3</WorkRange>
 	</Action>
 	<Tactic>
+		<PersistentAction>Deflect</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
@@ -137,13 +230,25 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
-			<Action>ArtilleryAttackAction</Action>
+			<Action>ArtilleryAttackAction1</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
-			<Action>LockdownAttackAction</Action>
+			<Action>LockdownAttackAction1</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ArtilleryAttackAction2</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>LockdownAttackAction2</Action>
 			<SquadMode>LockDown</SquadMode>
 		</TargetRule>
 		<TargetRule>

@@ -858,6 +858,7 @@
     <Icon type="uniticon" name="Medic" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_inf_medic_01">-1</Icon>
     <Icon type="techicon" name="medicupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_medic_upgrade1">-1</Icon>
 	<Icon type="techicon" name="medicupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_medic_upgrade2">-1</Icon>
+	<Icon type="uniticon" name="MarineUpgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade2" owner="unsc_marine_upgrade2">-1</Icon>
 
     <!--Captain Cutter-->
 
