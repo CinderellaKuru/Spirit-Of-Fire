@@ -29100,6 +29100,18 @@
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
 	</Object>
+		<Object name="env_shieldinterior_Obstructed_Rock01Large_03" is="0" id="2088" dbid="3273">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>environment\shieldinterior\Rock01Large_03\Rock01Large_03.vis</Visual>
+        <Hitpoints>2000</Hitpoints>
+        <ObstructionRadiusX>12</ObstructionRadiusX>
+        <ObstructionRadiusY>3</ObstructionRadiusY>
+        <ObstructionRadiusZ>2.5</ObstructionRadiusZ>
+        <DamageType direction="Full">Heavy</DamageType>
+        <Flag>Invulnerable</Flag>
+        <Flag>ForceToGaiaPlayer</Flag>
+        <Flag>GrayMapDoppled</Flag>
+	</Object>
 	<Object name="env_shieldinterior_Rock01Medium_01" is="0" id="2089" dbid="3274">
 		<ObjectClass>Object</ObjectClass>
 		<Visual>environment\shieldinterior\Rock01Medium_01\Rock01Medium_01.vis</Visual>

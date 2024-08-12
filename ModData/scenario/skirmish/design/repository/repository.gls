@@ -85,10 +85,31 @@
     <Name>hook tunnel interior</Name>
     <Type>omni</Type>
     <Priority>127</Priority>
-    <Position>1010.211,-10.1797,448.2949</Position>
-    <Radius>20</Radius>
+    <Position>1010.211,-6.6,448.2949</Position>
+    <Radius>30</Radius>
     <Specular>true</Specular>
-    <Intensity>9</Intensity>
+    <Intensity>15</Intensity>
+    <Color>156,204,214</Color>
+    <Shadows>false</Shadows>
+    <ShadowDarkness>0.5</ShadowDarkness>
+    <Fogged>false</Fogged>
+    <FoggedShadows>false</FoggedShadows>
+    <LightBuffered>true</LightBuffered>
+    <TerrainOnly>false</TerrainOnly>
+    <FarAttnStart>0.4</FarAttnStart>
+    <DecayDist>70</DecayDist>
+    <Direction>0,-1,0</Direction>
+    <OuterAngle>70</OuterAngle>
+    <InnerAngle>40</InnerAngle>
+  </Light>
+  <Light>
+    <Name>hook tunnel interior</Name>
+    <Type>omni</Type>
+    <Priority>127</Priority>
+    <Position>57,-5.4,579.2</Position>
+    <Radius>30</Radius>
+    <Specular>true</Specular>
+    <Intensity>15</Intensity>
     <Color>156,204,214</Color>
     <Shadows>false</Shadows>
     <ShadowDarkness>0.5</ShadowDarkness>

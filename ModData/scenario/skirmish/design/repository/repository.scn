@@ -36,10 +36,10 @@
   </Diplomacies>
   <PlayerPlacement Type="Grouped" Spacing="0" />
   <Positions>
-    <Position Player="-1" Number="1" Position="655.1948,-11.0629,915.1814" Forward="0.9722856,0,-0.2337965" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="120892" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="143839" />
-    <Position Player="-1" Number="1" Position="917.4732,-11.0629,662.0211" Forward="0.5598128,0,-0.8286194" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="120891" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="143840" />
-    <Position Player="-1" Number="2" Position="379.4055,-0.1371,107.2283" Forward="-0.91502,0,0.4034085" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="120889" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="143837" />
-    <Position Player="-1" Number="2" Position="142.1772,2.7233,362.0282" Forward="-0.1235055,0,0.9923439" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="120890" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="143838" />
+    <Position Player="-1" Number="1" Position="928.3,-11.0629,921.7" Forward="0.7157237,0,-0.6983837" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="120892" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="143839" />
+    <Position Player="-1" Number="1" Position="926.4,-11.0629,103.6" Forward="-0.7857677,0,-0.6185216" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="120891" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="143840" />
+    <Position Player="-1" Number="2" Position="127.9,-0.1371,112.9" Forward="-0.8040228,0,0.5945984" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="120889" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="143837" />
+    <Position Player="-1" Number="2" Position="140.3,-8,910.5" Forward="0.5824769,0,0.8128473" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="120890" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="143838" />
     <Position Player="5" Number="5" Position="473.874,-37.797,551.9988" Forward="0,0,1" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
   </Positions>
   <Players>
@@ -84,6 +84,48 @@
   <BuildingTextureIndexCOVN>0</BuildingTextureIndexCOVN>
   <DesignObjects>
     <Spheres>
+      <Sphere ID="217063" Name="DesignSphere217063" Position="403.3,3.2,105.5" Radius="70">
+        <Data>
+          <Type>Creeps</Type>
+          <Attract>0</Attract>
+          <Repel>0</Repel>
+          <ChokePoint>0</ChokePoint>
+          <Value>0</Value>
+          <Value1 />
+          <Value2 />
+          <Value3 />
+          <Value4 />
+          <Value5 />
+          <Value6 />
+          <Value7 />
+          <Value8 />
+          <Value9 />
+          <Value10 />
+          <Value11 />
+          <Value12 />
+        </Data>
+      </Sphere>
+      <Sphere ID="217056" Name="DesignSphere217056" Position="656.7936,-11.0629,930.8187" Radius="70">
+        <Data>
+          <Type>Creeps</Type>
+          <Attract>0</Attract>
+          <Repel>0</Repel>
+          <ChokePoint>0</ChokePoint>
+          <Value>0</Value>
+          <Value1 />
+          <Value2 />
+          <Value3 />
+          <Value4 />
+          <Value5 />
+          <Value6 />
+          <Value7 />
+          <Value8 />
+          <Value9 />
+          <Value10 />
+          <Value11 />
+          <Value12 />
+        </Data>
+      </Sphere>
       <Sphere ID="217012" Name="DesignSphere217012" Position="990.6178,-11.0629,446.9346" Radius="20">
         <Data>
           <Type>Creeps</Type>
@@ -189,7 +231,7 @@
           <Value12 />
         </Data>
       </Sphere>
-      <Sphere ID="217056" Name="DesignSphere217056" Position="913.5526,-11.0629,124.012" Radius="70">
+      <Sphere ID="217056" Name="DesignSphere217056" Position="918.6898,-11.0629,662.5122" Radius="70">
         <Data>
           <Type>Creeps</Type>
           <Attract>0</Attract>
@@ -210,7 +252,7 @@
           <Value12 />
         </Data>
       </Sphere>
-      <Sphere ID="217063" Name="DesignSphere217063" Position="144.8837,-9.3854,904.9651" Radius="70">
+      <Sphere ID="217063" Name="DesignSphere217063" Position="138.1,3.2,336.4" Radius="70">
         <Data>
           <Type>Creeps</Type>
           <Attract>0</Attract>
@@ -246,25 +288,23 @@
   <Objects>
     <Object IsSquad="false" Player="1" ID="121075" TintValue="1" EditorName="fx_proj_bomb_01_121075" Position="1003.656,-11.0629,454.515" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_proj_bomb_01<Flag>NoTieToGround</Flag></Object>
     <Object IsSquad="false" Player="1" ID="121076" TintValue="1" EditorName="fx_proj_bomb_01_121076" Position="998.7147,-11.0625,454.6701" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_proj_bomb_01<Flag>NoTieToGround</Flag></Object>
-    <Object IsSquad="false" Player="0" ID="120611" TintValue="1" EditorName="game_base_Socket_01_120611" Position="743.813,-38.2327,306.7007" Forward="-0.6878,0,-0.7259003" Right="-0.7259003,0,0.6878" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
-    <Object IsSquad="false" Player="0" ID="120609" TintValue="1" EditorName="game_base_Socket_01_120609" Position="149.1102,-9.3854,902.9008" Forward="0.7900033,0,0.6131026" Right="0.6131026,0,-0.7900033" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
-    <Object IsSquad="false" Player="0" ID="120628" TintValue="1" EditorName="game_base_Socket_01_120628" Position="916.9097,-11.0629,920.6913" Forward="0.6878,0,-0.7259003" Right="-0.7259003,0,-0.6878" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
-    <Object IsSquad="false" Player="0" ID="120610" TintValue="1" EditorName="game_base_Socket_01_120610" Position="319.0101,-38.2327,720.361" Forward="0.7572412,0,0.6531354" Right="0.6531354,0,-0.7572412" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
-    <Object IsSquad="false" Player="0" ID="120612" TintValue="1" EditorName="game_base_Socket_01_120612" Position="913.7117,-11.0629,123.9304" Forward="-0.7568231,0,-0.6536199" Right="-0.6536199,0,0.7568231" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
-    <Object IsSquad="false" Player="0" ID="120629" TintValue="1" EditorName="game_base_Socket_01_120629" Position="150.7067,-3.9708,129.6021" Forward="-0.7290069,0,0.6845063" Right="0.6845063,0,0.7290069" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+    <Object IsSquad="false" Player="0" ID="120611" TintValue="1" EditorName="game_base_Socket_01_120611" Position="743.813,-38.2327,306.7007" Forward="-0.6877999,0,-0.7259004" Right="-0.7259004,0,0.6877999" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+    <Object IsSquad="false" Player="0" ID="120609" TintValue="1" EditorName="game_base_Socket_01_120609" Position="134.6,7,347" Forward="0.3521749,0,-0.9359343" Right="-0.9359343,0,-0.3521749" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+    <Object IsSquad="false" Player="0" ID="120610" TintValue="1" EditorName="game_base_Socket_01_120610" Position="319.0101,-38.2327,720.361" Forward="0.7572409,0,0.6531357" Right="0.6531357,0,-0.7572409" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+    <Object IsSquad="false" Player="0" ID="120612" TintValue="1" EditorName="game_base_Socket_01_120612" Position="918.8489,-11.0629,662.4306" Forward="0.1044697,0,-0.9945282" Right="-0.9945282,0,-0.1044697" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
     <Object IsSquad="false" Player="0" ID="120618" TintValue="1" EditorName="hook_store_sentinel_01_120618" Position="512.3649,-37.3976,511.3611" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">hook_store_sentinel_01<Flag>NoTieToGround</Flag></Object>
     <Object IsSquad="false" Player="0" ID="217014" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217014" Position="988.0973,-11.0629,442.4183" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="217050" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217050" Position="692.7239,-38.2327,339.8249" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="217028" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217028" Position="563.6435,-37.797,517.3583" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="217044" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217044" Position="348.8033,-38.2327,668.4482" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="217024" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217024" Position="64.6047,-9.2926,587.2178" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
-    <Object IsSquad="false" Player="0" ID="217064" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217064" Position="194.9382,-9.3854,875.4202" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
-    <Object IsSquad="false" Player="0" ID="217057" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217057" Position="868.3493,-11.0629,165.5373" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+    <Object IsSquad="false" Player="0" ID="217064" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217064" Position="190.1141,4.7,366.9348" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+    <Object IsSquad="false" Player="0" ID="217057" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217057" Position="873.4865,-11.0629,704.0375" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="217043" TintValue="1" EditorName="sys_creepReward_medium_01_217043" Position="363.6342,-38.2299,680.2606" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="217029" TintValue="1" EditorName="sys_creepReward_medium_01_217029" Position="531.2631,-37.7969,490.291" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
-    <Object IsSquad="false" Player="0" ID="217065" TintValue="1" EditorName="sys_creepReward_medium_01_217065" Position="192.6591,-9.3854,862.491" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+    <Object IsSquad="false" Player="0" ID="217065" TintValue="1" EditorName="sys_creepReward_medium_01_217065" Position="187.835,4.7,354.0056" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="217051" TintValue="1" EditorName="sys_creepReward_medium_01_217051" Position="706.6229,-38.2327,354.2869" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
-    <Object IsSquad="false" Player="0" ID="217058" TintValue="1" EditorName="sys_creepReward_medium_01_217058" Position="873.5812,-11.0629,177.658" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+    <Object IsSquad="false" Player="0" ID="217058" TintValue="1" EditorName="sys_creepReward_medium_01_217058" Position="878.7184,-11.0629,716.1582" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="217023" TintValue="1" EditorName="sys_creepReward_small_01_217023" Position="63.9203,-9.2926,579.2136" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
     <Object IsSquad="false" Player="0" ID="217019" TintValue="1" EditorName="sys_creepReward_small_01_217019" Position="990.0599,-11.0629,449.6201" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
     <Object IsSquad="false" Player="0" ID="217040" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217040" Position="557.724,-37.797,497.3405" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
@@ -272,22 +312,36 @@
     <Object IsSquad="false" Player="0" ID="217037" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217037" Position="468.0158,-37.797,529.0052" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217038" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217038" Position="529.9724,-37.797,463.9545" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217039" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217039" Position="509.4481,-37.797,559.3243" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
-    <Object IsSquad="false" Player="0" ID="217143" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217143" Position="183.9442,-9.3854,885.273" Forward="0.9995737,0,-0.02919948" Right="-0.02919948,0,-0.9995737" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217143" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217143" Position="179.1201,4.7,376.7876" Forward="0.9995737,0,-0.02919948" Right="-0.02919948,0,-0.9995737" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217156" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217156" Position="68.1392,-9.2926,571.924" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217146" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217146" Position="336.1592,-38.2327,748.3898" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
-    <Object IsSquad="false" Player="0" ID="217144" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217144" Position="177.6241,-9.3854,874.7854" Forward="0.9995737,0,-0.02919948" Right="-0.02919948,0,-0.9995737" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217144" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217144" Position="172.8,4.7,366.3" Forward="0.9994776,0.01400074,-0.02913043" Right="-0.02927759,0.01042364,-0.9995171" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="120609" TintValue="1" EditorName="game_base_Socket_01_120609 (1)" Position="392.2537,7,103.8923" Forward="0.9937453,0,-0.1116709" Right="-0.1116709,0,-0.9937453" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+    <Object IsSquad="false" Player="0" ID="217064" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217064 (1)" Position="382.2531,4.7,162.0231" Forward="-0.9848331,0,0.1735044" Right="0.1735044,0,0.9848331" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+    <Object IsSquad="false" Player="0" ID="217065" TintValue="1" EditorName="sys_creepReward_medium_01_217065 (1)" Position="394.5908,4.7,157.5353" Forward="-0.9848331,0,0.1735044" Right="0.1735044,0,0.9848331" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+    <Object IsSquad="false" Player="0" ID="217143" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217143 (1)" Position="370.6422,4.7,152.9054" Forward="0.2021888,0,0.9793466" Right="0.9793466,0,-0.2021888" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217144" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217144 (1)" Position="379.8743,4.7,144.8616" Forward="0.2021041,0.01400077,0.979264" Right="0.9792773,0.01042366,-0.2022559" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217141" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217141 (1)" Position="352.7138,4.7,163.2383" Forward="0.2021888,0,0.9793466" Right="0.9793466,0,-0.2021888" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217142" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217142 (1)" Position="360.1998,4.7,161.5542" Forward="0.2021888,0,0.9793466" Right="0.9793466,0,-0.2021888" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217145" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217145" Position="349.3553,-38.2327,738.7357" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
-    <Object IsSquad="false" Player="0" ID="217141" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217141" Position="191.0096,-9.3854,904.7222" Forward="0.9995737,0,-0.02919948" Right="-0.02919948,0,-0.9995737" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
-    <Object IsSquad="false" Player="0" ID="217142" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217142" Position="190.6499,-9.3854,897.0577" Forward="0.9995737,0,-0.02919948" Right="-0.02919948,0,-0.9995737" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217141" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217141" Position="186.1855,4.7,396.2368" Forward="0.9995737,0,-0.02919948" Right="-0.02919948,0,-0.9995737" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217142" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217142" Position="185.8258,4.7,388.5723" Forward="0.9995737,0,-0.02919948" Right="-0.02919948,0,-0.9995737" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217147" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217147" Position="775.6205,-38.2327,342.9381" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217153" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217153" Position="986.9321,-11.0629,457.572" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
-    <Object IsSquad="false" Player="0" ID="217152" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217152" Position="864.0628,-11.0627,115.6998" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217152" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217152" Position="869.2,-11.0627,654.2" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="120612" TintValue="1" EditorName="game_base_Socket_01_120612 (1)" Position="656.9011,-11.0629,930.9619" Forward="-0.9974436,0,0.07145828" Right="0.07145828,0,0.9974436" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+    <Object IsSquad="false" Player="0" ID="217057" TintValue="1" EditorName="sys_creepDifficulty_medium_01_217057 (1)" Position="608.2944,-11.0629,893.1962" Forward="-0.9859198,0,0.1672191" Right="0.1672191,0,0.9859198" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+    <Object IsSquad="false" Player="0" ID="217058" TintValue="1" EditorName="sys_creepReward_medium_01_217058 (1)" Position="597.2195,-11.0629,900.3809" Forward="-0.9859198,0,0.1672191" Right="0.1672191,0,0.9859198" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+    <Object IsSquad="false" Player="0" ID="217152" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217152 (1)" Position="656.7135,-11.0627,880.6357" Forward="-0.9859198,0,0.1672191" Right="0.1672191,0,0.9859198" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217151" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217151 (1)" Position="635.1241,-11.0629,886.1838" Forward="-0.9859198,0,0.1672191" Right="0.1672191,0,0.9859198" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217150" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217150 (1)" Position="617.9535,-11.0629,897.9708" Forward="-0.9859198,0,0.1672191" Right="0.1672191,0,0.9859198" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217149" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217149 (1)" Position="609.7,-11.0629,915.6" Forward="-0.9859198,0,0.1672191" Right="0.1672191,0,0.9859198" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217155" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217155" Position="69.6407,-9.2926,589.8754" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
-    <Object IsSquad="false" Player="0" ID="217151" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217151" Position="865.9224,-11.0629,137.913" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
-    <Object IsSquad="false" Player="0" ID="217150" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217150" Position="874.6719,-11.0629,156.8123" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217151" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217151" Position="871.0596,-11.0629,676.4132" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217150" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217150" Position="879.8091,-11.0629,695.3125" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217148" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217148" Position="747.5649,-38.2327,350.4508" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217154" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217154" Position="980.7518,-11.0629,439.5647" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
-    <Object IsSquad="false" Player="0" ID="217149" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217149" Position="890.6732,-11.0629,167.8984" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+    <Object IsSquad="false" Player="0" ID="217149" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_217149" Position="895.8104,-11.0629,706.3986" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
     <Object IsSquad="false" Player="0" ID="217004" TintValue="1" EditorName="sys_marker_crate3A_01_217004" Position="236.0927,2.9567,270.3687" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
     <Object IsSquad="false" Player="0" ID="217009" TintValue="1" EditorName="sys_marker_crate3A_01_217009" Position="749.9353,-8.1509,114.1436" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
     <Object IsSquad="false" Player="0" ID="217006" TintValue="1" EditorName="sys_marker_crate3A_01_217006" Position="498.2443,-37.7751,314.7935" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
@@ -303,7 +357,7 @@
     <Object IsSquad="false" Player="0" ID="217000" TintValue="1" EditorName="sys_marker_crate3A_01_217000" Position="308.1111,-1.5928,949.7476" Forward="0.644228,0,0.7648335" Right="0.7648335,0,-0.644228" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
     <Object IsSquad="false" Player="0" ID="217007" TintValue="1" EditorName="sys_marker_crate3A_01_217007" Position="303.9088,-34.8658,449.78" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
     <Object IsSquad="false" Player="0" ID="217002" TintValue="1" EditorName="sys_marker_crate3A_01_217002" Position="116.363,-4.7601,701.0984" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
-    <Object IsSquad="false" Player="0" ID="216998" TintValue="1" EditorName="sys_marker_crate3A_01_216998" Position="808.4143,-10.7048,742.9072" Forward="0.948993,0,0.3152974" Right="0.3152974,0,-0.948993" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="216998" TintValue="1" EditorName="sys_marker_crate3A_01_216998" Position="808.4143,-10.7048,742.9072" Forward="0.9489928,0,0.3152974" Right="0.3152974,0,-0.9489928" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
     <Object IsSquad="false" Player="0" ID="217032" TintValue="1" EditorName="sys_marker_crate3A_01_217032" Position="575.7023,-37.797,514.5116" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
     <Object IsSquad="false" Player="0" ID="216997" TintValue="1" EditorName="sys_marker_crate3A_01_216997" Position="921.6877,-11.0629,506.0273" Forward="0.9974977,0,0.07069963" Right="0.07069963,0,-0.9974977" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
     <Object IsSquad="false" Player="0" ID="217079" TintValue="1" EditorName="sys_marker_crate3B_01_217079" Position="487.9228,-37.797,488.2578" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
@@ -354,14 +408,14 @@
     <Object IsSquad="false" Player="0" ID="217117" TintValue="1" EditorName="sys_marker_crate3C_01_217117" Position="594.2987,-37.7969,690.1703" Forward="0.5646302,0,0.825344" Right="0.825344,0,-0.5646302" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
     <Object IsSquad="false" Player="0" ID="217001" TintValue="1" EditorName="sys_marker_crate5_01_217001" Position="119.031,-10.3118,827.6519" Forward="0.3893889,0,0.9210734" Right="0.9210734,0,-0.3893889" Group="-1" VisualVariationIndex="0">sys_marker_crate5_01</Object>
     <Object IsSquad="false" Player="0" ID="217010" TintValue="1" EditorName="sys_marker_crate5_01_217010" Position="929.6725,-11.0629,233.5787" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate5_01</Object>
-    <Object IsSquad="false" Player="1" ID="143839" TintValue="1" EditorName="sys_rallystart_01_143839" Position="725.59,-11.0629,825.2172" Forward="-0.1653071,0,0.9862421" Right="0.9862421,0,0.1653071" Group="-1" VisualVariationIndex="0">sys_rallystart_01</Object>
-    <Object IsSquad="false" Player="1" ID="143840" TintValue="1" EditorName="sys_rallystart_01_143840" Position="823.6664,-11.0749,710.6978" Forward="-0.04519901,0,0.998978" Right="0.998978,0,0.04519901" Group="-1" VisualVariationIndex="0">sys_rallystart_01</Object>
-    <Object IsSquad="false" Player="1" ID="143838" TintValue="1" EditorName="sys_rallystart_01_143838" Position="248.5321,1.7796,306.9277" Forward="0.625792,0,0.77999" Right="0.77999,0,-0.625792" Group="-1" VisualVariationIndex="0">sys_rallystart_01</Object>
-    <Object IsSquad="false" Player="1" ID="143837" TintValue="1" EditorName="sys_rallystart_01_143837" Position="317.5336,0.056,202.8479" Forward="-0.1549046,0,0.9879294" Right="0.9879294,0,0.1549046" Group="-1" VisualVariationIndex="0">sys_rallystart_01</Object>
-    <Object IsSquad="false" Player="1" ID="120890" TintValue="1" EditorName="sys_unitstart_01_120890" Position="232.2697,1.7297,324.8732" Forward="0.625792,0,0.77999" Right="0.77999,0,-0.625792" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
-    <Object IsSquad="false" Player="1" ID="120891" TintValue="1" EditorName="sys_unitstart_01_120891" Position="830.021,-11.1228,657.5623" Forward="-0.04519901,0,0.998978" Right="0.998978,0,0.04519901" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
-    <Object IsSquad="false" Player="1" ID="120892" TintValue="1" EditorName="sys_unitstart_01_120892" Position="669.0448,-11.0629,832.0126" Forward="-0.1653071,0,0.9862421" Right="0.9862421,0,0.1653071" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
-    <Object IsSquad="false" Player="1" ID="120889" TintValue="1" EditorName="sys_unitstart_01_120889" Position="378.2014,-0.0497,194.8787" Forward="-0.1549046,0,0.9879294" Right="0.9879294,0,0.1549046" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
+    <Object IsSquad="false" Player="1" ID="143839" TintValue="1" EditorName="sys_rallystart_01_143839" Position="846,-11.0629,845.4" Forward="-0.1653071,0,0.9862421" Right="0.9862421,0,0.1653071" Group="-1" VisualVariationIndex="0">sys_rallystart_01</Object>
+    <Object IsSquad="false" Player="1" ID="143840" TintValue="1" EditorName="sys_rallystart_01_143840" Position="855.9,-11.0749,189.8" Forward="-0.04519901,0,0.998978" Right="0.998978,0,0.04519901" Group="-1" VisualVariationIndex="0">sys_rallystart_01</Object>
+    <Object IsSquad="false" Player="1" ID="143838" TintValue="1" EditorName="sys_rallystart_01_143838" Position="172.6,1.7796,170.9" Forward="0.625792,0,0.77999" Right="0.77999,0,-0.625792" Group="-1" VisualVariationIndex="0">sys_rallystart_01</Object>
+    <Object IsSquad="false" Player="1" ID="143837" TintValue="1" EditorName="sys_rallystart_01_143837" Position="213,0.056,869.4" Forward="-0.1549046,0,0.9879294" Right="0.9879294,0,0.1549046" Group="-1" VisualVariationIndex="0">sys_rallystart_01</Object>
+    <Object IsSquad="false" Player="1" ID="120890" TintValue="1" EditorName="sys_unitstart_01_120890" Position="127.7,-6.8,855.5" Forward="0.625792,0,0.77999" Right="0.77999,0,-0.625792" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
+    <Object IsSquad="false" Player="1" ID="120891" TintValue="1" EditorName="sys_unitstart_01_120891" Position="865.6,-11.1228,201.5" Forward="-0.04519901,0,0.998978" Right="0.998978,0,0.04519901" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
+    <Object IsSquad="false" Player="1" ID="120892" TintValue="1" EditorName="sys_unitstart_01_120892" Position="841.1,-11.0629,872.7" Forward="-0.1653071,0,0.9862421" Right="0.9862421,0,0.1653071" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
+    <Object IsSquad="false" Player="1" ID="120889" TintValue="1" EditorName="sys_unitstart_01_120889" Position="196.2,-1.6,149.8" Forward="-0.1549046,0,0.9879294" Right="0.9879294,0,0.1549046" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
   </Objects>
   <Lights />
   <TriggerSystem Name="Repository" Type="Scenario" NextTriggerVarID="1468" NextTriggerID="259" NextConditionID="178" NextEffectID="260" External="false">
