@@ -912,6 +912,12 @@
 	<Icon type="techicon" name="gruntUPG1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_grunt_upgrade1" owner="cov_brutegrunt_upgrade1">-1</Icon>
 	<Icon type="techicon" name="gruntUPG2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_grunt_upgrade2" owner="cov_brutegrunt_upgrade2">-1</Icon>
 	<Icon type="techicon" name="gruntUPG3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_grunt_upgrade3" owner="cov_brutegrunt_Upgrade3">-1</Icon>
+
+	<!--Prophet of Regret-->
+
+    <Icon type="uniticon" name="goliath" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_goliath_01" owner="cov_inf_goliath_01">-1</Icon>
+    <Icon type="techicon" name="covsnipereliteupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_goliath_01" owner="cov_goliath_upgrade1">-1</Icon>
+	<Icon type="techicon" name="covsnipereliteupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_goliath_01" owner="cov_goliath_upgrade2">-1</Icon>
     
 	<!-- Skidbladnir -->
 

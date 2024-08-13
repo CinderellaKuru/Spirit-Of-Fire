@@ -5322,7 +5322,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
-		<AbilityCommand>UnscCyclopsThrow</AbilityCommand>
+		<AbilityCommand>CovJumppack</AbilityCommand>
 		<Flag>KBAware</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>
@@ -8252,10 +8252,11 @@
 		<Command Type="TrainSquad" Position="1">cov_inf_grunt_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_brutegrunt_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_arbyelite_01</Command>
-		<Command Type="TrainSquad" Position="2">cov_inf_jackal_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_sniperelite_01</Command>
-		<Command Type="TrainSquad" Position="3">cov_inf_hunter_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_jackal_01</Command>
 		<Command Type="TrainSquad" Position="3">cov_inf_fuelrodelite_01</Command>
+		<Command Type="TrainSquad" Position="3">cov_inf_hunter_01</Command>
+		<Command Type="TrainSquad" Position="3">cov_inf_goliath_01</Command>
 		<Command Type="Research" Position="7">cov_grunt_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_grunt_upgrade2</Command>
 		<Command Type="Research" Position="7">cov_grunt_upgrade3</Command>
@@ -8269,10 +8270,10 @@
 		<Command Type="Research" Position="6">cov_jackal_upgrade3</Command>
 		<Command Type="Research" Position="6">cov_sniperelite_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_sniperelite_upgrade3</Command>
-		<Command Type="Research" Position="5">cov_hunter_upgrade1</Command>
 		<Command Type="Research" Position="5">cov_hunter_upgrade2</Command>
 		<Command Type="Research" Position="5">cov_hunter_upgrade3</Command>
-		<Command Type="Research" Position="5">cov_fuelrodelite_upgrade1</Command>
+		<Command Type="Research" Position="5">cov_goliath_upgrade2</Command>
+		<Command Type="Research" Position="5">cov_goliath_upgrade3</Command>
 		<Command Type="Research" Position="5">cov_fuelrodelite_upgrade2</Command>
 		<Command Type="Research" Position="5">cov_fuelrodelite_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
@@ -34511,6 +34512,75 @@
 		<Flag>Repairable</Flag>
 		<Flag>DieLast</Flag>
 		<HPBar>Cov_Health</HPBar>
+	</Object>
+
+    <!--Prophet of Regret-->
+
+	<Object name="cov_inf_goliath_01" id="0" dbid="1150">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry\goliath_01\goliath_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>30077</DisplayNameID>
+		<RolloverTextID>10169</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>20</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>7500</Hitpoints>
+		<AttackGradeDPS>250</AttackGradeDPS>
+		<CombatValue>10</CombatValue>
+		<Pop Type="Unit">2</Pop>
+		<LOS>55</LOS>
+		<Bounty>40</Bounty>
+		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="60" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="108" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AmmoMax>130</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_goliath_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<PickRadius>4</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4301</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_hunter_birth</Sound>
+		<Sound Type="Death">play_cov_hunter_vo_death</Sound>
+		<Sound Type="Pain">play_cov_hunter_vo_hit</Sound>
+		<Sound Type="Select">play_cov_hunter_select</Sound>
+		<Sound Type="Work">play_cov_hunter_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_hunter_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_hunter.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>Infantry</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<SurfaceType>HunterFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
 	</Object>
 
 

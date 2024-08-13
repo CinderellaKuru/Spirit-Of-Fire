@@ -317,7 +317,7 @@
 	<Icon type="techicon" name="flameMarineupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_flameMarine_upgrade2" owner="unsc_flameMarine_upgrade2">-1</Icon>
 	<Icon type="techicon" name="flameMarineupgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_flameMarine_upgrade3" owner="unsc_flameMarine_upgrade3">-1</Icon>
 	<Icon type="techicon" name="unsc_cyclops_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_cyclops_upgrade1" owner="unsc_cyclops_upgrade1">-1</Icon>
-	<Icon type="techicon" name="unsc_cyclops_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_cyclops_upgrade2" owner="unsc_cyclops_upgrade2">-1</Icon>
+	<Icon type="techicon" name="unsc_cyclops_upgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_brute_upgrade2" owner="unsc_cyclops_upgrade2">-1</Icon>
 	<Icon type="techicon" name="unsc_cyclops_upgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_cyclops_upgrade3" owner="unsc_cyclops_upgrade3">-1</Icon>
 	<Icon type="techicon" name="GrizzlyUpgrade0" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_grizzly_upgrade0" owner="unsc_grizzly_upgrade0">-1</Icon>
 	<Icon type="techicon" name="GrizzlyUpgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_grizzly_upgrade1" owner="unsc_grizzly_upgrade1">-1</Icon>
@@ -904,6 +904,18 @@
     <Icon type="techicon" name="covsnipereliteupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_eliteCommando_Upgrade3" owner="cov_fuelrodelite_upgrade1">-1</Icon>
 	<Icon type="techicon" name="covsnipereliteupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_jackal_upgrade2" owner="cov_fuelrodelite_upgrade2">-1</Icon>
 	<Icon type="techicon" name="covsnipereliteupgrade3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_tech_shieldRecharge" owner="cov_fuelrodelite_upgrade3">-1</Icon>-->
+
+	<!--Brute-->
+
+	<Icon type="techicon" name="gruntUPG1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_grunt_upgrade1" owner="cov_brutegrunt_upgrade1">-1</Icon>
+	<Icon type="techicon" name="gruntUPG2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_grunt_upgrade2" owner="cov_brutegrunt_upgrade2">-1</Icon>
+	<Icon type="techicon" name="gruntUPG3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_grunt_upgrade3" owner="cov_brutegrunt_Upgrade3">-1</Icon>
+
+	<!--Prophet of Regret-->
+
+    <Icon type="uniticon" name="goliath" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_goliath_01" owner="cov_inf_goliath_01">-1</Icon>
+    <Icon type="techicon" name="covsnipereliteupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_goliath_01" owner="cov_goliath_upgrade1">-1</Icon>
+	<Icon type="techicon" name="covsnipereliteupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_goliath_01" owner="cov_goliath_upgrade2">-1</Icon>
 
 	<!-- Skidbladnir -->
 

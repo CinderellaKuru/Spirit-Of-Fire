@@ -31,7 +31,7 @@
 				<file>covenant\infantry\elite_01\idle_03</file>
 				<weight>20</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
@@ -39,7 +39,7 @@
 				<file>covenant\infantry\elite_01\walk_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
@@ -47,7 +47,7 @@
 				<file>covenant\infantry\elite_01\jog_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
@@ -55,7 +55,7 @@
 				<file>covenant\infantry\elite_01\run_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="EvadeLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="">
@@ -71,7 +71,7 @@
 				<file>covenant\infantry\elite_01\dive_left_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="EvadeRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
@@ -87,7 +87,7 @@
 				<file>covenant\infantry\elite_01\dive_right_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
@@ -135,7 +135,7 @@
 				<file>covenant\infantry\elite_01\stunned_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
@@ -143,7 +143,7 @@
 				<file>covenant\infantry\elite_01\idle_02</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
@@ -152,7 +152,7 @@
 				<file>covenant\infantry\elite_01\idle_02</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="">
@@ -161,7 +161,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="PlasmaGrenadeAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
@@ -170,7 +170,7 @@
 				<weight>1</weight>
 				<tag type="Attack" start="0" position="0.340000004" end="1" tobone="Bip01 L Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="PlasmaRifleAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="PlasmaRifleAttack">
@@ -222,7 +222,7 @@
 				<tag type="Particle" start="0" position="0.400000006" end="1" name="effects\Unit_FX\cov\elite\plasmamuzzleblast_01" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.402999997" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="PlasmaRifleReload" exitAction="Loop" tweenTime="10" tweenToAnimation="PlasmaRifleAttack">
@@ -238,7 +238,7 @@
 				<file>covenant\infantry\elite_01\combat_action_03</file>
 				<weight>20</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Support" exitAction="Transition" tweenTime="10" tweenToAnimation="PlasmaRifleAttack">
@@ -254,7 +254,7 @@
 				<file>covenant\infantry\elite_01\combat_action_03</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalPlasmaRifle</meshEnable>
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\plasmarifleEnd_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="DeathByFire" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
@@ -900,5 +900,15 @@
 				<weight>1</weight>
 			</asset>
 		</anim>
+	</model>
+	<model name="Weapon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\infantry\weapons_01\plasma_rifle_01\plasma_rifle_01</file>
+			</asset>
+		</component>
 	</model>
 </visual>

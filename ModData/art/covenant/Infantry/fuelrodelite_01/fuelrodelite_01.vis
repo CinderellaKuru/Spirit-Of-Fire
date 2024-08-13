@@ -6,7 +6,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>covenant\infantry\elite_01\elite_01</file>
+				<file>covenant\infantry\elite_01\eliteBlades_01</file>
 				<damagefile>template\defaultInfantry</damagefile>
 			</asset>
 			<point pointType="Impact" bone="Bip01 Spine1" pointData="Metal" />

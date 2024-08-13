@@ -982,8 +982,8 @@
 		<String _locID="22362" category="Campaign" scenario="9" subtitle="false">Verstärken Sie das Spartan-Team Rot</String>
 		<String _locID="22363" category="Techs" subtitle="false">CYCLOPS 1</String>
 		<String _locID="22364" category="Techs" subtitle="false">Verbessert vorerst die Verteidigung und das Schadenspotenzial von Cyclops.</String>
-		<String _locID="22365" category="Techs" subtitle="false">REPARATURSET</String>
-		<String _locID="22366" category="Techs" subtitle="false">Stattet jeden Cyclops mit Werkzeugen zum Reparieren mechanisierter Einheiten und Gebäude aus.</String>
+		<String _locID="22365" category="Techs" subtitle="false">SPRUNGPACK</String>
+		<String _locID="22366" category="Techs" subtitle="false">Aktiviert die Fähigkeit ''Sprung-Pack'', mit der Cyclops das Schlachtfeld schnell überqueren können.</String>
 		<String _locID="22367" category="Techs" subtitle="false">HOCHFLEXIBLE VERB.</String>
 		<String _locID="22368" category="Techs" subtitle="false">Drastisch verbesserte Mobilitätssysteme, die die Bewegungsgeschwindigkeit jedes Cyclops erhöht.</String>
 		<String _locID="22369" category="Skirmish" subtitle="false">Durchqueren Sie mit Ihrem Transportschiff den Raum und treten Sie gegen Spieler anderer Plattformen an. Verlieren Sie die Lufthoheit, könnte das den Krieg zu Ihren Ungunsten beenden.</String>
@@ -4954,6 +4954,20 @@ des Echo-Teams</String>
 		<String _locID="30072" category="Techs" subtitle="false">Mit dieser verbesserten Rüstung halten die Eliten viel mehr im Kampf gegen Fahrzeuge aus.</String>
 		<String _locID="30073" category="Techs" subtitle="false">VERBESSERTES ZIEHLEN</String>
 		<String _locID="30074" category="Techs" subtitle="false">Der Squad erhält eine neue Version ihrer Waffe welche wesentlich ziehlsicherer ist.</String>
+
+
+	    <!--Prophet of Regret-->
+
+
+		<String _locID="30075" category="Squads" subtitle="false">GOLIATH</String>
+		<String _locID="30076" category="Squads" subtitle="false">Eine gigantische Nahkampfversion des Jägers. Perfekt um Gebäude in sekundenschnelle zu zerschlagen.</String>
+		<String _locID="30077" category="Objects" subtitle="false">GOLIATH</String>
+		<String _locID="30078" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30079" category="Techs" subtitle="false">Health and Damage</String>
+		<String _locID="30080" category="Techs" subtitle="false">VERBUNDENER SCHILD</String>
+		<String _locID="30081" category="Techs" subtitle="false">Stattet jeden Goliath mit einem riesigen Schild aus, der viele Projektile abprallen lässt.</String>
+		<String _locID="30082" category="Techs" subtitle="false">HOCHFLEXIBLE VERB.</String>
+		<String _locID="30083" category="Techs" subtitle="false">Drastisch verbesserte Mobilitätssysteme, die die Bewegungsgeschwindigkeit jedes Goliaths erhöht.</String>
 
 
 		<!-- Skidbladnir -->
