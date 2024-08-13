@@ -4950,6 +4950,17 @@
 		<!--Prophet of Regret-->
 
 
+		<String _locID="30084" category="Squads" subtitle="false">NEEDLER ELITES</String>
+		<String _locID="30085" category="Squads" subtitle="false">A pair of Elites with needlers. With upgrades they can blow up enemy infantry.</String>
+		<String _locID="30086" category="Objects" subtitle="false">NEEDLER ELITES</String>
+		<String _locID="30087" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30088" category="Techs" subtitle="false">Health and Damage</String>
+		<String _locID="30089" category="Techs" subtitle="false">SUPERCOMBINE</String>
+		<String _locID="30090" category="Techs" subtitle="false">When enough needles hit an enemy, they explode in a pink cloud of death.</String>
+		<String _locID="30091" category="Techs" subtitle="false">STRONGER SHIELD</String>
+		<String _locID="30092" category="Techs" subtitle="false">Shields are massively improved to allow projectiles to bounce off.</String>
+
+
 		<String _locID="30075" category="Squads" subtitle="false">GOLIATH</String>
 		<String _locID="30076" category="Squads" subtitle="false">A large Melee variant of Hunters. They shred buildings within seconds.</String>
 		<String _locID="30077" category="Objects" subtitle="false">GOLIATH</String>

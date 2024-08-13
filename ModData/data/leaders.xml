@@ -177,10 +177,10 @@
 		<FlashImg>prophet</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">80000</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">3</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="55,0,0">cov_inf_grunt_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">cov_inf_grunt_01</StartingSquad>

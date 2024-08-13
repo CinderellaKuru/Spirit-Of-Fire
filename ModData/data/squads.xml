@@ -3871,6 +3871,33 @@
 
 	<!--Prophet of Regret-->
 
+	<Squad name="cov_inf_needlerElite_01" formationType="Flock" dbid="3014">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30084</DisplayNameID>
+		<RolloverTextID>30085</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<SubSelectSort>4002</SubSelectSort>
+		<HPBar offset="0,5,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="2" role="normal">cov_inf_needlerElite_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 	<Squad name="cov_inf_goliath_01" formationType="Line" dbid="910">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_hunter</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>

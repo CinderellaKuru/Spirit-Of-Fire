@@ -4959,6 +4959,17 @@ des Echo-Teams</String>
 	    <!--Prophet of Regret-->
 
 
+	    <String _locID="30084" category="Squads" subtitle="false">NADELWERF. ELITEN</String>
+		<String _locID="30085" category="Squads" subtitle="false">Ein Paar Eliten mit Nadelwerfern. Sie können mithilfe von upgrades feindliche Infanterie in die Luft jagen.</String>
+		<String _locID="30086" category="Objects" subtitle="false">NADELWERF. ELITEN</String>
+		<String _locID="30087" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30088" category="Techs" subtitle="false">Health and Damage</String>
+		<String _locID="30089" category="Techs" subtitle="false">KETTENREAKTION</String>
+		<String _locID="30090" category="Techs" subtitle="false">Wenn genug Nadeln einen Feind treffen, explodiert er und verursacht erheblichen Schaden.</String>
+		<String _locID="30091" category="Techs" subtitle="false">SCHILDVERSTÄRKER</String>
+		<String _locID="30092" category="Techs" subtitle="false">Schilde werden drastisch verbessert und lassen projektile abprallen.</String>
+
+
 		<String _locID="30075" category="Squads" subtitle="false">GOLIATH</String>
 		<String _locID="30076" category="Squads" subtitle="false">Eine gigantische Nahkampfversion des Jägers. Perfekt um Gebäude in sekundenschnelle zu zerschlagen.</String>
 		<String _locID="30077" category="Objects" subtitle="false">GOLIATH</String>
