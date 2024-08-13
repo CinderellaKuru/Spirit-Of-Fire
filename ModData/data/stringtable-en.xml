@@ -982,8 +982,8 @@
 		<String _locID="22362" category="Campaign" scenario="9" subtitle="false">Reinforce Spartan Red Team</String>
 		<String _locID="22363" category="Techs" subtitle="false">CYCLOPS 1</String>
 		<String _locID="22364" category="Techs" subtitle="false">Improves Cyclops damage and defense (for now).</String>
-		<String _locID="22365" category="Techs" subtitle="false">REPAIR KIT</String>
-		<String _locID="22366" category="Techs" subtitle="false">Equips each Cyclops with tools to heal mechanized units and buildings.</String>
+		<String _locID="22365" category="Techs" subtitle="false">JUMP PACK</String>
+		<String _locID="22366" category="Techs" subtitle="false">Enables the Jump Pack Ability, allowing Cyclops to quickly cross the battlefield.</String>
 		<String _locID="22367" category="Techs" subtitle="false">HIGH TORQUE JOINTS</String>
 		<String _locID="22368" category="Techs" subtitle="false">Massively improved mobility systems increases movement speed of each Cyclops.</String>
 		<String _locID="22369" category="Skirmish" subtitle="false">Battle from platform to platform traversing space via your transport power while losing air superiority may cost you the war.</String>
@@ -4909,6 +4909,56 @@
 		<String _locID="30037" category="Techs" subtitle="false"></String>
 		<String _locID="30038" category="Techs" subtitle="false">Sniper Placeholder3</String>
 		<String _locID="30039" category="Techs" subtitle="false"></String>
+
+
+		<!--Arbiter-->
+
+
+        <String _locID="30048" category="Squads" subtitle="false">ELITE SQUAD</String>
+		<String _locID="30049" category="Squads" subtitle="false">A squad of elites. They start out with a weak plasmarifle but can be upgraded to wield needlers.</String>
+		<String _locID="30050" category="Objects" subtitle="false">ELITE SQUAD</String>
+		<String _locID="30051" category="Techs" subtitle="false">PEONS</String>
+		<String _locID="30052" category="Techs" subtitle="false">Elite-squads now have 1 extra elite.</String>
+		<String _locID="30053" category="Techs" subtitle="false">NEEDLER</String>
+		<String _locID="30054" category="Techs" subtitle="false">Elite-squads now have needlers.</String>
+		<String _locID="30055" category="Techs" subtitle="false">LEADER</String>
+		<String _locID="30056" category="Techs" subtitle="false">Elite-squads gain an extra elite in the form of a commando which increases combat effitiency massively.</String>
+
+
+		<String _locID="30057" category="Squads" subtitle="false">SNIPER ELITE</String>
+		<String _locID="30058" category="Squads" subtitle="false">A squad consisting of sniper-elites. They start out with weak weapons and no shield but both of those can be upgraded considerably.</String>
+		<String _locID="30059" category="Objects" subtitle="false">SNIPER ELITE</String>
+		<String _locID="30060" category="Techs" subtitle="false">PERSONAL SHIELD</String>
+		<String _locID="30061" category="Techs" subtitle="false">Sniper-elites receive a personal shield.</String>
+		<String _locID="30062" category="Techs" subtitle="false">BEAMRIFLE</String>
+		<String _locID="30063" category="Techs" subtitle="false">Sniper-elites receive beamrifles</String>
+		<String _locID="30064" category="Techs" subtitle="false">STRONGER SHIELD</String>
+		<String _locID="30065" category="Techs" subtitle="false">Sniper-elites gain a super strong shield that can deflect incoming damage.</String>
+
+
+		<String _locID="30066" category="Squads" subtitle="false">HEAVY ELITES</String>
+		<String _locID="30067" category="Squads" subtitle="false">These Elite wield heavy Fuelrodcannons. They excel at anti vehicle roles.</String>
+		<String _locID="30068" category="Objects" subtitle="false">HEAVY ELITES</String>
+		<String _locID="30069" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30070" category="Techs" subtitle="false">Health and Damage</String>
+		<String _locID="30071" category="Techs" subtitle="false">IMPROVED ARMOR</String>
+		<String _locID="30072" category="Techs" subtitle="false">With this new armor the heavy elites can take alot more abuse from vehicles.</String>
+		<String _locID="30073" category="Techs" subtitle="false">IMPROVED TARGETING</String>
+		<String _locID="30074" category="Techs" subtitle="false">The Elites receive better variants of their weapons allowing them to be alot more accurate.</String>
+
+
+		<!--Prophet of Regret-->
+
+
+		<String _locID="30075" category="Squads" subtitle="false">GOLIATH</String>
+		<String _locID="30076" category="Squads" subtitle="false">A large Melee variant of Hunters. They shred buildings within seconds.</String>
+		<String _locID="30077" category="Objects" subtitle="false">GOLIATH</String>
+		<String _locID="30078" category="Techs" subtitle="false">Placeholder</String>
+		<String _locID="30079" category="Techs" subtitle="false">Health and Damage</String>
+		<String _locID="30080" category="Techs" subtitle="false">BONDED SHIELD</String>
+		<String _locID="30081" category="Techs" subtitle="false">Equips each Goliath with a huge shield that can deflect many projectiles.</String>
+		<String _locID="30082" category="Techs" subtitle="false">HIGH TORQUE JOINTS</String>
+		<String _locID="30083" category="Techs" subtitle="false">Massively improved mobility systems increases movement speed of each Goliath.</String>
 
 
 		<!-- Skidbladnir -->

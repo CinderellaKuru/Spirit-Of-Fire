@@ -6,7 +6,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>covenant\infantry\eliteCommando_01\elite_commando_damage_01</file>
+				<file>covenant\infantry\elite_01\eliteHonorGuard_01</file>
 				<damagefile>template\defaultInfantry</damagefile>
 			</asset>
 			<attach type="ParticleFile" name="effects\Unit_FX\cov\elite\energysword_01" tobone="bone_launchpoint" syncanims="false" disregardorient="false" />
