@@ -4909,15 +4909,15 @@ des Echo-Teams</String>
 		<String _locID="30021" category="Techs" subtitle="false">Verbesserte Plasmasysteme erlauben dem Rhino auf größerer Distanz zu feuern.</String>
 
 
-		<String _locID="30031" category="Squads" subtitle="false">SNIPERMARINE</String>
-		<String _locID="30032" category="Squads" subtitle="false">Diese anti-Infanterie Einheiten benutzen Scharfschützengewehere. Sie sind für langstrecken-kämpfe ausgelegt. Außerdem können sie mit einer (REDACTED) verbessert werden.</String>
-		<String _locID="30033" category="Objects" subtitle="false">SNIPERMARINE</String>
-		<String _locID="30034" category="Techs" subtitle="false">Sniper Placeholder1</String>
-		<String _locID="30035" category="Techs" subtitle="false"></String>
-		<String _locID="30036" category="Techs" subtitle="false">Sniper Placeholder2</String>
-		<String _locID="30037" category="Techs" subtitle="false"></String>
-		<String _locID="30038" category="Techs" subtitle="false">Sniper Placeholder3</String>
-		<String _locID="30039" category="Techs" subtitle="false"></String>
+		<String _locID="30031" category="Squads" subtitle="false">SCHARFSCHÜTZE</String>
+		<String _locID="30032" category="Squads" subtitle="false">Diese anti-Infanterie Einheiten benutzen Scharfschützengewehere. Sie sind für langstrecken-kämpfe ausgelegt. Außerdem kann ihre Reichweite mit upgrades deutlich erhöht werden.</String>
+		<String _locID="30033" category="Objects" subtitle="false">SCHARFSCHÜTZE</String>
+		<String _locID="30034" category="Techs" subtitle="false">BEACON FÄHIGKEIT</String>
+		<String _locID="30035" category="Techs" subtitle="false">Scharfschützen können nun ein kleines Gerät absetzen womit alle Einheiten in einem gewissen radius herum das Schlachtfeld sehen können.</String>
+		<String _locID="30036" category="Techs" subtitle="false">VERBESSERTE BEACON</String>
+		<String _locID="30037" category="Techs" subtitle="false">Die Beacon Fähigkeit wird verbessert um Reichweite zu erhöhen.</String>
+		<String _locID="30038" category="Techs" subtitle="false">NEUES GEWEHR</String>
+		<String _locID="30039" category="Techs" subtitle="false">Die Scharfschützen werden mit besseren Gewehren ausgestattet womit sie auf weitaus größerer Distanz aus schießen können.</String>
 
 
 		<!--Arbiter-->

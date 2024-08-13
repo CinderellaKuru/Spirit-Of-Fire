@@ -4903,12 +4903,12 @@
 		<String _locID="30031" category="Squads" subtitle="false">SNIPERMARINE</String>
 		<String _locID="30032" category="Squads" subtitle="false">These anti infantry marine carry sniperrifles. They excel at large distances. They can eventually be upgraded to have a (REDACTED) ability.</String>
 		<String _locID="30033" category="Objects" subtitle="false">SNIPERMARINE</String>
-		<String _locID="30034" category="Techs" subtitle="false">Sniper Placeholder1</String>
-		<String _locID="30035" category="Techs" subtitle="false"></String>
-		<String _locID="30036" category="Techs" subtitle="false">Sniper Placeholder2</String>
-		<String _locID="30037" category="Techs" subtitle="false"></String>
-		<String _locID="30038" category="Techs" subtitle="false">Sniper Placeholder3</String>
-		<String _locID="30039" category="Techs" subtitle="false"></String>
+		<String _locID="30034" category="Techs" subtitle="false">BEACON ABILITY</String>
+		<String _locID="30035" category="Techs" subtitle="false">Snipers now get to throw beacons to give them and their allies additional Line of sight on the battlefield.</String>
+		<String _locID="30036" category="Techs" subtitle="false">BETTER BEACON</String>
+		<String _locID="30037" category="Techs" subtitle="false">The beacon ability receives improved Line of sight and throwing distance.</String>
+		<String _locID="30038" category="Techs" subtitle="false">NEW RIFLES</String>
+		<String _locID="30039" category="Techs" subtitle="false">The snipers receive new rifles which dramatically improves their effective range.</String>
 
 
 		<!--Arbiter-->

@@ -322,4 +322,17 @@
 		<Type>Work</Type>
 		<TargetType>Unit</TargetType>
 	</Ability>
+
+    <!--New Stuff-->
+
+	<Ability Name="UNSCSniperBeacon">
+		<DisplayNameID>6014</DisplayNameID>
+		<RolloverTextID>6015</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
 </Abilities>

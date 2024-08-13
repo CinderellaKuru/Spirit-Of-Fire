@@ -2627,7 +2627,10 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_snipermarine_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="SniperBeaconAttackAction1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
@@ -2645,7 +2648,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_napalmadherent</ResearchCompleteSound>
+		<ResearchCompleteSound>play_vog_tech_zeal</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_snipermarine_upgrade1</TechStatus>
 		</Prereqs>
@@ -2653,10 +2656,16 @@
 		    <Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_snipermarine_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.7" subtype="LOS" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_bldg_sniperbeacon_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="SniperBeaconAttackAction1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="SniperBeaconAttackAction2" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
 			</Effect>
 		</Effects>
@@ -2671,7 +2680,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_oxidetank</ResearchCompleteSound>
+		<ResearchCompleteSound>play_vog_tech_focussinglens</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_snipermarine_upgrade2</TechStatus>
 		</Prereqs>
@@ -2679,10 +2688,22 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_snipermarine_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverSniperAttackAction1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="SniperAttackAction1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverSniperAttackAction2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="SniperAttackAction2" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
 			</Effect>
 		</Effects>
@@ -3640,6 +3661,9 @@
 			<Effect type="Data" amount="1.15" subtype="hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1.3" subtype="LOS" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="Deflect_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
 			</Effect>
@@ -3729,7 +3753,10 @@
 			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_sniperelite_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.4" subtype="shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_sniperelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="LOS" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_sniperelite_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Deflect" relativity="Absolute">
@@ -5874,6 +5901,9 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

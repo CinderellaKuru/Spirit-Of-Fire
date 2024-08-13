@@ -33888,6 +33888,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Flesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UNSCSniperBeacon</AbilityCommand>
 		<Flag>KBAware</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>
@@ -33901,7 +33902,67 @@
 			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
 			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
 		</FlashUI>
-		<HPBar>UNSC_HealthAmmo</HPBar>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_bldg_sniperbeacon_01" is="0" id="2038" dbid="3206">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\beacon_01\beacon_01.vis</Visual>
+		<DisplayNameID>99278</DisplayNameID>
+		<RolloverTextID>99277</RolloverTextID>
+		<RoleTextID>539</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>2500</Hitpoints>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>1.6</ObstructionRadiusY>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<SelectedRadiusX>2</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>0</PickOffset>
+		<LOS>70</LOS>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Building</DamageType>
+		<Command Type="Kill" Position="4" />
+		<LifeSpan>15</LifeSpan>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>UNSC</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DontAutoAttackMe</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>10</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>11</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="fx_proj_sniperbeaconspawner_01" id="0" dbid="57">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>unsc\building\beacon_01\beacon_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>40</Velocity>
+		<Tactics>fx_proj_sniperbeaconspawner_01.tactics</Tactics>
+		<Lifespan>5</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<Flag>ExplodeOnTimer</Flag>
+		<Flag>IsSticky</Flag>
+		<MaxProjectileHeight>10</MaxProjectileHeight>
 	</Object>
 	<Object name="unsc_veh_rhino_01" id="0" dbid="1317">
 		<ObjectClass>Squad</ObjectClass>

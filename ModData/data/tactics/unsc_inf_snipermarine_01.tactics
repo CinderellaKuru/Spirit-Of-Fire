@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>InCoverSniperRifle</Name>
+		<Name>InCoverSniperRifle1</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>40</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
@@ -24,7 +24,7 @@
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
-		<Name>SniperRifle</Name>
+		<Name>SniperRifle1</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>40</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
@@ -45,21 +45,156 @@
 		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 	</Weapon>
+	<Weapon>
+		<Name>InCoverSniperRifle2</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>40</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_rifle_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>110</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>16</VisualAmmo>
+		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>SniperRifle2</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>40</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_unscsniperrifle_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>8</VisualAmmo>
+		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>SniperBeacon1</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_sniperbeaconspawner_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.3</MovingAccuracy>
+		<MovingMaxDeviation>6</MovingMaxDeviation>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<TriggerScript>SniperBeaconSpawner.triggerscript</TriggerScript>
+	</Weapon>
+	<Weapon>
+		<Name>SniperBeacon2</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_sniperbeaconspawner_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.3</MovingAccuracy>
+		<MovingMaxDeviation>6</MovingMaxDeviation>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<TriggerScript>SniperBeaconSpawner.triggerscript</TriggerScript>
+	</Weapon>
 	<Action>
-		<Name>InCoverSniperAttackAction</Name>
+		<Name>InCoverSniperAttackAction1</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>SniperRifleAttack</Anim>
 		<ReloadAnim>SniperRifleReload</ReloadAnim>
-		<Weapon>InCoverSniperRifle</Weapon>
+		<Weapon>InCoverSniperRifle1</Weapon>
 		<MainAttack />
 	</Action>
 	<Action>
-		<Name>SniperAttackAction</Name>
+		<Name>SniperAttackAction1</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>SniperRifleAttack</Anim>
 		<ReloadAnim>SniperRifleReload</ReloadAnim>
-		<Weapon>SniperRifle</Weapon>
+		<Weapon>SniperRifle1</Weapon>
 		<MainAttack />
+	</Action>
+	<Action>
+		<Name>InCoverSniperAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SniperRifleAttack</Anim>
+		<ReloadAnim>SniperRifleReload</ReloadAnim>
+		<Weapon>InCoverSniperRifle2</Weapon>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SniperAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SniperRifleAttack</Anim>
+		<ReloadAnim>SniperRifleReload</ReloadAnim>
+		<Weapon>SniperRifle2</Weapon>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SniperBeaconAttackAction1</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SpawnBeacon</Anim>
+		<WorkRate>60</WorkRate>
+		<Weapon>SniperBeacon1</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<StartDisabled />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>SniperBeaconAttackAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SpawnBeacon</Anim>
+		<WorkRate>60</WorkRate>
+		<Weapon>SniperBeacon2</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<StartDisabled />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -116,6 +251,18 @@
 	</Action>
 	<Tactic>
 		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>SniperBeaconAttackAction1</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>SniperBeaconAttackAction2</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
 			<GaiaOwned />
 			<TargetType>CapturePoint</TargetType>
 			<TargetState>Capturable</TargetState>
@@ -146,12 +293,22 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>InCoverSniperAttackAction</Action>
+			<Action>InCoverSniperAttackAction1</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>SniperAttackAction</Action>
+			<Action>SniperAttackAction1</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverSniperAttackAction2</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SniperAttackAction2</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
