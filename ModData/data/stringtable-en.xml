@@ -4027,37 +4027,37 @@
 		<String _locID="25789" subtitle="false">Use the Wraith's Scorch ability to deny an angle of approach to enemy forces.</String>
 		<String _locID="25790" subtitle="false">Banshees with the Sacrifice ability will crash into a ground target when destroyed, doing area of effect damage.</String>
 		<String _locID="25791" subtitle="false">The Engineer's State of Grace upgrade dramatically improves its ability to heal.</String>
-		<String _locID="25792" subtitle="false">Put your infantry in cover whenever you can. Cover increases their range, line of sight, and hitpoints.</String>
+		<String _locID="25792" subtitle="false">Put your infantry in cover whenever you can. Cover makes them OP.</String>
 		<String _locID="25793" subtitle="false">$$LS$$ is used to move around the map.</String>
-		<String _locID="25794" subtitle="false" _mouseKeyboard="26254">Pressing $$LS$$ will send a flare to your allies. This is useful for quickly telling an ally where you plan to attack.</String>
+		<String _locID="25794" subtitle="false" _mouseKeyboard="26254">Pressing $$LS$$ will send a flare to your allies. This sometimes works. Depends on your friends.</String>
 		<String _locID="25795" subtitle="false">If you flare a location, your A.I. ally will try to help attack or defend there.</String>
-		<String _locID="25796" subtitle="false">Proper use of Rally Points allows you to get fresh units to the front lines. Try both Global Rally Points and Rally Points set from bases.</String>
+		<String _locID="25796" subtitle="false">Air is OP - Xandy92</String>
 		<String _locID="25797" subtitle="false" _mouseKeyboard="26255">Double-clicking $$LS$$ will set your Global Rally Point to that location.</String>
 		<String _locID="25798" subtitle="false" _mouseKeyboard="26256">$$RS$$ is used to manipulate the rotation and zoom of your camera. Press it once to reset to the default view.</String>
 		<String _locID="25799" subtitle="false" _mouseKeyboard="26257">$$DPAD$$ is used to jump around the map quickly. Advanced players will use it more often than $$LS$$.</String>
 		<String _locID="25800" subtitle="false" _mouseKeyboard="26258">Want to quickly jump to your Covenant leader? Press UP on $$DPAD$$.</String>
-		<String _locID="25801" subtitle="false" _mouseKeyboard="26259">If you want to cycle through the last few alert messages, press RIGHT on $$DPAD$$.</String>
-		<String _locID="25802" subtitle="false" _mouseKeyboard="26260">Jump from base to base by pressing LEFT on $$DPAD$$.</String>
-		<String _locID="25803" subtitle="false" _mouseKeyboard="26261">Pressing DOWN on $$DPAD$$ will cycle you through all your armies around the map. This is helpful when planning a multi-front assault.</String>
-		<String _locID="25804" subtitle="false" _mouseKeyboard="26262">Selecting a unit is easy with the $$A$$ button, but you can also hold down the $$A$$ button to get a paint brush that will select any unit it touches.</String>
-		<String _locID="25805" subtitle="false">Group selection and management is important in Halo Wars. To select all the units on the screen, press $$RB$$.</String>
-		<String _locID="25806" subtitle="false">Want to select all the units in the game at one time? Press $$LB$$.</String>
-		<String _locID="25807" subtitle="false">$$RT$$ is used to cycle through the unit types you have selected. Expert players will use this to give orders to individual unit types.</String>
-		<String _locID="25808" subtitle="false" _mouseKeyboard="26263">Need to move around the map quickly? Hold down $$LT$$ when you scroll with $$LS$$ to quadruple camera speed.</String>
-		<String _locID="25809" subtitle="false">Want to cancel a selection or close a menu? Press $$B$$.</String>
-		<String _locID="25810" subtitle="false">$$X$$ is the primary action button. It will command your selected units to move around the map or attack enemies.</String>
-		<String _locID="25811" subtitle="false">$$Y$$ is the secondary ability button. Most units have secondary abilities that dramatically alter what you can do with those units.</String>
-		<String _locID="25812" subtitle="false">At any point in the campaign, you can see your objectives by pressing the $$BACK$$ button.</String>
-		<String _locID="25813" subtitle="false">Pause the game with the $$START$$ button. This will let you change options or turn on Skulls during a game.</String>
+		<String _locID="25801" subtitle="false" _mouseKeyboard="26259">Most people used to just mass Scorpions. Those days are numbered...</String>
+		<String _locID="25802" subtitle="false" _mouseKeyboard="26260">Spartans aren't real. - ONI 2525</String>
+		<String _locID="25803" subtitle="false" _mouseKeyboard="26261">Halo fans are very nice and totally sane. Just like Helldivers 2 players.</String>
+		<String _locID="25804" subtitle="false" _mouseKeyboard="26262">Sick of loosing? Get good! Or blame the modmaker.</String>
+		<String _locID="25805" subtitle="false">Alle Einheiten!</String>
+		<String _locID="25806" subtitle="false">Lokale Einheiten!</String>
+		<String _locID="25807" subtitle="false">This game lets you cycle through a list of units you selected. This feature was famously stolen by a game called Halo Wars 2.</String>
+		<String _locID="25808" subtitle="false" _mouseKeyboard="26263">Wanna go fast? Wait until we add Sonic the hedgehog to the mod.</String>
+		<String _locID="25809" subtitle="false">Want to give up? Blow up your PC.</String>
+		<String _locID="25810" subtitle="false">Nerf Infantry.</String>
+		<String _locID="25811" subtitle="false">Nerf Air.</String>
+		<String _locID="25812" subtitle="false">Nerf Vehicles.</String>
+		<String _locID="25813" subtitle="false">Buff C Bomb.</String>
 		<String _locID="25814" subtitle="false" _mouseKeyboard="26633">Move commands can be queued up for sequential execution by briefly holding down $$X$$ when giving commands.</String>
 		<String _locID="25815" subtitle="false">The circular menu that comes up when you select buildings or Spirit of Fire is called, oddly enough, the Circle Menu.</String>
-		<String _locID="25816" subtitle="false">When you select any unit, it tells you what type of unit it is. This can be invaluable in deciding how to counter your enemy’s forces.</String>
+		<String _locID="25816" subtitle="false">Build anti infantry already, idiot.</String>
 		<String _locID="25817" subtitle="false">In Skirmish games, UNSC players can choose between Captain Cutter, Sergeant Forge, or Professor Anders. Each comes with several unique additions that alter play style.</String>
 		<String _locID="25818" subtitle="false">The Covenant has three leaders to choose from for a Skirmish game: the Arbiter, the Prophet of Regret, and the Brute Chieftain.</String>
 		<String _locID="25819" subtitle="false">Unlike the UNSC leaders, each Covenant leader personally appears on the battlefield.</String>
-		<String _locID="25820" subtitle="false">The UNSC army is professional and regimented. Overall, each UNSC unit is slightly stronger than each Covenant unit.</String>
-		<String _locID="25821" subtitle="false">The Covenant forces are led by charismatic leaders who drive their zealous followers to fight against humanity with little concern for any individual’s well being.</String>
-		<String _locID="25822" subtitle="false">While each Covenant unit is somewhat weaker than an equivalent UNSC soldier, the overall Covenant army size is bigger than the UNSC army size.</String>
+		<String _locID="25820" subtitle="false">Some mods make UNSC worthless. We like to do things differently here.</String>
+		<String _locID="25821" subtitle="false">They see me rushin, they hatin. - AI</String>
+		<String _locID="25822" subtitle="false">Monkey together strong. Work with your teammates to win.</String>
 		<String _locID="25823" subtitle="false">The Covenant leaders are the strongest units on the battlefield, though a well-managed group of three Spartans can do a lot of damage too.</String>
 		<String _locID="25824" subtitle="false">UNSC and Covenant leader powers can be upgraded with technologies. Some upgrades even add new abilities.</String>
 		<String _locID="25825" subtitle="false">Covenant leaders are upgraded at the Temple.  Each upgrade increases the leader’s combat power and adds interesting new passive abilities.</String>
@@ -4076,9 +4076,9 @@
 		<String _locID="25838" subtitle="false">The Prophet of Regret can call down the massive Cleansing Power. This beam of energy, even in its weakest form, is pure devastation for anything it hits.</String>
 		<String _locID="25839" subtitle="false">Elite Honor Guards protect the Prophet and serve as his unique unit. Equipped with the Cloak ability, these Elites are excellent for sneak attacks.</String>
 		<String _locID="25840" subtitle="false">The Prophet of Regret’s third combat upgrade converts his floating chair into a flying chair, giving him exciting new tactical potential.</String>
-		<String _locID="25841" subtitle="false">The Brute Chieftain’s Power is the gravity-related Vortex. Steer it around the combat zone to pull in enemies, then unleash the stored power with $$A$$.</String>
-		<String _locID="25842" subtitle="false">Jet Pack Brutes complement the Brute Chieftain leader. These heavy infantry units can use their jet packs to cross impassable terrain.</String>
-		<String _locID="25843" subtitle="false">Halo Wars has a Rock-Paper-Scissors balance between the unit types. Vehicles beat infantry, aircraft beat vehicles, and infantry beat aircraft.</String>
+		<String _locID="25841" subtitle="false">Fuck the Brutes. All my homies hate brutes. - Shipmaster Halo 3</String>
+		<String _locID="25842" subtitle="false">Then it is an even fight. All Cruisers, fire at will! Burn their mongrel hides!</String>
+		<String _locID="25843" subtitle="false">Halo Wars finally works. Vehicles beat infantry, aircraft beat vehicles, and infantry beat aircraft.</String>
 		<String _locID="25844" subtitle="false">Counter-units are great at killing one type of unit, but are worse against any other unit. One counter-unit example is the anti-infantry UNSC Flamethrower.</String>
 		<String _locID="25845" subtitle="false">Remember to multi-task in Halo Wars. Units will continue to think on their own even if you’re off someplace else.</String>
 		<String _locID="25846" subtitle="false">The Fog of War covers the areas of the map that your units cannot currently see. Scout frequently to make sure you know what your enemies are up to.</String>
