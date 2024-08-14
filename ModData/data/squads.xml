@@ -3879,6 +3879,7 @@
 		<RolloverTextID>30085</RolloverTextID>
 		<RoleTextID>503</RoleTextID>
 		<SubSelectSort>4002</SubSelectSort>
+		<BuildPoints>8</BuildPoints>
 		<HPBar offset="0,5,0">COV_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>

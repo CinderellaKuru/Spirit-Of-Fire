@@ -12,6 +12,7 @@
 		<EnableHeightBonusDamage />
 		<VisualAmmo>16</VisualAmmo>
 		<TargetPriority type="Infantry">10</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
@@ -26,6 +27,7 @@
 		<EnableHeightBonusDamage />
 		<VisualAmmo>16</VisualAmmo>
 		<TargetPriority type="Infantry">10</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
@@ -40,6 +42,7 @@
 		<EnableHeightBonusDamage />
 		<VisualAmmo>16</VisualAmmo>
 		<TargetPriority type="Infantry">10</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
@@ -54,6 +57,7 @@
 		<EnableHeightBonusDamage />
 		<VisualAmmo>16</VisualAmmo>
 		<TargetPriority type="Infantry">10</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
@@ -66,8 +70,9 @@
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>40</MaxRange>
 		<TargetPriority type="Infantry">10</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
 		<SmallArmsDeflectable />
-		<TriggerScript>covSupercombine1.triggerscript</TriggerScript>
+		<TriggerScript>covSupercombine.triggerscript</TriggerScript>
 	</Weapon>
 	<Weapon>
 		<Name>InCoverSuperCombineNeedler</Name>
@@ -79,8 +84,9 @@
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<TargetPriority type="Infantry">10</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
 		<SmallArmsDeflectable />
-		<TriggerScript>covSupercombine1.triggerscript</TriggerScript>
+		<TriggerScript>covSupercombine.triggerscript</TriggerScript>
 	</Weapon>
 	<Action>
 		<Name>NeedlerAttackAction1</Name>
@@ -105,6 +111,7 @@
 		<ReloadAnim>NeedlerReload</ReloadAnim>
 		<Weapon>Needler2</Weapon>
 		<MainAttack />
+		<FindBetterAction />
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -114,6 +121,7 @@
 		<ReloadAnim>NeedlerReload</ReloadAnim>
 		<Weapon>InCoverNeedler2</Weapon>
 		<MainAttack />
+		<FindBetterAction />
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -216,6 +224,18 @@
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>
+			<TargetType>Infantry</TargetType>
+			<Relation>Enemy</Relation>
+			<Action>SuperCombineNeedlerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<TargetType>Infantry</TargetType>
+			<Relation>Enemy</Relation>
+			<Action>InCoverSuperCombineNeedlerAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
 			<TargetType>GroundVehicle</TargetType>
 			<TargetType>Building</TargetType>
 			<TargetType>Aircraft</TargetType>
@@ -229,18 +249,6 @@
 			<TargetType>AirCraft</TargetType>
 			<Relation>Enemy</Relation>
 			<Action>InCoverNeedlerAttackAction2</Action>
-			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<TargetType>Infantry</TargetType>
-			<Relation>Enemy</Relation>
-			<Action>SuperCombineNeedlerAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<TargetType>Infantry</TargetType>
-			<Relation>Enemy</Relation>
-			<Action>InCoverSuperCombineNeedlerAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>

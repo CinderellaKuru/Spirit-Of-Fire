@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="us-ascii"?>
-<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="covSupercombine.triggerscript" Type="TriggerScript" NextTriggerVarID="174" NextTriggerID="17" NextConditionID="75" NextEffectID="248" External="false">
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="covSupercombine2.triggerscript" Type="TriggerScript" NextTriggerVarID="174" NextTriggerID="17" NextConditionID="75" NextEffectID="248" External="false">
 	<TriggerGroups />
 	<TriggerVars>
 		<TriggerVar ID="47" Type="Vector" Name="GroundZero" IsNull="false" />

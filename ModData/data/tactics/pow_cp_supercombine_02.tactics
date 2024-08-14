@@ -5,7 +5,7 @@
 		<DamagePerSecond>60</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>HeavyNeedler</WeaponType>
-		<Projectile>pow_cp_supercombine_01</Projectile>
+		<Projectile>pow_cp_supercombine_02</Projectile>
 		<ImpactEffect size="Medium">supercombine_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
 		<MaxRange>150</MaxRange>
