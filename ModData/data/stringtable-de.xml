@@ -4956,6 +4956,17 @@ des Echo-Teams</String>
 		<String _locID="30074" category="Techs" subtitle="false">Der Squad erhält eine neue Version ihrer Waffe welche wesentlich ziehlsicherer ist.</String>
 
 
+		<String _locID="30093" category="Squads" subtitle="false">SPECTRE</String>
+		<String _locID="30094" category="Squads" subtitle="false">Diese leistungsstarke Bodeneinheit ist schnell und verfügt über eine hohe Reichweite, weshalb sie auch der Standard-Kampfpanzer ist.</String>
+		<String _locID="30095" category="Objects" subtitle="false">SPECTRE</String>
+		<String _locID="30096" category="Techs" subtitle="false">SCHWERER SHIELD</String>
+		<String _locID="30097" category="Techs" subtitle="false">Fügt einen Energieschild hinzu, der einen Teil des Schadens abprallen lässt.</String>
+		<String _locID="30098" category="Techs" subtitle="false">RAMMBOOST</String>
+		<String _locID="30099" category="Techs" subtitle="false">Erlaubt den Spectre Feinde zu Rammen.</String>
+		<String _locID="30100" category="Techs" subtitle="false">OVERDRIVE</String>
+		<String _locID="30101" category="Techs" subtitle="false">Erhöht immens das Schadenspotenzial von Spectre-salven.</String>
+
+
 	    <!--Prophet of Regret-->
 
 

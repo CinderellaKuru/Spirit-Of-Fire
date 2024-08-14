@@ -4947,6 +4947,17 @@
 		<String _locID="30074" category="Techs" subtitle="false">The Elites receive better variants of their weapons allowing them to be alot more accurate.</String>
 
 
+		<String _locID="30093" category="Squads" subtitle="false">SPECTRE</String>
+		<String _locID="30094" category="Squads" subtitle="false">Mainline battle tank, good speed and excellent range combine to make this a powerful ground vehicle.</String>
+		<String _locID="30095" category="Objects" subtitle="false">SPECTRE</String>
+		<String _locID="30096" category="Techs" subtitle="false">HEAVY SHIELD</String>
+		<String _locID="30097" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
+		<String _locID="30098" category="Techs" subtitle="false">BOOSTED RAMABILITY</String>
+		<String _locID="30099" category="Techs" subtitle="false">Enables the Boosted Ram Ability on Ghosts, allowing them to effectively ram their targets.</String>
+		<String _locID="30100" category="Techs" subtitle="false">OVERDRIVE</String>
+		<String _locID="30101" category="Techs" subtitle="false">Drastically increases combat strengh of Spectre-salvos.</String>
+
+
 		<!--Prophet of Regret-->
 
 

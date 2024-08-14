@@ -155,6 +155,17 @@
 		<RecoverType>Ability</RecoverType>
 		<RecoverTime>10</RecoverTime>
 	</Ability>
+	<Ability Name="CovSpectreRam">
+		<DisplayNameID>23621</DisplayNameID>
+		<RolloverTextID>23622</RolloverTextID>
+		<Type>Work</Type>
+		<SquadMode>HitAndRun</SquadMode>
+		<KeepSquadMode>false</KeepSquadMode>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>10</RecoverTime>
+	</Ability>
 	<Ability Name="CovGruntGrenade">
 		<DisplayNameID>6024</DisplayNameID>
 		<RolloverTextID>6025</RolloverTextID>
