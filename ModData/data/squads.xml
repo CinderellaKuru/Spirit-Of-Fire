@@ -1699,6 +1699,44 @@
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
+	<Squad name="cov_veh_spectre_01" formationType="Line" dbid="913">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_ghost</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30093</DisplayNameID>
+		<RolloverTextID>30094</RolloverTextID>
+		<PrereqTextID>240</PrereqTextID>
+		<RoleTextID>501</RoleTextID>
+		<BuildPoints>20</BuildPoints>
+		<Cost resourcetype="Supplies">350</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>611</SubSelectSort>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,9,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_spectre_01</Unit>
+		</Units>
+		<Sound Type="MoveChatter">play_cov_batchat_ghost_move</Sound>
+		<Sound Type="MoveAttackChatter">play_cov_batchat_ghost_moveattack</Sound>
+		<Sound Type="AttackChatter">play_cov_batchat_ghost_action</Sound>
+		<Sound Type="Cheer">play_cov_batchat_ghost_cheer</Sound>
+		<Sound Type="IdleChatter">play_cov_batchat_ghost_idle</Sound>
+		<Sound Type="KillEnemy">play_cov_batchat_ghost_killenemy</Sound>
+		<Sound Type="AllyKilled">play_cov_batchat_ghost_allykilled</Sound>
+		<TurnRadius min="0.1" max="4" />
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 	<Squad name="cov_veh_wraith_01" dbid="917">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>
