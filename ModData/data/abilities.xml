@@ -42,6 +42,11 @@
 		<Type>Unload</Type>
 		<TargetType>Location</TargetType>
 	</Ability>
+	<Ability Name="cpgnUnload">
+		<DisplayNameID>6004</DisplayNameID>
+		<RolloverTextID>6005</RolloverTextID>
+		<Type>CommandMenu</Type>
+	</Ability>
 	<Ability Name="UnscWolverineBarrage">
 		<DisplayNameID>24552</DisplayNameID>
 		<Type>Work</Type>
@@ -139,11 +144,11 @@
 		<TargetType>UnitOrLocation</TargetType>
 		<SquadMode>Passive</SquadMode>
 		<KeepSquadMode>false</KeepSquadMode>
-		<MovementSpeedModifier>3</MovementSpeedModifier>
+		<MovementSpeedModifier>2</MovementSpeedModifier>
 		<MovementModifierType>Ability</MovementModifierType>
 		<RecoverStart>Move</RecoverStart>
-		<RecoverType>Attack</RecoverType>
-		<RecoverTime>4</RecoverTime>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>8</RecoverTime>
 	</Ability>
 	<Ability Name="CovGhostRam">
 		<DisplayNameID>24556</DisplayNameID>
@@ -155,7 +160,7 @@
 		<RecoverType>Ability</RecoverType>
 		<RecoverTime>10</RecoverTime>
 	</Ability>
-	<Ability Name="CovSpectreRam">
+	<Ability Name="CovProwlerRam">
 		<DisplayNameID>23621</DisplayNameID>
 		<RolloverTextID>23622</RolloverTextID>
 		<Type>Work</Type>

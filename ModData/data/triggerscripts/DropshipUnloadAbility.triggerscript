@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="test9.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Unit" Name="SpiritUnit" IsNull="false" />
+    <TriggerVar ID="1" Type="Squad" Name="SpiritSquad" IsNull="false" />
+    <TriggerVar ID="2" Type="SquadMode" Name="SetToNormal" IsNull="false">Normal</TriggerVar>
+    <TriggerVar ID="3" Type="Bool" Name="SetDirectly" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="6" Type="Time" Name="NewTime6" IsNull="false">500</TriggerVar>
+    <TriggerVar ID="7" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="9" Type="Time" Name="NewTime9" IsNull="false">500</TriggerVar>
+    <TriggerVar ID="10" Type="Operator" Name="NewOperator10" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="13" Type="ProtoObject" Name="NewProtoObject13" IsNull="false">fx_dropshipmarker_01</TriggerVar>
+    <TriggerVar ID="14" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="15" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="16" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="17" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="18" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="19" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="20" Type="Integer" Name="nullInteger" IsNull="true" />
+    <TriggerVar ID="21" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="22" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="23" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="24" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="25" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="26" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="27" Type="Trigger" Name="NewTrigger8" IsNull="false">8</TriggerVar>
+    <TriggerVar ID="28" Type="Trigger" Name="NewTrigger7" IsNull="false">7</TriggerVar>
+    <TriggerVar ID="29" Type="Bool" Name="linkedBool" IsNull="false" />
+    <TriggerVar ID="30" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="31" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="32" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="33" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="34" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="35" Type="Trigger" Name="UnloadAndSetNormal" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="36" Type="Trigger" Name="WaitForModeChange" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="37" Type="Trigger" Name="Initialize" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="38" Type="Trigger" Name="Initialize" IsNull="false">9</TriggerVar>
+    <TriggerVar ID="39" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="40" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="41" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="42" Type="Trigger" Name="IfDead,Shutdown" IsNull="false">10</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="Initialize" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-386" Y="-56" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">14</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">15</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">16</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">17</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">0</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">18</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">19</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="1" Type="GetParentSquad" DBID="519" Version="1" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Output Name="ParentSquad" SigID="2" Optional="false">1</Output>
+        </Effect>
+        <Effect ID="2" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">28</Input>
+        </Effect>
+        <Effect ID="3" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">36</Input>
+        </Effect>
+        <Effect ID="4" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">42</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="1" Name="WaitForModeChange" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1646" Y="96" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="CheckModeChange" DBID="386" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Squad" SigID="1" Optional="false">1</Input>
+            <Output Name="Result" SigID="3" Optional="true">29</Output>
+            <Output Name="IsNormal" SigID="2" Optional="true">30</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="3" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">35</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="2" Name="UnloadAndSetNormal" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2913" Y="209" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="6" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">7</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">6</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="4" Type="Unload" DBID="65" Version="4" CommentOut="false">
+          <Input Name="Squad" SigID="3" Optional="true">1</Input>
+          <Input Name="SquadList" SigID="5" Optional="true">31</Input>
+          <Input Name="GarrisonedSquad" SigID="6" Optional="true">32</Input>
+          <Input Name="GarrisonedSquadList" SigID="7" Optional="true">33</Input>
+        </Effect>
+        <Effect ID="5" Type="ChangeSquadMode" DBID="388" Version="2" CommentOut="false">
+          <Input Name="Squad" SigID="1" Optional="true">1</Input>
+          <Input Name="SquadList" SigID="2" Optional="true">34</Input>
+          <Input Name="SquadMode" SigID="3" Optional="false">2</Input>
+          <Input Name="SetDirectly" SigID="4" Optional="true">3</Input>
+        </Effect>
+        <Effect ID="2" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">36</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="7" Name="Start Marker" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1671" Y="1254" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="3" Type="HasGarrisoned" DBID="602" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Squad" SigID="1" Optional="false">1</Input>
+            <Output Name="NumGarrisoned" SigID="2" Optional="true">20</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="14" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">27</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="15" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">38</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="8" Name="Add Marker Attachment" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3688" Y="1353" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="8" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">10</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">9</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="13" Type="AttachmentAddType" DBID="74" Version="5" CommentOut="false">
+          <Input Name="ReceivingUnit" SigID="5" Optional="true">0</Input>
+          <Input Name="ReceivingUnitList" SigID="3" Optional="true">22</Input>
+          <Input Name="ReceivingSquad" SigID="6" Optional="true">16</Input>
+          <Input Name="ReceivingSquadList" SigID="4" Optional="true">23</Input>
+          <Input Name="AddProtoObject" SigID="2" Optional="false">13</Input>
+        </Effect>
+        <Effect ID="17" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">28</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="9" Name="Remove Marker Attachment" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3688" Y="1353" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="8" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">10</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">9</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="18" Type="AttachmentRemoveAll" DBID="75" Version="3" CommentOut="false">
+          <Input Name="Unit" SigID="4" Optional="true">0</Input>
+          <Input Name="UnitList" SigID="2" Optional="true">25</Input>
+          <Input Name="Squad" SigID="5" Optional="true">16</Input>
+          <Input Name="SquadList" SigID="3" Optional="true">26</Input>
+        </Effect>
+        <Effect ID="17" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">28</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="10" Name="If Dead, shutdown" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="82.39999" Y="-224.8" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="IsDead" DBID="81" Version="3" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="TestUnit" SigID="3" Optional="true">39</Input>
+            <Input Name="TestUnitList" SigID="4" Optional="true">40</Input>
+            <Input Name="TestSquad" SigID="5" Optional="true">1</Input>
+            <Input Name="TestSquadList" SigID="6" Optional="true">41</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="6" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

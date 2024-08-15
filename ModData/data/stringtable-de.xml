@@ -4961,10 +4961,35 @@ des Echo-Teams</String>
 		<String _locID="30095" category="Objects" subtitle="false">SPECTRE</String>
 		<String _locID="30096" category="Techs" subtitle="false">SCHWERER SHIELD</String>
 		<String _locID="30097" category="Techs" subtitle="false">Fügt einen Energieschild hinzu, der einen Teil des Schadens abprallen lässt.</String>
-		<String _locID="30098" category="Techs" subtitle="false">RAMMBOOST</String>
-		<String _locID="30099" category="Techs" subtitle="false">Erlaubt den Spectre Feinde zu Rammen.</String>
-		<String _locID="30100" category="Techs" subtitle="false">OVERDRIVE</String>
+		<String _locID="30098" category="Techs" subtitle="false">BOOST</String>
+		<String _locID="30099" category="Techs" subtitle="false">Erlaubt den Spectre die Boost-Fähigkeit zu nutzen.</String>
+		<String _locID="30100" category="Techs" subtitle="false">REPITIERKANONE</String>
 		<String _locID="30101" category="Techs" subtitle="false">Erhöht immens das Schadenspotenzial von Spectre-salven.</String>
+
+
+        <!--Brute-->
+
+
+		<String _locID="30102" category="Squads" subtitle="false">PROWLER</String>
+		<String _locID="30103" category="Squads" subtitle="false">Brutes beforzugen eher grobe taktiken. Das wird stark im Design des Prowlers wiedergespiegelt.</String>
+		<String _locID="30104" category="Objects" subtitle="false">PROWLER</String>
+		<String _locID="30105" category="Techs" subtitle="false">RAMMBOOST</String>
+		<String _locID="30106" category="Techs" subtitle="false">Erlaubt dem Prowler seine Ramm-Fähigkeit zu nutzen.</String>
+		<String _locID="30107" category="Techs" subtitle="false">RAMMBOCK</String>
+		<String _locID="30108" category="Techs" subtitle="false">Erhöht drastisch den Schaden der durch Rammen verursacht wird.</String>
+		<String _locID="30109" category="Techs" subtitle="false">REPITIERKANONE</String>
+		<String _locID="30110" category="Techs" subtitle="false">Erhöht immens das Schadenspotenzial von Prowler-salven.</String>
+
+
+		<String _locID="30123" category="Squads" subtitle="false">AA WRAITH</String>
+		<String _locID="30124" category="Squads" subtitle="false">Diese Variante des Wraiths verfügt über Föugabwehrsysteme.</String>
+		<String _locID="30125" category="Objects" subtitle="false">AA WRAITH</String>
+		<String _locID="30126" category="Techs" subtitle="false">SCHWERER SCHILD</String>
+		<String _locID="30127" category="Techs" subtitle="false">Fügt einen Energieschild hinzu, der einen Teil des Schadens abprallen lässt.</String>
+		<String _locID="30128" category="Techs" subtitle="false">SALVENFEUER</String>
+		<String _locID="30129" category="Techs" subtitle="false">Erlaubt dem AA Wraith seine Salvenfähigkeit zu nutzen.</String>
+		<String _locID="30130" category="Techs" subtitle="false">VERFOLGUNGSRAKETEN</String>
+		<String _locID="30131" category="Techs" subtitle="false">Lufteinheiten werden von diesen Schüssen verfolgt.</String>
 
 
 	    <!--Prophet of Regret-->
@@ -4990,6 +5015,22 @@ des Echo-Teams</String>
 		<String _locID="30081" category="Techs" subtitle="false">Stattet jeden Goliath mit einem riesigen Schild aus, der viele Projektile abprallen lässt.</String>
 		<String _locID="30082" category="Techs" subtitle="false">HOCHFLEXIBLE VERB.</String>
 		<String _locID="30083" category="Techs" subtitle="false">Drastisch verbesserte Mobilitätssysteme, die die Bewegungsgeschwindigkeit jedes Goliaths erhöht.</String>
+
+
+		<String _locID="30111" category="Squads" subtitle="false">Protos Scarab</String>
+		<String _locID="30112" category="Squads" subtitle="false">Gigantische Maschinen, eigentlich für Bergbauarbeiten gebaut. Sie sind in der Lage fast alles in ihrem Weg zu zerstören.</String>
+		<String _locID="30113" category="Objects" subtitle="false">Protos Scarab</String>
+
+
+		<String _locID="30114" category="Squads" subtitle="false">SHADOW</String>
+		<String _locID="30115" category="Squads" subtitle="false">Der Shadow ist ein Truppentransporter. Sie eignen sich auch sehr gut als Unterstützung für Infanterie und bekämpfung von Fahrzeugen.</String>
+		<String _locID="30116" category="Objects" subtitle="false">SHADOW</String>
+		<String _locID="30117" category="Techs" subtitle="false">TRANSPORT FÄHIGKEIT</String>
+		<String _locID="30118" category="Techs" subtitle="false">Erlaubt dem Shadow Truppen zu transportieren.</String>
+		<String _locID="30119" category="Techs" subtitle="false">SCHWERER SCHILD</String>
+		<String _locID="30120" category="Techs" subtitle="false">Fügt einen Energieschild hinzu, der einen Teil des Schadens abprallen lässt.</String>
+		<String _locID="30121" category="Techs" subtitle="false">FLAK-GESCHÜTZ</String>
+		<String _locID="30122" category="Techs" subtitle="false">Erhöht immens das Schadenspotenzial des Shadow-Geschütz.</String>
 
 
 		<!-- Skidbladnir -->
