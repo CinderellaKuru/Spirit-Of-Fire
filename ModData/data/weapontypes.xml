@@ -229,6 +229,19 @@
 		<DamageModifier rating="1" type="Flood" reflectDamageFactor="1" rammable="true">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
+		<Name>ProwlerRam</Name>
+		<DamageModifier rating="1" type="Light" reflectDamageFactor="0.3" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover" reflectDamageFactor="0" bowlable="false">0</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored" reflectDamageFactor="0.4" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader" reflectDamageFactor="0.8" rammable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium" reflectDamageFactor="0.8" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy" reflectDamageFactor="2" rammable="true">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Building" reflectDamageFactor="3" rammable="true">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Shielded" reflectDamageFactor="0.2" rammable="true">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Flood" reflectDamageFactor="1" rammable="true">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
 		<Name>GaussCannon</Name>
 		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
 		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>

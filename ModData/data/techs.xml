@@ -4960,7 +4960,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_boostedram</ResearchCompleteSound>
+		<ResearchCompleteSound>play_vog_tech_boost</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_spectre_upgrade1</TechStatus>
 		</Prereqs>
@@ -4995,7 +4995,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_overdrive</ResearchCompleteSound>
+		<ResearchCompleteSound>play_vog_tech_repeatingcannon</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_spectre_upgrade2</TechStatus>
 		</Prereqs>
@@ -5016,6 +5016,99 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepeatingPlasmaCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_spectre_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_prowler_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30105</DisplayNameID>
+		<RolloverTextID>30106</RolloverTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_boostedram</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">covenant_LeaderBrute</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_prowler_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30107</DisplayNameID>
+		<RolloverTextID>30108</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_prowler_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0.25" subtype="ReflectDamageFactor" action="Ram" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35" subtype="Damage" action="Ram" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_prowler_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30109</DisplayNameID>
+		<RolloverTextID>30110</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_repeatingcannon</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_prowler_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_prowler_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_prowler_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_prowler_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepeatingPlasmaCannonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_prowler_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5229,6 +5322,190 @@
 			</Effect>
 			<Effect type="Data" subtype="ShieldRegenDelay" amount="0.5" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_wraithaa_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30126</DisplayNameID>
+		<RolloverTextID>30127</RolloverTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>20</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_heavyshield</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">covenant_LeaderBrute</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="4488" subtype="Shieldpoints" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_wraithaa_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30128</DisplayNameID>
+		<RolloverTextID>30129</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_volley</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_wraithaa_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_wraithaa_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30130</DisplayNameID>
+		<RolloverTextID>30131</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_powerturret</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_wraithaa_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="FuelRodAttackAction2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="FuelRodTrackingAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_shadow_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30117</DisplayNameID>
+		<RolloverTextID>30118</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_stabilizers</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" action="PlasmaCannon" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="TransformProtoUnit" FromType="cov_veh_shadow_01" ToType="cov_veh_shadow_02" />
+		</Effects>
+	</Tech>
+	<Tech name="cov_shadow_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30119</DisplayNameID>
+		<RolloverTextID>30120</RolloverTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>20</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_heavyshield</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_shadow_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="Data" amount="4488" subtype="Shieldpoints" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_shadow_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_shadow_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>30121</DisplayNameID>
+		<RolloverTextID>30122</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_plasmamodulator</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_shadow_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="FuelRodAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_shadow_01</Target>
+			</Effect>
+			<Effect type="Data" amount="10" subtype="MaxContained" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_shadow_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -6097,6 +6374,12 @@
 				<Target type="ProtoUnit">cov_veh_spectre_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
@@ -6395,8 +6678,12 @@
 				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+				<Target type="ProtoSquad">cov_veh_wraithaa_01</Target>
+				<Target type="ProtoSquad">cov_veh_shadow_01</Target>
 				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
+				<Target type="ProtoSquad">cov_veh_scarab_02</Target>
 				<Target type="ProtoSquad">cov_veh_spectre_01</Target>
+				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_upgrade1" relativity="Absolute">
@@ -6662,6 +6949,15 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_spectre_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_prowler_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_prowler_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_prowler_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_wraith_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
@@ -6669,6 +6965,35 @@
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_wraith_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+
+
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_locust_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_locust_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_locust_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_shadow_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_shadow_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_shadow_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
 
@@ -6747,7 +7072,25 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_spectre_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraith_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithaa_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_shadow_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
 
@@ -7206,6 +7549,15 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_spectre_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_locust_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_locust_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_locust_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
 
 
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
@@ -7242,6 +7594,12 @@
 
 
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_spectre_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
 		</Effects>
@@ -7343,13 +7701,22 @@
 			</Effect>
 
 
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_wraith_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_prowler_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_wraith_upgrade2" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_prowler_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_wraith_upgrade3" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_prowler_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
 
@@ -7387,7 +7754,13 @@
 			</Effect>
 
 
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraith_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithaa_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
 		</Effects>
@@ -7498,6 +7871,15 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_wraith_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_shadow_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_shadow_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_shadow_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
 
 
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
@@ -7529,9 +7911,15 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_goliath_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
+			
 
-
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraith_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_shadow_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
 		</Effects>

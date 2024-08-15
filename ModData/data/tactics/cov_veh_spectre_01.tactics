@@ -44,24 +44,6 @@
 		<TargetPriority type="Building">-3</TargetPriority>
 		<SmallArmsDeflectable />
 	</Weapon>
-	<Weapon>
-		<Name>Ram</Name>
-		<DamagePerSecond>500</DamagePerSecond>
-		<WeaponType>WarthogRam</WeaponType>
-		<MaxRange>5</MaxRange>
-		<AOERadius>40</AOERadius>
-		<ThrowUnits />
-		<FlailThrownUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
-		<PhysicsLaunchAxial />
-		<PhysicsForceMin>50</PhysicsForceMin>
-		<PhysicsForceMax>100</PhysicsForceMax>
-		<ImpactCameraShake duration="0.4" strength="0.38" />
-		<ImpactRumble leftRumbleType="RandomNoise" leftStrength="0.3" rightRumbleType="RandomNoise" rightStrength="0.3" duration="0.25" />
-		<MaxDamagePerRam>25000</MaxDamagePerRam>
-		<ReflectDamageFactor>0.75</ReflectDamageFactor>
-	</Weapon>
 	<Action>
 		<Name>PlasmaCannonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -82,18 +64,6 @@
 		<DisableAttackWaitTimer />
 		<PersistBetweenOpps />
 		<StartDisabled />
-	</Action>
-	<State>
-		<Name>RamState</Name>
-		<WalkAnim>Run</WalkAnim>
-		<RunAnim>Run</RunAnim>
-		<JogAnim>Run</JogAnim>
-	</State>
-	<Action>
-		<Name>RamAttack</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Weapon>Ram</Weapon>
-		<Overrun />
 	</Action>
 	<Action>
 		<Name>PersistentCollisionAttack</Name>
@@ -166,7 +136,6 @@
 		<WorkRange>3</WorkRange>
 	</Action>
 	<Tactic>
-		<PersistentAction>PersistentCollisionAttack</PersistentAction>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />

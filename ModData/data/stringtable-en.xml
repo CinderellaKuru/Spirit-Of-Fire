@@ -4952,10 +4952,35 @@
 		<String _locID="30095" category="Objects" subtitle="false">SPECTRE</String>
 		<String _locID="30096" category="Techs" subtitle="false">HEAVY SHIELD</String>
 		<String _locID="30097" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
-		<String _locID="30098" category="Techs" subtitle="false">BOOSTED RAMABILITY</String>
-		<String _locID="30099" category="Techs" subtitle="false">Enables the Boosted Ram Ability on Ghosts, allowing them to effectively ram their targets.</String>
-		<String _locID="30100" category="Techs" subtitle="false">OVERDRIVE</String>
+		<String _locID="30098" category="Techs" subtitle="false">BOOST</String>
+		<String _locID="30099" category="Techs" subtitle="false">Enables the Boost-Ability on Spectres, allowing them to effectively traverse.</String>
+		<String _locID="30100" category="Techs" subtitle="false">REPEATING CANNON</String>
 		<String _locID="30101" category="Techs" subtitle="false">Drastically increases combat strengh of Spectre-salvos.</String>
+
+
+        <!--Brute-->
+
+
+		<String _locID="30102" category="Squads" subtitle="false">PROWLER</String>
+		<String _locID="30103" category="Squads" subtitle="false">Brutes prefer a more rough approach to vehicle design which is heavily represented in the Prowler.</String>
+		<String _locID="30104" category="Objects" subtitle="false">PROWLER</String>
+		<String _locID="30105" category="Techs" subtitle="false">RAM-ABILITY</String>
+		<String _locID="30106" category="Techs" subtitle="false">Allows the prowler to ram enemy units and buildings.</String>
+		<String _locID="30107" category="Techs" subtitle="false">RAMTARGE</String>
+		<String _locID="30108" category="Techs" subtitle="false">Drastically increases damage dealt by ramming.</String>
+		<String _locID="30109" category="Techs" subtitle="false">REPEATING CANNON</String>
+		<String _locID="30110" category="Techs" subtitle="false">Drastically increases combat strengh of Prowler-salvos.</String>
+
+
+		<String _locID="30123" category="Squads" subtitle="false">AA WRAITH</String>
+		<String _locID="30124" category="Squads" subtitle="false">This varient of the Wraith has Anti Air turrets.</String>
+		<String _locID="30125" category="Objects" subtitle="false">AA WRAITH</String>
+		<String _locID="30126" category="Techs" subtitle="false">HEAVY SHIELD</String>
+		<String _locID="30127" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
+		<String _locID="30128" category="Techs" subtitle="false">VOLLEY-ABILITY</String>
+		<String _locID="30129" category="Techs" subtitle="false">Allows the AA Wraith to use its volley ability.</String>
+		<String _locID="30130" category="Techs" subtitle="false">TRACKING ROCKETS</String>
+		<String _locID="30131" category="Techs" subtitle="false">Air Units are now being tracked by its fire.</String>
 
 
 		<!--Prophet of Regret-->
@@ -4981,6 +5006,22 @@
 		<String _locID="30081" category="Techs" subtitle="false">Equips each Goliath with a huge shield that can deflect many projectiles.</String>
 		<String _locID="30082" category="Techs" subtitle="false">HIGH TORQUE JOINTS</String>
 		<String _locID="30083" category="Techs" subtitle="false">Massively improved mobility systems increases movement speed of each Goliath.</String>
+
+
+		<String _locID="30111" category="Squads" subtitle="false">Protos Scarab</String>
+		<String _locID="30112" category="Squads" subtitle="false">Massive, heavily armored vehicles originally created for mining, Protos Scarabs are capable of effortlessly decimating any target.</String>
+		<String _locID="30113" category="Objects" subtitle="false">Protos Scarab</String>
+
+
+		<String _locID="30114" category="Squads" subtitle="false">SHADOW</String>
+		<String _locID="30115" category="Squads" subtitle="false">The Shadow is a troop-transport unit. It also does really well as a Infantry support unit by fighting other vehicles.</String>
+		<String _locID="30116" category="Objects" subtitle="false">SHADOW</String>
+		<String _locID="30117" category="Techs" subtitle="false">TRANSPORT ABILITY</String>
+		<String _locID="30118" category="Techs" subtitle="false">Allows the Shadow to transport Infantry.</String>
+		<String _locID="30119" category="Techs" subtitle="false">HEAVY SHIELD</String>
+		<String _locID="30120" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
+		<String _locID="30121" category="Techs" subtitle="false">FUELROD-TURRET</String>
+		<String _locID="30122" category="Techs" subtitle="false">Drastically increases combat strengh of the Shadow-turret.</String>
 
 
 		<!-- Skidbladnir -->

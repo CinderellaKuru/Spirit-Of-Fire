@@ -53,6 +53,11 @@
 		<FindBetterAction />
 	</Action>
 	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
 		<Name>GarrisonSpirit</Name>
 		<ActionType>Garrison</ActionType>
 		<Anim>HotDropUp</Anim>
@@ -132,6 +137,11 @@
 			<TargetType>CapturePoint</TargetType>
 			<TargetState>Capturable</TargetState>
 			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Self</Relation>
