@@ -60,37 +60,6 @@
 			<ConformToTerrain>false</ConformToTerrain>
 		</Selection>
 	</Squad>
-	<Squad name="unsc_air_hawk_01" dbid="868">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_hawk</PortraitIcon>
-		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3028</DisplayNameID>
-		<RolloverTextID>3029</RolloverTextID>
-		<StatsNameID>25678</StatsNameID>
-		<PrereqTextID>233</PrereqTextID>
-		<RoleTextID>502</RoleTextID>
-		<BuildPoints>19</BuildPoints>
-		<Cost resourcetype="Supplies">250</Cost>
-		<Cost resourcetype="Power">2</Cost>
-		<SubSelectSort>7000</SubSelectSort>
-		<LeashDistance>45</LeashDistance>
-		<LeashDeadzone>15</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>25</AggroDistance>
-		<Birth trainerAnim="TrainAir" spawnpoint="bone_spawnPoint03">Trained</Birth>
-		<HPBar offset="0,7,0">UNSC_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">unsc_air_hornet_01</Unit>
-		</Units>
-		<Flag>DiesWhenFrozen</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Selection>
-			<ConformToTerrain>false</ConformToTerrain>
-		</Selection>
-	</Squad>
 	<Squad name="unsc_air_vulture_01" dbid="871">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
@@ -1497,6 +1466,38 @@
 		<Flag>KBAware</Flag>
 	</Squad>
 
+	<Squad name="unsc_air_hawk_01" dbid="868">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_hawk</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3028</DisplayNameID>
+		<RolloverTextID>3029</RolloverTextID>
+		<StatsNameID>25678</StatsNameID>
+		<PrereqTextID>233</PrereqTextID>
+		<RoleTextID>502</RoleTextID>
+		<BuildPoints>19</BuildPoints>
+		<Cost resourcetype="Supplies">250</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<SubSelectSort>7000</SubSelectSort>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Birth trainerAnim="TrainAir" spawnpoint="bone_spawnPoint03">Trained</Birth>
+		<HPBar offset="0,7,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_air_hornet_01</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+	</Squad>
+
 
 	<!-- Covenant -->
 
@@ -1541,6 +1542,32 @@
 		<Units>
 			<Unit count="1" role="normal">cov_air_spirit_trigger_01</Unit>
 		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="cov_air_phantom_01" dbid="3085">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\air_banshee</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30132</DisplayNameID>
+		<RolloverTextID>30133</RolloverTextID>
+		<RoleTextID>509</RoleTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<SubSelectSort>4605</SubSelectSort>
+		<BuildPoints>15</BuildPoints>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<HPBar offset="0,6,0">COV_Health</HPBar>
+		<Birth spawnpoint="bone_spawnPoint01">Flyin</Birth>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_air_phantom_01</Unit>
+		</Units>
+		<DazeResist>0</DazeResist>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Selection>
@@ -1653,37 +1680,6 @@
 		<Flag>AlwaysAttackReviveUnits</Flag>
 		<Flag>KBAware</Flag>
 	</Squad>
-	<Squad name="cov_veh_locust_01" dbid="914">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_chimera</PortraitIcon>
-		<MinimapIcon size="8">Square</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3070</DisplayNameID>
-		<RolloverTextID>3071</RolloverTextID>
-		<PrereqTextID>243</PrereqTextID>
-		<RoleTextID>507</RoleTextID>
-		<BuildPoints>23</BuildPoints>
-		<Cost resourcetype="Supplies">300</Cost>
-		<Cost resourcetype="Power">2</Cost>
-		<SubSelectSort>6300</SubSelectSort>
-		<LeashDistance>15</LeashDistance>
-		<LeashDeadzone>5</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>0</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint04" endPoint="bone_spawnPoint04">Trained</Birth>
-		<HPBar offset="0,12,0">COV_HealthShield</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_veh_locust_01</Unit>
-		</Units>
-		<TurnRadius min="0.5" max="6" />
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<CanAttackWhileMoving>false</CanAttackWhileMoving>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
 	<Squad name="cov_veh_scarab_01" dbid="915">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>
@@ -1710,74 +1706,6 @@
 		<TurnRadius min="2" max="16" />
 		<DazeResist>0.1</DazeResist>
 		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
-	<Squad name="cov_veh_wraith_01" dbid="917">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
-		<MinimapIcon size="8">Square</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3056</DisplayNameID>
-		<RolloverTextID>3057</RolloverTextID>
-		<PrereqTextID>242</PrereqTextID>
-		<RoleTextID>501</RoleTextID>
-		<BuildPoints>26</BuildPoints>
-		<Cost resourcetype="Supplies">350</Cost>
-		<Cost resourcetype="Power">1</Cost>
-		<SubSelectSort>6500</SubSelectSort>
-		<LeashDistance>20</LeashDistance>
-		<LeashDeadzone>5</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>0</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint04" endPoint="bone_spawnPoint04">Trained</Birth>
-		<HPBar offset="0,12,0">COV_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_veh_wraith_01</Unit>
-		</Units>
-		<TurnRadius min="0.1" max="4" />
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
-	<Squad name="cov_veh_bruteChopper_01" dbid="2455">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
-		<MinimapIcon size="8">Square</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3084</DisplayNameID>
-		<RolloverTextID>3085</RolloverTextID>
-		<PrereqTextID>240</PrereqTextID>
-		<RoleTextID>518</RoleTextID>
-		<BuildPoints>15</BuildPoints>
-		<Cost resourcetype="Supplies">200</Cost>
-		<SubSelectSort>620</SubSelectSort>
-		<LeashDistance>45</LeashDistance>
-		<LeashDeadzone>15</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>25</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
-		<HPBar offset="0,10,0">COV_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_veh_bruteChopper_01</Unit>
-		</Units>
-		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
-		<Sound Type="MoveChatter">play_cov_batchat_chopper_move</Sound>
-		<Sound Type="MoveAttackChatter">play_cov_batchat_chopper_moveattack</Sound>
-		<Sound Type="AttackChatter">play_cov_batchat_chopper_action</Sound>
-		<Sound Type="Cheer">play_cov_batchat_chopper_cheer</Sound>
-		<Sound Type="IdleChatter">play_cov_batchat_chopper_idle</Sound>
-		<Sound Type="KillEnemy">play_cov_batchat_chopper_killenemy</Sound>
-		<Sound Type="AllyKilled">play_cov_batchat_chopper_allykilled</Sound>
-		<TurnRadius min="1.5" max="4" />
-		<Flag>Repairable</Flag>
-		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
@@ -1873,527 +1801,6 @@
 		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
 		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
 		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
-	<Squad name="cov_inf_arbiter_01" dbid="902">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3052</DisplayNameID>
-		<RolloverTextID>3053</RolloverTextID>
-		<PrereqTextID>244</PrereqTextID>
-		<RoleTextID>520</RoleTextID>
-		<BuildPoints>60</BuildPoints>
-		<Cost resourcetype="Supplies">400</Cost>
-		<SubSelectSort>2000</SubSelectSort>
-		<LeashDistance>80</LeashDistance>
-		<LeashDeadzone>40</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>40</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
-		<HPBar offset="0,10,0">COV_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_inf_arbiter_01</Unit>
-		</Units>
-		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_arbiter_world_harvest_moving</Sound>
-		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_arbiter_world_arcadia_moving</Sound>
-		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_arbiter_world_swi_moving</Sound>
-		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_arbiter_world_sw_moving</Sound>
-		<Sound Type="MoveChatter">play_cov_batchat_arbiter_move</Sound>
-		<Sound Type="AttackChatter">play_cov_batchat_arbiter_action</Sound>
-		<Sound Type="MoveAttackChatter">play_cov_batchat_arbiter_moveattack</Sound>
-		<Sound Type="IdleChatter">play_cov_batchat_arbiter_idle</Sound>
-		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_arbiter_world_harvest_idle</Sound>
-		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_arbiter_world_arcadia_idle</Sound>
-		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_arbiter_world_swi_idle</Sound>
-		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_arbiter_world_sw_idle</Sound>
-		<Sound Type="KilledEnemy">play_cov_batchat_arbiter_killenemy</Sound>
-		<Sound Type="AllyKilled">play_cov_batchat_arbiter_allykilled</Sound>
-		<Sound Type="Cheer">play_cov_batchat_arbiter_cheer</Sound>
-		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_arbiter_unscleader_carpet</Sound>
-		<Sound Type="ReactPowOrbital">play_cov_batchat_arbiter_unscleader_mac</Sound>
-		<Sound Type="ReactPowCryo">play_cov_batchat_arbiter_unscleader_cryo</Sound>
-		<Sound Type="ReactPowRage" CastingUnitOnly="true">play_cov_batchat_arbiter_covleader_rage</Sound>
-		<Sound Type="ReactFatalityUNSC">play_cov_batchat_arbiter_unscleader_fatality</Sound>
-		<Sound Type="ReactFatalityCOV">play_cov_batchat_arbiter_covleader_fatality</Sound>
-		<Sound Type="ReactJacking">play_cov_batchat_arbiter_unscleader_jacking</Sound>
-		<Sound Type="ReactCommandeer">play_cov_batchat_arbiter_unscleader_commandeer</Sound>
-		<Sound Type="ReactHotDrop">play_cov_batchat_arbiter_covleader_hotdrop</Sound>
-		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
-		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
-		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>Chatter</Flag>
-		<Flag>CreateAudioReactions</Flag>
-		<DazeResist>0</DazeResist>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
-	<Squad name="cov_inf_bruteChief_01" dbid="2826">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>23528</DisplayNameID>
-		<RolloverTextID>23529</RolloverTextID>
-		<PrereqTextID>244</PrereqTextID>
-		<RoleTextID>520</RoleTextID>
-		<BuildPoints>60</BuildPoints>
-		<Cost resourcetype="Supplies">400</Cost>
-		<SubSelectSort>2000</SubSelectSort>
-		<LeashDistance>80</LeashDistance>
-		<LeashDeadzone>40</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>40</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
-		<HPBar offset="0,10,0">COV_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_inf_bruteChief_01</Unit>
-		</Units>
-		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_chieftain_world_harvest_moving</Sound>
-		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_chieftain_world_arcadia_moving</Sound>
-		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_chieftain_world_swi_moving</Sound>
-		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_chieftain_world_sw_moving</Sound>
-		<Sound Type="MoveChatter">play_cov_batchat_chieftain_move</Sound>
-		<Sound Type="AttackChatter">play_cov_batchat_chieftain_action</Sound>
-		<Sound Type="MoveAttackChatter">play_cov_batchat_chieftain_moveattack</Sound>
-		<Sound Type="IdleChatter">play_cov_batchat_chieftain_idle</Sound>
-		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_chieftain_world_harvest_idle</Sound>
-		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_chieftain_world_arcadia_idle</Sound>
-		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_chieftain_world_swi_idle</Sound>
-		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_chieftain_world_sw_idle</Sound>
-		<Sound Type="KilledEnemy">play_cov_batchat_chieftain_killenemy</Sound>
-		<Sound Type="AllyKilled">play_cov_batchat_chieftain_allykilled</Sound>
-		<Sound Type="Cheer">play_cov_batchat_chieftain_cheer</Sound>
-		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_chieftain_unscleader_carpet</Sound>
-		<Sound Type="ReactPowOrbital">play_cov_batchat_chieftain_unscleader_mac</Sound>
-		<Sound Type="ReactPowCryo">play_cov_batchat_chieftain_unscleader_cryo</Sound>
-		<Sound Type="ReactPowWave" CastingUnitOnly="true">play_cov_batchat_chieftain_covleader_vortex</Sound>
-		<Sound Type="ReactFatalityUNSC">play_cov_batchat_chieftain_unscleader_fatality</Sound>
-		<Sound Type="ReactFatalityCOV">play_cov_batchat_chieftain_covleader_fatality</Sound>
-		<Sound Type="ReactJacking">play_cov_batchat_chieftain_unscleader_jacking</Sound>
-		<Sound Type="ReactCommandeer">play_cov_batchat_chieftain_unscleader_commandeer</Sound>
-		<Sound Type="ReactHotDrop">play_cov_batchat_chieftain_covleader_hotdrop</Sound>
-		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
-		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
-		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
-		<Flag>Repairable</Flag>
-		<Flag>Chatter</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>CreateAudioReactions</Flag>
-		<DazeResist>0</DazeResist>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
-	<Squad name="cov_inf_prophet_01" dbid="2488">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>22637</DisplayNameID>
-		<RolloverTextID>22638</RolloverTextID>
-		<PrereqTextID>244</PrereqTextID>
-		<RoleTextID>520</RoleTextID>
-		<BuildPoints>60</BuildPoints>
-		<Cost resourcetype="Supplies">400</Cost>
-		<SubSelectSort>2000</SubSelectSort>
-		<LeashDistance>35</LeashDistance>
-		<LeashDeadzone>5</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>15</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
-		<HPBar offset="0,12,0">COV_HealthShield</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_inf_prophet_01</Unit>
-		</Units>
-		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_prophet_world_harvest_moving</Sound>
-		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_prophet_world_arcadia_moving</Sound>
-		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_prophet_world_swi_moving</Sound>
-		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_prophet_world_sw_moving</Sound>
-		<Sound Type="MoveChatter">play_cov_batchat_prophet_move</Sound>
-		<Sound Type="AttackChatter">play_cov_batchat_prophet_action</Sound>
-		<Sound Type="MoveAttackChatter">play_cov_batchat_prophet_moveattack</Sound>
-		<Sound Type="IdleChatter">play_cov_batchat_prophet_idle</Sound>
-		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_prophet_world_harvest_idle</Sound>
-		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_prophet_world_arcadia_idle</Sound>
-		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_prophet_world_swi_idle</Sound>
-		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_prophet_world_sw_idle</Sound>
-		<Sound Type="KilledEnemy">play_cov_batchat_prophet_killenemy</Sound>
-		<Sound Type="AllyKilled">play_cov_batchat_prophet_allykilled</Sound>
-		<Sound Type="Cheer">play_cov_batchat_prophet_cheer</Sound>
-		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_prophet_unscleader_carpet</Sound>
-		<Sound Type="ReactPowOrbital">play_cov_batchat_prophet_unscleader_mac</Sound>
-		<Sound Type="ReactPowCryo">play_cov_batchat_prophet_unscleader_cryo</Sound>
-		<Sound Type="ReactPowCleansing" CastingUnitOnly="true">play_cov_batchat_prophet_covleader_cleansing</Sound>
-		<Sound Type="ReactFatalityUNSC">play_cov_batchat_prophet_unscleader_fatality</Sound>
-		<Sound Type="ReactFatalityCOV">play_cov_batchat_prophet_covleader_fatality</Sound>
-		<Sound Type="ReactJacking">play_cov_batchat_prophet_unscleader_jacking</Sound>
-		<Sound Type="ReactCommandeer">play_cov_batchat_prophet_unscleader_commandeer</Sound>
-		<Sound Type="ReactHotDrop">play_cov_batchat_prophet_covleader_hotdrop</Sound>
-		<Flag>Repairable</Flag>
-		<Flag>Chatter</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>CreateAudioReactions</Flag>
-		<DazeResist>0</DazeResist>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
-	<Squad name="cov_inf_eliteCommando_01" formationType="Line" dbid="2454">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3080</DisplayNameID>
-		<RolloverTextID>3081</RolloverTextID>
-		<RoleTextID>519</RoleTextID>
-		<PrereqTextID>241</PrereqTextID>
-		<BuildPoints>20</BuildPoints>
-		<LeashDistance>80</LeashDistance>
-		<LeashDeadzone>40</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>40</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
-		<Cost resourcetype="Supplies">125</Cost>
-		<Cost resourcetype="Power">1</Cost>
-		<SubSelectSort>4003</SubSelectSort>
-		<HPBar offset="0,10,0">COV_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_inf_eliteCommando_01</Unit>
-		</Units>
-		<Sound Type="MoveChatter">play_cov_batchat_elite_move</Sound>
-		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_elite_world_harvest_moving</Sound>
-		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_elite_world_arcadia_moving</Sound>
-		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_elite_world_swi_moving</Sound>
-		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_elite_world_sw_moving</Sound>
-		<Sound Type="AttackChatter">play_cov_batchat_elite_action</Sound>
-		<Sound Type="AttackChatter" Squad="FlyingFlood">play_cov_batchat_elite_flyingflood_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="Flood">play_cov_batchat_elite_flood_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="Forerunner">play_cov_batchat_elite_forerunner_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_cobra_01">play_cov_batchat_elite_cobra_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_cyclops_01">play_cov_batchat_elite_cyclops_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_flameMarine_01">play_cov_batchat_elite_flame_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_gremlin_01">play_cov_batchat_elite_gremlin_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_grizzly_01">play_cov_batchat_elite_grizzly_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_air_hawk_01">play_cov_batchat_elite_hawk_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_air_hornet_01">play_cov_batchat_elite_hornet_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_marine_01">play_cov_batchat_elite_marine_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_spartan_01">play_cov_batchat_elite_spartan_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_scorpion_01">play_cov_batchat_elite_scorpion_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_air_vulture_01">play_cov_batchat_elite_vulture_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_warthog_01">play_cov_batchat_elite_warthog_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_wolverine_01">play_cov_batchat_elite_wolverine_taunt</Sound>
-		<Sound Type="MoveAttackChatter">play_cov_batchat_elite_moveattack</Sound>
-		<Sound Type="Cheer">play_cov_batchat_elite_cheer</Sound>
-		<Sound Type="IdleChatter">play_cov_batchat_elite_idle</Sound>
-		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_elite_world_harvest_idle</Sound>
-		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_elite_world_arcadia_idle</Sound>
-		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_elite_world_swi_idle</Sound>
-		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_elite_world_sw_idle</Sound>
-		<Sound Type="KilledEnemy">play_cov_batchat_elite_killenemy</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_cobra_01">play_cov_batchat_elite_cobra_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_cyclops_01">play_cov_batchat_elite_cyclops_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_flameMarine_01">play_cov_batchat_elite_flame_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_gremlin_01">play_cov_batchat_elite_gremlin_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_grizzly_01">play_cov_batchat_elite_grizzly_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_air_hawk_01">play_cov_batchat_elite_hawk_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_air_hornet_01">play_cov_batchat_elite_hornet_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_marine_01">play_cov_batchat_elite_marine_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_spartan_01">play_cov_batchat_elite_spartan_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_scorpion_01">play_cov_batchat_elite_scorpion_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_air_vulture_01">play_cov_batchat_elite_vulture_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_warthog_01">play_cov_batchat_elite_warthog_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_wolverine_01">play_cov_batchat_elite_wolverine_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="FlyingFlood">play_cov_batchat_elite_flyingflood_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="Flood">play_cov_batchat_elite_flood_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="Forerunner">play_cov_batchat_elite_forerunner_killed</Sound>
-		<Sound Type="AllyKilled">play_cov_batchat_elite_allykilled</Sound>
-		<Sound Type="AllyKilled" Squad="FlyingFlood">play_cov_batchat_elite_flyingflood_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="Flood">play_cov_batchat_elite_flood_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="Forerunner">play_cov_batchat_elite_forerunner_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_cobra_01">play_cov_batchat_elite_cobra_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_cyclops_01">play_cov_batchat_elite_cyclops_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_flameMarine_01">play_cov_batchat_elite_flame_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_gremlin_01">play_cov_batchat_elite_gremlin_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_grizzly_01">play_cov_batchat_elite_grizzly_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_air_hawk_01">play_cov_batchat_elite_hawk_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_air_hornet_01">play_cov_batchat_elite_hornet_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_marine_01">play_cov_batchat_elite_marine_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_spartan_01">play_cov_batchat_elite_spartan_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_scorpion_01">play_cov_batchat_elite_scorpion_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_air_vulture_01">play_cov_batchat_elite_vulture_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_warthog_01">play_cov_batchat_elite_warthog_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_wolverine_01">play_cov_batchat_elite_wolverine_waskilled</Sound>
-		<Sound Type="ReactDeath" Squad="cov_inf_arbiter_01">play_cov_batchat_elite_arbiter_death</Sound>
-		<Sound Type="ReactDeath" Squad="cov_inf_bruteChief_01">play_cov_batchat_elite_brute_death</Sound>
-		<Sound Type="ReactDeath" Squad="cov_inf_prophet_01">play_cov_batchat_elite_prophet_death</Sound>
-		<Sound Type="ReactBirth" Squad="cov_inf_arbiter_01">play_cov_batchat_elite_arbiter_birth</Sound>
-		<Sound Type="ReactBirth" Squad="cov_inf_bruteChief_01">play_cov_batchat_elite_brute_birth</Sound>
-		<Sound Type="ReactBirth" Squad="cov_inf_prophet_01">play_cov_batchat_elite_prophet_birth</Sound>
-		<Sound Type="ReactJoinBattle" Squad="cov_inf_arbiter_01">play_cov_batchat_elite_arbiter_join</Sound>
-		<Sound Type="ReactJoinBattle" Squad="cov_inf_bruteChief_01">play_cov_batchat_elite_brute_join</Sound>
-		<Sound Type="ReactJoinBattle" Squad="cov_inf_prophet_01">play_cov_batchat_elite_prophet_join</Sound>
-		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_elite_unscleader_carpet</Sound>
-		<Sound Type="ReactPowOrbital">play_cov_batchat_elite_unscleader_mac</Sound>
-		<Sound Type="ReactPowCryo">play_cov_batchat_elite_unscleader_cryo</Sound>
-		<Sound Type="ReactPowWave">play_cov_batchat_elite_covleader_tidalwave</Sound>
-		<Sound Type="ReactPowRage">play_cov_batchat_elite_covleader_rage</Sound>
-		<Sound Type="ReactPowCleansing">play_cov_batchat_elite_covleader_cleansing</Sound>
-		<Sound Type="ReactFatalityUNSC">play_cov_batchat_elite_unscleader_fatality</Sound>
-		<Sound Type="ReactFatalityCOV">play_cov_batchat_elite_covleader_fatality</Sound>
-		<Sound Type="ReactJacking">play_cov_batchat_elite_unscleader_jacking</Sound>
-		<Sound Type="ReactCommandeer">play_cov_batchat_elite_unscleader_commandeer</Sound>
-		<Sound Type="ReactHotDrop">play_cov_batchat_elite_covleader_hotdrop</Sound>
-		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
-		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
-		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>Chatter</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
-	<Squad name="cov_inf_brute_01" formationType="Flock" dbid="903">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3046</DisplayNameID>
-		<RolloverTextID>3047</RolloverTextID>
-		<PrereqTextID>241</PrereqTextID>
-		<RoleTextID>519</RoleTextID>
-		<BuildPoints>24</BuildPoints>
-		<Cost resourcetype="Supplies">150</Cost>
-		<Cost resourcetype="Power">1</Cost>
-		<SubSelectSort>4800</SubSelectSort>
-		<LeashDistance>55</LeashDistance>
-		<LeashDeadzone>25</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>25</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
-		<HPBar offset="0,8,0">COV_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="2" role="normal">cov_inf_brute_01</Unit>
-		</Units>
-		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
-		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
-		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
-		<Sound Type="StartJump">start_move_brute_jump_jet</Sound>
-		<Sound Type="StopJump">stop_move_brute_jump_jet</Sound>
-		<Sound Type="MoveChatter">play_cov_batchat_brute_move</Sound>
-		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_brute_world_harvest_moving</Sound>
-		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_brute_world_arcadia_moving</Sound>
-		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_brute_world_swi_moving</Sound>
-		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_brute_world_sw_moving</Sound>
-		<Sound Type="AttackChatter">play_cov_batchat_brute_action</Sound>
-		<Sound Type="AttackChatter" Squad="FlyingFlood">play_cov_batchat_brute_flyingflood_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="Flood">play_cov_batchat_brute_flood_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="Forerunner">play_cov_batchat_brute_forerunner_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_cobra_01">play_cov_batchat_brute_cobra_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_cyclops_01">play_cov_batchat_brute_cyclops_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_flameMarine_01">play_cov_batchat_brute_flame_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_gremlin_01">play_cov_batchat_brute_gremlin_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_grizzly_01">play_cov_batchat_brute_grizzly_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_air_hawk_01">play_cov_batchat_brute_hawk_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_air_hornet_01">play_cov_batchat_brute_hornet_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_marine_01">play_cov_batchat_brute_marine_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_spartan_01">play_cov_batchat_brute_spartan_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_scorpion_01">play_cov_batchat_brute_scorpion_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_air_vulture_01">play_cov_batchat_brute_vulture_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_warthog_01">play_cov_batchat_brute_warthog_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_wolverine_01">play_cov_batchat_brute_wolverine_taunt</Sound>
-		<Sound Type="MoveAttackChatter">play_cov_batchat_brute_moveattack</Sound>
-		<Sound Type="Cheer">play_cov_batchat_brute_cheer</Sound>
-		<Sound Type="IdleChatter">play_cov_batchat_brute_idle</Sound>
-		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_brute_world_harvest_idle</Sound>
-		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_brute_world_arcadia_idle</Sound>
-		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_brute_world_swi_idle</Sound>
-		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_brute_world_sw_idle</Sound>
-		<Sound Type="KilledEnemy">play_cov_batchat_brute_killenemy</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_cobra_01">play_cov_batchat_brute_cobra_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_cyclops_01">play_cov_batchat_brute_cyclops_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_flameMarine_01">play_cov_batchat_brute_flame_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_gremlin_01">play_cov_batchat_brute_gremlin_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_grizzly_01">play_cov_batchat_brute_grizzly_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_air_hawk_01">play_cov_batchat_brute_hawk_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_air_hornet_01">play_cov_batchat_brute_hornet_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_marine_01">play_cov_batchat_brute_marine_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_spartan_01">play_cov_batchat_brute_spartan_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_scorpion_01">play_cov_batchat_brute_scorpion_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_air_vulture_01">play_cov_batchat_brute_vulture_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_warthog_01">play_cov_batchat_brute_warthog_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_wolverine_01">play_cov_batchat_brute_wolverine_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="FlyingFlood">play_cov_batchat_brute_flyingflood_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="Flood">play_cov_batchat_brute_flood_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="Forerunner">play_cov_batchat_brute_forerunner_killed</Sound>
-		<Sound Type="AllyKilled">play_cov_batchat_brute_allykilled</Sound>
-		<Sound Type="AllyKilled" Squad="FlyingFlood">play_cov_batchat_brute_flyingflood_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="Flood">play_cov_batchat_brute_flood_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="Forerunner">play_cov_batchat_brute_forerunner_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_cobra_01">play_cov_batchat_brute_cobra_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_cyclops_01">play_cov_batchat_brute_cyclops_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_flameMarine_01">play_cov_batchat_brute_flame_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_gremlin_01">play_cov_batchat_brute_gremlin_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_grizzly_01">play_cov_batchat_brute_grizzly_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_air_hawk_01">play_cov_batchat_brute_hawk_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_air_hornet_01">play_cov_batchat_brute_hornet_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_marine_01">play_cov_batchat_brute_marine_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_spartan_01">play_cov_batchat_brute_spartan_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_scorpion_01">play_cov_batchat_brute_scorpion_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_air_vulture_01">play_cov_batchat_brute_vulture_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_warthog_01">play_cov_batchat_brute_warthog_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_wolverine_01">play_cov_batchat_brute_wolverine_waskilled</Sound>
-		<Sound Type="ReactDeath" Squad="cov_inf_arbiter_01">play_cov_batchat_brute_arbiter_death</Sound>
-		<Sound Type="ReactDeath" Squad="cov_inf_bruteChief_01">play_cov_batchat_brute_brute_death</Sound>
-		<Sound Type="ReactDeath" Squad="cov_inf_prophet_01">play_cov_batchat_brute_prophet_death</Sound>
-		<Sound Type="ReactBirth" Squad="cov_inf_arbiter_01">play_cov_batchat_brute_arbiter_birth</Sound>
-		<Sound Type="ReactBirth" Squad="cov_inf_bruteChief_01">play_cov_batchat_brute_brute_birth</Sound>
-		<Sound Type="ReactBirth" Squad="cov_inf_prophet_01">play_cov_batchat_brute_prophet_birth</Sound>
-		<Sound Type="ReactJoinBattle" Squad="cov_inf_arbiter_01">play_cov_batchat_brute_arbiter_join</Sound>
-		<Sound Type="ReactJoinBattle" Squad="cov_inf_bruteChief_01">play_cov_batchat_brute_brute_join</Sound>
-		<Sound Type="ReactJoinBattle" Squad="cov_inf_prophet_01">play_cov_batchat_brute_prophet_join</Sound>
-		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_brute_unscleader_carpet</Sound>
-		<Sound Type="ReactPowOrbital">play_cov_batchat_brute_unscleader_mac</Sound>
-		<Sound Type="ReactPowCryo">play_cov_batchat_brute_unscleader_cryo</Sound>
-		<Sound Type="ReactPowWave">play_cov_batchat_brute_covleader_tidalwave</Sound>
-		<Sound Type="ReactPowRage">play_cov_batchat_brute_covleader_rage</Sound>
-		<Sound Type="ReactPowCleansing">play_cov_batchat_brute_covleader_cleansing</Sound>
-		<Sound Type="ReactFatalityUNSC">play_cov_batchat_brute_unscleader_fatality</Sound>
-		<Sound Type="ReactFatalityCOV">play_cov_batchat_brute_covleader_fatality</Sound>
-		<Sound Type="ReactJacking">play_cov_batchat_brute_unscleader_jacking</Sound>
-		<Sound Type="ReactCommandeer">play_cov_batchat_brute_unscleader_commandeer</Sound>
-		<Sound Type="ReactHotDrop">play_cov_batchat_brute_covleader_hotdrop</Sound>
-		<Flag>Repairable</Flag>
-		<Flag>Chatter</Flag>
-		<Flag>KBAware</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
-	<Squad name="cov_inf_suicideGrunt_01" formationType="Flock" dbid="3359">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>24161</DisplayNameID>
-		<RolloverTextID>24162</RolloverTextID>
-		<RoleTextID>519</RoleTextID>
-		<BuildPoints>16</BuildPoints>
-		<Cost resourcetype="Supplies">160</Cost>
-		<Cost resourcetype="Power">1</Cost>
-		<SubSelectSort>4001</SubSelectSort>
-		<LeashDistance>55</LeashDistance>
-		<LeashDeadzone>25</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>35</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
-		<HPBar offset="0,8,0">COV_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="4" role="normal">cov_inf_suicideGrunt_01</Unit>
-		</Units>
-		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
-		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
-		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
-		<Sound Type="MoveChatter">play_cov_batchat_grunt_move</Sound>
-		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_grunt_world_harvest_moving</Sound>
-		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_grunt_world_arcadia_moving</Sound>
-		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_grunt_world_swi_moving</Sound>
-		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_grunt_world_sw_moving</Sound>
-		<Sound Type="AttackChatter">play_cov_batchat_grunt_action</Sound>
-		<Sound Type="AttackChatter" Squad="FlyingFlood">play_cov_batchat_grunt_flyingflood_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="Flood">play_cov_batchat_grunt_flood_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="Forerunner">play_cov_batchat_grunt_forerunner_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_cobra_01">play_cov_batchat_grunt_cobra_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_cyclops_01">play_cov_batchat_grunt_cyclops_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_flameMarine_01">play_cov_batchat_grunt_flame_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_gremlin_01">play_cov_batchat_grunt_gremlin_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_grizzly_01">play_cov_batchat_grunt_grizzly_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_air_hawk_01">play_cov_batchat_grunt_hawk_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_air_hornet_01">play_cov_batchat_grunt_hornet_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_marine_01">play_cov_batchat_grunt_marine_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_inf_spartan_01">play_cov_batchat_grunt_spartan_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_scorpion_01">play_cov_batchat_grunt_scorpion_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_air_vulture_01">play_cov_batchat_grunt_vulture_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_warthog_01">play_cov_batchat_grunt_warthog_taunt</Sound>
-		<Sound Type="AttackChatter" Squad="unsc_veh_wolverine_01">play_cov_batchat_grunt_wolverine_taunt</Sound>
-		<Sound Type="MoveAttackChatter">play_cov_batchat_grunt_moveattack</Sound>
-		<Sound Type="Cheer">play_cov_batchat_grunt_cheer</Sound>
-		<Sound Type="IdleChatter">play_cov_batchat_grunt_idle</Sound>
-		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_grunt_world_harvest_idle</Sound>
-		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_grunt_world_arcadia_idle</Sound>
-		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_grunt_world_swi_idle</Sound>
-		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_grunt_world_sw_idle</Sound>
-		<Sound Type="KilledEnemy">play_cov_batchat_grunt_killenemy</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_cobra_01">play_cov_batchat_grunt_cobra_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_cyclops_01">play_cov_batchat_grunt_cyclops_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_flameMarine_01">play_cov_batchat_grunt_flame_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_gremlin_01">play_cov_batchat_grunt_gremlin_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_grizzly_01">play_cov_batchat_grunt_grizzly_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_air_hawk_01">play_cov_batchat_grunt_hawk_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_air_hornet_01">play_cov_batchat_grunt_hornet_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_marine_01">play_cov_batchat_grunt_marine_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_inf_spartan_01">play_cov_batchat_grunt_spartan_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_scorpion_01">play_cov_batchat_grunt_scorpion_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_air_vulture_01">play_cov_batchat_grunt_vulture_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_warthog_01">play_cov_batchat_grunt_warthog_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="unsc_veh_wolverine_01">play_cov_batchat_grunt_wolverine_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="FlyingFlood">play_cov_batchat_grunt_flyingflood_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="Flood">play_cov_batchat_grunt_flood_killed</Sound>
-		<Sound Type="KilledEnemy" Squad="Forerunner">play_cov_batchat_grunt_forerunner_killed</Sound>
-		<Sound Type="AllyKilled">play_cov_batchat_grunt_allykilled</Sound>
-		<Sound Type="AllyKilled" Squad="FlyingFlood">play_cov_batchat_grunt_flyingflood_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="Flood">play_cov_batchat_grunt_flood_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="Forerunner">play_cov_batchat_grunt_forerunner_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_cobra_01">play_cov_batchat_grunt_cobra_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_cyclops_01">play_cov_batchat_grunt_cyclops_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_flameMarine_01">play_cov_batchat_grunt_flame_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_gremlin_01">play_cov_batchat_grunt_gremlin_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_grizzly_01">play_cov_batchat_grunt_grizzly_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_air_hawk_01">play_cov_batchat_grunt_hawk_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_air_hornet_01">play_cov_batchat_grunt_hornet_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_marine_01">play_cov_batchat_grunt_marine_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_inf_spartan_01">play_cov_batchat_grunt_spartan_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_scorpion_01">play_cov_batchat_grunt_scorpion_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_air_vulture_01">play_cov_batchat_grunt_vulture_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_warthog_01">play_cov_batchat_grunt_warthog_waskilled</Sound>
-		<Sound Type="AllyKilled" Squad="unsc_veh_wolverine_01">play_cov_batchat_grunt_wolverine_waskilled</Sound>
-		<Sound Type="ReactDeath" Squad="cov_inf_arbiter_01">play_cov_batchat_grunt_arbiter_death</Sound>
-		<Sound Type="ReactDeath" Squad="cov_inf_bruteChief_01">play_cov_batchat_grunt_brute_death</Sound>
-		<Sound Type="ReactDeath" Squad="cov_inf_prophet_01">play_cov_batchat_grunt_prophet_death</Sound>
-		<Sound Type="ReactBirth" Squad="cov_inf_arbiter_01">play_cov_batchat_grunt_arbiter_birth</Sound>
-		<Sound Type="ReactBirth" Squad="cov_inf_bruteChief_01">play_cov_batchat_grunt_brute_birth</Sound>
-		<Sound Type="ReactBirth" Squad="cov_inf_prophet_01">play_cov_batchat_grunt_prophet_birth</Sound>
-		<Sound Type="ReactJoinBattle" Squad="cov_inf_arbiter_01">play_cov_batchat_grunt_arbiter_join</Sound>
-		<Sound Type="ReactJoinBattle" Squad="cov_inf_bruteChief_01">play_cov_batchat_grunt_brute_join</Sound>
-		<Sound Type="ReactJoinBattle" Squad="cov_inf_prophet_01">play_cov_batchat_grunt_prophet_join</Sound>
-		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_grunt_unscleader_carpet</Sound>
-		<Sound Type="ReactPowOrbital">play_cov_batchat_grunt_unscleader_mac</Sound>
-		<Sound Type="ReactPowCryo">play_cov_batchat_grunt_unscleader_cryo</Sound>
-		<Sound Type="ReactPowWave">play_cov_batchat_grunt_covleader_tidalwave</Sound>
-		<Sound Type="ReactPowRage">play_cov_batchat_grunt_covleader_rage</Sound>
-		<Sound Type="ReactPowCleansing">play_cov_batchat_grunt_covleader_cleansing</Sound>
-		<Sound Type="ReactFatalityUNSC">play_cov_batchat_grunt_unscleader_fatality</Sound>
-		<Sound Type="ReactFatalityCOV">play_cov_batchat_grunt_covleader_fatality</Sound>
-		<Sound Type="ReactJacking">play_cov_batchat_grunt_unscleader_jacking</Sound>
-		<Sound Type="ReactCommandeer">play_cov_batchat_grunt_unscleader_commandeer</Sound>
-		<Sound Type="ReactHotDrop">play_cov_batchat_grunt_covleader_hotdrop</Sound>
-		<Sound Type="Kamikaze">play_cov_grunt_scream</Sound>
-		<Flag>Repairable</Flag>
-		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
@@ -2893,6 +2300,181 @@
 	</Squad>
 
 	<!--Arbiter-->
+
+	<Squad name="cov_inf_arbiter_01" dbid="902">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3052</DisplayNameID>
+		<RolloverTextID>3053</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<RoleTextID>520</RoleTextID>
+		<BuildPoints>60</BuildPoints>
+		<Cost resourcetype="Supplies">400</Cost>
+		<SubSelectSort>2000</SubSelectSort>
+		<LeashDistance>80</LeashDistance>
+		<LeashDeadzone>40</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,10,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_arbiter_01</Unit>
+		</Units>
+		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_arbiter_world_harvest_moving</Sound>
+		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_arbiter_world_arcadia_moving</Sound>
+		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_arbiter_world_swi_moving</Sound>
+		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_arbiter_world_sw_moving</Sound>
+		<Sound Type="MoveChatter">play_cov_batchat_arbiter_move</Sound>
+		<Sound Type="AttackChatter">play_cov_batchat_arbiter_action</Sound>
+		<Sound Type="MoveAttackChatter">play_cov_batchat_arbiter_moveattack</Sound>
+		<Sound Type="IdleChatter">play_cov_batchat_arbiter_idle</Sound>
+		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_arbiter_world_harvest_idle</Sound>
+		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_arbiter_world_arcadia_idle</Sound>
+		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_arbiter_world_swi_idle</Sound>
+		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_arbiter_world_sw_idle</Sound>
+		<Sound Type="KilledEnemy">play_cov_batchat_arbiter_killenemy</Sound>
+		<Sound Type="AllyKilled">play_cov_batchat_arbiter_allykilled</Sound>
+		<Sound Type="Cheer">play_cov_batchat_arbiter_cheer</Sound>
+		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_arbiter_unscleader_carpet</Sound>
+		<Sound Type="ReactPowOrbital">play_cov_batchat_arbiter_unscleader_mac</Sound>
+		<Sound Type="ReactPowCryo">play_cov_batchat_arbiter_unscleader_cryo</Sound>
+		<Sound Type="ReactPowRage" CastingUnitOnly="true">play_cov_batchat_arbiter_covleader_rage</Sound>
+		<Sound Type="ReactFatalityUNSC">play_cov_batchat_arbiter_unscleader_fatality</Sound>
+		<Sound Type="ReactFatalityCOV">play_cov_batchat_arbiter_covleader_fatality</Sound>
+		<Sound Type="ReactJacking">play_cov_batchat_arbiter_unscleader_jacking</Sound>
+		<Sound Type="ReactCommandeer">play_cov_batchat_arbiter_unscleader_commandeer</Sound>
+		<Sound Type="ReactHotDrop">play_cov_batchat_arbiter_covleader_hotdrop</Sound>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>CreateAudioReactions</Flag>
+		<DazeResist>0</DazeResist>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="cov_inf_suicideGrunt_01" formationType="Flock" dbid="3359">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>24161</DisplayNameID>
+		<RolloverTextID>24162</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<BuildPoints>16</BuildPoints>
+		<Cost resourcetype="Supplies">160</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>4001</SubSelectSort>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>25</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>35</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,8,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="4" role="normal">cov_inf_suicideGrunt_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Sound Type="MoveChatter">play_cov_batchat_grunt_move</Sound>
+		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_grunt_world_harvest_moving</Sound>
+		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_grunt_world_arcadia_moving</Sound>
+		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_grunt_world_swi_moving</Sound>
+		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_grunt_world_sw_moving</Sound>
+		<Sound Type="AttackChatter">play_cov_batchat_grunt_action</Sound>
+		<Sound Type="AttackChatter" Squad="FlyingFlood">play_cov_batchat_grunt_flyingflood_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="Flood">play_cov_batchat_grunt_flood_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="Forerunner">play_cov_batchat_grunt_forerunner_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_cobra_01">play_cov_batchat_grunt_cobra_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_cyclops_01">play_cov_batchat_grunt_cyclops_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_flameMarine_01">play_cov_batchat_grunt_flame_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_gremlin_01">play_cov_batchat_grunt_gremlin_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_grizzly_01">play_cov_batchat_grunt_grizzly_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_air_hawk_01">play_cov_batchat_grunt_hawk_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_air_hornet_01">play_cov_batchat_grunt_hornet_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_marine_01">play_cov_batchat_grunt_marine_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_spartan_01">play_cov_batchat_grunt_spartan_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_scorpion_01">play_cov_batchat_grunt_scorpion_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_air_vulture_01">play_cov_batchat_grunt_vulture_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_warthog_01">play_cov_batchat_grunt_warthog_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_wolverine_01">play_cov_batchat_grunt_wolverine_taunt</Sound>
+		<Sound Type="MoveAttackChatter">play_cov_batchat_grunt_moveattack</Sound>
+		<Sound Type="Cheer">play_cov_batchat_grunt_cheer</Sound>
+		<Sound Type="IdleChatter">play_cov_batchat_grunt_idle</Sound>
+		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_grunt_world_harvest_idle</Sound>
+		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_grunt_world_arcadia_idle</Sound>
+		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_grunt_world_swi_idle</Sound>
+		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_grunt_world_sw_idle</Sound>
+		<Sound Type="KilledEnemy">play_cov_batchat_grunt_killenemy</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_cobra_01">play_cov_batchat_grunt_cobra_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_cyclops_01">play_cov_batchat_grunt_cyclops_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_flameMarine_01">play_cov_batchat_grunt_flame_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_gremlin_01">play_cov_batchat_grunt_gremlin_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_grizzly_01">play_cov_batchat_grunt_grizzly_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_air_hawk_01">play_cov_batchat_grunt_hawk_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_air_hornet_01">play_cov_batchat_grunt_hornet_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_marine_01">play_cov_batchat_grunt_marine_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_spartan_01">play_cov_batchat_grunt_spartan_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_scorpion_01">play_cov_batchat_grunt_scorpion_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_air_vulture_01">play_cov_batchat_grunt_vulture_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_warthog_01">play_cov_batchat_grunt_warthog_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_wolverine_01">play_cov_batchat_grunt_wolverine_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="FlyingFlood">play_cov_batchat_grunt_flyingflood_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Flood">play_cov_batchat_grunt_flood_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Forerunner">play_cov_batchat_grunt_forerunner_killed</Sound>
+		<Sound Type="AllyKilled">play_cov_batchat_grunt_allykilled</Sound>
+		<Sound Type="AllyKilled" Squad="FlyingFlood">play_cov_batchat_grunt_flyingflood_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="Flood">play_cov_batchat_grunt_flood_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="Forerunner">play_cov_batchat_grunt_forerunner_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_cobra_01">play_cov_batchat_grunt_cobra_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_cyclops_01">play_cov_batchat_grunt_cyclops_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_flameMarine_01">play_cov_batchat_grunt_flame_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_gremlin_01">play_cov_batchat_grunt_gremlin_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_grizzly_01">play_cov_batchat_grunt_grizzly_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_air_hawk_01">play_cov_batchat_grunt_hawk_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_air_hornet_01">play_cov_batchat_grunt_hornet_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_marine_01">play_cov_batchat_grunt_marine_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_spartan_01">play_cov_batchat_grunt_spartan_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_scorpion_01">play_cov_batchat_grunt_scorpion_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_air_vulture_01">play_cov_batchat_grunt_vulture_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_warthog_01">play_cov_batchat_grunt_warthog_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_wolverine_01">play_cov_batchat_grunt_wolverine_waskilled</Sound>
+		<Sound Type="ReactDeath" Squad="cov_inf_arbiter_01">play_cov_batchat_grunt_arbiter_death</Sound>
+		<Sound Type="ReactDeath" Squad="cov_inf_bruteChief_01">play_cov_batchat_grunt_brute_death</Sound>
+		<Sound Type="ReactDeath" Squad="cov_inf_prophet_01">play_cov_batchat_grunt_prophet_death</Sound>
+		<Sound Type="ReactBirth" Squad="cov_inf_arbiter_01">play_cov_batchat_grunt_arbiter_birth</Sound>
+		<Sound Type="ReactBirth" Squad="cov_inf_bruteChief_01">play_cov_batchat_grunt_brute_birth</Sound>
+		<Sound Type="ReactBirth" Squad="cov_inf_prophet_01">play_cov_batchat_grunt_prophet_birth</Sound>
+		<Sound Type="ReactJoinBattle" Squad="cov_inf_arbiter_01">play_cov_batchat_grunt_arbiter_join</Sound>
+		<Sound Type="ReactJoinBattle" Squad="cov_inf_bruteChief_01">play_cov_batchat_grunt_brute_join</Sound>
+		<Sound Type="ReactJoinBattle" Squad="cov_inf_prophet_01">play_cov_batchat_grunt_prophet_join</Sound>
+		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_grunt_unscleader_carpet</Sound>
+		<Sound Type="ReactPowOrbital">play_cov_batchat_grunt_unscleader_mac</Sound>
+		<Sound Type="ReactPowCryo">play_cov_batchat_grunt_unscleader_cryo</Sound>
+		<Sound Type="ReactPowWave">play_cov_batchat_grunt_covleader_tidalwave</Sound>
+		<Sound Type="ReactPowRage">play_cov_batchat_grunt_covleader_rage</Sound>
+		<Sound Type="ReactPowCleansing">play_cov_batchat_grunt_covleader_cleansing</Sound>
+		<Sound Type="ReactFatalityUNSC">play_cov_batchat_grunt_unscleader_fatality</Sound>
+		<Sound Type="ReactFatalityCOV">play_cov_batchat_grunt_covleader_fatality</Sound>
+		<Sound Type="ReactJacking">play_cov_batchat_grunt_unscleader_jacking</Sound>
+		<Sound Type="ReactCommandeer">play_cov_batchat_grunt_unscleader_commandeer</Sound>
+		<Sound Type="ReactHotDrop">play_cov_batchat_grunt_covleader_hotdrop</Sound>
+		<Sound Type="Kamikaze">play_cov_grunt_scream</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 
 	<Squad name="cov_inf_arbyelite_01" formationType="Flock" dbid="2454">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
@@ -3515,8 +3097,254 @@
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
+	<Squad name="cov_veh_locust_01" dbid="914">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_chimera</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3070</DisplayNameID>
+		<RolloverTextID>3071</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<RoleTextID>507</RoleTextID>
+		<BuildPoints>23</BuildPoints>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<SubSelectSort>6300</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint04" endPoint="bone_spawnPoint04">Trained</Birth>
+		<HPBar offset="0,12,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_locust_01</Unit>
+		</Units>
+		<TurnRadius min="0.5" max="6" />
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<CanAttackWhileMoving>false</CanAttackWhileMoving>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 
     <!--Brute-->
+
+    <Squad name="cov_inf_bruteChief_01" dbid="2826">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23528</DisplayNameID>
+		<RolloverTextID>23529</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<RoleTextID>520</RoleTextID>
+		<BuildPoints>60</BuildPoints>
+		<Cost resourcetype="Supplies">400</Cost>
+		<SubSelectSort>2000</SubSelectSort>
+		<LeashDistance>80</LeashDistance>
+		<LeashDeadzone>40</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,10,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_bruteChief_01</Unit>
+		</Units>
+		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_chieftain_world_harvest_moving</Sound>
+		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_chieftain_world_arcadia_moving</Sound>
+		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_chieftain_world_swi_moving</Sound>
+		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_chieftain_world_sw_moving</Sound>
+		<Sound Type="MoveChatter">play_cov_batchat_chieftain_move</Sound>
+		<Sound Type="AttackChatter">play_cov_batchat_chieftain_action</Sound>
+		<Sound Type="MoveAttackChatter">play_cov_batchat_chieftain_moveattack</Sound>
+		<Sound Type="IdleChatter">play_cov_batchat_chieftain_idle</Sound>
+		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_chieftain_world_harvest_idle</Sound>
+		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_chieftain_world_arcadia_idle</Sound>
+		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_chieftain_world_swi_idle</Sound>
+		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_chieftain_world_sw_idle</Sound>
+		<Sound Type="KilledEnemy">play_cov_batchat_chieftain_killenemy</Sound>
+		<Sound Type="AllyKilled">play_cov_batchat_chieftain_allykilled</Sound>
+		<Sound Type="Cheer">play_cov_batchat_chieftain_cheer</Sound>
+		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_chieftain_unscleader_carpet</Sound>
+		<Sound Type="ReactPowOrbital">play_cov_batchat_chieftain_unscleader_mac</Sound>
+		<Sound Type="ReactPowCryo">play_cov_batchat_chieftain_unscleader_cryo</Sound>
+		<Sound Type="ReactPowWave" CastingUnitOnly="true">play_cov_batchat_chieftain_covleader_vortex</Sound>
+		<Sound Type="ReactFatalityUNSC">play_cov_batchat_chieftain_unscleader_fatality</Sound>
+		<Sound Type="ReactFatalityCOV">play_cov_batchat_chieftain_covleader_fatality</Sound>
+		<Sound Type="ReactJacking">play_cov_batchat_chieftain_unscleader_jacking</Sound>
+		<Sound Type="ReactCommandeer">play_cov_batchat_chieftain_unscleader_commandeer</Sound>
+		<Sound Type="ReactHotDrop">play_cov_batchat_chieftain_covleader_hotdrop</Sound>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>CreateAudioReactions</Flag>
+		<DazeResist>0</DazeResist>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="cov_veh_bruteChopper_01" dbid="2455">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3084</DisplayNameID>
+		<RolloverTextID>3085</RolloverTextID>
+		<PrereqTextID>240</PrereqTextID>
+		<RoleTextID>518</RoleTextID>
+		<BuildPoints>15</BuildPoints>
+		<Cost resourcetype="Supplies">200</Cost>
+		<SubSelectSort>620</SubSelectSort>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,10,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_bruteChopper_01</Unit>
+		</Units>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Sound Type="MoveChatter">play_cov_batchat_chopper_move</Sound>
+		<Sound Type="MoveAttackChatter">play_cov_batchat_chopper_moveattack</Sound>
+		<Sound Type="AttackChatter">play_cov_batchat_chopper_action</Sound>
+		<Sound Type="Cheer">play_cov_batchat_chopper_cheer</Sound>
+		<Sound Type="IdleChatter">play_cov_batchat_chopper_idle</Sound>
+		<Sound Type="KillEnemy">play_cov_batchat_chopper_killenemy</Sound>
+		<Sound Type="AllyKilled">play_cov_batchat_chopper_allykilled</Sound>
+		<TurnRadius min="1.5" max="4" />
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+    <Squad name="cov_inf_brute_01" formationType="Flock" dbid="903">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3046</DisplayNameID>
+		<RolloverTextID>3047</RolloverTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<RoleTextID>519</RoleTextID>
+		<BuildPoints>24</BuildPoints>
+		<Cost resourcetype="Supplies">150</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>4800</SubSelectSort>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>25</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,8,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="2" role="normal">cov_inf_brute_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Sound Type="StartJump">start_move_brute_jump_jet</Sound>
+		<Sound Type="StopJump">stop_move_brute_jump_jet</Sound>
+		<Sound Type="MoveChatter">play_cov_batchat_brute_move</Sound>
+		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_brute_world_harvest_moving</Sound>
+		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_brute_world_arcadia_moving</Sound>
+		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_brute_world_swi_moving</Sound>
+		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_brute_world_sw_moving</Sound>
+		<Sound Type="AttackChatter">play_cov_batchat_brute_action</Sound>
+		<Sound Type="AttackChatter" Squad="FlyingFlood">play_cov_batchat_brute_flyingflood_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="Flood">play_cov_batchat_brute_flood_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="Forerunner">play_cov_batchat_brute_forerunner_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_cobra_01">play_cov_batchat_brute_cobra_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_cyclops_01">play_cov_batchat_brute_cyclops_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_flameMarine_01">play_cov_batchat_brute_flame_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_gremlin_01">play_cov_batchat_brute_gremlin_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_grizzly_01">play_cov_batchat_brute_grizzly_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_air_hawk_01">play_cov_batchat_brute_hawk_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_air_hornet_01">play_cov_batchat_brute_hornet_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_marine_01">play_cov_batchat_brute_marine_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_spartan_01">play_cov_batchat_brute_spartan_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_scorpion_01">play_cov_batchat_brute_scorpion_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_air_vulture_01">play_cov_batchat_brute_vulture_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_warthog_01">play_cov_batchat_brute_warthog_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_wolverine_01">play_cov_batchat_brute_wolverine_taunt</Sound>
+		<Sound Type="MoveAttackChatter">play_cov_batchat_brute_moveattack</Sound>
+		<Sound Type="Cheer">play_cov_batchat_brute_cheer</Sound>
+		<Sound Type="IdleChatter">play_cov_batchat_brute_idle</Sound>
+		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_brute_world_harvest_idle</Sound>
+		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_brute_world_arcadia_idle</Sound>
+		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_brute_world_swi_idle</Sound>
+		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_brute_world_sw_idle</Sound>
+		<Sound Type="KilledEnemy">play_cov_batchat_brute_killenemy</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_cobra_01">play_cov_batchat_brute_cobra_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_cyclops_01">play_cov_batchat_brute_cyclops_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_flameMarine_01">play_cov_batchat_brute_flame_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_gremlin_01">play_cov_batchat_brute_gremlin_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_grizzly_01">play_cov_batchat_brute_grizzly_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_air_hawk_01">play_cov_batchat_brute_hawk_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_air_hornet_01">play_cov_batchat_brute_hornet_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_marine_01">play_cov_batchat_brute_marine_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_spartan_01">play_cov_batchat_brute_spartan_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_scorpion_01">play_cov_batchat_brute_scorpion_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_air_vulture_01">play_cov_batchat_brute_vulture_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_warthog_01">play_cov_batchat_brute_warthog_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_wolverine_01">play_cov_batchat_brute_wolverine_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="FlyingFlood">play_cov_batchat_brute_flyingflood_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Flood">play_cov_batchat_brute_flood_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Forerunner">play_cov_batchat_brute_forerunner_killed</Sound>
+		<Sound Type="AllyKilled">play_cov_batchat_brute_allykilled</Sound>
+		<Sound Type="AllyKilled" Squad="FlyingFlood">play_cov_batchat_brute_flyingflood_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="Flood">play_cov_batchat_brute_flood_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="Forerunner">play_cov_batchat_brute_forerunner_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_cobra_01">play_cov_batchat_brute_cobra_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_cyclops_01">play_cov_batchat_brute_cyclops_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_flameMarine_01">play_cov_batchat_brute_flame_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_gremlin_01">play_cov_batchat_brute_gremlin_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_grizzly_01">play_cov_batchat_brute_grizzly_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_air_hawk_01">play_cov_batchat_brute_hawk_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_air_hornet_01">play_cov_batchat_brute_hornet_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_marine_01">play_cov_batchat_brute_marine_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_spartan_01">play_cov_batchat_brute_spartan_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_scorpion_01">play_cov_batchat_brute_scorpion_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_air_vulture_01">play_cov_batchat_brute_vulture_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_warthog_01">play_cov_batchat_brute_warthog_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_wolverine_01">play_cov_batchat_brute_wolverine_waskilled</Sound>
+		<Sound Type="ReactDeath" Squad="cov_inf_arbiter_01">play_cov_batchat_brute_arbiter_death</Sound>
+		<Sound Type="ReactDeath" Squad="cov_inf_bruteChief_01">play_cov_batchat_brute_brute_death</Sound>
+		<Sound Type="ReactDeath" Squad="cov_inf_prophet_01">play_cov_batchat_brute_prophet_death</Sound>
+		<Sound Type="ReactBirth" Squad="cov_inf_arbiter_01">play_cov_batchat_brute_arbiter_birth</Sound>
+		<Sound Type="ReactBirth" Squad="cov_inf_bruteChief_01">play_cov_batchat_brute_brute_birth</Sound>
+		<Sound Type="ReactBirth" Squad="cov_inf_prophet_01">play_cov_batchat_brute_prophet_birth</Sound>
+		<Sound Type="ReactJoinBattle" Squad="cov_inf_arbiter_01">play_cov_batchat_brute_arbiter_join</Sound>
+		<Sound Type="ReactJoinBattle" Squad="cov_inf_bruteChief_01">play_cov_batchat_brute_brute_join</Sound>
+		<Sound Type="ReactJoinBattle" Squad="cov_inf_prophet_01">play_cov_batchat_brute_prophet_join</Sound>
+		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_brute_unscleader_carpet</Sound>
+		<Sound Type="ReactPowOrbital">play_cov_batchat_brute_unscleader_mac</Sound>
+		<Sound Type="ReactPowCryo">play_cov_batchat_brute_unscleader_cryo</Sound>
+		<Sound Type="ReactPowWave">play_cov_batchat_brute_covleader_tidalwave</Sound>
+		<Sound Type="ReactPowRage">play_cov_batchat_brute_covleader_rage</Sound>
+		<Sound Type="ReactPowCleansing">play_cov_batchat_brute_covleader_cleansing</Sound>
+		<Sound Type="ReactFatalityUNSC">play_cov_batchat_brute_unscleader_fatality</Sound>
+		<Sound Type="ReactFatalityCOV">play_cov_batchat_brute_covleader_fatality</Sound>
+		<Sound Type="ReactJacking">play_cov_batchat_brute_unscleader_jacking</Sound>
+		<Sound Type="ReactCommandeer">play_cov_batchat_brute_unscleader_commandeer</Sound>
+		<Sound Type="ReactHotDrop">play_cov_batchat_brute_covleader_hotdrop</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 
 	<Squad name="cov_inf_bruteGrunt_01" formationType="Flock" dbid="904">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
@@ -3992,6 +3820,178 @@
 
 	<!--Prophet of Regret-->
 
+	<Squad name="cov_inf_prophet_01" dbid="2488">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>22637</DisplayNameID>
+		<RolloverTextID>22638</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<RoleTextID>520</RoleTextID>
+		<BuildPoints>60</BuildPoints>
+		<Cost resourcetype="Supplies">400</Cost>
+		<SubSelectSort>2000</SubSelectSort>
+		<LeashDistance>35</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>15</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,12,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_prophet_01</Unit>
+		</Units>
+		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_prophet_world_harvest_moving</Sound>
+		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_prophet_world_arcadia_moving</Sound>
+		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_prophet_world_swi_moving</Sound>
+		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_prophet_world_sw_moving</Sound>
+		<Sound Type="MoveChatter">play_cov_batchat_prophet_move</Sound>
+		<Sound Type="AttackChatter">play_cov_batchat_prophet_action</Sound>
+		<Sound Type="MoveAttackChatter">play_cov_batchat_prophet_moveattack</Sound>
+		<Sound Type="IdleChatter">play_cov_batchat_prophet_idle</Sound>
+		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_prophet_world_harvest_idle</Sound>
+		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_prophet_world_arcadia_idle</Sound>
+		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_prophet_world_swi_idle</Sound>
+		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_prophet_world_sw_idle</Sound>
+		<Sound Type="KilledEnemy">play_cov_batchat_prophet_killenemy</Sound>
+		<Sound Type="AllyKilled">play_cov_batchat_prophet_allykilled</Sound>
+		<Sound Type="Cheer">play_cov_batchat_prophet_cheer</Sound>
+		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_prophet_unscleader_carpet</Sound>
+		<Sound Type="ReactPowOrbital">play_cov_batchat_prophet_unscleader_mac</Sound>
+		<Sound Type="ReactPowCryo">play_cov_batchat_prophet_unscleader_cryo</Sound>
+		<Sound Type="ReactPowCleansing" CastingUnitOnly="true">play_cov_batchat_prophet_covleader_cleansing</Sound>
+		<Sound Type="ReactFatalityUNSC">play_cov_batchat_prophet_unscleader_fatality</Sound>
+		<Sound Type="ReactFatalityCOV">play_cov_batchat_prophet_covleader_fatality</Sound>
+		<Sound Type="ReactJacking">play_cov_batchat_prophet_unscleader_jacking</Sound>
+		<Sound Type="ReactCommandeer">play_cov_batchat_prophet_unscleader_commandeer</Sound>
+		<Sound Type="ReactHotDrop">play_cov_batchat_prophet_covleader_hotdrop</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>CreateAudioReactions</Flag>
+		<DazeResist>0</DazeResist>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="cov_inf_eliteCommando_01" formationType="Line" dbid="2454">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3080</DisplayNameID>
+		<RolloverTextID>3081</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<BuildPoints>20</BuildPoints>
+		<LeashDistance>80</LeashDistance>
+		<LeashDeadzone>40</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<Cost resourcetype="Supplies">125</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>4003</SubSelectSort>
+		<HPBar offset="0,10,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_eliteCommando_01</Unit>
+		</Units>
+		<Sound Type="MoveChatter">play_cov_batchat_elite_move</Sound>
+		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_elite_world_harvest_moving</Sound>
+		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_elite_world_arcadia_moving</Sound>
+		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_elite_world_swi_moving</Sound>
+		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_elite_world_sw_moving</Sound>
+		<Sound Type="AttackChatter">play_cov_batchat_elite_action</Sound>
+		<Sound Type="AttackChatter" Squad="FlyingFlood">play_cov_batchat_elite_flyingflood_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="Flood">play_cov_batchat_elite_flood_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="Forerunner">play_cov_batchat_elite_forerunner_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_cobra_01">play_cov_batchat_elite_cobra_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_cyclops_01">play_cov_batchat_elite_cyclops_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_flameMarine_01">play_cov_batchat_elite_flame_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_gremlin_01">play_cov_batchat_elite_gremlin_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_grizzly_01">play_cov_batchat_elite_grizzly_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_air_hawk_01">play_cov_batchat_elite_hawk_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_air_hornet_01">play_cov_batchat_elite_hornet_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_marine_01">play_cov_batchat_elite_marine_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_inf_spartan_01">play_cov_batchat_elite_spartan_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_scorpion_01">play_cov_batchat_elite_scorpion_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_air_vulture_01">play_cov_batchat_elite_vulture_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_warthog_01">play_cov_batchat_elite_warthog_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="unsc_veh_wolverine_01">play_cov_batchat_elite_wolverine_taunt</Sound>
+		<Sound Type="MoveAttackChatter">play_cov_batchat_elite_moveattack</Sound>
+		<Sound Type="Cheer">play_cov_batchat_elite_cheer</Sound>
+		<Sound Type="IdleChatter">play_cov_batchat_elite_idle</Sound>
+		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_elite_world_harvest_idle</Sound>
+		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_elite_world_arcadia_idle</Sound>
+		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_elite_world_swi_idle</Sound>
+		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_elite_world_sw_idle</Sound>
+		<Sound Type="KilledEnemy">play_cov_batchat_elite_killenemy</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_cobra_01">play_cov_batchat_elite_cobra_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_cyclops_01">play_cov_batchat_elite_cyclops_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_flameMarine_01">play_cov_batchat_elite_flame_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_gremlin_01">play_cov_batchat_elite_gremlin_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_grizzly_01">play_cov_batchat_elite_grizzly_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_air_hawk_01">play_cov_batchat_elite_hawk_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_air_hornet_01">play_cov_batchat_elite_hornet_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_marine_01">play_cov_batchat_elite_marine_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_inf_spartan_01">play_cov_batchat_elite_spartan_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_scorpion_01">play_cov_batchat_elite_scorpion_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_air_vulture_01">play_cov_batchat_elite_vulture_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_warthog_01">play_cov_batchat_elite_warthog_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="unsc_veh_wolverine_01">play_cov_batchat_elite_wolverine_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="FlyingFlood">play_cov_batchat_elite_flyingflood_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Flood">play_cov_batchat_elite_flood_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Forerunner">play_cov_batchat_elite_forerunner_killed</Sound>
+		<Sound Type="AllyKilled">play_cov_batchat_elite_allykilled</Sound>
+		<Sound Type="AllyKilled" Squad="FlyingFlood">play_cov_batchat_elite_flyingflood_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="Flood">play_cov_batchat_elite_flood_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="Forerunner">play_cov_batchat_elite_forerunner_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_cobra_01">play_cov_batchat_elite_cobra_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_cyclops_01">play_cov_batchat_elite_cyclops_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_flameMarine_01">play_cov_batchat_elite_flame_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_gremlin_01">play_cov_batchat_elite_gremlin_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_grizzly_01">play_cov_batchat_elite_grizzly_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_air_hawk_01">play_cov_batchat_elite_hawk_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_air_hornet_01">play_cov_batchat_elite_hornet_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_marine_01">play_cov_batchat_elite_marine_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_inf_spartan_01">play_cov_batchat_elite_spartan_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_scorpion_01">play_cov_batchat_elite_scorpion_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_air_vulture_01">play_cov_batchat_elite_vulture_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_warthog_01">play_cov_batchat_elite_warthog_waskilled</Sound>
+		<Sound Type="AllyKilled" Squad="unsc_veh_wolverine_01">play_cov_batchat_elite_wolverine_waskilled</Sound>
+		<Sound Type="ReactDeath" Squad="cov_inf_arbiter_01">play_cov_batchat_elite_arbiter_death</Sound>
+		<Sound Type="ReactDeath" Squad="cov_inf_bruteChief_01">play_cov_batchat_elite_brute_death</Sound>
+		<Sound Type="ReactDeath" Squad="cov_inf_prophet_01">play_cov_batchat_elite_prophet_death</Sound>
+		<Sound Type="ReactBirth" Squad="cov_inf_arbiter_01">play_cov_batchat_elite_arbiter_birth</Sound>
+		<Sound Type="ReactBirth" Squad="cov_inf_bruteChief_01">play_cov_batchat_elite_brute_birth</Sound>
+		<Sound Type="ReactBirth" Squad="cov_inf_prophet_01">play_cov_batchat_elite_prophet_birth</Sound>
+		<Sound Type="ReactJoinBattle" Squad="cov_inf_arbiter_01">play_cov_batchat_elite_arbiter_join</Sound>
+		<Sound Type="ReactJoinBattle" Squad="cov_inf_bruteChief_01">play_cov_batchat_elite_brute_join</Sound>
+		<Sound Type="ReactJoinBattle" Squad="cov_inf_prophet_01">play_cov_batchat_elite_prophet_join</Sound>
+		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_elite_unscleader_carpet</Sound>
+		<Sound Type="ReactPowOrbital">play_cov_batchat_elite_unscleader_mac</Sound>
+		<Sound Type="ReactPowCryo">play_cov_batchat_elite_unscleader_cryo</Sound>
+		<Sound Type="ReactPowWave">play_cov_batchat_elite_covleader_tidalwave</Sound>
+		<Sound Type="ReactPowRage">play_cov_batchat_elite_covleader_rage</Sound>
+		<Sound Type="ReactPowCleansing">play_cov_batchat_elite_covleader_cleansing</Sound>
+		<Sound Type="ReactFatalityUNSC">play_cov_batchat_elite_unscleader_fatality</Sound>
+		<Sound Type="ReactFatalityCOV">play_cov_batchat_elite_covleader_fatality</Sound>
+		<Sound Type="ReactJacking">play_cov_batchat_elite_unscleader_jacking</Sound>
+		<Sound Type="ReactCommandeer">play_cov_batchat_elite_unscleader_commandeer</Sound>
+		<Sound Type="ReactHotDrop">play_cov_batchat_elite_covleader_hotdrop</Sound>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Chatter</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+
 	<Squad name="cov_inf_needlerElite_01" formationType="Flock" dbid="3014">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
@@ -4081,6 +4081,36 @@
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>Scarab</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="cov_veh_wraith_01" dbid="917">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3056</DisplayNameID>
+		<RolloverTextID>3057</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<RoleTextID>501</RoleTextID>
+		<BuildPoints>26</BuildPoints>
+		<Cost resourcetype="Supplies">350</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>6500</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint04" endPoint="bone_spawnPoint04">Trained</Birth>
+		<HPBar offset="0,12,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_wraith_01</Unit>
+		</Units>
+		<TurnRadius min="0.1" max="4" />
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>

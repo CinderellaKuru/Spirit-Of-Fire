@@ -4416,8 +4416,8 @@
 		<String _locID="26214" category="UI" subtitle="false">Concept Image 11</String>
 		<String _locID="26215" category="UI" subtitle="false">Concept Image 12</String>
 		<String _locID="26216" category="UI" subtitle="false">Click here for the free Prima Halo Wars strategy guide!&lt;br&gt;Get the maps, strats, and build orders you need to conquer multiplayer or campaign in this free interactive guide from Prima.</String>
-		<String _locID="26217" category="UI" subtitle="false">Press any key or button to continue.</String>
-		<String _locID="26218" category="UI" subtitle="false">You may change the desired peripheral in the Start Screen via the Main Menu.</String>
+		<String _locID="26217" category="UI" subtitle="false">Halo Wars Spirit of Fire Mod Version 0.1 Early Access</String>
+		<String _locID="26218" category="UI" subtitle="false">Creators: Kuru, Doktor Obvious, Lord_Nutritious, Blackandfan and ladywoodgrill.</String>
 		<String _locID="26219" category="UI" subtitle="false">Saving content... please do not exit the game.</String>
 		<String _locID="26220" category="Skirmish" scenario="Hint Chat" subtitle="false">Use $$LS$$ to center the cursor over the Warthog next to your base.</String>
 		<String _locID="26221" category="Skirmish" scenario="Hint Chat" subtitle="false">Use $$LS$$ to move the cursor over the beacon. Press $$X$$ to tell your Warthog to move there.</String>
@@ -4909,6 +4909,18 @@
 		<String _locID="30037" category="Techs" subtitle="false">The beacon ability receives improved Line of sight and throwing distance.</String>
 		<String _locID="30038" category="Techs" subtitle="false">NEW RIFLES</String>
 		<String _locID="30039" category="Techs" subtitle="false">The snipers receive new rifles which dramatically improves their effective range.</String>
+
+
+		<!--COV Basic-->
+
+
+		<String _locID="30132" category="Squads" subtitle="false">PHANTOM</String>
+		<String _locID="30133" category="Squads" subtitle="false">Phantoms are used by the Covenant to transport infantry and vehicles to any location on the map.</String>
+		<String _locID="30134" category="Objects" subtitle="false">PHANTOM</String>
+		<String _locID="30135" category="Techs" subtitle="false">SPEED INSCREASE</String>
+		<String _locID="30136" category="Techs" subtitle="false">Phantoms gain a substantial speed increase.</String>
+		<String _locID="30137" category="Techs" subtitle="false">INCREASED CARRYING CAPACITY</String>
+		<String _locID="30138" category="Techs" subtitle="false">Increases Phantoms' carrying capacity from 5 population to 10 population.</String>
 
 
 		<!--Arbiter-->

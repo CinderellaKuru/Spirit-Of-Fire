@@ -7286,6 +7286,10 @@
 		<ObjectType>_Building</ObjectType>
 		<Sound Type="Exist">play_cov_hotdrop_exist</Sound>
 		<Sound Type="StopExist">stop_cov_hotdrop_exist</Sound>
+		<Command Type="TrainSquad" Position="1">cov_air_phantom_01</Command>
+		<Command Type="Research" Position="7">cov_phantom_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_phantom_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_phantom_upgrade3</Command>
 		<Command Type="Power" Position="2">_RallyPoint</Command>
 		<Command Type="ReverseHotDrop" Position="6" />
 		<Flag>IgnoreSquadAI</Flag>
@@ -9666,86 +9670,6 @@
 		<Flag>Repairable</Flag>
 		<Flag>DieLast</Flag>
 		<HPBar>Cov_HealthShield</HPBar>
-	</Object>
-	<Object name="cov_inf_eliteCommando_01" id="0" dbid="2452">
-		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
-		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\eliteCommando_01\eliteCommando_01.vis</Visual>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<DisplayNameID>10116</DisplayNameID>
-		<RolloverTextID>10117</RolloverTextID>
-		<RoleTextID>519</RoleTextID>
-		<MovementType>Land</MovementType>
-		<Velocity>12</Velocity>
-		<Acceleration>27.5</Acceleration>
-		<TurnRate>540</TurnRate>
-		<Hitpoints>3903</Hitpoints>
-		<Shieldpoints>0</Shieldpoints>
-		<AttackGradeDPS>97.5</AttackGradeDPS>
-		<CombatValue>5</CombatValue>
-		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="Bip01 Spine" />
-		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
-		<LOS>55</LOS>
-		<Pop Type="Unit">1</Pop>
-		<Bounty>5</Bounty>
-		<Veterancy Level="1" XP="10" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
-		<Veterancy Level="2" XP="25" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
-		<Veterancy Level="3" XP="45" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
-		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
-		<SubSelectSort>4003</SubSelectSort>
-		<AmmoMax>1</AmmoMax>
-		<AmmoRegenRate>1</AmmoRegenRate>
-		<Tactics>cov_inf_eliteCommando_01.tactics</Tactics>
-		<RepairPoints>33</RepairPoints>
-		<ObstructionRadiusX>2</ObstructionRadiusX>
-		<ObstructionRadiusY>2.5</ObstructionRadiusY>
-		<ObstructionRadiusZ>2</ObstructionRadiusZ>
-		<PickRadius>1.9</PickRadius>
-		<PickOffset>1.8</PickOffset>
-		<PickPriority>Unit</PickPriority>
-		<SelectType>Unit</SelectType>
-		<GotoType>Infantry</GotoType>
-		<SelectedRadiusX>1.3</SelectedRadiusX>
-		<SelectedRadiusZ>1</SelectedRadiusZ>
-		<Sound Type="Create">play_cov_elite_birth</Sound>
-		<Sound Type="Death">play_cov_elite_vo_death</Sound>
-		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
-		<Sound Type="Select">play_cov_elite_select</Sound>
-		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
-		<Sound Type="Attack">play_cov_elite_attack</Sound>
-		<Sound Type="Ability">play_cov_elite_ability</Sound>
-		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
-		<Sound Type="Cloak">play_elite_camo_on</Sound>
-		<Sound Type="UnCloak">play_elite_camo_off</Sound>
-		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
-		<ObjectType>KeepsInGame</ObjectType>
-		<ObjectType>Military</ObjectType>
-		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Transportable</ObjectType>
-		<ObjectType>Unit</ObjectType>
-		<ObjectType>infantry</ObjectType>
-		<ObjectType>HardInfection</ObjectType>
-		<ObjectType>_Infantry</ObjectType>
-		<ObjectType>CanBeFlashBanged</ObjectType>
-		<ObjectType>CanCryo</ObjectType>
-		<ObjectType>CanBeProtected</ObjectType>
-		<SurfaceType>EliteFlesh</SurfaceType>
-		<RallyPoint>Military</RallyPoint>
-		<AbilityCommand>CovCloak</AbilityCommand>
-		<Flag>AttackWhileCloaked</Flag>
-		<Flag>MoveWhileCloaked</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>DontRotateObstruction</Flag>
-		<Flag>HasHPBar</Flag>
-		<Flag>Obscurable</Flag>
-		<Flag>Repairable</Flag>
-		<HPBar>COV_Health</HPBar>
 	</Object>
 	<Object name="cov_inf_brute_01" id="0" dbid="196">
 		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
@@ -34731,7 +34655,7 @@
 		<DisplayNameID>30104</DisplayNameID>
 		<RolloverTextID>10135</RolloverTextID>
 		<MovementType>Land</MovementType>
-		<Velocity>30</Velocity>
+		<Velocity>25</Velocity>
 		<TurnRate>120</TurnRate>
 		<Hitpoints>8550</Hitpoints>
 		<Shieldpoints>0</Shieldpoints>
@@ -34903,7 +34827,170 @@
 		<PerturbanceMaxTime>0.1</PerturbanceMaxTime>
 	</Object>
 
+	<Object name="cov_air_phantom_01" id="0" dbid="965">
+		<Ability>DropshipUnloadAbility.triggerscript</Ability>
+		<ObjectClass>Squad</ObjectClass>
+		<PhysicsInfo>vulture</PhysicsInfo>
+		<Visual>covenant\air\phantom_01\phantom_04.vis</Visual>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>30134</DisplayNameID>
+		<RolloverTextID>99377</RolloverTextID>
+		<RoleTextID>509</RoleTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>20</Velocity>
+		<TurnRate>90</TurnRate>
+		<Hitpoints>12500</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<LOS>55</LOS>
+		<Pop Type="Unit">3</Pop>
+		<Hardpoint name="Chingun" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="Chingun" />
+		<Hardpoint name="LeftTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="LeftTurret" />
+		<Hardpoint name="RightTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="RightTurret" />
+		<Tactics>cov_air_phantom_01.tactics</Tactics>
+		<RepairPoints>400</RepairPoints>
+		<Bounty>10</Bounty>
+		<Veterancy Level="1" XP="20" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="50" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="90" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<ObstructionRadiusX>10</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>14</ObstructionRadiusZ>
+		<SubSelectSort>4605</SubSelectSort>
+		<PickRadius>7.7</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>7.3</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<Contain>Transportable</Contain>
+		<MaxContained>5</MaxContained>
+		<AbilityCommand>cpgnUnload</AbilityCommand>
+		<Command Type="Unload" Position="0" />
+		<Sound Type="Create">play_cov_vampire_birth</Sound>
+		<Sound Type="Select">play_cov_vampire_select</Sound>
+		<Sound Type="Work">play_cov_vampire_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_vampire_attack</Sound>
+		<Sound Type="Ability">play_cov_vampire_ability</Sound>
+		<Sound Type="Exist">start_exist_spirit</Sound>
+		<Sound Type="StopExist">stop_exist_spirit</Sound>
+		<Sound Type="StartMove">start_move_spirit</Sound>
+		<Sound Type="StopMove">stop_move_spirit</Sound>
+		<Sound Type="Death">play_wraith_death</Sound>
+		<Sound Type="ImpactDeath">play_impact_death_banshee</Sound>
+		<ExtendedSoundBank>xtnd_ui_vampire.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">HeavyAir</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>SpartanBoardFlying</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>Transport</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>PassiveGarrisoned</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<HPBar>COV_Health</HPBar>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>30</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>31</CircleMenuFrameIDHighlight>
+		</FlashUI>
+	</Object>
+
     <!--Prophet of Regret-->
+
+    <Object name="cov_inf_eliteCommando_01" id="0" dbid="2452">
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry\eliteCommando_01\eliteCommando_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10116</DisplayNameID>
+		<RolloverTextID>10117</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>20</Velocity>
+		<Acceleration>27.5</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>4000</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<AttackGradeDPS>97.5</AttackGradeDPS>
+		<CombatValue>5</CombatValue>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<LOS>55</LOS>
+		<Pop Type="HonorGuard">1</Pop>
+		<Bounty>5</Bounty>
+		<Veterancy Level="1" XP="10" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="25" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="45" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<SubSelectSort>4003</SubSelectSort>
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_eliteCommando_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<Sound Type="Cloak">play_elite_camo_on</Sound>
+		<Sound Type="UnCloak">play_elite_camo_off</Sound>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovCloak</AbilityCommand>
+		<Ability>cov_honorguardaura.ability</Ability>
+		<Flag>AttackWhileCloaked</Flag>
+		<Flag>MoveWhileCloaked</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
 
 	<Object name="cov_inf_needlerElite_01" id="0" dbid="3013">
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -35169,6 +35256,7 @@
 		<ImpactDecal sizeX="7" sizeZ="7" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
 	</Object>
 	<Object name="cov_veh_shadow_01" id="0" dbid="203">
+		<Ability>DropshipUnloadAbility.triggerscript</Ability>
 		<ObjectClass>Squad</ObjectClass>
 		<PhysicsInfo>ghost</PhysicsInfo>
 		<Visual>covenant\vehicle\shadow_01\shadow_01.vis</Visual>
@@ -35178,7 +35266,7 @@
 		<RolloverTextID>10133</RolloverTextID>
 		<Hardpoint name="Turret" autocenter="true" yawrate="90" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="75" yawattachment="Turret" pitchattachment="Turret" />
 		<MovementType>Land</MovementType>
-		<Velocity>20</Velocity>
+		<Velocity>25</Velocity>
 		<TurnRate>180</TurnRate>
 		<Hitpoints>8550</Hitpoints>
 		<Shieldpoints>0</Shieldpoints>
@@ -35245,6 +35333,7 @@
 		<HPBar>COV_Health</HPBar>
 	</Object>
 	<Object name="cov_veh_shadow_02" id="0" dbid="203">
+		<Ability>DropshipUnloadAbility.triggerscript</Ability>
 		<ObjectClass>Squad</ObjectClass>
 		<PhysicsInfo>ghost</PhysicsInfo>
 		<Visual>covenant\vehicle\shadow_01\shadow_01.vis</Visual>
@@ -35254,7 +35343,7 @@
 		<RolloverTextID>10133</RolloverTextID>
 		<Hardpoint name="Turret" autocenter="true" yawrate="90" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="75" yawattachment="Turret" pitchattachment="Turret" />
 		<MovementType>Land</MovementType>
-		<Velocity>20</Velocity>
+		<Velocity>25</Velocity>
 		<TurnRate>180</TurnRate>
 		<Hitpoints>8550</Hitpoints>
 		<Shieldpoints>0</Shieldpoints>
@@ -35285,8 +35374,7 @@
 		<SelectedRadiusX>4</SelectedRadiusX>
 		<SelectedRadiusZ>3</SelectedRadiusZ>
 		<Contain>Infantry</Contain>
-		<MaxContained>6</MaxContained>
-		<!--<Ability>DropshipUnloadAbility.triggerscript</Ability>-->
+		<MaxContained>0</MaxContained>
 		<!--<AbilityCommand>UnscCobraLockdown</AbilityCommand>-->
 		<AbilityCommand>cpgnUnload</AbilityCommand>
 		<Command Type="Unload" Position="0" AutoClose="true" />

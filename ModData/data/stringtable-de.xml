@@ -4417,8 +4417,8 @@ des Echo-Teams</String>
 		<String _locID="26214" category="UI" subtitle="false">Konzeptgrafik 11</String>
 		<String _locID="26215" category="UI" subtitle="false">Konzeptgrafik 12</String>
 		<String _locID="26216" category="UI" subtitle="false">Sichern Sie sich das interaktive Prima-Lösungsbuch für Halo Wars! Sie erhalten Karten, Strategien und Bautipps, die Sie zum Sieg im Multiplayer oder in der Kampagne benötigen.</String>
-		<String _locID="26217" category="UI" subtitle="false">Zum Fortfahren eine beliebige Taste drücken.</String>
-		<String _locID="26218" category="UI" subtitle="false">Sie können das gewünschte Eingabegerät auf dem Startbildschirm im Hauptmenü ändern.</String>
+		<String _locID="26217" category="UI" subtitle="false">Halo Wars Spirit of Fire Mod Version 0.1 Early Access</String>
+		<String _locID="26218" category="UI" subtitle="false">Creators: Kuru, Doktor Obvious, Lord_Nutritious, Blackandfan and ladywoodgrill.</String>
 		<String _locID="26219" category="UI" subtitle="false">Inhalt wird gespeichert. Das Spiel bitte nicht beenden.</String>
 		<String _locID="26220" category="Skirmish" scenario="Hint Chat" subtitle="false">Benutzen Sie $$LS$$, um den Cursor über dem Warthog neben Ihrer Basis zu zentrieren.</String>
 		<String _locID="26221" category="Skirmish" scenario="Hint Chat" subtitle="false">Benutzen Sie $$LS$$, um den Cursor über den Sender zu bewegen. Drücken Sie $$X$$, um Ihren Warthog anzuweisen, sich dorthin zu begeben.</String>
@@ -4918,6 +4918,18 @@ des Echo-Teams</String>
 		<String _locID="30037" category="Techs" subtitle="false">Die Beacon Fähigkeit wird verbessert um Reichweite zu erhöhen.</String>
 		<String _locID="30038" category="Techs" subtitle="false">NEUES GEWEHR</String>
 		<String _locID="30039" category="Techs" subtitle="false">Die Scharfschützen werden mit besseren Gewehren ausgestattet womit sie auf weitaus größerer Distanz aus schießen können.</String>
+
+
+        <!--COV Basic-->
+
+
+		<String _locID="30132" category="Squads" subtitle="false">PHANTOM</String>
+		<String _locID="30133" category="Squads" subtitle="false">Phantome werden von der Allianz zum Transport von Infantery und Fahrzeugen benutzt.</String>
+		<String _locID="30134" category="Objects" subtitle="false">PHANTOM</String>
+		<String _locID="30135" category="Techs" subtitle="false">VERB. GESCHWINDIGKEIT</String>
+		<String _locID="30136" category="Techs" subtitle="false">Phantome erhalten einen deutlichen Geschwindigkeitsboost.</String>
+		<String _locID="30137" category="Techs" subtitle="false">ERHÖHTE TRAGFÄHIGKEIT</String>
+		<String _locID="30138" category="Techs" subtitle="false">Erhöht die Anzahl an Einheiten die der Phantom tragen kann von 5 zu 10.</String>
 
 
 		<!--Arbiter-->
