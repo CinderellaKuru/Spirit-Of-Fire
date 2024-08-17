@@ -10019,6 +10019,7 @@
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Hero</ObjectType>
+		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>Infantry</ObjectType>
@@ -10098,6 +10099,7 @@
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Hero</ObjectType>
+		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>Infantry</ObjectType>
@@ -10176,6 +10178,7 @@
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Hero</ObjectType>
+		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>Infantry</ObjectType>
@@ -10251,6 +10254,7 @@
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Hero</ObjectType>
+		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>Infantry</ObjectType>
@@ -10326,6 +10330,7 @@
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Hero</ObjectType>
+		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>Infantry</ObjectType>
@@ -10402,6 +10407,7 @@
 		<DamageType direction="Full">CovenantLeader</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Hero</ObjectType>
+		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -10487,6 +10493,7 @@
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>AirCraft</ObjectType>
 		<ObjectType>Hero</ObjectType>
+		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>_Hero</ObjectType>
 		<ObjectType>_Leader</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
@@ -33239,39 +33246,6 @@
 		</FlashUI>
 		<HPBar>UNSC_Health</HPBar>
 	</Object>
-	<Object name="pow_cp_supercombine_01" id="0" dbid="2995">
-		<ObjectClass>Projectile</ObjectClass>
-		<MovementType>Air</MovementType>
-		<Velocity>45</Velocity>
-		<Tactics>pow_cp_supercombine_01.tactics</Tactics>
-		<Lifespan>20</Lifespan>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
-		<Flag>NoTieToGround</Flag>
-		<Flag>NonCollideable</Flag>
-		<Flag>DontRotateObstruction</Flag>
-		<Flag>IsAffectedByGravity</Flag>
-		<MaxProjectileHeight>50</MaxProjectileHeight>
-	</Object>
-	<Object name="pow_cp_supercombine_02" id="0" dbid="2995">
-		<ObjectClass>Projectile</ObjectClass>
-		<MovementType>Air</MovementType>
-		<Velocity>45</Velocity>
-		<Tactics>pow_cp_supercombine_02.tactics</Tactics>
-		<Lifespan>20</Lifespan>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
-		<Flag>NoTieToGround</Flag>
-		<Flag>NonCollideable</Flag>
-		<Flag>DontRotateObstruction</Flag>
-		<Flag>IsAffectedByGravity</Flag>
-		<MaxProjectileHeight>50</MaxProjectileHeight>
-	</Object>
-	<Object name="fx_dropshipmarker_01" id="0" dbid="2719">
-        <Visual>effects\unit_fx\misc\dropshipmarker_01.vis</Visual>
-        <Flag>VisibleForOwnerOnly</Flag>
-        <Flag>NoTieToGround</Flag>
-    </Object>
 
 	<!--Captain Cutter-->
 
@@ -33348,6 +33322,7 @@
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Unsc</ObjectType>
 		<ObjectType>Hero</ObjectType>
+		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>HardInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
@@ -33611,6 +33586,7 @@
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Unsc</ObjectType>
 		<ObjectType>Hero</ObjectType>
+		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>HardInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
@@ -33792,6 +33768,7 @@
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Unsc</ObjectType>
 		<ObjectType>Hero</ObjectType>
+		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>HardInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
@@ -34030,6 +34007,122 @@
 			<CircleMenuFrameIDHighlight>25</CircleMenuFrameIDHighlight>
 		</FlashUI>
 		<HPBar>UNSC_Health</HPBar>
+	</Object>
+
+	<!--COV Basic-->
+
+    <Object name="pow_cp_supercombine_01" id="0" dbid="2995">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>45</Velocity>
+		<Tactics>pow_cp_supercombine_01.tactics</Tactics>
+		<Lifespan>20</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>50</MaxProjectileHeight>
+	</Object>
+	<Object name="pow_cp_supercombine_02" id="0" dbid="2995">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>45</Velocity>
+		<Tactics>pow_cp_supercombine_02.tactics</Tactics>
+		<Lifespan>20</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>50</MaxProjectileHeight>
+	</Object>
+	<Object name="fx_dropshipmarker_01" id="0" dbid="2719">
+        <Visual>effects\unit_fx\misc\dropshipmarker_01.vis</Visual>
+        <Flag>VisibleForOwnerOnly</Flag>
+        <Flag>NoTieToGround</Flag>
+    </Object>
+	<Object name="cov_air_phantom_01" id="0" dbid="965">
+		<Ability>DropshipUnloadAbility.triggerscript</Ability>
+		<ObjectClass>Squad</ObjectClass>
+		<PhysicsInfo>vulture</PhysicsInfo>
+		<Visual>covenant\air\phantom_01\phantom_04.vis</Visual>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>30134</DisplayNameID>
+		<RolloverTextID>99377</RolloverTextID>
+		<RoleTextID>509</RoleTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>20</Velocity>
+		<TurnRate>90</TurnRate>
+		<Hitpoints>12500</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<LOS>55</LOS>
+		<Pop Type="Unit">3</Pop>
+		<Hardpoint name="Chingun" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="Chingun" />
+		<Hardpoint name="LeftTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="LeftTurret" />
+		<Hardpoint name="RightTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="RightTurret" />
+		<Tactics>cov_air_phantom_01.tactics</Tactics>
+		<RepairPoints>400</RepairPoints>
+		<Bounty>10</Bounty>
+		<Veterancy Level="1" XP="20" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="50" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="90" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<ObstructionRadiusX>10</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>14</ObstructionRadiusZ>
+		<SubSelectSort>4605</SubSelectSort>
+		<PickRadius>7.7</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>7.3</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<Contain>Transportable</Contain>
+		<MaxContained>5</MaxContained>
+		<AbilityCommand>cpgnUnload</AbilityCommand>
+		<Command Type="Unload" Position="0" />
+		<Sound Type="Create">play_cov_vampire_birth</Sound>
+		<Sound Type="Select">play_cov_vampire_select</Sound>
+		<Sound Type="Work">play_cov_vampire_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_vampire_attack</Sound>
+		<Sound Type="Ability">play_cov_vampire_ability</Sound>
+		<Sound Type="Exist">start_exist_spirit</Sound>
+		<Sound Type="StopExist">stop_exist_spirit</Sound>
+		<Sound Type="StartMove">start_move_spirit</Sound>
+		<Sound Type="StopMove">stop_move_spirit</Sound>
+		<Sound Type="Death">play_wraith_death</Sound>
+		<Sound Type="ImpactDeath">play_impact_death_banshee</Sound>
+		<ExtendedSoundBank>xtnd_ui_vampire.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">HeavyAir</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>SpartanBoardFlying</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>Transport</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>PassiveGarrisoned</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<HPBar>COV_Health</HPBar>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>30</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>31</CircleMenuFrameIDHighlight>
+		</FlashUI>
 	</Object>
 
     <!--Arbiter-->
@@ -34827,93 +34920,13 @@
 		<PerturbanceMaxTime>0.1</PerturbanceMaxTime>
 	</Object>
 
-	<Object name="cov_air_phantom_01" id="0" dbid="965">
-		<Ability>DropshipUnloadAbility.triggerscript</Ability>
-		<ObjectClass>Squad</ObjectClass>
-		<PhysicsInfo>vulture</PhysicsInfo>
-		<Visual>covenant\air\phantom_01\phantom_04.vis</Visual>
-		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<DisplayNameID>30134</DisplayNameID>
-		<RolloverTextID>99377</RolloverTextID>
-		<RoleTextID>509</RoleTextID>
-		<MovementType>Air</MovementType>
-		<Velocity>20</Velocity>
-		<TurnRate>90</TurnRate>
-		<Hitpoints>12500</Hitpoints>
-		<Shieldpoints>0</Shieldpoints>
-		<LOS>55</LOS>
-		<Pop Type="Unit">3</Pop>
-		<Hardpoint name="Chingun" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="Chingun" />
-		<Hardpoint name="LeftTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="LeftTurret" />
-		<Hardpoint name="RightTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="RightTurret" />
-		<Tactics>cov_air_phantom_01.tactics</Tactics>
-		<RepairPoints>400</RepairPoints>
-		<Bounty>10</Bounty>
-		<Veterancy Level="1" XP="20" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
-		<Veterancy Level="2" XP="50" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
-		<Veterancy Level="3" XP="90" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
-		<Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
-		<ObstructionRadiusX>10</ObstructionRadiusX>
-		<ObstructionRadiusY>4</ObstructionRadiusY>
-		<ObstructionRadiusZ>14</ObstructionRadiusZ>
-		<SubSelectSort>4605</SubSelectSort>
-		<PickRadius>7.7</PickRadius>
-		<PickOffset>2</PickOffset>
-		<PickPriority>Unit</PickPriority>
-		<SelectType>Unit</SelectType>
-		<GotoType>Air</GotoType>
-		<SelectedRadiusX>7.3</SelectedRadiusX>
-		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<Contain>Transportable</Contain>
-		<MaxContained>5</MaxContained>
-		<AbilityCommand>cpgnUnload</AbilityCommand>
-		<Command Type="Unload" Position="0" />
-		<Sound Type="Create">play_cov_vampire_birth</Sound>
-		<Sound Type="Select">play_cov_vampire_select</Sound>
-		<Sound Type="Work">play_cov_vampire_acknowledge</Sound>
-		<Sound Type="Attack">play_cov_vampire_attack</Sound>
-		<Sound Type="Ability">play_cov_vampire_ability</Sound>
-		<Sound Type="Exist">start_exist_spirit</Sound>
-		<Sound Type="StopExist">stop_exist_spirit</Sound>
-		<Sound Type="StartMove">start_move_spirit</Sound>
-		<Sound Type="StopMove">stop_move_spirit</Sound>
-		<Sound Type="Death">play_wraith_death</Sound>
-		<Sound Type="ImpactDeath">play_impact_death_banshee</Sound>
-		<ExtendedSoundBank>xtnd_ui_vampire.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">HeavyAir</DamageType>
-		<ObjectType>KeepsInGame</ObjectType>
-		<ObjectType>Military</ObjectType>
-		<ObjectType>Covenant</ObjectType>
-		<ObjectType>Flying</ObjectType>
-		<ObjectType>Unit</ObjectType>
-		<ObjectType>SpartanBoardFlying</ObjectType>
-		<ObjectType>CanCryo</ObjectType>
-		<ObjectType>CanBeProtected</ObjectType>
-		<ObjectType>Transport</ObjectType>
-		<ObjectType>CanBeProtected</ObjectType>
-		<SurfaceType>Metal</SurfaceType>
-		<Flag>KBAware</Flag>
-		<Flag>DontRotateObstruction</Flag>
-		<Flag>HasHPBar</Flag>
-		<Flag>PassiveGarrisoned</Flag>
-		<Flag>Obscurable</Flag>
-		<Flag>Repairable</Flag>
-		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
-		<HPBar>COV_Health</HPBar>
-		<FlashUI>
-			<CircleMenuFrameIDNormal>30</CircleMenuFrameIDNormal>
-			<CircleMenuFrameIDHighlight>31</CircleMenuFrameIDHighlight>
-		</FlashUI>
-	</Object>
-
     <!--Prophet of Regret-->
 
     <Object name="cov_inf_eliteCommando_01" id="0" dbid="2452">
+    	<Ability>cov_honorguardaura.ability</Ability>
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\eliteCommando_01\eliteCommando_01.vis</Visual>
+		<Visual>covenant\Infantry\elitecommando_01\elitecommando_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10116</DisplayNameID>
@@ -34981,7 +34994,6 @@
 		<SurfaceType>EliteFlesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<AbilityCommand>CovCloak</AbilityCommand>
-		<Ability>cov_honorguardaura.ability</Ability>
 		<Flag>AttackWhileCloaked</Flag>
 		<Flag>MoveWhileCloaked</Flag>
 		<Flag>KBAware</Flag>
@@ -34990,6 +35002,18 @@
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
 		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="fx_defense_aura_small_01" id="0" dbid="4230">
+		<Visual>effects\arbiter_rage\defense_aura_small_01.vis</Visual>
+		<Flag>NoTieToGround</Flag>
+	</Object>
+	<Object name="fx_defense_aura_medium_01" id="0" dbid="4231">
+		<Visual>effects\arbiter_rage\defense_aura_medium_01.vis</Visual>
+		<Flag>NoTieToGround</Flag>
+	</Object>
+	<Object name="fx_defense_aura_large_01" id="0" dbid="4232">
+		<Visual>effects\arbiter_rage\defense_aura_large_01.vis</Visual>
+		<Flag>NoTieToGround</Flag>
 	</Object>
 
 	<Object name="cov_inf_needlerElite_01" id="0" dbid="3013">

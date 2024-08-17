@@ -3,8 +3,8 @@
 	<Weapon>
 		<Name>Sword</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>144</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>Energysword</WeaponType>
 		<MaxRange>6</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
@@ -23,35 +23,6 @@
 		<Anim>SwordAttack</Anim>
 		<Weapon>Sword</Weapon>
 		<MainAttack />
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_02</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_snowmarine_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_medic_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odstmedic_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">creep_rebel_infantry_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">creep_rebel_Sniper_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteJackal_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">creep_inf_jackal_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteJackal_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">creep_inf_sniperJackal_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteJackal_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">creep_inf_needlerJackal_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteSpartan_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteSpartan_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_02</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteSpartan_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_03</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteSpartan_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanMG_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteSpartan_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanRocket_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteSpartan_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanSniper_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteLeader_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteArbiter_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_arbiter_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteArbiter_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_arbiter_02</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteBruteChief_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteChief_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteBruteChief_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteChief_02</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteBruteChief_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteChief_03</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteBrute_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_brute_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteBrute_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteJackal_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
-		<Fatality attacker="Fatality_EliteMarine_01" target="Fatality_EliteJackal_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackalShield_01</Fatality>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
