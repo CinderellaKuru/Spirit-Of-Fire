@@ -3,8 +3,8 @@
 	<Weapon>
 		<Name>SwipMelee</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
-		<WeaponType>BuildingKillerMelee</WeaponType>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<ThrowAliveUnits />
@@ -22,8 +22,8 @@
 	<Weapon>
 		<Name>BashMelee</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
-		<WeaponType>BuildingKillerMelee</WeaponType>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
 		<MaxRange>3</MaxRange>
 		<AOERadius>12</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
