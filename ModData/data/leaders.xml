@@ -192,6 +192,7 @@
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
 		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="HonorGuard" Max="3">3</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
 	</Leader>

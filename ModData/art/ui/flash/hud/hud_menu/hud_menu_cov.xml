@@ -853,6 +853,8 @@
 
     <!-- New Stuff for Vanilla Leaders -->
 
+    <!-- UNSC Basic -->
+
     <Icon type="powericon" name="Watchtwrdrp" name2="Watchtwrdrp2" texture="art\ui\flash\shared\textures\creeps\creep_rebel_watchtower_01" owner="UnscWatchtowerDrop">-1</Icon>
     <Icon type="buildingicon" name="Watchtower" texture="art\ui\flash\shared\textures\creeps\creep_rebel_watchtower_01" owner="unsc_bldg_watchtower_01">-1</Icon>
      <Icon type="uniticon" name="Medic" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_inf_medic_01">-1</Icon>
@@ -891,14 +893,20 @@
 	<Icon type="techicon" name="rhinoupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_rhino_upgrade2" owner="unsc_rhino_upgrade2">-1</Icon>
 	<Icon type="techicon" name="rhinoupgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_rhino_upgrade3" owner="unsc_rhino_upgrade3">-1</Icon>
 
-	 <!--Arbiter-->
+	<!--COV Basic-->
+
+	<Icon type="uniticon" name="Phantom" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_air_phantom_01" owner="cov_air_phantom_01">-1</Icon>
+    <Icon type="techicon" name="covphantomupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_phantom_upgrade1" owner="cov_phantom_upgrade1">-1</Icon>
+	<Icon type="techicon" name="covphantomupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_phantom_upgrade2" owner="cov_phantom_upgrade2">-1</Icon>
+
+	<!--Arbiter-->
 
     <Icon type="uniticon" name="arbyelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_inf_arbyelite_01">-1</Icon>
     <Icon type="uniticon" name="arbyelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_inf_arbyelite_02">-1</Icon>
     <Icon type="uniticon" name="arbyelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_inf_arbyelite_03">-1</Icon>
-    <Icon type="techicon" name="covarbyeliteupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_arbyelite_upgrade1">-1</Icon>
-	<Icon type="techicon" name="covarbyeliteupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\unit\cpgn_inf_needlerElite_01" owner="cov_arbyelite_upgrade2">-1</Icon>
-	<Icon type="techicon" name="covarbyeliteupgrade3" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteCommando_01" owner="cov_arbyelite_upgrade3">-1</Icon>
+    <Icon type="techicon" name="covarbyeliteupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_arbyelite_upgrade1" owner="cov_arbyelite_upgrade1">-1</Icon>
+	<Icon type="techicon" name="covarbyeliteupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_arbyelite_upgrade2" owner="cov_arbyelite_upgrade2">-1</Icon>
+	<Icon type="techicon" name="covarbyeliteupgrade3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_arbyelite_upgrade3" owner="cov_arbyelite_upgrade3">-1</Icon>
 	<Icon type="uniticon" name="sniperelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_sniperelite_01" owner="cov_inf_sniperelite_01">-1</Icon>
     <Icon type="techicon" name="covsnipereliteupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_sniperelite_upgrade1" owner="cov_sniperelite_upgrade1">-1</Icon>
 	<Icon type="techicon" name="covsnipereliteupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_sniperelite_upgrade2" owner="cov_sniperelite_upgrade2">-1</Icon>
@@ -910,7 +918,7 @@
 
 
 	<Icon type="uniticon" name="spectre" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_spectre_01" owner="cov_veh_spectre_01">-1</Icon>
-	<Icon type="abilityicon" name="CovSpectreBoost" texture="art\ui\flash\shared\textures\covenant\icons\ability\CovGhostBoost" owner="CovSpectreBoost">-1</Icon>
+	<Icon type="abilityicon" name="CovSpectreBoost" texture="art\ui\flash\shared\textures\covenant\icons\ability\CovSpectreBoost" owner="CovSpectreBoost">-1</Icon>
 	<Icon type="techicon" name="spectreUPG1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_spectre_upgrade1" owner="cov_spectre_upgrade1">-1</Icon>
 	<Icon type="techicon" name="spectreUPG2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_spectre_upgrade2" owner="cov_spectre_upgrade2">-1</Icon>
 	<Icon type="techicon" name="spectreUPG3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_spectre_upgrade3" owner="cov_spectre_upgrade3">-1</Icon>
@@ -926,7 +934,7 @@
 	<Icon type="techicon" name="prowlerUPG2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_prowler_upgrade2" owner="cov_prowler_upgrade2">-1</Icon>
 	<Icon type="techicon" name="prowlerUPG3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_prowler_upgrade3" owner="cov_prowler_upgrade3">-1</Icon>
 
-    <Icon type="uniticon" name="wraithaa" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_wraithaa_01" owner="cov_veh_wraithaa_01">-1</Icon>
+	<Icon type="uniticon" name="wraithaa" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_wraithaa_01" owner="cov_veh_wraithaa_01">-1</Icon>
 	<Icon type="techicon" name="wraithaaUPG1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_wraithaa_upgrade1" owner="cov_wraithaa_upgrade1">-1</Icon>
 	<Icon type="techicon" name="wraithaaUPG2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_wraithaa_upgrade2" owner="cov_wraithaa_upgrade2">-1</Icon>
 	<Icon type="techicon" name="wraithaaUPG3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_wraithaa_upgrade3" owner="cov_wraithaa_upgrade3">-1</Icon>
@@ -934,9 +942,9 @@
 	<!--Prophet of Regret-->
 
     <Icon type="uniticon" name="goliath" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_goliath_01" owner="cov_inf_goliath_01">-1</Icon>
-    <Icon type="techicon" name="covsnipereliteupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_goliath_01" owner="cov_goliath_upgrade1">-1</Icon>
-	<Icon type="techicon" name="covsnipereliteupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_goliath_01" owner="cov_goliath_upgrade2">-1</Icon>
-	
+    <Icon type="techicon" name="covsnipereliteupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_goliath_upgrade1" owner="cov_goliath_upgrade1">-1</Icon>
+	<Icon type="techicon" name="covsnipereliteupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_goliath_upgrade2" owner="cov_goliath_upgrade2">-1</Icon>
+
 	<Icon type="uniticon" name="scarab" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_scarab_02" owner="cov_veh_scarab_02">-1</Icon>
     
 	<!-- Skidbladnir -->
