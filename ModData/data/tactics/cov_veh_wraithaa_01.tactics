@@ -44,7 +44,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>BarrageWeapon</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>1000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Missile</WeaponType>
@@ -71,15 +71,7 @@
 		<Dodgeable />
 	</Weapon>
 	<Action>
-		<Name>FuelRodAttackAction1</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>MissileAttack2</Anim>
-		<Weapon>FuelRodTurret</Weapon>
-		<MainAttack />
-		<DisableAttackWaitTimer />
-	</Action>
-	<Action>
-		<Name>FuelRodAttackAction2</Name>
+		<Name>FuelRodAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>MissileAttack2</Anim>
 		<Weapon>FuelRodTurret</Weapon>
@@ -153,13 +145,8 @@
 		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>FuelRodAttackAction1</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
-			<Action>FuelRodAttackAction2</Action>
+			<Action>FuelRodAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>

@@ -16,16 +16,17 @@
         </NameValues>
         <Maps>
             <diffuse UVWVel="0,0,0">
-                <Map Name="\covenant\vehicle\shadow_01\shadow_turret_01_df" Channel="0" Flags="7"/>
+                <Map Name="\covenant\vehicle\shadow_01\shadow_turret_cov_01_df" Channel="0" Flags="7"/>
             </diffuse>
             <normal UVWVel="0,0,0">
             </normal>
             <gloss UVWVel="0,0,0">
+                <Map Name="\covenant\vehicle\shadow_01\shadow_01_sp" Channel="0" Flags="7"/>
             </gloss>
             <opacity UVWVel="0,0,0">
             </opacity>
             <xform UVWVel="0,0,0">
-                <Map Name="\covenant\vehicle\shadow_01\shadow_turret_01_xf" Channel="0" Flags="7"/>
+                <Map Name="\covenant\vehicle\shadow_01\shadow_turret_cov_01_xf" Channel="0" Flags="7"/>
             </xform>
             <emissive UVWVel="0,0,0">
             </emissive>

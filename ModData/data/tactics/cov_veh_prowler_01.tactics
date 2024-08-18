@@ -4,7 +4,7 @@
 		<Name>PlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>200</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
+		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_SpectreCannon_01</Projectile>
 		<ImpactEffect size="small">cov_plasmacannon_01</ImpactEffect>
 		<MaxVelocityLead>45</MaxVelocityLead>
@@ -25,8 +25,8 @@
 	<Weapon>
 		<Name>RepeatingPlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>300</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaCannon_03</Projectile>
 		<ImpactEffect size="small">cov_plasmacannon_01</ImpactEffect>
 		<MaxVelocityLead>45</MaxVelocityLead>

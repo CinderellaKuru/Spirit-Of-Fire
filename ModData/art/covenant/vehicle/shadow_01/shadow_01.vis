@@ -377,11 +377,63 @@
 	</model>
 	<model name="TurretGun">
 		<component>
+			<logic type="Tech">
+				<logicdata value="cov_shadow_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>covenant\vehicle\shadow_01\shadow_turret_fuelrod_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="cov_shadow_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>covenant\vehicle\shadow_01\shadow_turret_fuelrod_wings_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="cov_shadow_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>covenant\vehicle\shadow_01\shadow_turret_plasma_cov_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="cov_shadow_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>covenant\vehicle\shadow_01\shadow_turret_plasma_cov_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>covenant\vehicle\shadow_01\shadow_turret_plasma_cov_01</file>
+					</asset>
+				</logicdata>
+			</logic>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>covenant\vehicle\shadow_01\shadow_turret_plasma_01</file>
+				<file>covenant\vehicle\shadow_01\shadow_turret_plasma_cov_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="TurretGunWings">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\vehicle\shadow_01\shadow_turret_fuelrod_wings_01</file>
 			</asset>
 		</component>
 	</model>

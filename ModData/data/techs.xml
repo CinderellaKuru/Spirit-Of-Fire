@@ -5126,7 +5126,7 @@
 			<Effect type="Data" amount="0.25" subtype="ReflectDamageFactor" action="Ram" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" action="Ram" relativity="Percent">
+			<Effect type="Data" amount="2" subtype="Damage" action="Ram" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
 			</Effect>
 		</Effects>
@@ -5150,16 +5150,16 @@
 				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">cov_veh_prowler_02</Target>
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_veh_prowler_02</Target>
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonAttackAction" relativity="Absolute">
-				<Target type="ProtoUnit">cov_veh_prowler_02</Target>
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepeatingPlasmaCannonAttackAction" relativity="Absolute">
-				<Target type="ProtoUnit">cov_veh_prowler_02</Target>
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5455,7 +5455,7 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_wraithaa_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="FuelRodAttackAction2" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="FuelRodAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_wraithaa_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="FuelRodTrackingAttackAction" relativity="Absolute">

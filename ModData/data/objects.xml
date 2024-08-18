@@ -34826,7 +34826,7 @@
 		<Hardpoint name="Turret" autocenter="true" pitchrate="180" yawmaxangle="0" yawattachment="turret" pitchattachment="MissileHousing" />
 		<AbilityCommand>UnscWolverineBarrage</AbilityCommand>
 		<MovementType>Land</MovementType>
-		<Velocity>30</Velocity>
+		<Velocity>25</Velocity>
 		<TurnRate>180</TurnRate>
 		<Hitpoints>8550</Hitpoints>
 		<Shieldpoints>0</Shieldpoints>

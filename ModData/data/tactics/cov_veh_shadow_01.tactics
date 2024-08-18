@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>PlasmaCannon</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>360</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Explosive</WeaponType>
@@ -25,7 +25,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>FuelRodTurret</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>460</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>FuelRod</WeaponType>
