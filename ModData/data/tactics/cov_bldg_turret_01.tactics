@@ -7,7 +7,7 @@
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Small">cov_shadeplasma_01</ImpactEffect>
-		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxVelocityLead>60</MaxVelocityLead>
 		<MaxRange>90</MaxRange>
 		<Hardpoint>Turret</Hardpoint>
 		<Accuracy>0.5</Accuracy>
@@ -30,7 +30,7 @@
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Small">cov_shadeplasma_01</ImpactEffect>
-		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxVelocityLead>60</MaxVelocityLead>
 		<MaxRange>90</MaxRange>
 		<Hardpoint>Turret</Hardpoint>
 		<Accuracy>0.5</Accuracy>
@@ -53,7 +53,7 @@
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Small">cov_shadeplasma_01</ImpactEffect>
-		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxVelocityLead>60</MaxVelocityLead>
 		<MaxRange>90</MaxRange>
 		<Hardpoint>Turret</Hardpoint>
 		<Accuracy>0.5</Accuracy>

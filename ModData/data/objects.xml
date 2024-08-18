@@ -892,7 +892,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/grenade_01/grenade_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>45</Velocity>
+		<Velocity>80</Velocity>
 		<Lifespan>3</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
 		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
@@ -908,7 +908,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/grenade_01/grenade_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>40</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_grenade_01.tactics</Tactics>
 		<Lifespan>3</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1072,7 +1072,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/lightCannon_01/lightCannon_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>150</Velocity>
+		<Velocity>200</Velocity>
 		<Tactics>fx_proj_lightCannon_01.tactics</Tactics>
 		<Lifespan>2</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1186,7 +1186,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/missile_01/missile_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>45</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_napalmBomb_01.tactics</Tactics>
 		<Lifespan>6</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1244,7 +1244,7 @@
 	<Object name="fx_proj_shotgun_01" id="0" dbid="3506">
 		<ObjectClass>Projectile</ObjectClass>
 		<MovementType>Air</MovementType>
-		<Velocity>100</Velocity>
+		<Velocity>150</Velocity>
 		<Lifespan>1</Lifespan>
 		<ObstructionRadiusX>0.5</ObstructionRadiusX>
 		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
@@ -1257,7 +1257,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/ballisticRocket_01/ballisticRocket_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>100</Velocity>
+		<Velocity>150</Velocity>
 		<Tactics>fx_proj_missile_01.tactics</Tactics>
 		<Lifespan>12</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1284,7 +1284,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/rocket_01/rocket_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>60</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_rocket_01.tactics</Tactics>
 		<Lifespan>2</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1298,7 +1298,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/rocket_01/rocket_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>30</Velocity>
+		<Velocity>60</Velocity>
 		<Tactics>fx_proj_rocket_01.tactics</Tactics>
 		<Lifespan>2</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1376,7 +1376,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/rocket_01/rocket_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>65</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_rocket_01.tactics</Tactics>
 		<Lifespan>2</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1401,7 +1401,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/rocket_02/rocket_02.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>65</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_rocket_02.tactics</Tactics>
 		<Lifespan>2</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1426,7 +1426,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/rocket_03/rocket_03.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>45</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_rocket_03.tactics</Tactics>
 		<Lifespan>4</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1451,7 +1451,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/rotaryMG_01/rotaryMG_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>100</Velocity>
+		<Velocity>150</Velocity>
 		<Tactics>fx_proj_rotaryMG_01.tactics</Tactics>
 		<Lifespan>2</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1465,7 +1465,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects/projectiles/unsc/rotaryMG_02/rotaryMG_02.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>100</Velocity>
+		<Velocity>150</Velocity>
 		<Tactics>fx_proj_rotaryMG_02.tactics</Tactics>
 		<Lifespan>2</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1479,7 +1479,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\cov\brutegun_01\brutegun_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>50</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_bruteGun_01.tactics</Tactics>
 		<Lifespan>5</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1494,7 +1494,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\cov\brutegun_02\brutegun_02.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>50</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_bruteGun_02.tactics</Tactics>
 		<Lifespan>5</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1510,7 +1510,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\cov\brutegun_03\brutegun_03.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>50</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_bruteGun_03.tactics</Tactics>
 		<Lifespan>5</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1569,7 +1569,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\cov\heavyneedler_01\heavyneedler_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>80</Velocity>
+		<Velocity>100</Velocity>
 		<Tactics>fx_proj_heavyNeedler_01.tactics</Tactics>
 		<Lifespan>2.5</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1595,7 +1595,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\cov\heavyneedler_02\heavyneedler_02.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>80</Velocity>
+		<Velocity>100</Velocity>
 		<Tactics>fx_proj_heavyNeedler_02.tactics</Tactics>
 		<Lifespan>2.5</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1621,7 +1621,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\cov\needler_01\needler_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>40</Velocity>
+		<Velocity>140</Velocity>
 		<Tactics>fx_proj_needler_01.tactics</Tactics>
 		<Lifespan>2.5</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1845,7 +1845,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\cov\shadeplasma_01\shadeplasma_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>100</Velocity>
+		<Velocity>200</Velocity>
 		<Tactics>fx_proj_shadeplasma_01.tactics</Tactics>
 		<Lifespan>3</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -1859,7 +1859,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\cov\shadeplasma_01\shadeplasma_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>100</Velocity>
+		<Velocity>200</Velocity>
 		<Tactics>fx_proj_shadeplasma_01.tactics</Tactics>
 		<Lifespan>3</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -31095,7 +31095,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\cov\plasmaburn_01\plasmaburn_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>45</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_artillery_01.tactics</Tactics>
 		<Lifespan>20</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -32715,7 +32715,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\unsc\plasmaartillery_01\plasmaartillery_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>50</Velocity>
+		<Velocity>80</Velocity>
 		<Tactics>fx_proj_plasmaMortar_01.tactics</Tactics>
 		<Lifespan>20</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
