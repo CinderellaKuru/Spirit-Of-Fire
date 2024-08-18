@@ -35394,7 +35394,7 @@
 		<PickPriority>Unit</PickPriority>
 		<SelectType>Unit</SelectType>
 		<GotoType>Vehicle</GotoType>
-		<SubSelectSort>6500</SubSelectSort>
+		<SubSelectSort>6400</SubSelectSort>
 		<SelectedRadiusX>4</SelectedRadiusX>
 		<SelectedRadiusZ>3</SelectedRadiusZ>
 		<Contain>Infantry</Contain>

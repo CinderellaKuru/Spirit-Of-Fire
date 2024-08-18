@@ -3883,7 +3883,7 @@
 		<RolloverTextID>3081</RolloverTextID>
 		<RoleTextID>519</RoleTextID>
 		<PrereqTextID>241</PrereqTextID>
-		<BuildPoints>1</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<LeashDistance>80</LeashDistance>
 		<LeashDeadzone>40</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -4126,7 +4126,7 @@
 		<BuildPoints>23</BuildPoints>
 		<Cost resourcetype="Supplies">650</Cost>
 		<Cost resourcetype="Power">1</Cost>
-		<SubSelectSort>6500</SubSelectSort>
+		<SubSelectSort>6400</SubSelectSort>
 		<LeashDistance>20</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
