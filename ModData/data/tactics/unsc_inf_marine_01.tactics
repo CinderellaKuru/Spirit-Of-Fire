@@ -9,7 +9,7 @@
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>100</Accuracy>
+		<Accuracy>0.45</Accuracy>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.25</AOEDistanceFactor>
@@ -19,8 +19,10 @@
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>900</PhysicsForceMin>
 		<PhysicsForceMax>1100</PhysicsForceMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>5</PreAttackCooldownMax>
 		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>5</PostAttackCooldownMax>
+		<PostAttackCooldownMax>8</PostAttackCooldownMax>
 		<Dodgeable />
 	</Weapon>
 	<Weapon>
@@ -32,9 +34,9 @@
 		<ImpactEffect size="Medium">tankshell</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>0.300000012</Accuracy>
+		<Accuracy>0.30</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.150000006</MovingAccuracy>
+		<MovingAccuracy>0.15</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
@@ -57,9 +59,9 @@
 		<ImpactEffect size="Medium">tankshell</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>50</MaxRange>
-		<Accuracy>0.300000012</Accuracy>
+		<Accuracy>0.30</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.300000012</MovingAccuracy>
+		<MovingAccuracy>0.30</MovingAccuracy>
 		<MovingMaxDeviation>4</MovingMaxDeviation>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
@@ -81,12 +83,12 @@
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingAccuracy>0.05</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>8</VisualAmmo>
 		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
@@ -107,10 +109,10 @@
 		<MaxRange>50</MaxRange>
 		<Accuracy>100</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>100</MovingAccuracy>
+		<MovingAccuracy>0.25</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.25</AOEDistanceFactor>
@@ -120,8 +122,10 @@
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>900</PhysicsForceMin>
 		<PhysicsForceMax>1100</PhysicsForceMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>5</PreAttackCooldownMax>
 		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>5</PostAttackCooldownMax>
+		<PostAttackCooldownMax>8</PostAttackCooldownMax>
 	    <Hardpoint>Torso</Hardpoint>
 		<Dodgeable />
 	</Weapon>
@@ -134,12 +138,12 @@
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>25</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingAccuracy>0.05</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>8</VisualAmmo>
 		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
