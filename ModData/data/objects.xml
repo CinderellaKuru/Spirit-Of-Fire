@@ -34236,7 +34236,7 @@
 		<AmmoMax>1</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
 		<Tactics>cov_inf_arbyelite_01.tactics</Tactics>
-		<SubSelectSort>4001</SubSelectSort>
+		<SubSelectSort>4000</SubSelectSort>
 		<RepairPoints>33</RepairPoints>
 		<ObstructionRadiusX>1.5</ObstructionRadiusX>
 		<ObstructionRadiusY>2.2</ObstructionRadiusY>
@@ -34313,7 +34313,7 @@
 		<AmmoMax>1</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
 		<Tactics>cov_inf_arbyneedlerelite_01.tactics</Tactics>
-		<SubSelectSort>4001</SubSelectSort>
+		<SubSelectSort>4000</SubSelectSort>
 		<RepairPoints>33</RepairPoints>
 		<ObstructionRadiusX>1.5</ObstructionRadiusX>
 		<ObstructionRadiusY>2.2</ObstructionRadiusY>
@@ -34387,7 +34387,7 @@
 		<AmmoMax>1</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
 		<Tactics>cov_inf_arbyneedlerelite_01.tactics</Tactics>
-		<SubSelectSort>4001</SubSelectSort>
+		<SubSelectSort>4000</SubSelectSort>
 		<RepairPoints>33</RepairPoints>
 		<ObstructionRadiusX>1.4</ObstructionRadiusX>
 		<ObstructionRadiusY>2.2</ObstructionRadiusY>
@@ -34459,7 +34459,7 @@
 		<AmmoMax>1</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
 		<Tactics>cov_inf_arbyneedlerelite_01.tactics</Tactics>
-		<SubSelectSort>4001</SubSelectSort>
+		<SubSelectSort>4000</SubSelectSort>
 		<RepairPoints>33</RepairPoints>
 		<ObstructionRadiusX>1.4</ObstructionRadiusX>
 		<ObstructionRadiusY>2.2</ObstructionRadiusY>
@@ -34504,7 +34504,6 @@
 		<Flag>Repairable</Flag>
 		<HPBar>COV_HealthShield</HPBar>
 	</Object>
-
 	<Object name="cov_inf_sniperelite_01" id="0" dbid="195">
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
@@ -34537,7 +34536,7 @@
 		<AmmoMax>1</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
 		<Tactics>cov_inf_sniperelite_01.tactics</Tactics>
-		<SubSelectSort>4600</SubSelectSort>
+		<SubSelectSort>4601</SubSelectSort>
 		<RepairPoints>33</RepairPoints>
 		<ObstructionRadiusX>1.5</ObstructionRadiusX>
 		<ObstructionRadiusY>2.2</ObstructionRadiusY>
@@ -34613,7 +34612,7 @@
 		<AmmoMax>1</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
 		<Tactics>cov_inf_fuelrodelite_01.tactics</Tactics>
-		<SubSelectSort>4001</SubSelectSort>
+		<SubSelectSort>4602</SubSelectSort>
 		<RepairPoints>33</RepairPoints>
 		<ObstructionRadiusX>1.5</ObstructionRadiusX>
 		<ObstructionRadiusY>2.2</ObstructionRadiusY>
@@ -34686,7 +34685,7 @@
 		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
 		<AmmoMax>610</AmmoMax>
 		<AmmoRegenRate>30</AmmoRegenRate>
-		<AbilityCommand>CovBoost</AbilityCommand>
+		<AbilityCommand>CovSpectreBoost</AbilityCommand>
 		<Tactics>cov_veh_spectre_01.tactics</Tactics>
 		<RepairPoints>75</RepairPoints>
 		<ObstructionRadiusX>3.5</ObstructionRadiusX>

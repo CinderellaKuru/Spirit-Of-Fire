@@ -112,8 +112,8 @@
 	<Action>
 		<Name>Deflect</Name>
 		<ActionType>Deflect</ActionType>
-		<DeflectChanceMin>0.66</DeflectChanceMin>
-		<DeflectChanceMax>0.66</DeflectChanceMax>
+		<DeflectChanceMin>0.33</DeflectChanceMin>
+		<DeflectChanceMax>0.33</DeflectChanceMax>
 		<DeflectMaxAngle>360</DeflectMaxAngle>
 		<DeflectCooldown>0</DeflectCooldown>
 		<MultiDeflect />

@@ -351,4 +351,16 @@
 		<RecoverTime>20</RecoverTime>
 		<DontInterruptAttack>true</DontInterruptAttack>
 	</Ability>
+	<Ability Name="CovSpectreBoost">
+		<DisplayNameID>24558</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<SquadMode>Passive</SquadMode>
+		<KeepSquadMode>false</KeepSquadMode>
+		<MovementSpeedModifier>2</MovementSpeedModifier>
+		<MovementModifierType>Ability</MovementModifierType>
+		<RecoverStart>Move</RecoverStart>
+		<RecoverType>Attack</RecoverType>
+		<RecoverTime>8</RecoverTime>
+	</Ability>
 </Abilities>

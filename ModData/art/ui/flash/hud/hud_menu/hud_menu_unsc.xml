@@ -901,9 +901,9 @@
 
     <!--Arbiter-->
 
-    <Icon type="uniticon" name="arbyelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_inf_arbyelite_01">-1</Icon>
-    <Icon type="uniticon" name="arbyelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_inf_arbyelite_02">-1</Icon>
-    <Icon type="uniticon" name="arbyelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_inf_arbyelite_03">-1</Icon>
+    <Icon type="uniticon" name="arbyelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_arbyelite_01" owner="cov_inf_arbyelite_01">-1</Icon>
+    <Icon type="uniticon" name="arbyelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_arbyelite_01" owner="cov_inf_arbyelite_02">-1</Icon>
+    <Icon type="uniticon" name="arbyelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_arbyelite_01" owner="cov_inf_arbyelite_03">-1</Icon>
     <Icon type="techicon" name="covarbyeliteupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_arbyelite_upgrade1" owner="cov_arbyelite_upgrade1">-1</Icon>
 	<Icon type="techicon" name="covarbyeliteupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_arbyelite_upgrade2" owner="cov_arbyelite_upgrade2">-1</Icon>
 	<Icon type="techicon" name="covarbyeliteupgrade3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_arbyelite_upgrade3" owner="cov_arbyelite_upgrade3">-1</Icon>
