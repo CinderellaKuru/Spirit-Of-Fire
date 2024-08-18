@@ -138,7 +138,7 @@
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
 		<Resource>Supplies</Resource>
-		<WorkRate>3.75</WorkRate>
+		<WorkRate>6</WorkRate>
 		<WorkRange>3</WorkRange>
 		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
