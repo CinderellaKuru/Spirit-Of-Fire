@@ -35473,29 +35473,13 @@
 		<SelectType>Command</SelectType>
 		<GotoType>Base</GotoType>
 		<ExitFromDirection>1</ExitFromDirection>
-		<Command Type="Research" Position="0">unsc_base_upgrade1</Command>
-		<Command Type="Research" Position="7">unsc_warthog_upgrade1</Command>
-		<Command Type="Research" Position="7">unsc_warthog_upgrade2</Command>
-		<Command Type="Research" Position="7">unsc_warthog_upgrade3</Command>
-		<Command Type="Research" Position="6">unsc_cyclops_upgrade1</Command>
-		<Command Type="Research" Position="6">unsc_cyclops_upgrade2</Command>
-		<Command Type="Research" Position="6">unsc_cyclops_upgrade3</Command>
-		<Command Type="Research" Position="6">unsc_gremlin_upgrade1</Command>
-		<Command Type="Research" Position="6">unsc_gremlin_upgrade2</Command>
-		<Command Type="Research" Position="6">unsc_gremlin_upgrade3</Command>
-		<Command Type="Research" Position="6">unsc_elephant_upgrade1</Command>
-		<Command Type="Research" Position="6">unsc_elephant_upgrade2</Command>
-		<Command Type="Research" Position="6">unsc_elephant_upgrade3</Command>
+		<Command Type="Research" Position="0">skid_base_upgrade1</Command>
 		<Command Type="Power" Position="1">SkidReinforceDrop</Command>
-		<Command Type="TrainSquad" Position="2">unsc_inf_cyclops_01</Command>
-		<Command Type="TrainSquad" Position="2">unsc_veh_gremlin_01</Command>
-		<Command Type="TrainSquad" Position="2">unsc_veh_elephant_01</Command>
 		<Command Type="DestroyBase" Position="4" />
-		<Command Type="TrainLock" Position="3" />
 		<Command Type="RallyPoint" Position="5" />
 		<ChildObjects>
 			<Object Type="Rally" Offset="80,0,0" Rotation="0">sys_rallystart_01</Object>
-			<Object Type="Socket" Offset="-30,0,0" Rotation="90">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-25,0,0" Rotation="90">skid_bldg_socket_01</Object>
 		</ChildObjects>
 		<Sound Type="Create">play_vog_basebuilt_unsc</Sound>
 		<Sound Type="Death">play_death_command_center</Sound>
@@ -35542,6 +35526,172 @@
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 	</Object>
+	<Object name="skid_bldg_command_02" id="0" dbid="128">
+		<ObjectClass>Building</ObjectClass>
+		<TrainerType>0</TrainerType>
+		<Visual>skid\building\command_01\command_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<DisplayNameID>26756</DisplayNameID>
+		<RolloverTextID>2675</RolloverTextID>
+		<StatsNameID>25741</StatsNameID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>40000</Hitpoints>
+		<CombatValue>20</CombatValue>
+		<LOS>85</LOS>
+		<BuildPoints>30</BuildPoints>
+		<PopCapAddition Type="Unit">15</PopCapAddition>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Bounty>14</Bounty>
+		<Tactics>skid_bldg_command_01.tactics</Tactics>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>8</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<SelectedRadiusX>24</SelectedRadiusX>
+		<SelectedRadiusZ>22</SelectedRadiusZ>
+		<PickRadius>18</PickRadius>
+		<PickOffset>-1</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<GotoType>Base</GotoType>
+		<ExitFromDirection>1</ExitFromDirection>
+		<Command Type="Power" Position="1">SkidReinforceDrop</Command>
+		<Command Type="DestroyBase" Position="4" />
+		<Command Type="RallyPoint" Position="5" />
+		<ChildObjects>
+			<Object Type="Rally" Offset="80,0,0" Rotation="0">sys_rallystart_01</Object>
+			<Object Type="Socket" Offset="-25,0,0" Rotation="90">skid_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11,0,30.912" Rotation="180">skid_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11,0,-30.912" Rotation="0">skid_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="30,0,44.096" Rotation="90">skid_bldg_turretSocket_01</Object>
+			<Object Type="Socket" Offset="30,0,-44.096" Rotation="90">skid_bldg_turretSocket_01</Object>
+		</ChildObjects>
+		<Sound Type="Create">play_vog_basebuilt_unsc</Sound>
+		<Sound Type="Death">play_death_command_center</Sound>
+		<Sound Type="Exist">play_unsc_cc_exist</Sound>
+		<Sound Type="StopExist">stop_unsc_cc_exist</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>_Base</ObjectType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Any">PowerSocketBase</Socket>
+		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
+		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>KillGarrisoned</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>SelfParkingLot</Flag>
+		<Flag>KillChildObjectsOnDeath</Flag>
+		<Flag>PassiveGarrisoned</Flag>
+		<Flag>TriggersBattleMusicWhenAttacked</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0,50,0">UNSC_Bldg_HealthCommand</HPBar>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+	</Object>
+	<Object name="skid_bldg_socket_01" id="0" dbid="3753">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\Building\socket_01\socket_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<DisplayNameID>23629</DisplayNameID>
+		<RolloverTextID>23629</RolloverTextID>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<MovementType>Land</MovementType>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<PickRadius>9.80000019</PickRadius>
+		<PickOffset>0.699999988</PickOffset>
+		<GathererLimit>1</GathererLimit>
+		<Command Type="BuildOther" Position="1" AutoClose="true">unsc_bldg_supplypad_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">unsc_bldg_reactor_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">unsc_bldg_fieldArmory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">unsc_bldg_barracks_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">unsc_bldg_vehicledepot_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">unsc_bldg_airpad_01</Command>
+		<Command Type="BuildOther" Position="1" AutoClose="true">cov_bldg_supplyDepot_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">cov_bldg_temple_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
+		<ObjectType>BuildingSocket</ObjectType>
+		<ObjectType>_BuildingSocket</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<DeathFadeTime>2</DeathFadeTime>
+		<Flag>FadeOnDeath</Flag>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>SingleSocketBuilding</Flag>
+		<Flag>ForceCreateObstruction</Flag>
+		<Flag>MustOwnToSelect</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<Flag>AppearsBelowDecals</Flag>
+		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
+	</Object>
+	<Object name="skid_bldg_turretSocket_01" id="0" dbid="3092">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\Building\turretSocket_01\turretSocket_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<DisplayNameID>23624</DisplayNameID>
+		<RolloverTextID>23625</RolloverTextID>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<MovementType>Land</MovementType>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<PickRadius>6.2</PickRadius>
+		<PickOffset>0.7</PickOffset>
+		<GathererLimit>1</GathererLimit>
+		<Command Type="BuildOther" Position="0" AutoClose="true">unsc_bldg_turret_01</Command>
+		<ObjectType>TurretSocket</ObjectType>
+		<ObjectType>_TurretSocket</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<DeathFadeTime>2</DeathFadeTime>
+		<Flag>FadeOnDeath</Flag>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SecondaryBuildingQueue</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>SingleSocketBuilding</Flag>
+		<Flag>ForceCreateObstruction</Flag>
+		<Flag>MustOwnToSelect</Flag>
+		<Flag>SecondaryBuildingQueue</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<Flag>AppearsBelowDecals</Flag>
+	</Object>
 	<Object name="skid_inf_vanguard_01" id="0" dbid="148">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
@@ -35554,8 +35704,8 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1</Hitpoints>
-		<Shieldpoints>720</Shieldpoints>
+		<Hitpoints>350</Hitpoints>
+		<Shieldpoints>750</Shieldpoints>
 		<AttackGradeDPS>15</AttackGradeDPS>
 		<LOS>55</LOS>
 		<Pop Type="Unit">0.25</Pop>
@@ -35629,10 +35779,10 @@
 		<DisplayNameID>10058</DisplayNameID>
 		<RolloverTextID>10059</RolloverTextID>
 		<MovementType>Land</MovementType>
-		<Velocity>40</Velocity>
+		<Velocity>30</Velocity>
 		<TurnRate>450</TurnRate>
-		<Hitpoints>1</Hitpoints>
-		<Shieldpoints>2500</Shieldpoints>
+		<Hitpoints>2500</Hitpoints>
+		<Shieldpoints>1000</Shieldpoints>
 		<AttackGradeDPS>138.5</AttackGradeDPS>
 		<CombatValue>6</CombatValue>
 		<Veterancy Level="1" XP="12" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />

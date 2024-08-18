@@ -3,15 +3,15 @@
 	<Weapon>
 		<Name>InCoverAssaultRifle</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>27.5</DamagePerSecond>
+		<DamagePerSecond>30</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>0.1</Accuracy>
+		<Accuracy>0.35</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingAccuracy>0.1</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
@@ -26,20 +26,20 @@
 	<Weapon>
 		<Name>AssaultRifle</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>13.75</DamagePerSecond>
+		<DamagePerSecond>16</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
-		<MaxRange>25</MaxRange>
-		<Accuracy>0.1</Accuracy>
+		<MaxRange>35</MaxRange>
+		<Accuracy>0.25</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingAccuracy>0.1</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<VisualAmmo>16</VisualAmmo>
+		<VisualAmmo>32</VisualAmmo>
 		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>

@@ -1140,9 +1140,9 @@
 
 	<Power name="SkidReinforceDrop">
 		<Attributes>
-			<Cost Supplies="0" Power="0" />
+			<Cost Supplies="450" Power="0" />
 			<Pop type="Unit">3</Pop>
-			<AutoRecharge>12000</AutoRecharge>
+			<AutoRecharge>32000</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>26761</DisplayNameID>
 			<RolloverTextID>26762</RolloverTextID>

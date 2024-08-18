@@ -5045,7 +5045,7 @@
 		<String _locID="26758" category="Squads" subtitle="false">VANGUARD</String>
 		<String _locID="26759" category="Code" subtitle="false">Guard</String>
 		<String _locID="26760" category="Squads" subtitle="false">Vanguards are the main Skidbladnir infantry unit. They are stronger than regular infantry units and have a rechargeable shield at the cost of not being equipped with grenades or a rocket launcher. They excel at defending positions.</String>
-		<String _locID="26761" category="Powers" subtitle="false">MAC BLAST</String>
-		<String _locID="26762" category="Powers" subtitle="false">Use Spirit of Fire's awesome Mass Accelerated Cannons to incinerate enemy troops.</String>
+		<String _locID="26761" category="Powers" subtitle="false">VANGUARD DROP</String>
+		<String _locID="26762" category="Powers" subtitle="false">Vanguards are the main Skidbladnir infantry unit. They are stronger than regular infantry units and have a rechargeable shield at the cost of not being equipped with grenades or a rocket launcher. They excel at defending positions.</String>
 	</Language>
 </StringTable>

@@ -17,15 +17,15 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="skid_bldg_command_01" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="55,0,0">skid_inf_vanguard_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,0">skid_inf_vanguard_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="55,0,0">skid_inf_vanguard_01</StartingSquad>
+		<StartingSquad FlyIn="true" Offset="45,0,0">skid_inf_vanguard_01</StartingSquad>
 		<StartingSquad FlyIn="true" Offset="70,0,0">skid_veh_viper_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">99</Pop>
+		<Pop Type="Unit" Max="99">10</Pop>
 		<Pop Type="Spartan" Max="3">3</Pop>
 	</Leader>
 	<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="2" StatsID="1" DefaultPlayerSlotFlags="0x81">

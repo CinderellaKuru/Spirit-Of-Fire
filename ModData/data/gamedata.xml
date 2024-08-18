@@ -18,10 +18,10 @@
 	<LeaderPowerChargeResource>LeaderPowerCharge</LeaderPowerChargeResource>
 	<LeaderPowerChargeRate>LeaderPowerCharge</LeaderPowerChargeRate>
 	<DifficultyEasy>0</DifficultyEasy>
-	<DifficultyNormal>0.340000004</DifficultyNormal>
-	<DifficultyHard>0.670000017</DifficultyHard>
+	<DifficultyNormal>0.35</DifficultyNormal>
+	<DifficultyHard>0.65</DifficultyHard>
 	<DifficultyLegendary>1</DifficultyLegendary>
-	<DifficultyDefault>0.400000006</DifficultyDefault>
+	<DifficultyDefault>0.4</DifficultyDefault>
 	<DifficultySPCAIDefault>0.5</DifficultySPCAIDefault>
 	<Pops>
 		<Pop>Unit</Pop>
@@ -202,10 +202,10 @@
 		<Good>3</Good>
 		<Extreme>4</Extreme>
 	</GoodAgainstReticle>
-	<MaxNumCorpses>75</MaxNumCorpses>
-	<MaxCorpseDisposalCount>10</MaxCorpseDisposalCount>
-	<InfantryCorpseDecayTime>3</InfantryCorpseDecayTime>
-	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
+	<MaxNumCorpses>0</MaxNumCorpses>
+	<MaxCorpseDisposalCount>0</MaxCorpseDisposalCount>
+	<InfantryCorpseDecayTime>0</InfantryCorpseDecayTime>
+	<CorpseSinkingSpacing>0</CorpseSinkingSpacing>
 	<InfectionMap>
 		<InfectionMapEntry base="unsc_inf_flameMarine_01" infected="fld_Inf_flameMarine_01" infectedSquad="fld_Inf_flameMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_marine_01" infected="fld_inf_InfectedMarine_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
@@ -249,7 +249,7 @@
 	<OverrunJumpForce>400</OverrunJumpForce>
 	<OverrunDistance>20</OverrunDistance>
 	<CoopResourceSplitRate>0.600000024</CoopResourceSplitRate>
-	<GameOverDelay>5</GameOverDelay>
+	<GameOverDelay>0</GameOverDelay>
 	<HeroDownedLOS>5</HeroDownedLOS>
 	<HeroHPRegenTime>90</HeroHPRegenTime>
 	<HeroRevivalDistance>15</HeroRevivalDistance>
@@ -258,16 +258,16 @@
 	<TransportClearRadiusScale>3</TransportClearRadiusScale>
 	<TransportMaxSearchRadiusScale>15</TransportMaxSearchRadiusScale>
 	<TransportMaxSearchLocations>10</TransportMaxSearchLocations>
-	<TransportBlockTime>15</TransportBlockTime>
+	<TransportBlockTime>6</TransportBlockTime>
 	<TransportLoadBlockTime>5</TransportLoadBlockTime>
 	<TransportMaxBlockAttempts>1</TransportMaxBlockAttempts>
-	<TransportIncomingHeight>40.0f</TransportIncomingHeight>
+	<TransportIncomingHeight>60.0f</TransportIncomingHeight>
 	<TransportIncomingOffset>60.0f</TransportIncomingOffset>
 	<TransportOutgoingHeight>120.0f</TransportOutgoingHeight>
 	<TransportOutgoingOffset>60.0f</TransportOutgoingOffset>
-	<TransportPickupHeight>8.0f</TransportPickupHeight>
-	<TransportDropoffHeight>15.0f</TransportDropoffHeight>
-	<TransportMax>3</TransportMax>
+	<TransportPickupHeight>1.0f</TransportPickupHeight>
+	<TransportDropoffHeight>1.0f</TransportDropoffHeight>
+	<TransportMax>5</TransportMax>
 	<HitchOffset>7</HitchOffset>
 	<ALMaxWanderFrequency>20.0f</ALMaxWanderFrequency>
 	<ALPredatorCheckFrequency>2.0f</ALPredatorCheckFrequency>

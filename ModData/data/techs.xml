@@ -7498,6 +7498,25 @@
 		</Effects>
 	</Tech>
 
+	<Tech name="skid_base_upgrade1" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>1000</DisplayNameID>
+		<RolloverTextID>1001</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Cost resourcetype="Supplies">300</Cost>
+		<ResearchPoints>24</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_upgrade_station</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="TransformUnit">skid_bldg_command_02</Effect>
+			<Effect type="Data" amount="2.5" subtype="WorkRate" action="GatherSupplies" relativity="Percent">
+				<Target type="ProtoUnit">skid_bldg_command_02</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+
 	<Tech name="covenant_LeaderArbiter" type="Normal">
 		<DBID>2104</DBID>
 		<ResearchPoints>0</ResearchPoints>
