@@ -166,7 +166,7 @@
 		<String _locID="1014" category="Techs" subtitle="false">NEW BLOOD</String>
 		<String _locID="1015" category="Techs" subtitle="false">Adds another Marine to the squad. This increases the combat effectiveness of the squad.</String>
 		<String _locID="1016" category="Techs" subtitle="false">RPG ABILITY</String>
-		<String _locID="1017" category="Techs" subtitle="false">In addition to their grenade ability every Marine gains a passive rocket ability.</String>
+		<String _locID="1017" category="Techs" subtitle="false">Instead of their grenade ability, every Marine gains a passive rocket ability.</String>
 		<String _locID="1018" category="Techs" subtitle="false" />
 		<String _locID="1019" category="Techs" subtitle="false" />
 		<String _locID="1020" category="Techs" subtitle="false" />
