@@ -127,14 +127,6 @@
 		<ActionType>EnergyShield</ActionType>
 		<ProtoObject>cov_locustshield</ProtoObject>
 	</Action>
-	<Action>
-		<Name>GatherCollectables</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Collectable</Resource>
-		<WorkRate>1</WorkRate>
-		<WorkRange>3</WorkRange>
-	</Action>
 	<Tactic>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>

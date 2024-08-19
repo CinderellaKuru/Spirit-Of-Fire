@@ -4987,7 +4987,7 @@
 				<Target type="ProtoUnit">cov_veh_spectre_01</Target>
 				<Target type="ProtoUnit">cov_veh_spectre_02</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_spectre_01</Target>
 				<Target type="ProtoUnit">cov_veh_spectre_02</Target>
 			</Effect>
@@ -5023,11 +5023,11 @@
 				<Target type="ProtoUnit">cov_veh_spectre_01</Target>
 				<Target type="ProtoUnit">cov_veh_spectre_02</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_spectre_01</Target>
 				<Target type="ProtoUnit">cov_veh_spectre_02</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.10" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_spectre_01</Target>
 				<Target type="ProtoUnit">cov_veh_spectre_02</Target>
 			</Effect>
@@ -5058,7 +5058,7 @@
 				<Target type="ProtoUnit">cov_veh_spectre_01</Target>
 				<Target type="ProtoUnit">cov_veh_spectre_02</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.10" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_spectre_01</Target>
 				<Target type="ProtoUnit">cov_veh_spectre_02</Target>
 			</Effect>
@@ -5120,7 +5120,7 @@
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.30" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0.25" subtype="ReflectDamageFactor" action="Ram" relativity="Percent">

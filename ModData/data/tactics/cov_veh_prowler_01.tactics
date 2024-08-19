@@ -103,15 +103,6 @@
 		<Overrun />
 	</Action>
 	<Action>
-		<Name>GatherSupplies</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Supplies</Resource>
-		<WorkRate>3.75</WorkRate>
-		<WorkRange>3</WorkRange>
-		<RestrictedAutoTarget>true</RestrictedAutoTarget>
-	</Action>
-	<Action>
 		<Name>Garrison</Name>
 		<ActionType>Garrison</ActionType>
 		<WorkRange>5</WorkRange>
@@ -152,14 +143,8 @@
 		<Anim>TeleportIn</Anim>
 		<WorkRange>0</WorkRange>
 	</Action>
-	<Action>
-		<Name>ShieldAction</Name>
-		<ActionType>EnergyShield</ActionType>
-		<ProtoObject>cov_locustshield</ProtoObject>
-	</Action>
 	<Tactic>
 		<PersistentAction>PersistentCollisionAttack</PersistentAction>
-		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
