@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>Needler1</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>25</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
@@ -17,7 +17,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>InCoverNeedler1</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>35</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
@@ -32,7 +32,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>Needler2</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>25</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
@@ -47,7 +47,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>InCoverNeedler2</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>35</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
@@ -62,7 +62,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>SuperCombineNeedler</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>30</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
@@ -76,7 +76,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>InCoverSuperCombineNeedler</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>40</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
@@ -145,8 +145,8 @@
 	<Action>
 		<Name>Deflect</Name>
 		<ActionType>Deflect</ActionType>
-		<DeflectChanceMin>1</DeflectChanceMin>
-		<DeflectChanceMax>1</DeflectChanceMax>
+		<DeflectChanceMin>0.2</DeflectChanceMin>
+		<DeflectChanceMax>0.2</DeflectChanceMax>
 		<DeflectMaxAngle>360</DeflectMaxAngle>
 		<DeflectCooldown>0</DeflectCooldown>
 		<MultiDeflect />

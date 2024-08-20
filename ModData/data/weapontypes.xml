@@ -152,7 +152,7 @@
 	</WeaponType>
 	<WeaponType>
 		<Name>AntiAir</Name>
-		<DamageModifier rating="1" type="Light">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Light">0.8</DamageModifier>
 		<DamageModifier rating="1" type="LightInCover">0.3</DamageModifier>
 		<DamageModifier rating="1" type="LightArmored">1.2</DamageModifier>
 		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
@@ -204,9 +204,9 @@
 	</WeaponType>
 	<WeaponType>
 		<Name>Rocket</Name>
-		<DamageModifier rating="1" type="Light">0.4</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Light">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">0.2</DamageModifier>
 		<DamageModifier rating="1" type="CovenantLeader">0.6</DamageModifier>
 		<DamageModifier rating="1" type="Medium">2</DamageModifier>
 		<DamageModifier rating="1" type="MediumAir">1.2</DamageModifier>

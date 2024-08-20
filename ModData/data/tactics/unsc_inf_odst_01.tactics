@@ -2,14 +2,14 @@
 <TacticData>
 	<Weapon>
 		<Name>InCoverRocketWeapon</Name>
-		<AttackRate>0.3</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>28</DamagePerSecond>
 		<WeaponType>Rocket</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>100</Accuracy>
+		<Accuracy>1</Accuracy>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.25</AOEDistanceFactor>
@@ -32,9 +32,9 @@
 		<ImpactEffect size="Medium">tankshell</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>0.300000012</Accuracy>
+		<Accuracy>0.3</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.150000006</MovingAccuracy>
+		<MovingAccuracy>0.15</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
@@ -57,9 +57,9 @@
 		<ImpactEffect size="Medium">tankshell</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>35</MaxRange>
-		<Accuracy>0.300000012</Accuracy>
+		<Accuracy>0.3</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.300000012</MovingAccuracy>
+		<MovingAccuracy>0.3</MovingAccuracy>
 		<MovingMaxDeviation>4</MovingMaxDeviation>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
@@ -76,17 +76,17 @@
 		<Name>InCoverShotgun</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>22</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
+		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_shotgun_01</Projectile>
 		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingAccuracy>0.05</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>8</VisualAmmo>
 		<ReloadAnimation>ShotgunReload</ReloadAnimation>
@@ -97,20 +97,20 @@
 	</Weapon>
 	<Weapon>
 		<Name>RocketWeapon</Name>
-		<AttackRate>0.3</AttackRate>
-		<DamagePerSecond>70</DamagePerSecond>
+		<AttackRate>0.75</AttackRate>
+		<DamagePerSecond>60</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Rocket</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
-		<Accuracy>100</Accuracy>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>100</MovingAccuracy>
+		<MovingAccuracy>0.75</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.25</AOEDistanceFactor>
@@ -122,6 +122,10 @@
 		<PhysicsForceMax>1100</PhysicsForceMax>
 		<PostAttackCooldownMin>1</PostAttackCooldownMin>
 		<PostAttackCooldownMax>5</PostAttackCooldownMax>
+		<TargetPriority type="Infantry">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Air">10</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<Dodgeable />
 	</Weapon>
@@ -129,17 +133,17 @@
 		<Name>Shotgun</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>11</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
+		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_shotgun_01</Projectile>
 		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>25</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingAccuracy>0.05</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>8</VisualAmmo>
 		<ReloadAnimation>ShotgunReload</ReloadAnimation>

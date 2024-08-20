@@ -9,7 +9,7 @@
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>0.2</Accuracy>
+		<Accuracy>1</Accuracy>
 		<MaxDeviation>10</MaxDeviation>
 		<MovingAccuracy>0</MovingAccuracy>
 		<MovingMaxDeviation>15</MovingMaxDeviation>

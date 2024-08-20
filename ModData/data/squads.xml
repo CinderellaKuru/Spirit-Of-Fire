@@ -504,8 +504,8 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="4" role="normal">unsc_inf_marine_01</Unit>
-			<Unit count="2" role="normal">unsc_inf_marine_02</Unit>
+			<Unit count="4" role="normal">unsc_inf_marine_03</Unit>
+			<Unit count="1" role="normal">unsc_inf_marine_04</Unit>
 		</Units>
 		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
 		<Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
@@ -901,47 +901,6 @@
 		<Units>
 			<Unit count="4" role="normal">unsc_inf_battleodst_01</Unit>
 			<Unit count="1" role="normal">unsc_inf_battleodst_02</Unit>
-		</Units>
-		<Flag>Repairable</Flag>
-		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
-		<Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
-		<Sound Type="StopExist">stop_ani_marine_exist</Sound>
-		<Sound Type="MoveChatter">play_unsc_batchat_odst_move</Sound>
-		<Sound Type="AttackChatter">play_unsc_batchat_odst_action</Sound>
-		<Sound Type="MoveAttackChatter">play_unsc_batchat_odst_moveattack</Sound>
-		<Sound Type="IdleChatter">play_unsc_batchat_odst_idle</Sound>
-		<Sound Type="KilledEnemy">play_unsc_batchat_odst_killenemy</Sound>
-		<Sound Type="AllyKilled">play_unsc_batchat_odst_allykilled</Sound>
-		<Sound Type="Cheer">play_unsc_batchat_odst_cheer</Sound>
-		<Flag>Chatter</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
-	<Squad name="unsc_inf_battleodst_03" formationType="Flock" dbid="878">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3012</DisplayNameID>
-		<RolloverTextID>3013</RolloverTextID>
-		<StatsNameID>25679</StatsNameID>
-		<RoleTextID>500</RoleTextID>
-		<Cost resourcetype="Supplies">100</Cost>
-		<BuildPoints>8</BuildPoints>
-		<SubSelectSort>3000</SubSelectSort>
-		<LeashDistance>55</LeashDistance>
-		<LeashDeadzone>25</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<Birth anim0="Train" anim1="Train" anim2="TrainAirlock" anim3="ElephantTrain" trainerAnim="TrainInfantry" spawnpoint="bone_spawnPoint02" endPoint="bone_endPoint02">Trained</Birth>
-		<AggroDistance>35</AggroDistance>
-		<HPBar offset="0,9,0">UNSC_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="4" role="normal">unsc_inf_battleodst_01</Unit>
-			<Unit count="2" role="normal">unsc_inf_battleodst_02</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>

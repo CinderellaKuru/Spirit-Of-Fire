@@ -12,10 +12,8 @@
 		<ThrowOffsetAngle>-90</ThrowOffsetAngle>
 		<PhysicsForceMin>500</PhysicsForceMin>
 		<PhysicsForceMax>800</PhysicsForceMax>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>5</PreAttackCooldownMax>
-		<PostAttackCooldownMin>3</PostAttackCooldownMin>
-		<PostAttackCooldownMax>5</PostAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>3</PostAttackCooldownMax>
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
 	</Weapon>

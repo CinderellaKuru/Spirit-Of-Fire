@@ -941,11 +941,21 @@
 
 	<!--Prophet of Regret-->
 
+	<Icon type="uniticon" name="needlerelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_needlerelite_01" owner="cov_inf_needlerelite_01">-1</Icon>
+	<Icon type="techicon" name="needlereliteUPG1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_needlerelite_upgrade1" owner="cov_needlerelite_upgrade1">-1</Icon>
+	<Icon type="techicon" name="needlereliteUPG2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_needlerelite_upgrade2" owner="cov_needlerelite_upgrade2">-1</Icon>
+	<Icon type="techicon" name="needlereliteUPG3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_needlerelite_upgrade3" owner="cov_needlerelite_upgrade3">-1</Icon>
+
     <Icon type="uniticon" name="goliath" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_goliath_01" owner="cov_inf_goliath_01">-1</Icon>
     <Icon type="techicon" name="covsnipereliteupgrade1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_goliath_upgrade1" owner="cov_goliath_upgrade1">-1</Icon>
 	<Icon type="techicon" name="covsnipereliteupgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_goliath_upgrade2" owner="cov_goliath_upgrade2">-1</Icon>
 
 	<Icon type="uniticon" name="scarab" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_scarab_02" owner="cov_veh_scarab_02">-1</Icon>
+
+	<Icon type="uniticon" name="shadow" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_shadow_01" owner="cov_veh_shadow_01">-1</Icon>
+	<Icon type="techicon" name="shadowUPG1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_shadow_upgrade1" owner="cov_shadow_upgrade1">-1</Icon>
+	<Icon type="techicon" name="shadowUPG2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_shadow_upgrade2" owner="cov_shadow_upgrade2">-1</Icon>
+	<Icon type="techicon" name="shadowUPG3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_shadow_upgrade3" owner="cov_shadow_upgrade3">-1</Icon>
     
 	<!-- Skidbladnir -->
 

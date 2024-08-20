@@ -1158,7 +1158,7 @@
 				<Target type="ProtoSquad">unsc_inf_marine_02</Target>
 				<Target type="ProtoSquad">unsc_inf_battleodst_02</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" action="Grenade" relativity="Percent">
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_marine_01</Target>
 				<Target type="ProtoUnit">unsc_inf_marine_02</Target>
 				<Target type="ProtoUnit">unsc_inf_battleodst_01</Target>
@@ -1259,13 +1259,57 @@
 				<Target type="ProtoSquad">unsc_inf_battleodst_03</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" action="RocketWeapon" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_marine_03</Target>
+				<Target type="ProtoUnit">unsc_inf_marine_04</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_03</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_marine_03</Target>
+				<Target type="ProtoUnit">unsc_inf_marine_04</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_03</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1.5" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_marine_03</Target>
+				<Target type="ProtoUnit">unsc_inf_marine_04</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_03</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_marine_01</Target>
 				<Target type="ProtoUnit">unsc_inf_marine_02</Target>
 				<Target type="ProtoUnit">unsc_inf_battleodst_01</Target>
 				<Target type="ProtoUnit">unsc_inf_battleodst_02</Target>
 			</Effect>
-			<Effect type="TransformProtoSquad" FromType="unsc_inf_marine_01" ToType="unsc_inf_marine_03" />
-			<Effect type="TransformProtoSquad" FromType="unsc_inf_battleodst_01" ToType="unsc_inf_battleodst_03" />
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_marine_03</Target>
+				<Target type="ProtoUnit">unsc_inf_marine_04</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_03</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverGrenadeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_marine_03</Target>
+				<Target type="ProtoUnit">unsc_inf_marine_04</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_03</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RocketAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_marine_03</Target>
+				<Target type="ProtoUnit">unsc_inf_marine_04</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_03</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverRocketAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_marine_03</Target>
+				<Target type="ProtoUnit">unsc_inf_marine_04</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_03</Target>
+				<Target type="ProtoUnit">unsc_inf_battleodst_04</Target>
+			</Effect>
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_marine_01" ToType="unsc_inf_marine_03" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_marine_02" ToType="unsc_inf_marine_04" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_battleodst_01" ToType="unsc_inf_battleodst_03" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_battleodst_02" ToType="unsc_inf_battleodst_04" />
 		</Effects>
 	</Tech>
 	<Tech name="unsc_odst_upgrade0" type="Normal">
@@ -1310,7 +1354,7 @@
 			</Effect>
 			<Effect type="GodPower" amount="10">UnscOdstDrop</Effect>
 			<Effect type="TransformProtoUnit" FromType="unsc_inf_battleodst_01" ToType="unsc_inf_odst_01" />
-			<Effect type="TransformProtoUnit" FromType="unsc_inf_battleodst_02" ToType="unsc_inf_odst_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_battleodst_02" ToType="unsc_inf_odst_02" />
 			<Effect type="TransformProtoSquad" FromType="unsc_inf_battleodst_01" ToType="unsc_inf_odst_01" />
 		</Effects>
 	</Tech>

@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>Artillery</Name>
-		<DamagePerSecond>60</DamagePerSecond>
+		<DamagePerSecond>90</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>pow_cp_supercombine_01</Projectile>
