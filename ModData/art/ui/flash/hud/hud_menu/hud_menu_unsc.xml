@@ -853,13 +853,13 @@
 	
 	 <!-- New Stuff for Vanilla Leaders -->
 
-	 <!--UNSC Basic-->
+	<!--UNSC Basic-->
 
     <Icon type="powericon" name="Watchtwrdrp" name2="Watchtwrdrp2" texture="art\ui\flash\shared\textures\creeps\creep_rebel_watchtower_01" owner="UnscWatchtowerDrop">-1</Icon>
     <Icon type="buildingicon" name="Watchtower" texture="art\ui\flash\shared\textures\creeps\creep_rebel_watchtower_01" owner="unsc_bldg_watchtower_01">-1</Icon>
-    <Icon type="uniticon" name="Medic" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_inf_medic_01">-1</Icon>
-    <Icon type="techicon" name="medicupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_medic_upgrade1">-1</Icon>
-	<Icon type="techicon" name="medicupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_medic_upgrade2">-1</Icon>
+    <Icon type="uniticon" name="Medic" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_medic_01" owner="unsc_inf_medic_01">-1</Icon>
+    <Icon type="techicon" name="medicupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_medic_upgrade1" owner="unsc_medic_upgrade1">-1</Icon>
+	<Icon type="techicon" name="medicupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_medic_upgrade2" owner="unsc_medic_upgrade2">-1</Icon>
 	<Icon type="uniticon" name="MarineUpgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade2" owner="unsc_marine_upgrade2">-1</Icon>
 
     <!--Captain Cutter-->
@@ -874,19 +874,20 @@
 
     <Icon type="powericon" name="Douglasdrp" name2="Douglasdrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanRocket_01" owner="UnscDouglasDrop">-1</Icon>
     <Icon type="uniticon" name="Douglas" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanRocket_01" owner="unsc_inf_douglas_01">-1</Icon>
-    <Icon type="uniticon" name="Shotgunmarine" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_npc_forge_01" owner="unsc_inf_shotgunmarine_01">-1</Icon>
-    <Icon type="techicon" name="shotgunmarineupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\ability\unsc_forge_blast" owner="unsc_shotgunmarine_upgrade1">-1</Icon>
-	<Icon type="techicon" name="shotgunmarineupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_npc_forge_01" owner="unsc_shotgunmarine_upgrade2">-1</Icon>
-	<Icon type="techicon" name="shotgunmarineupgrade3" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_npc_forge_01" owner="unsc_shotgunmarine_upgrade3">-1</Icon>
+    <Icon type="uniticon" name="Shotgunmarine" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_shotgunmarine_01" owner="unsc_inf_shotgunmarine_01">-1</Icon>
+    <Icon type="techicon" name="shotgunmarineupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_shotgunmarine_upgrade1" owner="unsc_shotgunmarine_upgrade1">-1</Icon>
+	<Icon type="techicon" name="shotgunmarineupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_shotgunmarine_upgrade2" owner="unsc_shotgunmarine_upgrade2">-1</Icon>
+	<Icon type="techicon" name="shotgunmarineupgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_shotgunmarine_upgrade3" owner="unsc_shotgunmarine_upgrade3">-1</Icon>
 
     <!--Professor Anders-->
 
     <Icon type="powericon" name="Alicedrp" name2="Alicedrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanmg_01" owner="UnscAliceDrop">-1</Icon>
     <Icon type="uniticon" name="Alice" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanmg_01" owner="unsc_inf_alice_01">-1</Icon>
-    <Icon type="uniticon" name="Snipermarine" texture="art\ui\flash\shared\textures\creeps\creep_rebel_sniper_01" owner="unsc_inf_snipermarine_01">-1</Icon>
-    <Icon type="techicon" name="snipermarineupgrade1" texture="art\ui\flash\shared\textures\creeps\creep_rebel_sniper_01" owner="unsc_snipermarine_upgrade1">-1</Icon>
-	<Icon type="techicon" name="snipermarineupgrade2" texture="art\ui\flash\shared\textures\creeps\creep_rebel_sniper_01" owner="unsc_snipermarine_upgrade2">-1</Icon>
-	<Icon type="techicon" name="snipermarineupgrade3" texture="art\ui\flash\shared\textures\creeps\creep_rebel_sniper_01" owner="unsc_snipermarine_upgrade3">-1</Icon>
+    <Icon type="uniticon" name="Snipermarine" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_snipermarine_01" owner="unsc_inf_snipermarine_01">-1</Icon>
+    <Icon type="abilityicon" name="Beaconability" texture="art\ui\flash\shared\textures\unsc\icons\ability\unsc_beaconability" owner="UNSCSniperBeacon">-1</Icon>
+    <Icon type="techicon" name="snipermarineupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_snipermarine_upgrade1" owner="unsc_snipermarine_upgrade1">-1</Icon>
+	<Icon type="techicon" name="snipermarineupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_snipermarine_upgrade2" owner="unsc_snipermarine_upgrade2">-1</Icon>
+	<Icon type="techicon" name="snipermarineupgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_snipermarine_upgrade3" owner="unsc_snipermarine_upgrade3">-1</Icon>
 
 
     <Icon type="uniticon" name="rhino" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_veh_scn06Rhino_01" owner="unsc_veh_rhino_01">-1</Icon>

@@ -33420,7 +33420,7 @@
 		<DisplayNameID>10062</DisplayNameID>
 		<RolloverTextID>10063</RolloverTextID>
 		<MovementType>Land</MovementType>
-		<Velocity>10</Velocity>
+		<Velocity>15</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
 		<Hitpoints>4000</Hitpoints>
@@ -33847,7 +33847,7 @@
 		<DisplayNameID>10062</DisplayNameID>
 		<RolloverTextID>10063</RolloverTextID>
 		<MovementType>Land</MovementType>
-		<Velocity>10</Velocity>
+		<Velocity>15</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
 		<Hitpoints>4000</Hitpoints>
@@ -34029,7 +34029,7 @@
 		<DisplayNameID>10062</DisplayNameID>
 		<RolloverTextID>10063</RolloverTextID>
 		<MovementType>Land</MovementType>
-		<Velocity>10</Velocity>
+		<Velocity>15</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
 		<Hitpoints>4000</Hitpoints>
