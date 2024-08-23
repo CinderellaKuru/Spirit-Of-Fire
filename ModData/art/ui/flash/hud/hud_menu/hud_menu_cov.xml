@@ -864,11 +864,11 @@
 
     <!--Captain Cutter-->
 
-    <Icon type="powericon" name="Jeromedrp" name2="Jeromedrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="UnscJeromeDrop">-1</Icon>
+     <Icon type="powericon" name="Jeromedrp" name2="Jeromedrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="UnscJeromeDrop">-1</Icon>
     <Icon type="uniticon" name="Jerome" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="unsc_inf_jerome_01">-1</Icon>
-    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_battleodst_01">-1</Icon>
-    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_battleodst_02">-1</Icon>
-    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_battleodst_03">-1</Icon>
+    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_battleodst_01" owner="unsc_inf_battleodst_01">-1</Icon>
+    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_battleodst_01" owner="unsc_inf_battleodst_02">-1</Icon>
+    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_battleodst_01" owner="unsc_inf_battleodst_03">-1</Icon>
 
     <!--Sergeant Forge-->
 

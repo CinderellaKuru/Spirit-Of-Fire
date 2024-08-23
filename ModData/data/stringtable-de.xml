@@ -167,8 +167,8 @@
 		<String _locID="1015" category="Techs" subtitle="false">Stattet den Trupp mit einem zusätzlichen Marine aus, wodurch die Kampfeffizienz des Trupps erhöht wird.</String>
 		<String _locID="1016" category="Techs" subtitle="false">BAZOOKA</String>
 		<String _locID="1017" category="Techs" subtitle="false">Jeder Marine erhält eine passive Raketenfähigkeit um besser Fahrzeuge bekämpfen zu können.</String>
-		<String _locID="1018" category="Techs" subtitle="false" />
-		<String _locID="1019" category="Techs" subtitle="false" />
+		<String _locID="1018" category="Techs" subtitle="false">RÜSTUNGSUPGRADE</String>
+		<String _locID="1019" category="Techs" subtitle="false">Jeder Marine erhält eine bessere Rüstung um im Kampf länger durchzuhalten.</String>
 		<String _locID="1020" category="Techs" subtitle="false" />
 		<String _locID="1021" category="Techs" subtitle="false" />
 		<String _locID="1022" category="Techs" subtitle="false">SCHÜTZE</String>

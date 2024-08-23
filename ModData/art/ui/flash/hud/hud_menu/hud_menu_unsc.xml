@@ -325,7 +325,7 @@
 	<Icon type="techicon" name="GrizzlyUpgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_grizzly_upgrade3" owner="unsc_grizzly_upgrade3">-1</Icon>
 	<Icon type="techicon" name="MarineUpgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade1" owner="unsc_marine_upgrade1">-1</Icon>
 	<Icon type="techicon" name="MarineUpgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade2" owner="unsc_marine_upgrade2">-1</Icon>
-	<Icon type="techicon" name="MarineUpgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade1" owner="unsc_marine_upgrade3">-1</Icon>
+	<Icon type="techicon" name="MarineUpgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_marine_upgrade3">-1</Icon>
 	<Icon type="techicon" name="ODSTUpgrade0" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_odst_upgrade0" owner="unsc_odst_upgrade0">-1</Icon>
 	<Icon type="techicon" name="ODSTUpgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_odst_upgrade1" owner="unsc_odst_upgrade1">-1</Icon>
 	<Icon type="techicon" name="reactor_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_bldg_reactor_02" owner="unsc_reactor_upgrade1">-1</Icon>
@@ -866,9 +866,9 @@
 
     <Icon type="powericon" name="Jeromedrp" name2="Jeromedrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="UnscJeromeDrop">-1</Icon>
     <Icon type="uniticon" name="Jerome" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="unsc_inf_jerome_01">-1</Icon>
-    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_battleodst_01">-1</Icon>
-    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_battleodst_02">-1</Icon>
-    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_battleodst_03">-1</Icon>
+    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_battleodst_01" owner="unsc_inf_battleodst_01">-1</Icon>
+    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_battleodst_01" owner="unsc_inf_battleodst_02">-1</Icon>
+    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_battleodst_01" owner="unsc_inf_battleodst_03">-1</Icon>
 
     <!--Sergeant Forge-->
 
