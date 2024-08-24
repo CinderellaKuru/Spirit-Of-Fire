@@ -6486,6 +6486,9 @@
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_snipermarine_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_shotgunmarine_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="unsc_basic" type="Normal">

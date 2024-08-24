@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>FlameMortar</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>25.5</DamagePerSecond>
+		<DamagePerSecond>30</DamagePerSecond>
 		<DOTrate>8</DOTrate>
 		<DOTduration>10</DOTduration>
 		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrower_01</DOTEffect>

@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Railgun</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>75.5</DamagePerSecond>
+		<DamagePerSecond>90</DamagePerSecond>
 		<WeaponType>ArmorPiercing</WeaponType>
 		<Projectile>fx_proj_lightRailgun_01</Projectile>
 		<ImpactEffect size="Medium">unsc_lightcannon_01</ImpactEffect>
