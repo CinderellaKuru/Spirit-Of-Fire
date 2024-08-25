@@ -388,21 +388,80 @@
 	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_npc_Anders_01">-1</Icon>
 	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_npc_Forge_01">-1</Icon>
 
-	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_snipermarine_01">-1</Icon>
-	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_snipermarine_01">-1</Icon>
-	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_shotgunmarine_01">-1</Icon>
-	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_shotgunmarine_01">-1</Icon>
-	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_rhino_01">-1</Icon>
-	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_rhino_01">-1</Icon>
+
+	<!--New stuff for Vanilla leaders-->
+
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_medic_01">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_medic_01">-1</Icon>
 
-	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_alice_01">-1</Icon>
-	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_alice_01">-1</Icon>
-	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_douglas_01">-1</Icon>
-	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_douglas_01">-1</Icon>
+	<!--Captain Cutter-->
+
 	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_jerome_01">-1</Icon>
 	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_jerome_01">-1</Icon>
+
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_battleodst_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_battleodst_01">-1</Icon>
+
+	<!--Seregeant Forge-->
+
+    <Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_douglas_01">-1</Icon>
+	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_douglas_01">-1</Icon>
+
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_shotgunmarine_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_shotgunmarine_01">-1</Icon>
+
+	<!--Professor Anders-->
+    
+    <Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_alice_01">-1</Icon>
+	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_alice_01">-1</Icon>
+
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_snipermarine_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_snipermarine_01">-1</Icon>
+
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_rhino_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_rhino_01">-1</Icon>
+
+	<!--Arbiter-->
+
+    <Icon type="uniticon" name="covInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_arbyelite_01">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_arbyelite_01">-1</Icon>
+    <Icon type="uniticon" name="covInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_arbyelite_02">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_arbyelite_02">-1</Icon>
+    <Icon type="uniticon" name="covInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_arbyelite_03">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_arbyelite_03">-1</Icon>
+
+    <Icon type="uniticon" name="covInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_sniperelite_01">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_sniperelite_01">-1</Icon>
+
+    <Icon type="uniticon" name="covInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_fuelrodelite_01">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_fuelrodelite_01">-1</Icon>
+
+
+    <Icon type="uniticon" name="covInfantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_spectre_01">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_spectre_01">-1</Icon>
+
+    <!--Brute-->
+
+    <Icon type="uniticon" name="covInfantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_prowler_01">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_prowler_01">-1</Icon>
+
+    <Icon type="uniticon" name="covInfantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_wraithaa_01">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_wraithaa_01">-1</Icon>
+
+    <!--Prophet of Regret-->
+
+    <Icon type="uniticon" name="covInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_needlerelite_01">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_needlerelite_01">-1</Icon>
+    <Icon type="uniticon" name="covInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_goliath_01">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_goliath_01">-1</Icon>
+
+
+    <Icon type="uniticon" name="covInfantry" SizeX="12" SizeZ="12" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_scarab_02">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="16" SizeZ="12" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_scarab_02">-1</Icon>
+
+    <Icon type="uniticon" name="covInfantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_shadow_01">-1</Icon>
+    <Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_shadow_01">-1</Icon>
+
 
 	<!-- Skidbladnir -->
 

@@ -4876,6 +4876,17 @@ des Echo-Teams</String>
 		<String _locID="30003" category="Squads" subtitle="false">Spartan 092-Jerome ist der Anführer von Spartan Team Rot. Da er den Kampf auf Distanz bevorzugt sieht man ihn oft mit Langstreckenwaffen.</String>
 
 
+		<String _locID="30139" category="Squads" subtitle="false">PROTO-OAST</String>
+		<String _locID="30140" category="Squads" subtitle="false">Proto OAST sind die wichtigsten Infanterieeinheiten der UNSC, die gegen nahezu alles eingesetzt werden können. Sie verfügen über eine aktive Granatenfähigkeit und können mit upgrades passiv Raketenwerfer verwenden.</String>
+		<String _locID="30141" category="Objects" subtitle="false">PROTO-OAST</String>
+		<String _locID="30142" category="Techs" subtitle="false">FRISCHFLEISCH</String>
+		<String _locID="30143" category="Techs" subtitle="false">Stattet den Trupp mit einem zusätzlichen OAST aus, wodurch die Kampfeffizienz des Trupps erhöht wird.</String>
+		<String _locID="30144" category="Techs" subtitle="false">BAZOOKA</String>
+		<String _locID="30145" category="Techs" subtitle="false">Jeder OAST erhält eine passive Raketenfähigkeit um besser Fahrzeuge bekämpfen zu können.</String>
+		<String _locID="30146" category="Techs" subtitle="false">VERB. RÜSTUNG</String>
+		<String _locID="30147" category="Techs" subtitle="false">Jeder OAST erhält eine bessere Rüstung um im Kampf länger durchzuhalten.</String>
+
+
 		<!--Sergeant Forge-->
 
 
@@ -4883,6 +4894,8 @@ des Echo-Teams</String>
 		<String _locID="30006" category="Powers" subtitle="false">Wirft Spartan 042-Douglas auf dem Schlachtfeld ab.</String>
 		<String _locID="30007" category="Squads" subtitle="false">042-DOUGLAS</String>
 		<String _locID="30008" category="Squads" subtitle="false">Spartan 042-Douglas ist Teil von Spartan Team Rot. Lass dich von seinem Optimismus nicht täuschen. Er ist genauso tödlich wie seine Teamkollegen.</String>
+
+
 		<String _locID="30022" category="Squads" subtitle="false">SCHROTFLINTENMARINES</String>
 		<String _locID="30023" category="Squads" subtitle="false">Diese anti-Infanterie Einheiten benutzen Schrotflinten. Sie sind am besten im Nahkampf und können mit einer Schnellschussfähigkeit verbessert werden.</String>
 		<String _locID="30024" category="Objects" subtitle="false">SCHROTFLINTENMARINES</String>
@@ -4901,6 +4914,8 @@ des Echo-Teams</String>
 		<String _locID="30010" category="Powers" subtitle="false">Wirft Spartan 130-Alice auf dem Schlachtfeld ab.</String>
 		<String _locID="30011" category="Squads" subtitle="false">130-ALICE</String>
 		<String _locID="30012" category="Squads" subtitle="false">Spartan 130-Alice ist Teil von Spartan Team Rot. Sie lebt für Herausforderungen. Manchmal so sehr dass sie unachtsam wirkt. Aber dieses verhalten kommt von ihrem extremen Selbstvertrauen. </String>
+
+
 		<String _locID="30016" category="Techs" subtitle="false">Rhino Placeholder</String>
 		<String _locID="30017" category="Techs" subtitle="false"></String>
 		<String _locID="30018" category="Techs" subtitle="false">DEFLEKTIONSPANZER</String>

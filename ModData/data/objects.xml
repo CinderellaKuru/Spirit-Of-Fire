@@ -4610,6 +4610,9 @@
 		<Command Type="Research" Position="7">unsc_marine_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade3</Command>
+		<Command Type="Research" Position="7">unsc_battleodst_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_battleodst_upgrade2</Command>
+		<Command Type="Research" Position="7">unsc_battleodst_upgrade3</Command>
 		<Command Type="Research" Position="7">unsc_odst_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade2</Command>
@@ -33514,7 +33517,7 @@
 		<Visual>unsc\infantry\odst_01\battleodst_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
-		<DisplayNameID>10060</DisplayNameID>
+		<DisplayNameID>30141</DisplayNameID>
 		<RolloverTextID>10061</RolloverTextID>
 		<MovementType>Land</MovementType>
 		<Velocity>10</Velocity>
@@ -33546,10 +33549,8 @@
 		<SelectType>Unit</SelectType>
 		<GotoType>Infantry</GotoType>
 		<SubSelectSort>3002</SubSelectSort>
-		<SelectedRadiusX>0.8</SelectedRadiusX>
-		<SelectedRadiusZ>0.8</SelectedRadiusZ>
-		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
-		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
 		<Sound Type="Create">play_unsc_odst_birth</Sound>
 		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
@@ -33596,7 +33597,7 @@
 		<Visual>unsc\infantry\odst_01\battleodst_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
-		<DisplayNameID>10060</DisplayNameID>
+		<DisplayNameID>30141</DisplayNameID>
 		<RolloverTextID>10061</RolloverTextID>
 		<MovementType>Land</MovementType>
 		<Velocity>10</Velocity>
@@ -33627,10 +33628,8 @@
 		<SelectType>Unit</SelectType>
 		<GotoType>Infantry</GotoType>
 		<SubSelectSort>3002</SubSelectSort>
-		<SelectedRadiusX>0.8</SelectedRadiusX>
-		<SelectedRadiusZ>0.8</SelectedRadiusZ>
-		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
-		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
 		<Sound Type="Create">play_unsc_odst_birth</Sound>
 		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
@@ -33677,7 +33676,7 @@
 		<Visual>unsc\infantry\odst_01\battleodst_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
-		<DisplayNameID>10060</DisplayNameID>
+		<DisplayNameID>30141</DisplayNameID>
 		<RolloverTextID>10061</RolloverTextID>
 		<MovementType>Land</MovementType>
 		<Velocity>10</Velocity>
@@ -33709,10 +33708,8 @@
 		<SelectType>Unit</SelectType>
 		<GotoType>Infantry</GotoType>
 		<SubSelectSort>3002</SubSelectSort>
-		<SelectedRadiusX>0.8</SelectedRadiusX>
-		<SelectedRadiusZ>0.8</SelectedRadiusZ>
-		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
-		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
 		<Sound Type="Create">play_unsc_odst_birth</Sound>
 		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
@@ -33759,7 +33756,7 @@
 		<Visual>unsc\infantry\odst_01\battleodst_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
-		<DisplayNameID>10060</DisplayNameID>
+		<DisplayNameID>30141</DisplayNameID>
 		<RolloverTextID>10061</RolloverTextID>
 		<MovementType>Land</MovementType>
 		<Velocity>10</Velocity>
@@ -33790,10 +33787,8 @@
 		<SelectType>Unit</SelectType>
 		<GotoType>Infantry</GotoType>
 		<SubSelectSort>3002</SubSelectSort>
-		<SelectedRadiusX>0.8</SelectedRadiusX>
-		<SelectedRadiusZ>0.8</SelectedRadiusZ>
-		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
-		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
 		<Sound Type="Create">play_unsc_odst_birth</Sound>
 		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>

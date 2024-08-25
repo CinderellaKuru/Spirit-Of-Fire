@@ -226,7 +226,6 @@
 	<Icon type="unitselection" name="flamemarine" owner="unsc_inf_flameMarine_01">3</Icon>
 	<Icon type="unitselection" name="marine" owner="unsc_inf_marine_01">2</Icon>
 	<Icon type="unitselection" name="marine" owner="unsc_inf_marine_02">2</Icon>
-	<Icon type="unitselection" name="marine" owner="unsc_inf_marine_03">2</Icon>
 	<Icon type="unitselection" name="snowmarine" owner="unsc_inf_snowmarine_02">2</Icon>
 	<Icon type="unitselection" name="marine" owner="unsc_inf_lightMarine_01">2</Icon>
 	<Icon type="unitselection" name="marine" owner="unsc_inf_heavyMarine_01">2</Icon>
@@ -460,7 +459,6 @@
 	<Icon type="uniticon" name="flameMarineupgrade3" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_flameMarine_01" owner="unsc_flameMarine_upgrade3">-1</Icon>
 	<Icon type="uniticon" name="marine1" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_marine_01" owner="unsc_inf_marine_01">-1</Icon>
 	<Icon type="uniticon" name="marine1" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_marine_01" owner="unsc_inf_marine_02">-1</Icon>
-	<Icon type="uniticon" name="marine1" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_marine_01" owner="unsc_inf_marine_03">-1</Icon>
 	<Icon type="uniticon" name="unsc_marine_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_marine_01" owner="unsc_marine_upgrade1">-1</Icon>
 	<Icon type="uniticon" name="unsc_marine_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_marine_01" owner="unsc_marine_upgrade2">-1</Icon>
 	<Icon type="uniticon" name="unsc_marine_upgrade3" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_marine_01" owner="unsc_marine_upgrade3">-1</Icon>
@@ -866,14 +864,21 @@
 
     <Icon type="powericon" name="Jeromedrp" name2="Jeromedrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="UnscJeromeDrop">-1</Icon>
     <Icon type="uniticon" name="Jerome" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="unsc_inf_jerome_01">-1</Icon>
+
+
     <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_battleodst_01" owner="unsc_inf_battleodst_01">-1</Icon>
     <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_battleodst_01" owner="unsc_inf_battleodst_02">-1</Icon>
-    <Icon type="uniticon" name="BattleODST" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_battleodst_01" owner="unsc_inf_battleodst_03">-1</Icon>
+    <Icon type="uniticon" name="BattleodstUpgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_battleodst_upgrade2" owner="unsc_battleodst_upgrade2">-1</Icon>
+    <Icon type="techicon" name="BattleodstUpgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_battleodst_upgrade1" owner="unsc_battleodst_upgrade1">-1</Icon>
+	<Icon type="techicon" name="BattleodstUpgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_battleodst_upgrade2" owner="unsc_battleodst_upgrade2">-1</Icon>
+	<Icon type="techicon" name="BattleodstUpgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_battleodst_upgrade3" owner="unsc_battleodst_upgrade3">-1</Icon>
 
     <!--Sergeant Forge-->
 
     <Icon type="powericon" name="Douglasdrp" name2="Douglasdrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanRocket_01" owner="UnscDouglasDrop">-1</Icon>
     <Icon type="uniticon" name="Douglas" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanRocket_01" owner="unsc_inf_douglas_01">-1</Icon>
+
+
     <Icon type="uniticon" name="Shotgunmarine" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_shotgunmarine_01" owner="unsc_inf_shotgunmarine_01">-1</Icon>
     <Icon type="techicon" name="shotgunmarineupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_shotgunmarine_upgrade1" owner="unsc_shotgunmarine_upgrade1">-1</Icon>
 	<Icon type="techicon" name="shotgunmarineupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_shotgunmarine_upgrade2" owner="unsc_shotgunmarine_upgrade2">-1</Icon>
@@ -883,6 +888,8 @@
 
     <Icon type="powericon" name="Alicedrp" name2="Alicedrp2" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanmg_01" owner="UnscAliceDrop">-1</Icon>
     <Icon type="uniticon" name="Alice" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanmg_01" owner="unsc_inf_alice_01">-1</Icon>
+
+
     <Icon type="uniticon" name="Snipermarine" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_snipermarine_01" owner="unsc_inf_snipermarine_01">-1</Icon>
     <Icon type="abilityicon" name="Beaconability" texture="art\ui\flash\shared\textures\unsc\icons\ability\unsc_beaconability" owner="UNSCSniperBeacon">-1</Icon>
     <Icon type="techicon" name="snipermarineupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_snipermarine_upgrade1" owner="unsc_snipermarine_upgrade1">-1</Icon>
