@@ -70,7 +70,7 @@
 				<file>unsc\infantry\marine_01\combat_crouchidle_03</file>
 				<weight>90</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -93,7 +93,7 @@
 				<file>unsc\infantry\marine_01\combat_crouchjog_forward_02</file>
 				<weight>40</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="Jog">
 			<asset type="Anim">
@@ -116,7 +116,7 @@
 				<file>unsc\infantry\marine_01\combat_crouchjog_forward_02</file>
 				<weight>40</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -127,21 +127,21 @@
 				<file>unsc\infantry\marine_01\combat_run_02</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="EvadeLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\roll_left_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="EvadeRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\roll_right_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -153,7 +153,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -165,7 +165,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -177,7 +177,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Stunned" exitAction="Transition" tweenTime="5" tweenToAnimation="Stunned">
 			<asset type="Anim">
@@ -188,7 +188,7 @@
 				<file>unsc\infantry\marine_01\disruption_idle_02</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -454,7 +454,7 @@
 				<weight>1</weight>
 				<tag type="Attack" start="0" position="0.377000004" end="1" tobone="Bip01 L Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="RocketAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="RocketAttack">
 			<asset type="Anim">
@@ -515,7 +515,7 @@
 				<tag type="Sound" start="0" position="0.455000013" end="1" name="play_weapon_odst_shotgun_ready" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.493999988" end="1" name="effects\Unit_FX\unsc\marine\shotgunshell_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.660000026" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="ShotgunReload" exitAction="Transition" tweenTime="5" tweenToAnimation="ShotgunAttack">
 			<asset type="Anim">
@@ -537,7 +537,7 @@
 				<file>unsc\infantry\marine_01\combat_action_05</file>
 				<weight>25</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Support" exitAction="Transition" tweenTime="10" tweenToAnimation="ShotgunAttack">
 			<asset type="Anim">
@@ -580,49 +580,49 @@
 				<file>unsc\infantry\marine_01\combat_crouchidle_fid07_02</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="PelicanUngarrison" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\pelicanDeploy_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="PelicanUngarrison2" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\pelicanDeploy_02</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="PelicanUngarrison3" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\pelicanDeploy_03</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="PelicanUngarrison4" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\pelicanDeploy_04</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="PelicanUngarrison5" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\pelicanDeploy_05</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="PelicanUngarrison6" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\pelicanDeploy_06</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="FloodDeathJog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -647,56 +647,56 @@
 				<file>unsc\infantry\marine_01\marine_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Train" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\train_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Train2" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\train_02</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Train3" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\train_03</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Train4" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\train_04</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Train5" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\train_05</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Train6" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\train_06</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="ElephantTrain" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\vehicle\elephant_01\marine_elephant_train_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="ElephantTrain2" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -710,28 +710,28 @@
 				<file>unsc\vehicle\elephant_01\marine_elephant_train_03</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="ElephantTrain4" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\vehicle\elephant_01\marine_elephant_train_04</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="ElephantTrain5" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\vehicle\elephant_01\marine_elephant_train_05</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="ElephantTrain6" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\vehicle\elephant_01\marine_elephant_train_06</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalShotgun</meshEnable>
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\shotgun_01\shotgun_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="TrainAirlock" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
 			<asset type="Anim">
