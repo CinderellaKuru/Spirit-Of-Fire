@@ -202,10 +202,10 @@
 		<Good>3</Good>
 		<Extreme>4</Extreme>
 	</GoodAgainstReticle>
-	<MaxNumCorpses>0</MaxNumCorpses>
-	<MaxCorpseDisposalCount>0</MaxCorpseDisposalCount>
-	<InfantryCorpseDecayTime>0</InfantryCorpseDecayTime>
-	<CorpseSinkingSpacing>0</CorpseSinkingSpacing>
+	<MaxNumCorpses>15</MaxNumCorpses>
+	<MaxCorpseDisposalCount>5</MaxCorpseDisposalCount>
+	<InfantryCorpseDecayTime>10</InfantryCorpseDecayTime>
+	<CorpseSinkingSpacing>5</CorpseSinkingSpacing>
 	<InfectionMap>
 		<InfectionMapEntry base="unsc_inf_flameMarine_01" infected="fld_Inf_flameMarine_01" infectedSquad="fld_Inf_flameMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_marine_01" infected="fld_inf_InfectedMarine_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />

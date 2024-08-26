@@ -4285,8 +4285,8 @@
 		<CombatValue>10</CombatValue>
 		<LOS>55</LOS>
 		<BuildPoints>30</BuildPoints>
-		<Cost ResourceType="Supplies">250</Cost>
-		<CostEscalation>250</CostEscalation>
+		<Cost ResourceType="Supplies">500</Cost>
+		<CostEscalation>500</CostEscalation>
 		<CostEscalationObject>unsc_bldg_reactor_01</CostEscalationObject>
 		<CostEscalationObject>unsc_bldg_reactor_02</CostEscalationObject>
 		<Bounty>3</Bounty>
@@ -4301,6 +4301,19 @@
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
 		<TerrainHeightTolerance>10</TerrainHeightTolerance>
 	    <Command Type="Research" Position="0" AutoClose="true">unsc_reactor_upgrade1</Command>
+	    <Command Type="Research" Position="1">unsc_spartan_upgrade1</Command>
+		<Command Type="Research" Position="1">unsc_spartan_upgrade2</Command>
+	    <Command Type="Research" Position="2">unsc_MAC_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_MAC_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_MAC_upgrade3</Command>
+		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade3</Command>
+		<Command Type="Research" Position="2">unsc_cryo_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_cryo_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_cryo_upgrade3</Command>
+		<Command Type="Research" Position="3">unsc_pelican_upgrade1</Command>
+		<Command Type="Research" Position="3">unsc_pelican_upgrade2</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_reactor</Sound>
 		<Sound Type="Death">play_unsc_bldg_reactor_01_death</Sound>
@@ -4363,8 +4376,8 @@
 		<CombatValue>10</CombatValue>
 		<LOS>55</LOS>
 		<BuildPoints>30</BuildPoints>
-		<Cost ResourceType="Supplies">250</Cost>
-		<CostEscalation>250</CostEscalation>
+		<Cost ResourceType="Supplies">500</Cost>
+		<CostEscalation>500</CostEscalation>
 		<CostEscalationObject>unsc_bldg_reactor_01</CostEscalationObject>
 		<CostEscalationObject>unsc_bldg_reactor_02</CostEscalationObject>
 		<Bounty>3</Bounty>
@@ -4378,6 +4391,19 @@
 		<ObstructionRadiusY>3</ObstructionRadiusY>
 		<ObstructionRadiusZ>12</ObstructionRadiusZ>
 		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<Command Type="Research" Position="1">unsc_spartan_upgrade1</Command>
+		<Command Type="Research" Position="1">unsc_spartan_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_MAC_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_MAC_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_MAC_upgrade3</Command>
+		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade3</Command>
+		<Command Type="Research" Position="2">unsc_cryo_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_cryo_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_cryo_upgrade3</Command>
+		<Command Type="Research" Position="3">unsc_pelican_upgrade1</Command>
+		<Command Type="Research" Position="3">unsc_pelican_upgrade2</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_reactor</Sound>
 		<Sound Type="Death">play_unsc_bldg_reactor_01_death</Sound>
@@ -4868,15 +4894,6 @@
 		<Command Type="Research" Position="6">unsc_turret_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_turret_upgrade2</Command>
 		<Command Type="Research" Position="1">unsc_tech_adrenaline</Command>
-		<Command Type="Research" Position="2">unsc_MAC_upgrade1</Command>
-		<Command Type="Research" Position="2">unsc_MAC_upgrade2</Command>
-		<Command Type="Research" Position="2">unsc_MAC_upgrade3</Command>
-		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade1</Command>
-		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade2</Command>
-		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade3</Command>
-		<Command Type="Research" Position="2">unsc_cryo_upgrade1</Command>
-		<Command Type="Research" Position="2">unsc_cryo_upgrade2</Command>
-		<Command Type="Research" Position="2">unsc_cryo_upgrade3</Command>
 		<Command Type="Research" Position="7">unsc_tech_recruitTraining</Command>
 		<Command Type="Research" Position="5">unsc_tech_reinforcements</Command>
 		<Command Type="Kill" Position="4" />
@@ -6508,7 +6525,6 @@
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 		<ExitFromDirection>2</ExitFromDirection>
-		<Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
 		<Command Type="TrainSquad" Position="1">unsc_inf_battleodst_01</Command>
 		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
@@ -33424,8 +33440,8 @@
 		<Velocity>15</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>4000</Hitpoints>
-		<Shieldpoints>10000</Shieldpoints>
+		<Hitpoints>10000</Hitpoints>
+		<Shieldpoints>1</Shieldpoints>
 		<AttackGradeDPS>180</AttackGradeDPS>
 		<CombatValue>15</CombatValue>
 		<LOS>55</LOS>
@@ -33509,7 +33525,7 @@
 			<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
 			<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 		</FlashUI>
-		<HPBar>UNSC_HealthShield</HPBar>
+		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="unsc_inf_battleodst_01" id="0" dbid="154">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
@@ -33843,8 +33859,8 @@
 		<Velocity>15</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>4000</Hitpoints>
-		<Shieldpoints>10000</Shieldpoints>
+		<Hitpoints>10000</Hitpoints>
+		<Shieldpoints>1</Shieldpoints>
 		<AttackGradeDPS>180</AttackGradeDPS>
 		<CombatValue>15</CombatValue>
 		<LOS>55</LOS>
@@ -33928,7 +33944,7 @@
 			<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
 			<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 		</FlashUI>
-		<HPBar>UNSC_HealthShield</HPBar>
+		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="unsc_inf_shotgunmarine_01" id="0" dbid="148">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
@@ -34025,8 +34041,8 @@
 		<Velocity>15</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>4000</Hitpoints>
-		<Shieldpoints>10000</Shieldpoints>
+		<Hitpoints>10000</Hitpoints>
+		<Shieldpoints>1</Shieldpoints>
 		<AttackGradeDPS>180</AttackGradeDPS>
 		<CombatValue>15</CombatValue>
 		<LOS>55</LOS>
@@ -34110,7 +34126,7 @@
 			<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
 			<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 		</FlashUI>
-		<HPBar>UNSC_HealthShield</HPBar>
+		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="unsc_inf_snipermarine_01" id="0" dbid="148">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>

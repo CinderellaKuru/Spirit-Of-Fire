@@ -70,7 +70,7 @@
 		<RoleTextID>508</RoleTextID>
 		<BuildPoints>60</BuildPoints>
 		<Cost resourcetype="Supplies">900</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<SubSelectSort>7200</SubSelectSort>
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
@@ -730,7 +730,7 @@
 		<RolloverTextID>30003</RolloverTextID>
 		<RoleTextID>30004</RoleTextID>
 		<SubSelectSort>1000</SubSelectSort>
-		<HPBar offset="0,8.5,0">UNSC_HealthShield</HPBar>
+		<HPBar offset="0,8.5,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<BobbleHead>UNSC_Spartan</BobbleHead>
@@ -1084,7 +1084,7 @@
 		<RolloverTextID>30008</RolloverTextID>
 		<RoleTextID>30004</RoleTextID>
 		<SubSelectSort>1000</SubSelectSort>
-		<HPBar offset="0,8.5,0">UNSC_HealthShield</HPBar>
+		<HPBar offset="0,8.5,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<BobbleHead>UNSC_Spartan</BobbleHead>
@@ -1232,7 +1232,7 @@
 		<RolloverTextID>30012</RolloverTextID>
 		<RoleTextID>30004</RoleTextID>
 		<SubSelectSort>1000</SubSelectSort>
-		<HPBar offset="0,8.5,0">UNSC_HealthShield</HPBar>
+		<HPBar offset="0,8.5,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<BobbleHead>UNSC_Spartan</BobbleHead>

@@ -692,7 +692,7 @@
 		<DBID>1962</DBID>
 		<DisplayNameID>1008</DisplayNameID>
 		<RolloverTextID>1009</RolloverTextID>
-		<Cost resourcetype="Supplies">1200</Cost>
+		<Cost resourcetype="Supplies">1500</Cost>
 		<ResearchPoints>15</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -976,7 +976,7 @@
 		<RolloverTextID>24439</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<Cost resourcetype="Supplies">700</Cost>
-		<Cost resourcetype="Power">2</Cost>
+		<Cost resourcetype="Power">1</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -992,7 +992,7 @@
 		<RolloverTextID>24441</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<Cost resourcetype="Supplies">1000</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1011,7 +1011,7 @@
 		<RolloverTextID>24443</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<Cost resourcetype="Supplies">1400</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1030,7 +1030,7 @@
 		<RolloverTextID>24445</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<Cost resourcetype="Supplies">700</Cost>
-		<Cost resourcetype="Power">2</Cost>
+		<Cost resourcetype="Power">1</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1049,7 +1049,7 @@
 		<RolloverTextID>24447</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<Cost resourcetype="Supplies">1000</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1071,7 +1071,7 @@
 		<RolloverTextID>24449</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<Cost resourcetype="Supplies">1400</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1093,7 +1093,7 @@
 		<RolloverTextID>24750</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<Cost resourcetype="Supplies">700</Cost>
-		<Cost resourcetype="Power">2</Cost>
+		<Cost resourcetype="Power">1</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1109,7 +1109,7 @@
 		<RolloverTextID>24752</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<Cost resourcetype="Supplies">1000</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1128,7 +1128,7 @@
 		<RolloverTextID>24754</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<Cost resourcetype="Supplies">1400</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1139,6 +1139,47 @@
 		<Effects>
 			<Effect type="Data" subtype="PowerLevel" power="UnscLeaderCryo" amount="1" relativity="Absolute">
 				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_pelican_upgrade1" type="Normal">
+		<DisplayNameID>30148</DisplayNameID>
+		<RolloverTextID>30149</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Cost resourcetype="Supplies">500</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_boost</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.5" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_air_pelican_01</Target>
+			</Effect>
+			<Effect type="Data" amount="2" subtype="MaximumVelocity" relativity="Percent">
+				<Target type="ProtoUnit">unsc_air_pelican_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_pelican_upgrade2" type="Normal">
+		<DisplayNameID>30150</DisplayNameID>
+		<RolloverTextID>30151</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Cost resourcetype="Supplies">900</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_stabilizers</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">unsc_pelican_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.5" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_air_pelican_01</Target>
+			</Effect>
+			<Effect type="Data" amount="6" subtype="MaxContained" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_air_pelican_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -1426,7 +1467,7 @@
 		<DisplayNameID>23691</DisplayNameID>
 		<RolloverTextID>23692</RolloverTextID>
 		<PrereqTextID>234</PrereqTextID>
-		<Cost resourcetype="Supplies">1800</Cost>
+		<Cost resourcetype="Supplies">2000</Cost>
 		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
@@ -1670,7 +1711,7 @@
 		<RolloverTextID>24455</RolloverTextID>
 		<PrereqTextID>232</PrereqTextID>
 		<Cost resourcetype="Supplies">400</Cost>
-		<Cost resourcetype="Power">2</Cost>
+		<Cost resourcetype="Power">1</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1699,7 +1740,7 @@
 		<RolloverTextID>24457</RolloverTextID>
 		<PrereqTextID>234</PrereqTextID>
 		<Cost resourcetype="Supplies">900</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1912,8 +1953,8 @@
 		<DisplayNameID>1028</DisplayNameID>
 		<RolloverTextID>1029</RolloverTextID>
 		<PrereqTextID>233</PrereqTextID>
-		<Cost resourcetype="Supplies">400</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1947,8 +1988,8 @@
 		<DisplayNameID>1124</DisplayNameID>
 		<RolloverTextID>1125</RolloverTextID>
 		<PrereqTextID>234</PrereqTextID>
-		<Cost resourcetype="Supplies">900</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Supplies">1000</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2004,8 +2045,8 @@
 		<DisplayNameID>1032</DisplayNameID>
 		<RolloverTextID>1033</RolloverTextID>
 		<PrereqTextID>233</PrereqTextID>
-		<Cost resourcetype="Supplies">400</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2033,8 +2074,8 @@
 		<DisplayNameID>1126</DisplayNameID>
 		<RolloverTextID>1127</RolloverTextID>
 		<PrereqTextID>234</PrereqTextID>
-		<Cost resourcetype="Supplies">900</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Supplies">1000</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2093,8 +2134,8 @@
 		<DisplayNameID>1040</DisplayNameID>
 		<RolloverTextID>1041</RolloverTextID>
 		<PrereqTextID>233</PrereqTextID>
-		<Cost resourcetype="Supplies">400</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2125,8 +2166,8 @@
 		<DisplayNameID>1130</DisplayNameID>
 		<RolloverTextID>1131</RolloverTextID>
 		<PrereqTextID>234</PrereqTextID>
-		<Cost resourcetype="Supplies">900</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Supplies">1000</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2179,8 +2220,8 @@
 		<DisplayNameID>23689</DisplayNameID>
 		<RolloverTextID>23690</RolloverTextID>
 		<PrereqTextID>234</PrereqTextID>
-		<Cost resourcetype="Supplies">1800</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Supplies">2000</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2220,8 +2261,8 @@
 		<DisplayNameID>1050</DisplayNameID>
 		<RolloverTextID>1051</RolloverTextID>
 		<PrereqTextID>233</PrereqTextID>
-		<Cost resourcetype="Supplies">400</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2249,8 +2290,8 @@
 		<DisplayNameID>1134</DisplayNameID>
 		<RolloverTextID>1135</RolloverTextID>
 		<PrereqTextID>234</PrereqTextID>
-		<Cost resourcetype="Supplies">900</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Supplies">1000</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2310,8 +2351,8 @@
 		<DisplayNameID>22592</DisplayNameID>
 		<RolloverTextID>22593</RolloverTextID>
 		<PrereqTextID>235</PrereqTextID>
-		<Cost resourcetype="Supplies">800</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Supplies">1000</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_tech_megabarrage</ResearchCompleteSound>
@@ -2434,8 +2475,8 @@
 		<DisplayNameID>23687</DisplayNameID>
 		<RolloverTextID>23688</RolloverTextID>
 		<PrereqTextID>235</PrereqTextID>
-		<Cost resourcetype="Supplies">1800</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Supplies">2000</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2448,35 +2489,59 @@
 			<Effect type="TransformProtoSquad" FromType="unsc_veh_scorpion_01" ToType="unsc_veh_grizzly_01" />
 		</Effects>
 	</Tech>
-	<Tech name="unsc_spartan_upgrade1" type="Normal">
-		<DBID>1915</DBID>
-		<DisplayNameID>22478</DisplayNameID>
-		<RolloverTextID>22479</RolloverTextID>
-		<Cost resourcetype="Supplies">300</Cost>
-		<Cost resourcetype="Power">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+	<Tech name="unsc_spartan_upgrade0" type="Normal">
 		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_basic</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
+				<Target type="ProtoSquad">unsc_inf_jerome_01</Target>
+				<Target type="ProtoSquad">unsc_inf_douglas_01</Target>
+				<Target type="ProtoSquad">unsc_inf_alice_01</Target>
 			</Effect>
-			<Effect type="TransformProtoUnit" FromType="unsc_inf_spartan_01" ToType="unsc_inf_spartan_02" />
+		</Effects>
+	</Tech>
+	<Tech name="unsc_spartan_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>22478</DisplayNameID>
+		<RolloverTextID>22479</RolloverTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_personalshield</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">unsc_basic</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_jerome_01</Target>
+				<Target type="ProtoSquad">unsc_inf_douglas_01</Target>
+				<Target type="ProtoSquad">unsc_inf_alice_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+			<Effect type="Data" amount="10000" subtype="Shieldpoints" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade1">
-				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
+			<Effect type="Data" hpbar="Unsc_HealthShield" subtype="HPBar" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_jerome_01</Target>
+				<Target type="ProtoSquad">unsc_inf_douglas_01</Target>
+				<Target type="ProtoSquad">unsc_inf_alice_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2485,7 +2550,7 @@
 		<DisplayNameID>22480</DisplayNameID>
 		<RolloverTextID>22481</RolloverTextID>
 		<PrereqTextID>233</PrereqTextID>
-		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Supplies">1200</Cost>
 		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>45</ResearchPoints>
 		<Status>OBTAINABLE</Status>
@@ -2496,70 +2561,54 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
+				<Target type="ProtoSquad">unsc_inf_jerome_01</Target>
+				<Target type="ProtoSquad">unsc_inf_douglas_01</Target>
+				<Target type="ProtoSquad">unsc_inf_alice_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="VehicleTakeOver" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedVehicleTakeOver" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="VehicleJoin" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedVehicleJoin" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="AircraftTakeOver" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedAircraftTakeOver" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
-				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
-			</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="unsc_spartan_upgrade3" type="Normal" Alpha="0">
-		<DBID>1915</DBID>
-		<DisplayNameID>22482</DisplayNameID>
-		<RolloverTextID>22483</RolloverTextID>
-		<PrereqTextID>234</PrereqTextID>
-		<Cost resourcetype="Supplies">1000</Cost>
-		<Cost resourcetype="Power">4</Cost>
-		<ResearchPoints>60</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
-		<Prereqs>
-			<TechStatus status="Active">unsc_spartan_upgrade2</TechStatus>
-		</Prereqs>
-		<Effects>
-			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.8" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_03</Target>
-			</Effect>
-			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_03</Target>
-			</Effect>
-			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_03</Target>
-			</Effect>
-			<Effect type="TransformProtoUnit" FromType="unsc_inf_spartan_01" ToType="unsc_inf_spartan_03" />
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade3">
-				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
+			<Effect type="Data" amount="1.5" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_jerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_douglas_01</Target>
+				<Target type="ProtoUnit">unsc_inf_alice_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2592,7 +2641,7 @@
 		<RolloverTextID>30019</RolloverTextID>
 		<PrereqTextID>233</PrereqTextID>
 		<Cost resourcetype="Supplies">600</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2617,8 +2666,8 @@
 		<DisplayNameID>30020</DisplayNameID>
 		<RolloverTextID>30021</RolloverTextID>
 		<PrereqTextID>234</PrereqTextID>
-		<Cost resourcetype="Supplies">900</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Supplies">1000</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -6623,22 +6672,28 @@
 			</Effect>
 
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_carpetBomb_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_carpetBomb_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_carpetBomb_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cryo_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cryo_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cryo_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cyclops_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
@@ -6765,13 +6820,16 @@
 
 
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mac_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mac_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mac_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
@@ -7383,13 +7441,16 @@
 				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_mac_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_mac_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_mac_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 
 
@@ -7459,13 +7520,16 @@
 				<Target type="ProtoUnit">unsc_bldg_supplyPad_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_carpetBomb_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_carpetBomb_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_carpetBomb_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cyclops_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
@@ -7557,7 +7621,6 @@
 				<Target type="Tech">unsc_medic_upgrade2</Target>
 				<Target type="Tech">unsc_spartan_upgrade1</Target>
 				<Target type="Tech">unsc_spartan_upgrade2</Target>
-				<Target type="Tech">unsc_spartan_upgrade3</Target>
 				<Target type="Tech">unsc_warthog_upgrade1</Target>
 				<Target type="Tech">unsc_warthog_upgrade2</Target>
 				<Target type="Tech">unsc_warthog_upgrade3</Target>
@@ -7602,7 +7665,6 @@
 				<Target type="Tech">unsc_medic_upgrade2</Target>
 				<Target type="Tech">unsc_spartan_upgrade1</Target>
 				<Target type="Tech">unsc_spartan_upgrade2</Target>
-				<Target type="Tech">unsc_spartan_upgrade3</Target>
 				<Target type="Tech">unsc_warthog_upgrade1</Target>
 				<Target type="Tech">unsc_warthog_upgrade2</Target>
 				<Target type="Tech">unsc_warthog_upgrade3</Target>
@@ -7634,13 +7696,16 @@
 				<Target type="Tech">unsc_hawk_upgrade1</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cryo_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cryo_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cryo_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_gremlin_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
