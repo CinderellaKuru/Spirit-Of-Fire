@@ -374,7 +374,6 @@
 	<Icon type="techicon" name="unsc_tech_oniSpies" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_tech_oniSpies" owner="unsc_tech_oniSpies">-1</Icon>
 	<Icon type="techicon" name="unsc_spartan_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_spartan_upgrade1" owner="unsc_spartan_upgrade1">-1</Icon>
 	<Icon type="techicon" name="unsc_spartan_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_spartan_upgrade2" owner="unsc_spartan_upgrade2">-1</Icon>
-	<Icon type="techicon" name="unsc_spartan_upgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_spartan_upgrade3" owner="unsc_spartan_upgrade3">-1</Icon>
 	<Icon type="techicon" name="unsc_cryo_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_cryo_upgrade1" owner="unsc_cryo_upgrade1">-1</Icon>
 	<Icon type="techicon" name="unsc_cryo_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_cryo_upgrade2" owner="unsc_cryo_upgrade2">-1</Icon>
 	<Icon type="techicon" name="unsc_cryo_upgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_cryo_upgrade3" owner="unsc_cryo_upgrade3">-1</Icon>
@@ -859,6 +858,8 @@
     <Icon type="techicon" name="medicupgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_medic_upgrade1" owner="unsc_medic_upgrade1">-1</Icon>
 	<Icon type="techicon" name="medicupgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_medic_upgrade2" owner="unsc_medic_upgrade2">-1</Icon>
 	<Icon type="uniticon" name="MarineUpgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade2" owner="unsc_marine_upgrade2">-1</Icon>
+	<Icon type="techicon" name="unsc_pelican_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_pelican_upgrade1" owner="unsc_pelican_upgrade1">-1</Icon>
+	<Icon type="techicon" name="unsc_pelican_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_pelican_upgrade2" owner="unsc_pelican_upgrade2">-1</Icon>
 
     <!--Captain Cutter-->
 

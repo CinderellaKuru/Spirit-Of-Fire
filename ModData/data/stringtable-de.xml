@@ -1088,8 +1088,8 @@
 		<String _locID="22474" category="Techs" subtitle="false">Aktiviert die Tarnungsfähigkeit.</String>
 		<String _locID="22475" category="Techs" subtitle="false">PERSÖNLICHER SCHILD</String>
 		<String _locID="22476" category="Techs" subtitle="false">Fügt einen persönlichen Schild hinzu, der den zugefügten Schaden verringert.</String>
-		<String _locID="22478" category="Techs" subtitle="false">CHAINGUN</String>
-		<String _locID="22479" category="Techs" subtitle="false">Stattet Spartans mit zweihändigen Autogeschützen aus, die das Schadenspotenzial drastisch erhöhen.</String>
+		<String _locID="22478" category="Techs" subtitle="false">PERSÖNLICHER SCHILD</String>
+		<String _locID="22479" category="Techs" subtitle="false">Stattet Spartans mit neuer Schildtechnologie aus.</String>
 		<String _locID="22480" category="Techs" subtitle="false">NEURO-IMPLANTAT</String>
 		<String _locID="22481" category="Techs" subtitle="false">Verbesserte Reflexe, mit denen Spartans feindliche Fahrzeuge effizienter kapern können.</String>
 		<String _locID="22482" category="Techs" subtitle="false">SPARTAN-LASER</String>
@@ -4865,6 +4865,10 @@ des Echo-Teams</String>
 		<String _locID="30045" category="Techs" subtitle="false">VERBESSERTE HEILUNG</String>
 		<String _locID="30046" category="Techs" subtitle="false">Verbessert die Fähigkeiten des Sanitäters um Heilung und Reperatur zu beschleunigen. Außerdem erhält er eine höhere Reichweite.</String>
 		<String _locID="30047" category="Code" subtitle="false">Sanitäter</String>
+		<String _locID="30148" category="Techs" subtitle="false">BESSERER TREIBSTOFF</String>
+		<String _locID="30149" category="Techs" subtitle="false">Pelicans sind nun wesentlich schneller</String>
+		<String _locID="30150" category="Techs" subtitle="false">STABILISATOREN</String>
+		<String _locID="30151" category="Techs" subtitle="false">Pelicans können nun mehr Truppen transportieren.</String>
 
 
 		<!--Captain Cutter-->

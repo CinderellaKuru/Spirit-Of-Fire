@@ -1088,8 +1088,8 @@
 		<String _locID="22474" category="Techs" subtitle="false">Enables Cloak Ability.</String>
 		<String _locID="22475" category="Techs" subtitle="false">PERSONAL SHIELD</String>
 		<String _locID="22476" category="Techs" subtitle="false">Adds a personal shield that decreases incoming damage.</String>
-		<String _locID="22478" category="Techs" subtitle="false">CHAIN GUN</String>
-		<String _locID="22479" category="Techs" subtitle="false">Equips Spartans with two-handed auto-guns for dramatically increased damage.</String>
+		<String _locID="22478" category="Techs" subtitle="false">PERSONAL SHIELD</String>
+		<String _locID="22479" category="Techs" subtitle="false">Equips Spartans with newly aquired shield technology.</String>
 		<String _locID="22480" category="Techs" subtitle="false">NEURAL IMPLANT</String>
 		<String _locID="22481" category="Techs" subtitle="false">Improved reflexes allow Spartans to Jack enemy vehicles much more effectively.</String>
 		<String _locID="22482" category="Techs" subtitle="false">SPARTAN LASER</String>
@@ -4862,6 +4862,10 @@
 		<String _locID="30044" category="Techs" subtitle="false">Allows the Medic to also repair vehicles and buildings.</String>
 		<String _locID="30045" category="Techs" subtitle="false">IMPROVED HEALING</String>
 		<String _locID="30046" category="Techs" subtitle="false">Upgrades the Medic's heal and repair to be faster and longer range.</String>
+		<String _locID="30148" category="Techs" subtitle="false">BETTER FUEL</String>
+		<String _locID="30149" category="Techs" subtitle="false">Pelicans are now much faster.</String>
+		<String _locID="30150" category="Techs" subtitle="false">STABILIZERS</String>
+		<String _locID="30151" category="Techs" subtitle="false">Pelicans can now carry more units.</String>
 
 	    <!--Captain Cutter-->
 
