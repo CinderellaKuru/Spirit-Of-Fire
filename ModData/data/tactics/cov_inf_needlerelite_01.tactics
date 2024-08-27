@@ -105,6 +105,24 @@
 		<MainAttack />
 	</Action>
 	<Action>
+		<Name>SuperCombineNeedlerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>NeedlerAttack</Anim>
+		<Weapon>SuperCombineNeedler</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>InCoverSuperCombineNeedlerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>NeedlerAttack</Anim>
+		<Weapon>InCoverSuperCombineNeedler</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
 		<Name>NeedlerAttackAction2</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>NeedlerAttack</Anim>
@@ -120,24 +138,6 @@
 		<Anim>NeedlerAttack</Anim>
 		<ReloadAnim>NeedlerReload</ReloadAnim>
 		<Weapon>InCoverNeedler2</Weapon>
-		<MainAttack />
-		<FindBetterAction />
-		<StartDisabled />
-	</Action>
-	<Action>
-		<Name>SuperCombineNeedlerAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>NeedlerAttack</Anim>
-		<Weapon>SuperCombineNeedler</Weapon>
-		<MainAttack />
-		<FindBetterAction />
-		<StartDisabled />
-	</Action>
-	<Action>
-		<Name>InCoverSuperCombineNeedlerAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>NeedlerAttack</Anim>
-		<Weapon>InCoverSuperCombineNeedler</Weapon>
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -275,6 +275,11 @@
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
 			<TargetType>Resource_Supplies</TargetType>
 			<Action>GatherSupplies</Action>
 		</TargetRule>
@@ -290,14 +295,14 @@
 			<Action>UngarrisonHotDrop</Action>
 		</TargetRule>
 		<TargetRule>
-			<Relation>Self</Relation>
-			<TargetType>cov_air_spirit_01</TargetType>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
 			<Action>GarrisonSpirit</Action>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Ungarrison</Ability>
-			<Relation>Self</Relation>
-			<TargetType>cov_air_spirit_01</TargetType>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
 			<Action>UngarrisonSpirit</Action>
 		</TargetRule>
 	</Tactic>

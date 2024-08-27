@@ -71,16 +71,6 @@
 		<PersistBetweenOpps />
 		<StartDisabled />
 	</Action>
-	<!--<Action>
-        <Name>LockdownMove</Name>
-        <ActionType>Move</ActionType>
-        <WorkRange>60</WorkRange>
-    </Action>
-    <Action>
-        <Name>Unlock</Name>
-        <ActionType>ChangeMode</ActionType>
-        <SquadMode>Normal</SquadMode>
-    </Action>-->
 	<Action>
 		<Name>GarrisonSpirit</Name>
 		<ActionType>Garrison</ActionType>
@@ -128,28 +118,6 @@
 			<Action>FuelRodAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
-		<!--<TargetRule>
-            <Ability>Command</Ability>
-            <TargetsGround />
-            <Action>Unlock</Action>
-            <SquadMode>LockDown</SquadMode>
-        </TargetRule>
-        <TargetRule>
-            <Ability>Command</Ability>
-            <Relation>Ally</Relation>
-            <Action>Unlock</Action>
-            <SquadMode>LockDown</SquadMode>
-        </TargetRule>
-        <TargetRule>
-            <Ability>Command</Ability>
-            <TargetsGround />
-            <Action>LockdownMove</Action>
-        </TargetRule>
-        <TargetRule>
-            <Ability>Command</Ability>
-            <Relation>Ally</Relation>
-            <Action>LockdownMove</Action>
-        </TargetRule>-->
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>transport</TargetType>

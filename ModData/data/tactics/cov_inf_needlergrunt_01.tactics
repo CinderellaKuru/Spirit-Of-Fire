@@ -113,6 +113,22 @@
 		<Dodgeable />
 	</Weapon>
 	<Action>
+		<Name>SuperCombineNeedlerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>NeedlerAttack</Anim>
+		<Weapon>SuperCombineNeedler</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>InCoverSuperCombineNeedlerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>NeedlerAttack</Anim>
+		<Weapon>InCoverSuperCombineNeedler</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
 		<Name>NeedlerAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>NeedlerAttack</Anim>
@@ -127,22 +143,6 @@
 		<Anim>NeedlerAttack</Anim>
 		<ReloadAnim>NeedlerReload</ReloadAnim>
 		<Weapon>Needler</Weapon>
-		<MainAttack />
-		<FindBetterAction />
-	</Action>
-	<Action>
-		<Name>SuperCombineNeedlerAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>NeedlerAttack</Anim>
-		<Weapon>SuperCombineNeedler</Weapon>
-		<MainAttack />
-		<FindBetterAction />
-	</Action>
-	<Action>
-		<Name>InCoverSuperCombineNeedlerAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>NeedlerAttack</Anim>
-		<Weapon>InCoverSuperCombineNeedler</Weapon>
 		<MainAttack />
 		<FindBetterAction />
 	</Action>

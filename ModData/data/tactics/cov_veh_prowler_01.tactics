@@ -9,7 +9,7 @@
 		<ImpactEffect size="small">cov_plasmacannon_01</ImpactEffect>
 		<MaxVelocityLead>45</MaxVelocityLead>
 		<MaxRange>45</MaxRange>
-		<Accuracy>0.4</Accuracy>
+		<Accuracy>1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
 		<MovingAccuracy>0.05</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
@@ -31,7 +31,7 @@
 		<ImpactEffect size="small">cov_plasmacannon_01</ImpactEffect>
 		<MaxVelocityLead>45</MaxVelocityLead>
 		<MaxRange>45</MaxRange>
-		<Accuracy>0.4</Accuracy>
+		<Accuracy>1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
 		<MovingAccuracy>0.05</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
@@ -46,7 +46,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>Ram</Name>
-		<DamagePerSecond>1000</DamagePerSecond>
+		<DamagePerSecond>3000</DamagePerSecond>
 		<WeaponType>ProwlerRam</WeaponType>
 		<MaxRange>5</MaxRange>
 		<AOERadius>40</AOERadius>

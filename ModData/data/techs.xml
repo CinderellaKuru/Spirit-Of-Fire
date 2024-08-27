@@ -5698,7 +5698,7 @@
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_shadow_01</Target>
 			</Effect>
-			<Effect type="Data" amount="4488" subtype="Shieldpoints" relativity="Absolute">
+			<Effect type="Data" amount="5000" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_shadow_01</Target>
 			</Effect>
 		</Effects>
@@ -8327,8 +8327,6 @@
 		</Effects>
 	</Tech>
 	<Tech name="unsc_veh_cobra_up" type="Normal">
-		<DBID>1917</DBID>
-		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
@@ -8337,6 +8335,15 @@
 			</Effect>
 			<Effect type="Data" amount="2" subtype="Accuracy" action="UpgradedLockdownArtillery" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_infantryspeed_up" type="Normal">
+		<Flag>Shadow</Flag>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">Infantry</Target>
 			</Effect>
 		</Effects>
 	</Tech>

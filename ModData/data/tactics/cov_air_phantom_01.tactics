@@ -115,11 +115,6 @@
 		<MainAttack />
 	</Action>
 	<Action>
-		<Name>Transport</Name>
-		<ActionType>Transport</ActionType>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
 		<Name>AvoidCollisionAir</Name>
 		<ActionType>AvoidCollisionAir</ActionType>
 		<HoverAltitudeOffset>0</HoverAltitudeOffset>
@@ -164,12 +159,6 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>LeftTurretAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<TargetsGround />
-			<ContainsUnits />
-			<Action>Transport</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

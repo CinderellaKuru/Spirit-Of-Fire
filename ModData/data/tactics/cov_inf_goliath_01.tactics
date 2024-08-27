@@ -7,7 +7,6 @@
 		<WeaponType>Basic</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
-		<ThrowAliveUnits />
 		<ThrowVelocity>20</ThrowVelocity>
 		<ThrowOffsetAngle>-90</ThrowOffsetAngle>
 		<PhysicsForceMin>500</PhysicsForceMin>
