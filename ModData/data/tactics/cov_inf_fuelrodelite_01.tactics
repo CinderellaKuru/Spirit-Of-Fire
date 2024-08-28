@@ -9,12 +9,12 @@
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>45</MaxRange>
-		<Accuracy>0.200000003</Accuracy>
+		<Accuracy>0.2</Accuracy>
 		<MaxDeviation>7</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingAccuracy>0.1</MovingAccuracy>
 		<MovingMaxDeviation>10</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<AOERadius>3</AOERadius>
 		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>

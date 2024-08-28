@@ -1,78 +1,66 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>InCoverPlasmaRifle</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>26</DamagePerSecond>
-		<WeaponType>AASmallArms</WeaponType>
-		<Projectile>fx_proj_plasmaRifle_01</Projectile>
-		<ImpactEffect size="small">cov_plasmarifle_01</ImpactEffect>
+		<Name>InCoverBrutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>49</DamagePerSecond>
+		<WeaponType>BruteShot</WeaponType>
+		<Projectile>fx_proj_bruteGun_01</Projectile>
+		<ImpactEffect size="small">cov_brutegun_01</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>80</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
-		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
-		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>10.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<VisualAmmo>8</VisualAmmo>
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<VisualAmmo>4</VisualAmmo>
 		<Hardpoint>Torso</Hardpoint>
-		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
-		<Name>InCoverGrenade</Name>
-		<DamagePerSecond>10.8500004</DamagePerSecond>
-		<WeaponType>Grenade</WeaponType>
-		<Projectile>fx_proj_plasmaGrenade_01</Projectile>
-		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>80</MaxRange>
-		<Accuracy>0.330000013</Accuracy>
-		<MaxDeviation>6</MaxDeviation>
-		<MovingAccuracy>0.159999996</MovingAccuracy>
-		<MovingMaxDeviation>9</MovingMaxDeviation>
-		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<AOERadius>3</AOERadius>
-		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
-		<AOEDistanceFactor>0.25</AOEDistanceFactor>
-		<AOEDamageFactor>0.25</AOEDamageFactor>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>800</PhysicsForceMin>
-		<PhysicsForceMax>1000</PhysicsForceMax>
-		<Hardpoint>Torso</Hardpoint>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>14</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>44</PostAttackCooldownMax>
-		<Dodgeable />
-	</Weapon>
-	<Weapon>
-		<Name>PlasmaRifle</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>13</DamagePerSecond>
-		<WeaponType>AASmallArms</WeaponType>
-		<Projectile>fx_proj_plasmaRifle_01</Projectile>
-		<ImpactEffect size="small">cov_plasmarifle_01</ImpactEffect>
+		<Name>Brutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>24.5</DamagePerSecond>
+		<WeaponType>BruteShot</WeaponType>
+		<Projectile>fx_proj_bruteGun_01</Projectile>
+		<ImpactEffect size="Medium">cov_brutegun_01</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
-		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
-		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>10.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<VisualAmmo>8</VisualAmmo>
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<VisualAmmo>4</VisualAmmo>
 		<Hardpoint>Torso</Hardpoint>
-		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
 		<Name>Grenade</Name>
@@ -100,44 +88,30 @@
 		<Dodgeable />
 	</Weapon>
 	<Action>
-		<Name>InCoverPlasmaRifleAttackAction</Name>
+		<Name>InCoverBrutegunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>plasmaRifleAttack</Anim>
-		<ReloadAnim>PlasmaRifleReload</ReloadAnim>
-		<Weapon>InCoverPlasmaRifle</Weapon>
+		<Anim>BruteGunAttack</Anim>
+		<ReloadAnim>BruteGunReload</ReloadAnim>
+		<Weapon>InCoverBrutegun</Weapon>
 		<MainAttack />
 	</Action>
 	<Action>
-		<Name>InCoverGrenadeAttackAction</Name>
+		<Name>BrutegunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>PlasmaGrenadeAttack</Anim>
-		<SupportAnim>Support</SupportAnim>
-		<Weapon>InCoverGrenade</Weapon>
-		<BaseDPSWeapon>IcCoverPlasmaRifleAttackAction</BaseDPSWeapon>
-		<MainAttack />
-		<FindBetterAction />
-	</Action>
-	<Action>
-		<Name>PlasmaRifleAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>plasmaRifleAttack</Anim>
-		<ReloadAnim>PlasmaRifleReload</ReloadAnim>
-		<Weapon>PlasmaRifle</Weapon>
+		<Anim>BruteGunAttack</Anim>
+		<ReloadAnim>BruteGunReload</ReloadAnim>
+		<Weapon>Brutegun</Weapon>
 		<MainAttack />
 	</Action>
 	<Action>
 		<Name>GrenadeAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>PlasmaGrenadeAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
 		<Weapon>Grenade</Weapon>
 		<MainAttack />
 		<DontLoopAttackAnim />
 		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
-	</Action>
-	<Action>
-		<Name>Garrison</Name>
-		<ActionType>Garrison</ActionType>
-		<WorkRange>5</WorkRange>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -146,6 +120,7 @@
 		<Resource>Supplies</Resource>
 		<WorkRate>2.5</WorkRate>
 		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
 	<Action>
 		<Name>Capture</Name>
@@ -153,6 +128,11 @@
 		<Anim>Build</Anim>
 		<WorkRate>0.400000006</WorkRate>
 		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
 	</Action>
 	<Action>
 		<Name>GarrisonSpirit</Name>
@@ -234,18 +214,12 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>InCoverGrenadeAttackAction</Action>
+			<Action>InCoverBrutegunAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>InCoverPlasmaRifleAttackAction</Action>
-			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>PlasmaRifleAttackAction</Action>
+			<Action>BrutegunAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
@@ -253,6 +227,11 @@
 			<TargetType>NonFlying</TargetType>
 			<Action>GrenadeAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Self</Relation>
@@ -264,11 +243,6 @@
 			<Relation>Self</Relation>
 			<TargetType>HotDropPickup</TargetType>
 			<Action>UngarrisonHotDrop</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Resource_Supplies</TargetType>
-			<Action>GatherSupplies</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
