@@ -3,7 +3,7 @@
 	<Leader Name="Gaia" Icon="">
 		<Civ>Gaia</Civ>
 	</Leader>
-	<Leader Name="Skidbladnir" LeaderPickerOrder="9" StatsID="1" DefaultPlayerSlotFlags="0x81">
+	<!--<Leader Name="Skidbladnir" LeaderPickerOrder="9" StatsID="1" DefaultPlayerSlotFlags="0x81">
 		<Civ>UNSC</Civ>
 		<Tech>unsc_LeaderSkid</Tech>
 		<NameID>26754</NameID>
@@ -27,7 +27,7 @@
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="99">10</Pop>
 		<Pop Type="Spartan" Max="3">3</Pop>
-	</Leader>
+	</Leader>-->
 	<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="2" StatsID="1" DefaultPlayerSlotFlags="0x81">
 		<Civ>UNSC</Civ>
 		<Tech>unsc_LeaderCutter</Tech>
@@ -63,10 +63,10 @@
 		<FlashImg>14thdivision</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\forge.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_forge.ddx</UIControlBackground>
-		<Resource Type="Supplies">80000</Resource>
+		<Resource Type="Supplies">800</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">3</Resource>
+		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="55,0,0">unsc_inf_marine_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">unsc_inf_marine_01</StartingSquad>

@@ -59,7 +59,7 @@
 	<Weapon>
 		<Name>specialAttack</Name>
 		<AttackRate>30</AttackRate>
-		<DamagePerSecond>2000</DamagePerSecond>
+		<DamagePerSecond>1500</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>

@@ -1621,7 +1621,7 @@
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\cov\needler_01\needler_01.vis</Visual>
 		<MovementType>Air</MovementType>
-		<Velocity>140</Velocity>
+		<Velocity>70</Velocity>
 		<Tactics>fx_proj_needler_01.tactics</Tactics>
 		<Lifespan>2.5</Lifespan>
 		<ObstructionRadiusX>0.1</ObstructionRadiusX>
@@ -6640,7 +6640,6 @@
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 		<ExitFromDirection>2</ExitFromDirection>
-		<Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
 		<Command Type="TrainSquad" Position="1">unsc_inf_battleodst_01</Command>
 		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
@@ -34224,9 +34223,8 @@
 		<PickOffset>0</PickOffset>
 		<LOS>70</LOS>
 		<PickPriority>Building</PickPriority>
-		<SelectType>Command</SelectType>
+		<SelectType>Unit</SelectType>
 		<DamageType direction="Full">Building</DamageType>
-		<Command Type="Kill" Position="4" />
 		<LifeSpan>15</LifeSpan>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Building</ObjectType>
@@ -35059,6 +35057,7 @@
 		<ObjectType>CyclopsRepairable</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<Flag>KBAware</Flag>
@@ -35137,6 +35136,7 @@
 		<ObjectType>Mechanical</ObjectType>
 		<ObjectType>EmpEffectNormal</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
