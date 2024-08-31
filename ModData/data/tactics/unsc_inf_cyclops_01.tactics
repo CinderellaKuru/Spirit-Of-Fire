@@ -3,8 +3,8 @@
 	<Weapon>
 		<Name>melee</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>93.5999985</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>AntiBuilding</WeaponType>
 		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
@@ -20,8 +20,8 @@
 	<Weapon>
 		<Name>meleePickup</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>93.5999985</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>AntiBuilding</WeaponType>
 		<MaxRange>3</MaxRange>
 		<TargetPriority type="TurretBuilding">10</TargetPriority>
 		<TargetPriority type="GroundVehicle">5</TargetPriority>
@@ -31,8 +31,8 @@
 	<Weapon>
 		<Name>jackhammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>117</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>AntiBuilding</WeaponType>
 		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
@@ -48,8 +48,8 @@
 	<Weapon>
 		<Name>BuildingJackhammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>146.25</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<DamagePerSecond>120</DamagePerSecond>
+		<WeaponType>AntiBuilding</WeaponType>
 		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
@@ -65,17 +65,17 @@
 	<Weapon>
 		<Name>ThrowWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>600</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Basic</WeaponType>
+		<WeaponType>AntiBuilding</WeaponType>
 		<Projectile>fx_proj_rock_01</Projectile>
 		<CarriedObjectAsProjectileVisual />
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
 		<MaxRange>65</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.1</Accuracy>
 		<MaxDeviation>8</MaxDeviation>
-		<MovingAccuracy>0.899999976</MovingAccuracy>
+		<MovingAccuracy>0.89</MovingAccuracy>
 		<MovingMaxDeviation>12</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
@@ -94,8 +94,8 @@
 	<Weapon>
 		<Name>RipOffPart</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>117</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>AntiBuilding</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -105,12 +105,14 @@
 		<TargetPriority type="TurretBuilding">10</TargetPriority>
 		<TargetPriority type="GroundVehicle">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
+		<PostAttackCooldownMin>5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>10</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>SmashInfantry</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>93.5999985</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<DamagePerSecond>95</DamagePerSecond>
+		<WeaponType>AntiBuilding</WeaponType>
 		<MaxRange>3</MaxRange>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
@@ -122,20 +124,7 @@
 		<Anim>MeleeAttack</Anim>
 		<Weapon>melee</Weapon>
 		<MainAttack />
-		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
-		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_02</Fatality>
-		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
-		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_snowmarine_01</Fatality>
-		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
-		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_medic_01</Fatality>
-		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odstmedic_01</Fatality>
-		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">creep_rebel_infantry_01</Fatality>
-		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">creep_rebel_Sniper_01</Fatality>
-		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIBrute_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_brute_01</Fatality>
-		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIBrute_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
-		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteLeader_01</Fatality>
-		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
-		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIJackal_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
+		<FindBetterAction />
 		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIJackal_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackalShield_01</Fatality>+</Action>
 	<Action>
 		<Name>jackhammerAttackAction</Name>
@@ -143,6 +132,7 @@
 		<Anim>BuildingAttack</Anim>
 		<Weapon>jackhammer</Weapon>
 		<MainAttack />
+		<FindBetterAction />
 	</Action>
 	<Action>
 		<Name>BuildingjackhammerAttackAction</Name>
@@ -150,6 +140,7 @@
 		<Anim>BuildingAttack</Anim>
 		<Weapon>Buildingjackhammer</Weapon>
 		<MainAttack />
+		<FindBetterAction />
 	</Action>
 	<Action>
 		<Name>MeleeAttackActionPickup</Name>
@@ -157,21 +148,37 @@
 		<Anim>MeleeAttack</Anim>
 		<Weapon>meleePickup</Weapon>
 		<MainAttack />
+		<FindBetterAction />
 		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
 		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_02</Fatality>
+		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_03</Fatality>
+		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_04</Fatality>
+		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_battleodst_01</Fatality>
+		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_battleodst_02</Fatality>
+		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_battleodst_03</Fatality>
+		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_battleodst_04</Fatality>
 		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
+		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_shotgunmarine_01</Fatality>
+		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_snipermarine_01</Fatality>
 		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_snowmarine_01</Fatality>
 		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
 		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_medic_01</Fatality>
-		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odstmedic_01</Fatality>
 		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">creep_rebel_infantry_01</Fatality>
 		<Fatality attacker="Fatality_MarkIMarine_01" target="Fatality_MarkIMarine_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">creep_rebel_Sniper_01</Fatality>
+		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_arbyelite_01</Fatality>
+		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_arbyelite_02</Fatality>
+		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_arbyelite_03</Fatality>
+		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_arbyneedlerelite_01</Fatality>
+		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_arbyneedlerelite_02</Fatality>
+		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_sniperelite_01</Fatality>
+		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_fuelrodelite_01</Fatality>
 		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIBrute_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_brute_01</Fatality>
 		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIBrute_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
-		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteLeader_01</Fatality>
-		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
 		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIJackal_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
 		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIJackal_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackalShield_01</Fatality>
+		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
+		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteLeader_01</Fatality>
+		<Fatality attacker="Fatality_MarkIBrute_01" target="Fatality_MarkIElite_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_needlerelite_01</Fatality>
 	</Action>
 	<Action>
 		<Name>jackhammerAttackActionPickup</Name>
@@ -179,6 +186,7 @@
 		<Anim>BuildingAttack</Anim>
 		<Weapon>jackhammer</Weapon>
 		<MainAttack />
+		<FindBetterAction />
 		<Fatality attacker="Fatality_MarkIWarthog_01" target="Fatality_MarkIWarthog_01" cooldown="0">unsc_veh_warthog_01</Fatality>
 	</Action>
 	<Action>
@@ -187,6 +195,7 @@
 		<Anim>BuildingAttack</Anim>
 		<Weapon>Buildingjackhammer</Weapon>
 		<MainAttack />
+		<FindBetterAction />
 	</Action>
 	<Action>
 		<Name>RipOffPart</Name>
@@ -194,6 +203,7 @@
 		<Anim>RipOffPart</Anim>
 		<Weapon>RipOffPart</Weapon>
 		<MainAttack />
+		<FindBetterAction />
 		<DontLoopAttackAnim />
 		<PickupObject />
 	</Action>
@@ -203,6 +213,7 @@
 		<Anim>PickUpItem</Anim>
 		<Weapon>SmashInfantry</Weapon>
 		<MainAttack />
+		<FindBetterAction />
 		<DontLoopAttackAnim />
 		<PickupObjectOnKill />
 	</Action>
@@ -212,6 +223,7 @@
 		<Anim>Throw</Anim>
 		<Weapon>ThrowWeapon</Weapon>
 		<MainAttack />
+		<FindBetterAction />
 		<DontLoopAttackAnim />
 		<SquadMode>CarryingObject</SquadMode>
 		<DisableAttackWaitTimer />

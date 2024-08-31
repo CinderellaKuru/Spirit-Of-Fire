@@ -9870,7 +9870,7 @@
 		<LOS>55</LOS>
 		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
 		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
-		<Pop Type="Unit">0.5</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Bounty>3</Bounty>
 		<Veterancy Level="1" XP="6" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="15" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -10315,7 +10315,7 @@
 		<Velocity>15</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>20550</Hitpoints>
+		<Hitpoints>18500</Hitpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>
 		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="Bip01 Spine" />
@@ -10391,7 +10391,7 @@
 		<Velocity>15</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>20550</Hitpoints>
+		<Hitpoints>18500</Hitpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>
 		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="Bip01 Spine" />
@@ -10467,7 +10467,7 @@
 		<Velocity>15</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>20550</Hitpoints>
+		<Hitpoints>18500</Hitpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>
 		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="Bip01 Spine" />
@@ -35626,7 +35626,7 @@
 		<MovementType>Land</MovementType>
 		<Velocity>25</Velocity>
 		<TurnRate>180</TurnRate>
-		<Hitpoints>8550</Hitpoints>
+		<Hitpoints>10000</Hitpoints>
 		<Shieldpoints>0</Shieldpoints>
 		<AttackGradeDPS>350</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
@@ -35703,7 +35703,7 @@
 		<MovementType>Land</MovementType>
 		<Velocity>25</Velocity>
 		<TurnRate>180</TurnRate>
-		<Hitpoints>8550</Hitpoints>
+		<Hitpoints>10000</Hitpoints>
 		<Shieldpoints>0</Shieldpoints>
 		<AttackGradeDPS>350</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
