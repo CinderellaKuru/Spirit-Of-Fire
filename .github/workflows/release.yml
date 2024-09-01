@@ -1,0 +1,73 @@
+name: Auto Tag, Release, and ZIP Repo
+
+on:
+  push:
+    branches:
+      - master 
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Fetch all tags
+      run: git fetch --tags
+
+    - name: Get latest tag
+      id: get_latest_tag
+      run: echo ::set-output name=tag::$(git describe --tags `git rev-list --tags --max-count=1`)
+
+    - name: Calculate new tag
+      id: calc_new_tag
+      run: |
+        if [ -z "${{ steps.get_latest_tag.outputs.tag }}" ]; then
+          echo "No tags found, setting initial tag to v0.0.1"
+          echo ::set-output name=new_tag::v0.0.1
+        else
+          echo "Latest tag: ${{ steps.get_latest_tag.outputs.tag }}"
+          IFS='.' read -r -a parts <<< "${{ steps.get_latest_tag.outputs.tag#v }}"
+          major=${parts[0]}
+          minor=${parts[1]}
+          patch=${parts[2]}
+          new_tag="v$major.$minor.$((patch+1))"
+          echo "New tag: $new_tag"
+          echo ::set-output name=new_tag::$new_tag
+        fi
+
+    - name: Create new tag
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git tag ${{ steps.calc_new_tag.outputs.new_tag }}
+        git push origin ${{ steps.calc_new_tag.outputs.new_tag }}
+
+    - name: Install 7zip
+      run: sudo apt-get install p7zip-full -y
+
+    - name: Create ZIP file with maximum compression
+      run: 7z a -tzip -mx=9 spirit-of-fire.zip .
+
+    - name: Create GitHub Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ steps.calc_new_tag.outputs.new_tag }}
+        release_name: Release ${{ steps.calc_new_tag.outputs.new_tag }}
+        draft: false
+        prerelease: true
+
+    - name: Upload ZIP to Release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./spirit-of-fire.zip
+        asset_name: spirit-of-fire.zip
+        asset_content_type: application/zip
