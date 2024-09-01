@@ -2734,7 +2734,7 @@
 		<TurnRadius min="0.5" max="6" />
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
-		<CanAttackWhileMoving>false</CanAttackWhileMoving>
+		<CanAttackWhileMoving>true</CanAttackWhileMoving>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>

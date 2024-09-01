@@ -10955,8 +10955,8 @@
 		<MovementType>Land</MovementType>
 		<Velocity>15</Velocity>
 		<TurnRate>180</TurnRate>
-		<Shieldpoints>3000</Shieldpoints>
-		<Hitpoints>1333</Hitpoints>
+		<Shieldpoints>6000</Shieldpoints>
+		<Hitpoints>2500</Hitpoints>
 		<AttackGradeDPS>252</AttackGradeDPS>
 		<Hardpoint name="Turret" autocenter="true" yawrate="90" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="75" yawattachment="Turret" pitchattachment="Turret" />
 		<CombatValue>12</CombatValue>
@@ -11016,7 +11016,6 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
-		<Flag>DontAttackWhileMoving</Flag>
 		<HPBar>COV_Health</HPBar>
 	</Object>
 	<Object name="cov_veh_ghost_01" id="0" dbid="207">
