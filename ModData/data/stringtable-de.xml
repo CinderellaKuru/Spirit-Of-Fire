@@ -5019,8 +5019,8 @@ des Echo-Teams</String>
 		<String _locID="30127" category="Techs" subtitle="false">Fügt einen Energieschild hinzu, der einen Teil des Schadens abprallen lässt.</String>
 		<String _locID="30128" category="Techs" subtitle="false">SALVENFEUER</String>
 		<String _locID="30129" category="Techs" subtitle="false">Erlaubt dem AA Wraith seine Salvenfähigkeit zu nutzen.</String>
-		<String _locID="30130" category="Techs" subtitle="false">VERFOLGUNGSRAKETEN</String>
-		<String _locID="30131" category="Techs" subtitle="false">Lufteinheiten werden von diesen Schüssen verfolgt.</String>
+		<String _locID="30130" category="Techs" subtitle="false">BESSERE RAKETEN</String>
+		<String _locID="30131" category="Techs" subtitle="false">Der AA Wraith teilt mehr Schaden aus.</String>
 
 
 	    <!--Prophet of Regret-->

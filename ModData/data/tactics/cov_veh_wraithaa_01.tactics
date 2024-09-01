@@ -3,14 +3,14 @@
 	<Weapon>
 		<Name>FuelRodTurret</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
-		<WeaponType>AntiAir</WeaponType>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>AntiBuilding</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
 		<Hardpoint>Turret</Hardpoint>
-		<Accuracy>0.35</Accuracy>
+		<Accuracy>1</Accuracy>
 		<MaxDeviation>10</MaxDeviation>
 		<MovingAccuracy>0.1</MovingAccuracy>
 		<MovingMaxDeviation>15</MovingMaxDeviation>
@@ -29,7 +29,7 @@
 		<Dodgeable />
 		<Deflectable />
 	</Weapon>
-	<Weapon>
+	<!--<Weapon>
 		<Name>FuelRodTurretTracking</Name>
 		<AttackRate>6</AttackRate>
 		<DamagePerSecond>150</DamagePerSecond>
@@ -41,18 +41,18 @@
 		<Hardpoint>Turret</Hardpoint>
 		<TargetPriority type="Flying">10</TargetPriority>
 		<Dodgeable />
-	</Weapon>
+	</Weapon>-->
 	<Weapon>
 		<Name>BarrageWeapon</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>1000</DamagePerSecond>
+		<DamagePerSecond>1500</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Missile</WeaponType>
+		<WeaponType>AntiBuilding</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>90</MaxRange>
-		<Accuracy>0.35</Accuracy>
+		<Accuracy>0.7</Accuracy>
 		<MaxDeviation>12</MaxDeviation>
 		<MovingAccuracy>0</MovingAccuracy>
 		<MovingMaxDeviation>15</MovingMaxDeviation>
@@ -78,7 +78,7 @@
 		<MainAttack />
 		<DisableAttackWaitTimer />
 	</Action>
-	<Action>
+	<!--<Action>
 		<Name>FuelRodTrackingAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>MissileAttack2</Anim>
@@ -86,7 +86,7 @@
 		<MainAttack />
 		<DisableAttackWaitTimer />
 		<StartDisabled />
-	</Action>
+	</Action>-->
 	<Action>
 		<Name>BarrageAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -145,14 +145,13 @@
 		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
 			<Action>FuelRodAttackAction</Action>
 		</TargetRule>
-		<TargetRule>
+		<!--<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
 			<Action>FuelRodTrackingAttackAction</Action>
-		</TargetRule>
+		</TargetRule>-->
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>

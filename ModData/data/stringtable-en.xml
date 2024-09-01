@@ -5010,8 +5010,8 @@
 		<String _locID="30127" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
 		<String _locID="30128" category="Techs" subtitle="false">VOLLEY-ABILITY</String>
 		<String _locID="30129" category="Techs" subtitle="false">Allows the AA Wraith to use its volley ability.</String>
-		<String _locID="30130" category="Techs" subtitle="false">TRACKING ROCKETS</String>
-		<String _locID="30131" category="Techs" subtitle="false">Air Units are now being tracked by its fire.</String>
+		<String _locID="30130" category="Techs" subtitle="false">BETTER ROCKETS</String>
+		<String _locID="30131" category="Techs" subtitle="false">Fuel rod shots do more damage.</String>
 
 
 		<!--Prophet of Regret-->
