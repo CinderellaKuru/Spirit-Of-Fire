@@ -186,24 +186,6 @@
 		<ReloadAnim>ShotgunReload</ReloadAnim>
 		<Weapon>Shotgun</Weapon>
 		<MainAttack />
-	</Action>
-	<Action>
-		<Name>GrenadeAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>FragGrenadeAttack</Anim>
-		<SupportAnim>Support</SupportAnim>
-		<Weapon>Grenade</Weapon>
-		<MainAttack />
-		<DontLoopAttackAnim />
-		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
-	</Action>
-	<Action>
-		<Name>InCoverGrenadeAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>FragGrenadeAttack</Anim>
-		<Weapon>InCoverGrenade</Weapon>
-		<BaseDPSWeapon>InCoverAssaultRifle</BaseDPSWeapon>
-		<MainAttack />
 		<FindBetterAction />
 	</Action>
 	<Action>
@@ -298,18 +280,6 @@
 			<Relation>Enemy</Relation>
 			<Action>InCoverShotgunAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>InCoverGrenadeAttackAction</Action>
-			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<TargetType>NonFlying</TargetType>
-			<Action>GrenadeAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
