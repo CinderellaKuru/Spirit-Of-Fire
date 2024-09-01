@@ -3,7 +3,7 @@ name: Auto Tag, Release, and ZIP Repo
 on:
   push:
     branches:
-      - master 
+      - master
 
 jobs:
   release:
@@ -41,10 +41,14 @@ jobs:
           echo ::set-output name=new_tag::$new_tag
         fi
 
-    - name: Create new tag
+    - name: Configure Git to use PAT
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
+        git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
+
+    - name: Create new tag
+      run: |
         git tag ${{ steps.calc_new_tag.outputs.new_tag }}
         git push origin ${{ steps.calc_new_tag.outputs.new_tag }}
 
