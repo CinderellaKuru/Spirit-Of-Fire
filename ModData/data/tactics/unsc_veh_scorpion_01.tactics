@@ -3,18 +3,18 @@
 	<Weapon>
 		<Name>Machinegun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>136.350006</DamagePerSecond>
+		<DamagePerSecond>135</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_machineGun_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.1</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingAccuracy>0.05</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Flying">5</TargetPriority>
@@ -25,18 +25,18 @@
 	<Weapon>
 		<Name>Cannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>136.350006</DamagePerSecond>
+		<DamagePerSecond>120</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>65</MaxRange>
-		<Accuracy>0.200000003</Accuracy>
+		<Accuracy>0.2</Accuracy>
 		<MaxDeviation>7</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingAccuracy>0.1</MovingAccuracy>
 		<MovingMaxDeviation>10</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<AOERadius>8</AOERadius>
 		<AOEPrimaryTargetFactor>0.25</AOEPrimaryTargetFactor>
@@ -48,7 +48,7 @@
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>800</PhysicsForceMin>
 		<PhysicsForceMax>1200</PhysicsForceMax>
-		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Infantry">3</TargetPriority>
@@ -59,19 +59,19 @@
 	<Weapon>
 		<Name>specialAttack</Name>
 		<AttackRate>30</AttackRate>
-		<DamagePerSecond>1500</DamagePerSecond>
+		<DamagePerSecond>1200</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
 		<ImpactEffect size="Medium">canisterblast</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>80</MaxRange>
-		<Accuracy>0.200000003</Accuracy>
+		<Accuracy>0.2</Accuracy>
 		<MaxDeviation>7</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingAccuracy>0.1</MovingAccuracy>
 		<MovingMaxDeviation>10</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<AOERadius>12</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
@@ -83,7 +83,7 @@
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>400</PhysicsForceMin>
 		<PhysicsForceMax>600</PhysicsForceMax>
-		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
 		<TargetsFootOfUnit />
 		<Dodgeable />Q</Weapon>
 	<Action>
