@@ -50,8 +50,8 @@
 				<Data type="sound" name="HudLastFireSound">play_unsc_transport_vo_dropoff</Data>
 				<Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
 				<Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
-				<Data type="int" name="MaxGroundVehicles">3</Data>
-				<Data type="int" name="MaxInfantryUnits">6</Data>
+				<Data type="int" name="MaxGroundVehicles">6</Data>
+				<Data type="int" name="MaxInfantryUnits">12</Data>
 				<Data type="texture" name="Base">ui\flash\shared\textures\powers\TransportBase</Data>
 				<Data type="texture" name="Mover">ui\flash\shared\textures\powers\TransportMover</Data>
 				<Data type="float" name="MinTransportDistance">45</Data>
