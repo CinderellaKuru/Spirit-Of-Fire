@@ -29,7 +29,10 @@ jobs:
           echo ::set-output name=new_tag::v0.0.1
         else
           echo "Latest tag: ${{ steps.get_latest_tag.outputs.tag }}"
-          IFS='.' read -r -a parts <<< "${{ steps.get_latest_tag.outputs.tag#v }}"
+          latest_tag=${{ steps.get_latest_tag.outputs.tag }}
+          # Strip 'v' prefix if it exists
+          latest_tag_number=${latest_tag#v}
+          IFS='.' read -r -a parts <<< "$latest_tag_number"
           major=${parts[0]}
           minor=${parts[1]}
           patch=${parts[2]}
