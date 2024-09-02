@@ -49,7 +49,7 @@ jobs:
         import xml.etree.ElementTree as ET
         
         files_to_update = [
-            'ModData/data/stringable-en.xml',
+            'ModData/data/stringtable-en.xml',
             'ModData/data/stringtable-de.xml'
         ]
         
