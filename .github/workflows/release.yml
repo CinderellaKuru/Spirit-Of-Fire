@@ -25,21 +25,43 @@ jobs:
       id: calc_new_tag
       run: |
         if [ -z "${{ steps.get_latest_tag.outputs.tag }}" ]; then
-          echo "No tags found, setting initial tag to v0.0.1"
-          echo ::set-output name=new_tag::v0.0.1
+          echo "No tags found, setting initial tag to v0.1"
+          echo ::set-output name=new_tag::v0.1
         else
           echo "Latest tag: ${{ steps.get_latest_tag.outputs.tag }}"
           latest_tag=${{ steps.get_latest_tag.outputs.tag }}
-          # Strip 'v' prefix if it exists
-          latest_tag_number=${latest_tag#v}
-          IFS='.' read -r -a parts <<< "$latest_tag_number"
-          major=${parts[0]}
-          minor=${parts[1]}
-          patch=${parts[2]}
-          new_tag="v$major.$minor.$((patch+1))"
+          # Extract the patch number
+          latest_tag_number=${latest_tag#v0.}
+          new_patch=$((latest_tag_number + 1))
+          new_tag="v0.$new_patch"
           echo "New tag: $new_tag"
           echo ::set-output name=new_tag::$new_tag
         fi
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Update version in XML files
+      run: |
+        python3 -c "
+import xml.etree.ElementTree as ET
+
+files_to_update = [
+    'ModData/data/stringable-en.xml',
+    'ModData/data/stringtable-de.xml'
+]
+
+new_version = '${{ steps.calc_new_tag.outputs.new_tag }}'
+
+for file in files_to_update:
+    tree = ET.parse(file)
+    root = tree.getroot()
+    for string in root.findall('.//String[@_locID=\"26217\"]'):
+        string.text = f'Halo Wars Spirit of Fire v{new_version} Early Access'
+    tree.write(file, encoding='utf-8', xml_declaration=True)
+        "
 
     - name: Install 7zip
       run: sudo apt-get install p7zip-full -y
@@ -54,7 +76,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: ${{ steps.calc_new_tag.outputs.new_tag }}
-        release_name: Release ${{ steps.calc_new_tag.outputs.new_tag }}
+        release_name: ${{ steps.calc_new_tag.outputs.new_tag }}
         draft: false
         prerelease: false
 
