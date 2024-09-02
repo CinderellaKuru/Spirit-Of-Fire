@@ -19,7 +19,10 @@ jobs:
 
     - name: Get latest tag
       id: get_latest_tag
-      run: echo ::set-output name=tag::$(git describe --tags git rev-list --tags --max-count=1)
+      run: |
+        latest_tag=$(git describe --tags $(git rev-list --tags --max-count=1))
+        echo "Latest tag: $latest_tag"
+        echo ::set-output name=tag::$latest_tag
 
     - name: Calculate new tag
       id: calc_new_tag
@@ -30,12 +33,17 @@ jobs:
         else
           echo "Latest tag: ${{ steps.get_latest_tag.outputs.tag }}"
           latest_tag=${{ steps.get_latest_tag.outputs.tag }}
-          # Extract the patch number
-          latest_tag_number=${latest_tag#v0.}
-          new_patch=$((latest_tag_number + 1))
-          new_tag="v0.$new_patch"
-          echo "New tag: $new_tag"
-          echo ::set-output name=new_tag::$new_tag
+          # Extract the major and patch number
+          if [[ $latest_tag =~ ^v0\.[0-9]+$ ]]; then
+            latest_tag_number=${latest_tag#v0.}
+            new_patch=$((latest_tag_number + 1))
+            new_tag="v0.$new_patch"
+            echo "New tag: $new_tag"
+            echo ::set-output name=new_tag::$new_tag
+          else
+            echo "Unexpected tag format: $latest_tag"
+            exit 1
+          fi
         fi
 
     - name: Set up Python
