@@ -59,7 +59,7 @@ jobs:
             tree = ET.parse(file)
             root = tree.getroot()
             for string in root.findall('.//String[@_locID=\"26217\"]'):
-                string.text = f'Halo Wars Spirit of Fire v{new_version} Early Access'
+                string.text = f'Halo Wars Spirit of Fire {new_version} Early Access'
             tree.write(file, encoding='utf-8', xml_declaration=True)
         "
 
@@ -67,7 +67,7 @@ jobs:
       run: sudo apt-get install p7zip-full -y
 
     - name: Create ZIP file with ModData and .hwmod file
-      run: 7z a -tzip -mx=9 spirit-of-fire.zip ./ModData ./*.hwmod
+      run: 7z a -tzip -mx=5 spirit-of-fire.zip ./ModData ./*.hwmod
 
     - name: Create GitHub Release
       id: create_release
