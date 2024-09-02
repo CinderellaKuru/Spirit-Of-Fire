@@ -45,23 +45,23 @@ jobs:
 
     - name: Update version in XML files
       run: |
-        python3 - <<EOF
-import xml.etree.ElementTree as ET
-
-files_to_update = [
-    'ModData/data/stringable-en.xml',
-    'ModData/data/stringtable-de.xml'
-]
-
-new_version = "${{ steps.calc_new_tag.outputs.new_tag }}"
-
-for file in files_to_update:
-    tree = ET.parse(file)
-    root = tree.getroot()
-    for string in root.findall('.//String[@_locID="26217"]'):
-        string.text = f"Halo Wars Spirit of Fire v{new_version} Early Access"
-    tree.write(file, encoding='utf-8', xml_declaration=True)
-EOF
+        python3 -c "
+        import xml.etree.ElementTree as ET
+        
+        files_to_update = [
+            'ModData/data/stringable-en.xml',
+            'ModData/data/stringtable-de.xml'
+        ]
+        
+        new_version = '${{ steps.calc_new_tag.outputs.new_tag }}'
+        
+        for file in files_to_update:
+            tree = ET.parse(file)
+            root = tree.getroot()
+            for string in root.findall('.//String[@_locID=\"26217\"]'):
+                string.text = f'Halo Wars Spirit of Fire v{new_version} Early Access'
+            tree.write(file, encoding='utf-8', xml_declaration=True)
+        "
 
     - name: Install 7zip
       run: sudo apt-get install p7zip-full -y
