@@ -2,8 +2,8 @@
 <TacticData>
 	<Weapon>
 		<Name>InCoverRocketWeapon</Name>
-		<AttackRate>1</AttackRate>
-		<DamagePerSecond>28</DamagePerSecond>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
 		<WeaponType>Rocket</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
@@ -21,55 +21,6 @@
 		<PhysicsForceMax>1100</PhysicsForceMax>
 		<PostAttackCooldownMin>1</PostAttackCooldownMin>
 		<PostAttackCooldownMax>5</PostAttackCooldownMax>
-		<Dodgeable />
-	</Weapon>
-	<Weapon>
-		<Name>InCoverGrenade</Name>
-		<AttackRate>1</AttackRate>
-		<DamagePerSecond>14</DamagePerSecond>
-		<WeaponType>Grenade</WeaponType>
-		<Projectile>fx_proj_grenade_01</Projectile>
-		<ImpactEffect size="Medium">tankshell</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
-		<Accuracy>0.3</Accuracy>
-		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.15</MovingAccuracy>
-		<MovingMaxDeviation>6</MovingMaxDeviation>
-		<AOERadius>4</AOERadius>
-		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
-		<AOEDistanceFactor>0.25</AOEDistanceFactor>
-		<AOEDamageFactor>0.5</AOEDamageFactor>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>900</PhysicsForceMin>
-		<PhysicsForceMax>1100</PhysicsForceMax>
-		<Dodgeable />
-	</Weapon>
-	<Weapon>
-		<Name>Grenade</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>280</DamagePerSecond>
-		<UseDPSasDPA />
-		<WeaponType>Grenade</WeaponType>
-		<Projectile>fx_proj_grenade_01</Projectile>
-		<ImpactEffect size="Medium">tankshell</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<Accuracy>0.3</Accuracy>
-		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.3</MovingAccuracy>
-		<MovingMaxDeviation>4</MovingMaxDeviation>
-		<AOERadius>4</AOERadius>
-		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
-		<AOEDistanceFactor>0.25</AOEDistanceFactor>
-		<AOEDamageFactor>0.5</AOEDamageFactor>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>900</PhysicsForceMin>
-		<PhysicsForceMax>1100</PhysicsForceMax>
 		<Dodgeable />
 	</Weapon>
 	<Weapon>
@@ -97,8 +48,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>RocketWeapon</Name>
-		<AttackRate>0.75</AttackRate>
-		<DamagePerSecond>60</DamagePerSecond>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Rocket</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>

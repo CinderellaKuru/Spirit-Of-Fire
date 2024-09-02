@@ -25,7 +25,7 @@
 	<Weapon>
 		<Name>Cannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>140</DamagePerSecond>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_cannon_02</Projectile>
 		<ImpactEffect size="Medium">tankshell_02</ImpactEffect>
@@ -59,7 +59,7 @@
 	<Weapon>
 		<Name>specialAttack</Name>
 		<AttackRate>30</AttackRate>
-		<DamagePerSecond>1600</DamagePerSecond>
+		<DamagePerSecond>1000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>

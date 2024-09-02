@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaCannon</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>400</DamagePerSecond>
+		<DamagePerSecond>650</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>FuelRod</WeaponType>
 		<Projectile>fx_proj_shadeplasma_03</Projectile>
@@ -26,7 +26,7 @@
 	<Weapon>
 		<Name>FuelRodTurret</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>600</DamagePerSecond>
+		<DamagePerSecond>800</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>FuelRod</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>

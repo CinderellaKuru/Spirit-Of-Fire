@@ -5584,7 +5584,7 @@
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
 		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
-		<DamageType direction="Full" mode="Cover">LightArmoredInCover</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -5666,7 +5666,7 @@
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
 		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
-		<DamageType direction="Full" mode="Cover">LightArmoredInCover</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -10197,7 +10197,6 @@
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Hero</ObjectType>
 		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -10277,7 +10276,6 @@
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Hero</ObjectType>
 		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -10356,7 +10354,6 @@
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Hero</ObjectType>
 		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -10432,7 +10429,6 @@
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Hero</ObjectType>
 		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -10590,7 +10586,6 @@
 		<ObjectType>HighValueUnit</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>Infantry</ObjectType>
@@ -10668,7 +10663,6 @@
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Flying</ObjectType>
-		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>AirCraft</ObjectType>
@@ -33446,11 +33440,11 @@
 		<Pop Type="Spartan">1</Pop>
 		<Bounty>40</Bounty>
 		<RamDodgeFactor>1</RamDodgeFactor>
-		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
-		<Veterancy Level="2" XP="60" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
-		<Veterancy Level="3" XP="108" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
-		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.9" />
+		<Veterancy Level="2" XP="60" Damage="1.20" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.85" />
+		<Veterancy Level="3" XP="108" Damage="1.25" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.80" />
+		<Veterancy Level="4" XP="0" Damage="1.5" Velocity="1" Accuracy="1.1" WorkRate="1.5" WeaponRange="1" DamageTaken="0.75" />
+		<Veterancy Level="5" XP="0" Damage="1.5" Velocity="1" Accuracy="1.2" WorkRate="1.5" WeaponRange="1" DamageTaken="0.75" />
 		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
 		<AmmoMax>60</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
@@ -33733,7 +33727,7 @@
 		<Sound Type="Ability">play_unsc_odst_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_odst.bnk</ExtendedSoundBank>
 		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
-		<DamageType direction="Full" mode="Cover">LightArmoredInCover</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -33812,7 +33806,7 @@
 		<Sound Type="Ability">play_unsc_odst_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_odst.bnk</ExtendedSoundBank>
 		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
-		<DamageType direction="Full" mode="Cover">LightArmoredInCover</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -33865,11 +33859,11 @@
 		<Pop Type="Spartan">1</Pop>
 		<Bounty>40</Bounty>
 		<RamDodgeFactor>1</RamDodgeFactor>
-		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
-		<Veterancy Level="2" XP="60" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
-		<Veterancy Level="3" XP="108" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
-		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.9" />
+		<Veterancy Level="2" XP="60" Damage="1.20" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.85" />
+		<Veterancy Level="3" XP="108" Damage="1.25" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.80" />
+		<Veterancy Level="4" XP="0" Damage="1.5" Velocity="1" Accuracy="1.1" WorkRate="1.5" WeaponRange="1" DamageTaken="0.75" />
+		<Veterancy Level="5" XP="0" Damage="1.5" Velocity="1" Accuracy="1.2" WorkRate="1.5" WeaponRange="1" DamageTaken="0.75" />
 		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
 		<AmmoMax>60</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
@@ -34047,11 +34041,11 @@
 		<Pop Type="Spartan">1</Pop>
 		<Bounty>40</Bounty>
 		<RamDodgeFactor>1</RamDodgeFactor>
-		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
-		<Veterancy Level="2" XP="60" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
-		<Veterancy Level="3" XP="108" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
-		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.9" />
+		<Veterancy Level="2" XP="60" Damage="1.20" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.85" />
+		<Veterancy Level="3" XP="108" Damage="1.25" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.80" />
+		<Veterancy Level="4" XP="0" Damage="1.5" Velocity="1" Accuracy="1.1" WorkRate="1.5" WeaponRange="1" DamageTaken="0.75" />
+		<Veterancy Level="5" XP="0" Damage="1.5" Velocity="1" Accuracy="1.2" WorkRate="1.5" WeaponRange="1" DamageTaken="0.75" />
 		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
 		<AmmoMax>60</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
@@ -35674,7 +35668,6 @@
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
 		<ObjectType>EmpEffectNormal</ObjectType>
-		<ObjectType>SpartanBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
@@ -35756,7 +35749,6 @@
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
 		<ObjectType>EmpEffectNormal</ObjectType>
-		<ObjectType>SpartanBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
