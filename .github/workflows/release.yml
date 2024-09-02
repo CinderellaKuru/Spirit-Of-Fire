@@ -33,7 +33,6 @@ jobs:
         else
           echo "Latest tag: ${{ steps.get_latest_tag.outputs.tag }}"
           latest_tag=${{ steps.get_latest_tag.outputs.tag }}
-          # Extract the major and patch number
           if [[ $latest_tag =~ ^v0\.[0-9]+$ ]]; then
             latest_tag_number=${latest_tag#v0.}
             new_patch=$((latest_tag_number + 1))
