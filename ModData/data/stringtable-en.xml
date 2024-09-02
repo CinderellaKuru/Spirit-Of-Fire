@@ -2974,7 +2974,7 @@
 		<String _locID="24667" category="Skirmish" subtitle="false">A fast and brutal fight awaits in Blood Gulch. Teleporters allow for surprise attacks, while bonus Reactors offer opportunities for the aggressive.</String>
 		<String _locID="24668" category="Skirmish" subtitle="false">TERMINAL MORAINE (2v2) (unsupported)</String>
 		<String _locID="24669" category="Skirmish" subtitle="false">Sections of the map are only accessible by timed light bridges. Watch for the bridges to start blinking - any units on the bridges when the bridges turn off are doomed.</String>
-		<String _locID="24670" category="Skirmish" subtitle="false">FORT DEEN (3v3) (unsupported)</String>
+		<String _locID="24670" category="Skirmish" subtitle="false">FORT DEEN (3v3)</String>
 		<String _locID="24671" category="Skirmish" subtitle="false">Named for a famous UNSC colonel who broke a Covenant siege, this divided map features highly defendable lanes, but strategically-placed teleporters offer clever attackers alternatives.</String>
 		<String _locID="24672" category="UI" subtitle="false">E3 Demo</String>
 		<String _locID="24673" category="UI" subtitle="false">E3 Demonstration mode</String>

@@ -98,7 +98,28 @@
   <BuildingTextureIndexCOVN>0</BuildingTextureIndexCOVN>
   <DesignObjects>
     <Spheres>
-      <Sphere ID="351" Name="DesignSphere351" Position="944.4349,4.751901,1001.957" Radius="25">
+      <Sphere ID="351" Name="DesignSphere351" Position="834.0761,-8.88,783.2491" Radius="25">
+        <Data>
+          <Type>Creeps</Type>
+          <Attract>0</Attract>
+          <Repel>0</Repel>
+          <ChokePoint>0</ChokePoint>
+          <Value>0</Value>
+          <Value1 />
+          <Value2 />
+          <Value3 />
+          <Value4 />
+          <Value5 />
+          <Value6 />
+          <Value7 />
+          <Value8 />
+          <Value9 />
+          <Value10 />
+          <Value11 />
+          <Value12 />
+        </Data>
+      </Sphere>
+      <Sphere ID="351" Name="DesignSphere351" Position="841.4,-8.88,928.8" Radius="25">
         <Data>
           <Type>Creeps</Type>
           <Attract>0</Attract>
@@ -287,7 +308,7 @@
           <Value12 />
         </Data>
       </Sphere>
-      <Sphere ID="351" Name="DesignSphere351" Position="1180.549,-8.1072,641.1885" Radius="25">
+      <Sphere ID="351" Name="DesignSphere351" Position="1148.3,-8.1072,641.1885" Radius="25">
         <Data>
           <Type>Creeps</Type>
           <Attract>0</Attract>
@@ -308,7 +329,7 @@
           <Value12 />
         </Data>
       </Sphere>
-      <Sphere ID="352" Name="DesignSphere352" Position="640.1453,-28.1865,667" Radius="150.5">
+      <Sphere ID="352" Name="DesignSphere352" Position="640.1453,-28.1865,667" Radius="106.4">
         <Data>
           <Type>Creeps</Type>
           <Attract>0</Attract>
@@ -519,6 +540,14 @@
     <Object IsSquad="false" Player="0" ID="50" TintValue="1" EditorName="game_base_Socket_01_50" Position="336.6006,-11.7376,777.0901" Forward="-0.9999999,0,-1.192093E-07" Right="-1.192093E-07,0,0.9999999" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
     <Object IsSquad="false" Player="0" ID="47" TintValue="1" EditorName="game_base_Socket_01_47" Position="980.2391,-11.7412,780.2423" Forward="-0.9999999,0,-1.192093E-07" Right="-1.192093E-07,0,0.9999999" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
     <Object IsSquad="false" Player="0" ID="45" TintValue="1" EditorName="game_base_Socket_01_45" Position="338.8439,-11.7402,500.2234" Forward="0.9999999,0,-1.192093E-07" Right="-1.192093E-07,0,-0.9999999" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+    <Object IsSquad="false" Player="0" ID="361" TintValue="1" EditorName="sys_creepDifficulty_medium_01_361 (1)" Position="348.7732,-10.21,484.5774" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
+    <Object IsSquad="false" Player="0" ID="361" TintValue="1" EditorName="sys_creepDifficulty_medium_01_361 (2)" Position="152,-11.14,173.9" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
+    <Object IsSquad="false" Player="0" ID="361" TintValue="1" EditorName="sys_creepDifficulty_medium_01_361 (3)" Position="1110,-10.22,173.9" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
+    <Object IsSquad="false" Player="0" ID="361" TintValue="1" EditorName="sys_creepDifficulty_medium_01_361 (4)" Position="940,-9.54,532" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
+    <Object IsSquad="false" Player="0" ID="361" TintValue="1" EditorName="sys_creepDifficulty_medium_01_361 (5)" Position="988,-9.54,785" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
+    <Object IsSquad="false" Player="0" ID="361" TintValue="1" EditorName="sys_creepDifficulty_medium_01_361 (6)" Position="339,-9.54,785" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
+    <Object IsSquad="false" Player="0" ID="361" TintValue="1" EditorName="sys_creepDifficulty_medium_01_361 (7)" Position="167,-9.54,1139" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
+    <Object IsSquad="false" Player="0" ID="361" TintValue="1" EditorName="sys_creepDifficulty_medium_01_361 (8)" Position="1124.92,-9.54,1139" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
     <Object IsSquad="false" Player="0" ID="43" TintValue="1" EditorName="game_base_Socket_01_43" Position="159.6863,-11.8381,153.4091" Forward="-0.9999291,0,0.01190054" Right="0.01190054,0,0.9999291" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
     <Object IsSquad="false" Player="0" ID="49" TintValue="1" EditorName="game_base_Socket_01_49" Position="161.1078,-12.1226,1129.989" Forward="0.9999974,0,-0.002300024" Right="-0.002300024,0,-0.9999974" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
     <Object IsSquad="false" Player="0" ID="46" TintValue="1" EditorName="game_base_Socket_01_46" Position="936.4426,-11.7412,513.673" Forward="0.9999999,0,-1.192093E-07" Right="-1.192093E-07,0,-0.9999999" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
@@ -536,24 +565,14 @@
     <Object IsSquad="false" Player="0" ID="339" TintValue="1" EditorName="TeleporterC" Position="647.272,32.7328,87.0685" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_bldg_teleporter2way_01</Object>
     <Object IsSquad="false" Player="0" ID="12007" TintValue="1" EditorName="hook_bldg_wall_01_12007" Position="648.4368,-27.409,639.4859" Forward="-0.9916711,0,-0.1287963" Right="-0.1287963,0,0.9916711" Group="-1" VisualVariationIndex="0">hook_bldg_wall_01</Object>
     <Object IsSquad="false" Player="0" ID="12010" TintValue="1" EditorName="hook_bldg_wall_01_12010" Position="1140.923,-10.2967,643.2373" Forward="-0.9974977,0,0.07069963" Right="0.07069963,0,0.9974977" Group="-1" VisualVariationIndex="0">hook_bldg_wall_01</Object>
-    <Object IsSquad="false" Player="0" ID="9994" TintValue="1" EditorName="hook_bldg_wall_01_9994" Position="759.4,-6.5,479.2" Forward="-0.6380663,0,-0.7699814" Right="-0.7699814,0,0.6380663" Group="-1" VisualVariationIndex="0">hook_bldg_wall_01</Object>
-    <Object IsSquad="false" Player="0" ID="9995" TintValue="1" EditorName="hook_bldg_wall_02_9995" Position="802.3,-6.8,611.3" Forward="0.6380693,0,-0.769979" Right="-0.769979,0,-0.6380693" Group="-1" VisualVariationIndex="0">hook_bldg_wall_02</Object>
     <Object IsSquad="false" Player="0" ID="12006" TintValue="1" EditorName="hook_bldg_wall_01_12006" Position="627.0662,-28.6944,638.9551" Forward="0.9974977,0,0.07069963" Right="0.07069963,0,-0.9974977" Group="-1" VisualVariationIndex="0">hook_bldg_wall_01</Object>
     <Object IsSquad="false" Player="0" ID="12005" TintValue="1" EditorName="hook_bldg_wall_01_12005" Position="102.4531,-14.4334,639.4281" Forward="0.9999904,0,0.004399896" Right="0.004399896,0,-0.9999904" Group="-1" VisualVariationIndex="0">hook_bldg_wall_01</Object>
     <Object IsSquad="false" Player="0" ID="12009" TintValue="1" EditorName="hook_bldg_wall_02_12009" Position="764.8788,-11.0608,636.3372" Forward="0.9635609,0,0.2674893" Right="0.2674893,0,-0.9635609" Group="-1" VisualVariationIndex="0">hook_bldg_wall_02</Object>
     <Object IsSquad="false" Player="0" ID="12004" TintValue="1" EditorName="hook_bldg_wall_02_12004" Position="36.6753,-14.0028,640.9232" Forward="-0.9916711,0,-0.1287963" Right="-0.1287963,0,0.9916711" Group="-1" VisualVariationIndex="0">hook_bldg_wall_02</Object>
     <Object IsSquad="false" Player="0" ID="12008" TintValue="1" EditorName="hook_bldg_wall_02_12008" Position="477.4462,-11.9199,639.3372" Forward="-0.9995737,0,-0.02919948" Right="-0.02919948,0,0.9995737" Group="-1" VisualVariationIndex="0">hook_bldg_wall_02</Object>
     <Object IsSquad="false" Player="0" ID="12011" TintValue="1" EditorName="hook_bldg_wall_02_12011" Position="1210.657,-12.8173,640.3918" Forward="0.9916711,0,-0.1287963" Right="-0.1287963,0,-0.9916711" Group="-1" VisualVariationIndex="0">hook_bldg_wall_02</Object>
-    <Object IsSquad="false" Player="0" ID="12056" TintValue="1" EditorName="sys_creepDifficulty_easy_01_12056" Position="188.1642,-11.8227,140.2459" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
-    <Object IsSquad="false" Player="0" ID="12051" TintValue="1" EditorName="sys_creepDifficulty_easy_01_12051" Position="1009.493,-11.7726,794.5051" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
-    <Object IsSquad="false" Player="0" ID="12054" TintValue="1" EditorName="sys_creepDifficulty_easy_01_12054" Position="1151.861,-11.7714,137.5021" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
-    <Object IsSquad="false" Player="0" ID="12055" TintValue="1" EditorName="sys_creepDifficulty_easy_01_12055" Position="366.0567,-11.7709,482.2913" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
-    <Object IsSquad="false" Player="0" ID="12050" TintValue="1" EditorName="sys_creepDifficulty_easy_01_12050" Position="299.0603,-11.7726,787.7" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
-    <Object IsSquad="false" Player="0" ID="12053" TintValue="1" EditorName="sys_creepDifficulty_easy_01_12053" Position="968.8667,-11.7726,495.2357" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
-    <Object IsSquad="false" Player="0" ID="12052" TintValue="1" EditorName="sys_creepDifficulty_easy_01_12052" Position="1150.965,-11.7726,1135.394" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
-    <Object IsSquad="false" Player="0" ID="12049" TintValue="1" EditorName="sys_creepDifficulty_easy_01_12049" Position="192.5482,-11.7776,1123.573" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
     <Object IsSquad="false" Player="0" ID="362" TintValue="1" EditorName="sys_creepDifficulty_medium_01_362" Position="649.9428,23.2588,1173.056" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
-    <Object IsSquad="false" Player="0" ID="361" TintValue="1" EditorName="sys_creepDifficulty_medium_01_361" Position="651.9374,34.3517,63.6043" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+    <Object IsSquad="false" Player="0" ID="361" TintValue="1" EditorName="sys_creepDifficulty_medium_01_361" Position="651.9374,34.3517,91.5" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="363" TintValue="1" EditorName="sys_creepDifficulty_medium_01_363" Position="647.6784,-25.5866,623.0385" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="366" TintValue="1" EditorName="sys_creepReward_medium_01_366" Position="647.2774,31.3591,111.6972" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
     <Object IsSquad="false" Player="0" ID="364" TintValue="1" EditorName="sys_creepReward_medium_01_364" Position="655.3209,-25.0881,637.7225" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
@@ -567,7 +586,7 @@
     <Object IsSquad="false" Player="0" ID="368" TintValue="1" EditorName="sys_creepReward_small_01_368" Position="172.506,-10.6182,206.0828" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
     <Object IsSquad="false" Player="0" ID="373" TintValue="1" EditorName="sys_creepReward_small_01_373" Position="325.323,-11.7409,734.6509" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
     <Object IsSquad="false" Player="0" ID="376" TintValue="1" EditorName="sys_creepReward_small_01_376" Position="1132.539,-11.7367,1077.966" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
-    <Object IsSquad="false" Player="0" ID="375" TintValue="1" EditorName="sys_creepReward_small_01_375" Position="1202.2,-13.4031,641.883" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+    <Object IsSquad="false" Player="0" ID="375" TintValue="1" EditorName="sys_creepReward_small_01_375" Position="1169.951,-6.5,641.883" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
     <Object IsSquad="false" Player="0" ID="12045" TintValue="1" EditorName="sys_creepWorld_Arcadia_01_12045" Position="973.8157,-11.7726,513.3596" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepWorld_Arcadia_01</Object>
     <Object IsSquad="false" Player="0" ID="12047" TintValue="1" EditorName="sys_creepWorld_Arcadia_01_12047" Position="188.212,-11.8259,155.0878" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepWorld_Arcadia_01</Object>
     <Object IsSquad="false" Player="0" ID="12044" TintValue="1" EditorName="sys_creepWorld_Arcadia_01_12044" Position="1081.958,-11.7726,1122.167" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepWorld_Arcadia_01</Object>
@@ -654,18 +673,20 @@
     <Object IsSquad="false" Player="0" ID="393" TintValue="1" EditorName="sys_rebelMarker_infantry_01_393" Position="128.7584,-11.7412,160.0343" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="379" TintValue="1" EditorName="sys_rebelMarker_infantry_01_379" Position="373.2703,-11.7355,495.7401" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="449" TintValue="1" EditorName="sys_rebelMarker_infantry_01_449" Position="630.1092,23.2588,1186.465" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="396" TintValue="1" EditorName="sys_rebelMarker_infantry_01_396" Position="1193.482,-11.8591,624.2313" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="396" TintValue="1" EditorName="sys_rebelMarker_infantry_01_396" Position="1161.233,-11.8591,624.2313" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="396" TintValue="1" EditorName="sys_rebelMarker_infantry_01_396 (1)" Position="883.6,-6.2,259.6" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="396" TintValue="1" EditorName="sys_rebelMarker_infantry_01_396 (2)" Position="362.868,-3.196,260.2848" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="397" TintValue="1" EditorName="sys_rebelMarker_infantry_01_397 (2)" Position="359.5,-3.3,285.8" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="396" TintValue="1" EditorName="sys_rebelMarker_infantry_01_396 (3)" Position="306,1,985" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="396" TintValue="1" EditorName="sys_rebelMarker_infantry_01_396 (4)" Position="957.368,1,985" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="397" TintValue="1" EditorName="sys_rebelMarker_infantry_01_397 (4)" Position="954,0.8959999,1010.515" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="396" TintValue="1" EditorName="sys_rebelMarker_infantry_01_396 (4)" Position="854.3331,-12.6319,911.843" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="397" TintValue="1" EditorName="sys_rebelMarker_infantry_01_397 (4)" Position="850.9651,-12.7359,937.358" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="437" TintValue="1" EditorName="sys_marker_crate3A_01_437 (1)" Position="857.8489,-14.0423,789.7505" Forward="0.7266821,0,-0.686974" Right="-0.686974,0,-0.7266821" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="396" TintValue="1" EditorName="sys_rebelMarker_infantry_01_396 (5)" Position="826,-12.6319,797.5" Forward="0.7266821,0,-0.686974" Right="-0.686974,0,-0.7266821" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="397" TintValue="1" EditorName="sys_rebelMarker_infantry_01_397 (5)" Position="833.724,-12.7359,770.4184" Forward="0.7266821,0,-0.686974" Right="-0.686974,0,-0.7266821" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="10004968" TintValue="1" EditorName="env_arcadia_onibuilding_01_11839 (1)" Position="839.3254,-10.1,759.2955" Forward="-0.6593975,0,-0.7517946" Right="-0.7517946,0,0.6593975" Group="3" VisualVariationIndex="0">env_arcadia_onibuilding_01<Flag>IncludeInSimRep</Flag></Object>
     <Object IsSquad="false" Player="0" ID="397" TintValue="1" EditorName="sys_rebelMarker_infantry_01_397 (3)" Position="302.632,0.8959999,1010.515" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (15)" Position="629.0034,-13.3,835.2" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (16)" Position="678.4,-13.3,851.8" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (17)" Position="639.02,-19.74,799.66" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (18)" Position="683.5,-13.3,826.1" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (19)" Position="603.39,-13.3,849.79" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="397" TintValue="1" EditorName="sys_rebelMarker_infantry_01_397 (1)" Position="880.2319,-6.304,285.1152" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="391" TintValue="1" EditorName="sys_rebelMarker_infantry_01_391" Position="1159.554,-11.741,152.6093" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
@@ -676,32 +697,29 @@
     <Object IsSquad="false" Player="0" ID="385" TintValue="1" EditorName="sys_rebelMarker_infantry_01_385" Position="366.4788,-11.7303,777.6034" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="390" TintValue="1" EditorName="sys_rebelMarker_infantry_01_390" Position="1154.834,-11.7393,168.3869" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="392" TintValue="1" EditorName="sys_rebelMarker_infantry_01_392" Position="126.4102,-11.7412,181.2979" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="397" TintValue="1" EditorName="sys_rebelMarker_infantry_01_397" Position="1190.114,-11.9631,649.7465" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="397" TintValue="1" EditorName="sys_rebelMarker_infantry_01_397" Position="1140.8,-7.9,644.6" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="395" TintValue="1" EditorName="sys_rebelMarker_infantry_01_395" Position="91.0751,-15.4976,650.1946" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="381" TintValue="1" EditorName="sys_rebelMarker_infantry_01_381" Position="901.1727,-11.7412,513.7056" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457" Position="629.0034,-25.9361,630.571" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (1)" Position="629.0034,-25.9361,607.1" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (10)" Position="619.12,-12.01,494.92" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (11)" Position="648.4,-13.3,534.2" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (12)" Position="644.1,-13.3,492.7" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (13)" Position="678.46,-9.29,493.52" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (14)" Position="607.9,-13.3,526.3" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (2)" Position="717.5,-16.3,607.1" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (3)" Position="717.5,-16.3,710.6" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (4)" Position="628.2,-16.3,710.6" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (5)" Position="565,-16.3,710.6" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (6)" Position="565,-16.3,645.1" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (7)" Position="565,-16.3,565.2" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (8)" Position="528.5,-16.3,565.2" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (9)" Position="528.5,-16.3,593.4" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (7)" Position="565,-16.3,620.8" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="457" TintValue="1" EditorName="sys_rebelMarker_infantry_01_457 (8)" Position="579.5,-16.3,598.2" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="389" TintValue="1" EditorName="sys_rebelMarker_infantry_01_389" Position="1156.088,-11.7397,1109.86" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="450" TintValue="1" EditorName="sys_rebelMarker_infantry_01_450" Position="652.8528,23.2588,1204.57" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="388" TintValue="1" EditorName="sys_rebelMarker_infantry_01_388" Position="1159.115,-11.7412,1130.844" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="380" TintValue="1" EditorName="sys_rebelMarker_infantry_01_380" Position="904.4919,-11.6201,536.0132" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="394" TintValue="1" EditorName="sys_rebelMarker_infantry_01_394" Position="90.7357,-15.5131,632.5168" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="408" TintValue="1" EditorName="sys_rebelMarker_infantry_01_408" Position="645.8334,-25.4167,651.6705" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="394" TintValue="1" EditorName="sys_rebelMarker_infantry_01_394" Position="103.43,-13.33,638.7" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="408" TintValue="1" EditorName="sys_rebelMarker_infantry_01_408" Position="647.74,-25.4167,639.54" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="406" TintValue="1" EditorName="sys_rebelMarker_infantry_01_406" Position="633.0641,32.4599,92.1853" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
-    <Object IsSquad="false" Player="0" ID="409" TintValue="1" EditorName="sys_rebelMarker_infantry_01_409" Position="632.4523,-25.8684,651.8513" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+    <Object IsSquad="false" Player="0" ID="409" TintValue="1" EditorName="sys_rebelMarker_infantry_01_409" Position="627.26,-27.04,639.31" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="452" TintValue="1" EditorName="sys_rebelMarker_infantry_01_452" Position="635.8016,34.4929,75.0302" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="382" TintValue="1" EditorName="sys_rebelMarker_infantry_01_382" Position="946.6,-11.7412,793" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
     <Object IsSquad="false" Player="0" ID="383" TintValue="1" EditorName="sys_rebelMarker_infantry_01_383" Position="946.7776,-11.7412,773.9657" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
@@ -725,8 +743,6 @@
       <TriggerVar ID="2027" Type="Squad" Name="" IsNull="false">12009</TriggerVar>
       <TriggerVar ID="2028" Type="Squad" Name="" IsNull="false">12006</TriggerVar>
       <TriggerVar ID="2029" Type="Squad" Name="" IsNull="false">12008</TriggerVar>
-      <TriggerVar ID="9994" Type="Squad" Name="" IsNull="false">9994</TriggerVar>
-      <TriggerVar ID="9995" Type="Squad" Name="" IsNull="false">9995</TriggerVar>
     </TriggerVars>
     <Triggers>
       <Trigger ID="105" Name="newTrigger105" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="365" Y="4281" GroupID="-1" TemplateID="-1">
@@ -755,18 +771,6 @@
           </Effect>
           <Effect ID="110" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
             <Input Name="String" SigID="1" Optional="false">1966</Input>
-          </Effect>
-        </TriggerEffectsOnTrue>
-        <TriggerEffectsOnFalse />
-      </Trigger>
-      <Trigger ID="9993" Name="newTrigger9993" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="224" Y="259" GroupID="-1" TemplateID="-1">
-        <TriggerConditions>
-          <And />
-        </TriggerConditions>
-        <TriggerEffectsOnTrue>
-          <Effect ID="165" Type="SetTowerWallDestination" DBID="1001" Version="1" CommentOut="false">
-            <Input Name="SourceTower" SigID="1" Optional="false">9994</Input>
-            <Input Name="DestTower" SigID="2" Optional="false">9995</Input>
           </Effect>
         </TriggerEffectsOnTrue>
         <TriggerEffectsOnFalse />
@@ -820,119 +824,6 @@
         <TriggerEffectsOnFalse />
       </Trigger>
     </Triggers>
-    <EditorData>
-      <TriggerMappings />
-      <UIData>
-        <NoteNodes />
-        <Groups />
-      </UIData>
-      <TriggerSystem Name="Fort_Deen" Type="Scenario" NextTriggerVarID="2039" NextTriggerID="188" NextConditionID="94" NextEffectID="176" External="false">
-        <TriggerGroups />
-        <TriggerVars>
-          <TriggerVar ID="1550" Type="Squad" Name="" IsNull="false">_TeleporterA_,_335_</TriggerVar>
-          <TriggerVar ID="1551" Type="Squad" Name="" IsNull="false">_TeleporterB_,_338_</TriggerVar>
-          <TriggerVar ID="1552" Type="Squad" Name="" IsNull="false">_TeleporterC_,_339_</TriggerVar>
-          <TriggerVar ID="1553" Type="Squad" Name="" IsNull="false">_TeleporterD_,_336_</TriggerVar>
-          <TriggerVar ID="1965" Type="String" Name="" IsNull="false">tele work</TriggerVar>
-          <TriggerVar ID="1966" Type="String" Name="" IsNull="false">tele work 2</TriggerVar>
-          <TriggerVar ID="2021" Type="Squad" Name="" IsNull="false">_hook_bldg_wall_01_12005_,_12005_</TriggerVar>
-          <TriggerVar ID="2022" Type="Squad" Name="" IsNull="false">_hook_bldg_wall_02_12004_,_12004_</TriggerVar>
-          <TriggerVar ID="2024" Type="Squad" Name="" IsNull="false">_hook_bldg_wall_01_12010_,_12010_</TriggerVar>
-          <TriggerVar ID="2025" Type="Squad" Name="" IsNull="false">_hook_bldg_wall_02_12011_,_12011_</TriggerVar>
-          <TriggerVar ID="2026" Type="Squad" Name="" IsNull="false">_hook_bldg_wall_01_12007_,_12007_</TriggerVar>
-          <TriggerVar ID="2027" Type="Squad" Name="" IsNull="false">_hook_bldg_wall_02_12009_,_12009_</TriggerVar>
-          <TriggerVar ID="2028" Type="Squad" Name="" IsNull="false">_hook_bldg_wall_01_12006_,_12006_</TriggerVar>
-          <TriggerVar ID="2029" Type="Squad" Name="" IsNull="false">_hook_bldg_wall_02_12008_,_12008_</TriggerVar>
-        </TriggerVars>
-        <Triggers>
-          <Trigger ID="105" Name="newTrigger105" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="365" Y="4281" GroupID="-1" TemplateID="-1">
-            <TriggerConditions>
-              <And />
-            </TriggerConditions>
-            <TriggerEffectsOnTrue>
-              <Effect ID="71" Type="SetTeleporterDestination" DBID="967" Version="1" CommentOut="false">
-                <Input Name="Source" SigID="1" Optional="false">1550</Input>
-                <Input Name="Target" SigID="2" Optional="false">1551</Input>
-              </Effect>
-              <Effect ID="109" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
-                <Input Name="String" SigID="1" Optional="false">1965</Input>
-              </Effect>
-            </TriggerEffectsOnTrue>
-            <TriggerEffectsOnFalse />
-          </Trigger>
-          <Trigger ID="106" Name="newTrigger105" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="361" Y="4430" GroupID="-1" TemplateID="-1">
-            <TriggerConditions>
-              <And />
-            </TriggerConditions>
-            <TriggerEffectsOnTrue>
-              <Effect ID="71" Type="SetTeleporterDestination" DBID="967" Version="1" CommentOut="false">
-                <Input Name="Source" SigID="1" Optional="false">1552</Input>
-                <Input Name="Target" SigID="2" Optional="false">1553</Input>
-              </Effect>
-              <Effect ID="110" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
-                <Input Name="String" SigID="1" Optional="false">1966</Input>
-              </Effect>
-            </TriggerEffectsOnTrue>
-            <TriggerEffectsOnFalse />
-          </Trigger>
-          <Trigger ID="174" Name="newTrigger174" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="224" Y="259" GroupID="-1" TemplateID="-1">
-            <TriggerConditions>
-              <And />
-            </TriggerConditions>
-            <TriggerEffectsOnTrue>
-              <Effect ID="165" Type="SetTowerWallDestination" DBID="1001" Version="1" CommentOut="false">
-                <Input Name="SourceTower" SigID="1" Optional="false">2021</Input>
-                <Input Name="DestTower" SigID="2" Optional="false">2022</Input>
-              </Effect>
-            </TriggerEffectsOnTrue>
-            <TriggerEffectsOnFalse />
-          </Trigger>
-          <Trigger ID="176" Name="newTrigger174" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="307" Y="514" GroupID="-1" TemplateID="-1">
-            <TriggerConditions>
-              <And />
-            </TriggerConditions>
-            <TriggerEffectsOnTrue>
-              <Effect ID="165" Type="SetTowerWallDestination" DBID="1001" Version="1" CommentOut="false">
-                <Input Name="SourceTower" SigID="1" Optional="false">2024</Input>
-                <Input Name="DestTower" SigID="2" Optional="false">2025</Input>
-              </Effect>
-            </TriggerEffectsOnTrue>
-            <TriggerEffectsOnFalse />
-          </Trigger>
-          <Trigger ID="177" Name="newTrigger174" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="592" Y="381" GroupID="-1" TemplateID="-1">
-            <TriggerConditions>
-              <And />
-            </TriggerConditions>
-            <TriggerEffectsOnTrue>
-              <Effect ID="165" Type="SetTowerWallDestination" DBID="1001" Version="1" CommentOut="false">
-                <Input Name="SourceTower" SigID="1" Optional="false">2026</Input>
-                <Input Name="DestTower" SigID="2" Optional="false">2027</Input>
-              </Effect>
-            </TriggerEffectsOnTrue>
-            <TriggerEffectsOnFalse />
-          </Trigger>
-          <Trigger ID="178" Name="newTrigger174" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="676" Y="250" GroupID="-1" TemplateID="-1">
-            <TriggerConditions>
-              <And />
-            </TriggerConditions>
-            <TriggerEffectsOnTrue>
-              <Effect ID="165" Type="SetTowerWallDestination" DBID="1001" Version="1" CommentOut="false">
-                <Input Name="SourceTower" SigID="1" Optional="false">2028</Input>
-                <Input Name="DestTower" SigID="2" Optional="false">2029</Input>
-              </Effect>
-            </TriggerEffectsOnTrue>
-            <TriggerEffectsOnFalse />
-          </Trigger>
-        </Triggers>
-        <EditorData>
-          <TriggerMappings />
-          <UIData>
-            <NoteNodes />
-            <Groups />
-          </UIData>
-        </EditorData>
-      </TriggerSystem>
-    </EditorData>
   </TriggerSystem>
   <TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="29" NextTriggerID="28" NextConditionID="27" NextEffectID="28" External="false">
     <TriggerGroups />
@@ -990,714 +881,937 @@
       </TriggerSystem>
     </EditorData>
   </TriggerSystem>
+  <TriggerSystem Name="GarrisonTriggerSystem" Type="Scenario" NextTriggerVarID="21" NextTriggerID="10" NextConditionID="20" NextEffectID="30" External="false">
+    <TriggerVars>
+      <TriggerVar ID="1" Type="Operator" Name="TimeCheckOperator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+      <TriggerVar ID="2" Type="Time" Name="GarrisonActivationTime" IsNull="false">5000</TriggerVar>
+      <TriggerVar ID="3" Type="Player" Name="PlayerID" IsNull="false">7</TriggerVar>
+      <TriggerVar ID="4" Type="Vector" Name="TargetLocation" IsNull="false">602.319885,-16.1315002,849.740784</TriggerVar>
+      <TriggerVar ID="5" Type="Float" Name="SearchRadius" IsNull="false">25</TriggerVar>
+      <TriggerVar ID="6" Type="ObjectType" Name="GarrisonObjectType" IsNull="false">creep_rebel_infantry_01</TriggerVar>
+      <TriggerVar ID="7" Type="SquadList" Name="AvailableSquads" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="8" Type="ListPosition" Name="FirstPosition" IsNull="false">First</TriggerVar>
+      <TriggerVar ID="9" Type="Squad" Name="SelectedSquad" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="10" Type="Unit" Name="TargetUnitID" IsNull="false">227</TriggerVar>
+      <TriggerVar ID="11" Type="Trigger" Name="InitializeTrigger" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="12" Type="Trigger" Name="GarrisonTrigger" IsNull="false">2</TriggerVar>
+      <TriggerVar ID="13" Type="Trigger" Name="NullTrigger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="14" Type="Squad" Name="NullSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="15" Type="SquadList" Name="NullSquadList" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="16" Type="Vector" Name="NullVector" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="17" Type="Bool" Name="NullBool" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="18" Type="Float" Name="NullFloat" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="19" Type="ProtoSquad" Name="NullProtoSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="20" Type="Integer" Name="NullInteger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="21" Type="PlayerList" Name="NullPlayerList" IsNull="true">
+      </TriggerVar>
+    </TriggerVars>
+    <Triggers>
+      <Trigger ID="1" Name="InitializeGarrisonStructure" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="Operator" SigID="1" Optional="false">1</Input>
+              <Input Name="Time" SigID="2" Optional="false">2</Input>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Trigger" SigID="1" Optional="false">12</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+      <Trigger ID="2" Name="GarrisonStructure" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="2" Type="CanGetSquads" DBID="4" Version="8" CommentOut="false" X="0" Y="0">
+              <Input Name="Location" SigID="1" Optional="true">4</Input>
+              <Input Name="Distance" SigID="2" Optional="true">5</Input>
+              <Input Name="Player" SigID="3" Optional="true">3</Input>
+              <Input Name="ProtoSquad" SigID="6" Optional="true">19</Input>
+              <Input Name="FilterList" SigID="10" Optional="true">15</Input>
+              <Input Name="ObjectType" SigID="11" Optional="true">6</Input>
+              <Input Name="PlayerList" SigID="12" Optional="true">21</Input>
+              <Input Name="BoxForward" SigID="15" Optional="true">16</Input>
+              <Input Name="BoxHalfX" SigID="16" Optional="true">18</Input>
+              <Input Name="BoxHalfY" SigID="17" Optional="true">18</Input>
+              <Input Name="BoxHalfZ" SigID="18" Optional="true">18</Input>
+              <Output Name="SquadList" SigID="9" Optional="true">7</Output>
+              <Output Name="Count" SigID="7" Optional="true">20</Output>
+            </Condition>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="3" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="SquadList" SigID="1" Optional="false">7</Input>
+              <Input Name="ListPos" SigID="2" Optional="false">8</Input>
+              <Output Name="Squad" SigID="3" Optional="false">9</Output>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="2" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+            <Input Name="Squad" SigID="1" Optional="true">9</Input>
+            <Input Name="SquadList" SigID="2" Optional="true">15</Input>
+            <Input Name="TargetUnit" SigID="3" Optional="true">10</Input>
+            <Input Name="TargetLocation" SigID="4" Optional="true">16</Input>
+            <Input Name="TargetSquad" SigID="5" Optional="true">14</Input>
+            <Input Name="AttackMove" SigID="6" Optional="true">17</Input>
+            <Input Name="QueueOrder" SigID="7" Optional="true">17</Input>
+            <Input Name="DoAbility" SigID="8" Optional="true">17</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+    </Triggers>
+  </TriggerSystem>
+  <TriggerSystem Name="GarrisonTriggerSystem2" Type="Scenario" NextTriggerVarID="21" NextTriggerID="10" NextConditionID="20" NextEffectID="30" External="false">
+    <TriggerVars>
+      <TriggerVar ID="1" Type="Operator" Name="TimeCheckOperator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+      <TriggerVar ID="2" Type="Time" Name="GarrisonActivationTime" IsNull="false">5000</TriggerVar>
+      <TriggerVar ID="3" Type="Player" Name="PlayerID" IsNull="false">7</TriggerVar>
+      <TriggerVar ID="4" Type="Vector" Name="TargetLocation" IsNull="false">638.845581,-21.8773994,799.428223</TriggerVar>
+      <TriggerVar ID="5" Type="Float" Name="SearchRadius" IsNull="false">25</TriggerVar>
+      <TriggerVar ID="6" Type="ObjectType" Name="GarrisonObjectType" IsNull="false">creep_rebel_infantry_01</TriggerVar>
+      <TriggerVar ID="7" Type="SquadList" Name="AvailableSquads" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="8" Type="ListPosition" Name="FirstPosition" IsNull="false">First</TriggerVar>
+      <TriggerVar ID="9" Type="Squad" Name="SelectedSquad" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="10" Type="Unit" Name="TargetUnitID" IsNull="false">226</TriggerVar>
+      <TriggerVar ID="11" Type="Trigger" Name="InitializeTrigger" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="12" Type="Trigger" Name="GarrisonTrigger" IsNull="false">2</TriggerVar>
+      <TriggerVar ID="13" Type="Trigger" Name="NullTrigger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="14" Type="Squad" Name="NullSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="15" Type="SquadList" Name="NullSquadList" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="16" Type="Vector" Name="NullVector" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="17" Type="Bool" Name="NullBool" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="18" Type="Float" Name="NullFloat" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="19" Type="ProtoSquad" Name="NullProtoSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="20" Type="Integer" Name="NullInteger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="21" Type="PlayerList" Name="NullPlayerList" IsNull="true">
+      </TriggerVar>
+    </TriggerVars>
+    <Triggers>
+      <Trigger ID="1" Name="InitializeGarrisonStructure" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="Operator" SigID="1" Optional="false">1</Input>
+              <Input Name="Time" SigID="2" Optional="false">2</Input>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Trigger" SigID="1" Optional="false">12</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+      <Trigger ID="2" Name="GarrisonStructure" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="2" Type="CanGetSquads" DBID="4" Version="8" CommentOut="false" X="0" Y="0">
+              <Input Name="Location" SigID="1" Optional="true">4</Input>
+              <Input Name="Distance" SigID="2" Optional="true">5</Input>
+              <Input Name="Player" SigID="3" Optional="true">3</Input>
+              <Input Name="ProtoSquad" SigID="6" Optional="true">19</Input>
+              <Input Name="FilterList" SigID="10" Optional="true">15</Input>
+              <Input Name="ObjectType" SigID="11" Optional="true">6</Input>
+              <Input Name="PlayerList" SigID="12" Optional="true">21</Input>
+              <Input Name="BoxForward" SigID="15" Optional="true">16</Input>
+              <Input Name="BoxHalfX" SigID="16" Optional="true">18</Input>
+              <Input Name="BoxHalfY" SigID="17" Optional="true">18</Input>
+              <Input Name="BoxHalfZ" SigID="18" Optional="true">18</Input>
+              <Output Name="SquadList" SigID="9" Optional="true">7</Output>
+              <Output Name="Count" SigID="7" Optional="true">20</Output>
+            </Condition>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="3" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="SquadList" SigID="1" Optional="false">7</Input>
+              <Input Name="ListPos" SigID="2" Optional="false">8</Input>
+              <Output Name="Squad" SigID="3" Optional="false">9</Output>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="2" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+            <Input Name="Squad" SigID="1" Optional="true">9</Input>
+            <Input Name="SquadList" SigID="2" Optional="true">15</Input>
+            <Input Name="TargetUnit" SigID="3" Optional="true">10</Input>
+            <Input Name="TargetLocation" SigID="4" Optional="true">16</Input>
+            <Input Name="TargetSquad" SigID="5" Optional="true">14</Input>
+            <Input Name="AttackMove" SigID="6" Optional="true">17</Input>
+            <Input Name="QueueOrder" SigID="7" Optional="true">17</Input>
+            <Input Name="DoAbility" SigID="8" Optional="true">17</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+    </Triggers>
+  </TriggerSystem>
+  <TriggerSystem Name="GarrisonTriggerSystem3" Type="Scenario" NextTriggerVarID="21" NextTriggerID="10" NextConditionID="20" NextEffectID="30" External="false">
+    <TriggerVars>
+      <TriggerVar ID="1" Type="Operator" Name="TimeCheckOperator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+      <TriggerVar ID="2" Type="Time" Name="GarrisonActivationTime" IsNull="false">5000</TriggerVar>
+      <TriggerVar ID="3" Type="Player" Name="PlayerID" IsNull="false">7</TriggerVar>
+      <TriggerVar ID="4" Type="Vector" Name="TargetLocation" IsNull="false">678.614319,-15.4710999,850.511292</TriggerVar>
+      <TriggerVar ID="5" Type="Float" Name="SearchRadius" IsNull="false">25</TriggerVar>
+      <TriggerVar ID="6" Type="ObjectType" Name="GarrisonObjectType" IsNull="false">creep_rebel_infantry_01</TriggerVar>
+      <TriggerVar ID="7" Type="SquadList" Name="AvailableSquads" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="8" Type="ListPosition" Name="FirstPosition" IsNull="false">First</TriggerVar>
+      <TriggerVar ID="9" Type="Squad" Name="SelectedSquad" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="10" Type="Unit" Name="TargetUnitID" IsNull="false">228</TriggerVar>
+      <TriggerVar ID="11" Type="Trigger" Name="InitializeTrigger" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="12" Type="Trigger" Name="GarrisonTrigger" IsNull="false">2</TriggerVar>
+      <TriggerVar ID="13" Type="Trigger" Name="NullTrigger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="14" Type="Squad" Name="NullSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="15" Type="SquadList" Name="NullSquadList" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="16" Type="Vector" Name="NullVector" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="17" Type="Bool" Name="NullBool" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="18" Type="Float" Name="NullFloat" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="19" Type="ProtoSquad" Name="NullProtoSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="20" Type="Integer" Name="NullInteger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="21" Type="PlayerList" Name="NullPlayerList" IsNull="true">
+      </TriggerVar>
+    </TriggerVars>
+    <Triggers>
+      <Trigger ID="1" Name="InitializeGarrisonStructure" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="Operator" SigID="1" Optional="false">1</Input>
+              <Input Name="Time" SigID="2" Optional="false">2</Input>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Trigger" SigID="1" Optional="false">12</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+      <Trigger ID="2" Name="GarrisonStructure" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="2" Type="CanGetSquads" DBID="4" Version="8" CommentOut="false" X="0" Y="0">
+              <Input Name="Location" SigID="1" Optional="true">4</Input>
+              <Input Name="Distance" SigID="2" Optional="true">5</Input>
+              <Input Name="Player" SigID="3" Optional="true">3</Input>
+              <Input Name="ProtoSquad" SigID="6" Optional="true">19</Input>
+              <Input Name="FilterList" SigID="10" Optional="true">15</Input>
+              <Input Name="ObjectType" SigID="11" Optional="true">6</Input>
+              <Input Name="PlayerList" SigID="12" Optional="true">21</Input>
+              <Input Name="BoxForward" SigID="15" Optional="true">16</Input>
+              <Input Name="BoxHalfX" SigID="16" Optional="true">18</Input>
+              <Input Name="BoxHalfY" SigID="17" Optional="true">18</Input>
+              <Input Name="BoxHalfZ" SigID="18" Optional="true">18</Input>
+              <Output Name="SquadList" SigID="9" Optional="true">7</Output>
+              <Output Name="Count" SigID="7" Optional="true">20</Output>
+            </Condition>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="3" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="SquadList" SigID="1" Optional="false">7</Input>
+              <Input Name="ListPos" SigID="2" Optional="false">8</Input>
+              <Output Name="Squad" SigID="3" Optional="false">9</Output>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="2" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+            <Input Name="Squad" SigID="1" Optional="true">9</Input>
+            <Input Name="SquadList" SigID="2" Optional="true">15</Input>
+            <Input Name="TargetUnit" SigID="3" Optional="true">10</Input>
+            <Input Name="TargetLocation" SigID="4" Optional="true">16</Input>
+            <Input Name="TargetSquad" SigID="5" Optional="true">14</Input>
+            <Input Name="AttackMove" SigID="6" Optional="true">17</Input>
+            <Input Name="QueueOrder" SigID="7" Optional="true">17</Input>
+            <Input Name="DoAbility" SigID="8" Optional="true">17</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+    </Triggers>
+  </TriggerSystem>
+  <TriggerSystem Name="GarrisonTriggerSystem4" Type="Scenario" NextTriggerVarID="21" NextTriggerID="10" NextConditionID="20" NextEffectID="30" External="false">
+    <TriggerVars>
+      <TriggerVar ID="1" Type="Operator" Name="TimeCheckOperator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+      <TriggerVar ID="2" Type="Time" Name="GarrisonActivationTime" IsNull="false">5000</TriggerVar>
+      <TriggerVar ID="3" Type="Player" Name="PlayerID" IsNull="false">7</TriggerVar>
+      <TriggerVar ID="4" Type="Vector" Name="TargetLocation" IsNull="false">678.9017,-10.3958,493.6317</TriggerVar>
+      <TriggerVar ID="5" Type="Float" Name="SearchRadius" IsNull="false">25</TriggerVar>
+      <TriggerVar ID="6" Type="ObjectType" Name="GarrisonObjectType" IsNull="false">creep_rebel_infantry_01</TriggerVar>
+      <TriggerVar ID="7" Type="SquadList" Name="AvailableSquads" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="8" Type="ListPosition" Name="FirstPosition" IsNull="false">First</TriggerVar>
+      <TriggerVar ID="9" Type="Squad" Name="SelectedSquad" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="10" Type="Unit" Name="TargetUnitID" IsNull="false">230</TriggerVar>
+      <TriggerVar ID="11" Type="Trigger" Name="InitializeTrigger" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="12" Type="Trigger" Name="GarrisonTrigger" IsNull="false">2</TriggerVar>
+      <TriggerVar ID="13" Type="Trigger" Name="NullTrigger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="14" Type="Squad" Name="NullSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="15" Type="SquadList" Name="NullSquadList" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="16" Type="Vector" Name="NullVector" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="17" Type="Bool" Name="NullBool" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="18" Type="Float" Name="NullFloat" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="19" Type="ProtoSquad" Name="NullProtoSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="20" Type="Integer" Name="NullInteger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="21" Type="PlayerList" Name="NullPlayerList" IsNull="true">
+      </TriggerVar>
+    </TriggerVars>
+    <Triggers>
+      <Trigger ID="1" Name="InitializeGarrisonStructure" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="Operator" SigID="1" Optional="false">1</Input>
+              <Input Name="Time" SigID="2" Optional="false">2</Input>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Trigger" SigID="1" Optional="false">12</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+      <Trigger ID="2" Name="GarrisonStructure" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="2" Type="CanGetSquads" DBID="4" Version="8" CommentOut="false" X="0" Y="0">
+              <Input Name="Location" SigID="1" Optional="true">4</Input>
+              <Input Name="Distance" SigID="2" Optional="true">5</Input>
+              <Input Name="Player" SigID="3" Optional="true">3</Input>
+              <Input Name="ProtoSquad" SigID="6" Optional="true">19</Input>
+              <Input Name="FilterList" SigID="10" Optional="true">15</Input>
+              <Input Name="ObjectType" SigID="11" Optional="true">6</Input>
+              <Input Name="PlayerList" SigID="12" Optional="true">21</Input>
+              <Input Name="BoxForward" SigID="15" Optional="true">16</Input>
+              <Input Name="BoxHalfX" SigID="16" Optional="true">18</Input>
+              <Input Name="BoxHalfY" SigID="17" Optional="true">18</Input>
+              <Input Name="BoxHalfZ" SigID="18" Optional="true">18</Input>
+              <Output Name="SquadList" SigID="9" Optional="true">7</Output>
+              <Output Name="Count" SigID="7" Optional="true">20</Output>
+            </Condition>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="3" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="SquadList" SigID="1" Optional="false">7</Input>
+              <Input Name="ListPos" SigID="2" Optional="false">8</Input>
+              <Output Name="Squad" SigID="3" Optional="false">9</Output>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="2" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+            <Input Name="Squad" SigID="1" Optional="true">9</Input>
+            <Input Name="SquadList" SigID="2" Optional="true">15</Input>
+            <Input Name="TargetUnit" SigID="3" Optional="true">10</Input>
+            <Input Name="TargetLocation" SigID="4" Optional="true">16</Input>
+            <Input Name="TargetSquad" SigID="5" Optional="true">14</Input>
+            <Input Name="AttackMove" SigID="6" Optional="true">17</Input>
+            <Input Name="QueueOrder" SigID="7" Optional="true">17</Input>
+            <Input Name="DoAbility" SigID="8" Optional="true">17</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+    </Triggers>
+  </TriggerSystem>
+  <TriggerSystem Name="GarrisonTriggerSystem5" Type="Scenario" NextTriggerVarID="21" NextTriggerID="10" NextConditionID="20" NextEffectID="30" External="false">
+    <TriggerVars>
+      <TriggerVar ID="1" Type="Operator" Name="TimeCheckOperator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+      <TriggerVar ID="2" Type="Time" Name="GarrisonActivationTime" IsNull="false">5000</TriggerVar>
+      <TriggerVar ID="3" Type="Player" Name="PlayerID" IsNull="false">7</TriggerVar>
+      <TriggerVar ID="4" Type="Vector" Name="TargetLocation" IsNull="false">648.7134,-16.8299,534.8637</TriggerVar>
+      <TriggerVar ID="5" Type="Float" Name="SearchRadius" IsNull="false">25</TriggerVar>
+      <TriggerVar ID="6" Type="ObjectType" Name="GarrisonObjectType" IsNull="false">creep_rebel_infantry_01</TriggerVar>
+      <TriggerVar ID="7" Type="SquadList" Name="AvailableSquads" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="8" Type="ListPosition" Name="FirstPosition" IsNull="false">First</TriggerVar>
+      <TriggerVar ID="9" Type="Squad" Name="SelectedSquad" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="10" Type="Unit" Name="TargetUnitID" IsNull="false">229</TriggerVar>
+      <TriggerVar ID="11" Type="Trigger" Name="InitializeTrigger" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="12" Type="Trigger" Name="GarrisonTrigger" IsNull="false">2</TriggerVar>
+      <TriggerVar ID="13" Type="Trigger" Name="NullTrigger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="14" Type="Squad" Name="NullSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="15" Type="SquadList" Name="NullSquadList" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="16" Type="Vector" Name="NullVector" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="17" Type="Bool" Name="NullBool" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="18" Type="Float" Name="NullFloat" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="19" Type="ProtoSquad" Name="NullProtoSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="20" Type="Integer" Name="NullInteger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="21" Type="PlayerList" Name="NullPlayerList" IsNull="true">
+      </TriggerVar>
+    </TriggerVars>
+    <Triggers>
+      <Trigger ID="1" Name="InitializeGarrisonStructure" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="Operator" SigID="1" Optional="false">1</Input>
+              <Input Name="Time" SigID="2" Optional="false">2</Input>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Trigger" SigID="1" Optional="false">12</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+      <Trigger ID="2" Name="GarrisonStructure" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="2" Type="CanGetSquads" DBID="4" Version="8" CommentOut="false" X="0" Y="0">
+              <Input Name="Location" SigID="1" Optional="true">4</Input>
+              <Input Name="Distance" SigID="2" Optional="true">5</Input>
+              <Input Name="Player" SigID="3" Optional="true">3</Input>
+              <Input Name="ProtoSquad" SigID="6" Optional="true">19</Input>
+              <Input Name="FilterList" SigID="10" Optional="true">15</Input>
+              <Input Name="ObjectType" SigID="11" Optional="true">6</Input>
+              <Input Name="PlayerList" SigID="12" Optional="true">21</Input>
+              <Input Name="BoxForward" SigID="15" Optional="true">16</Input>
+              <Input Name="BoxHalfX" SigID="16" Optional="true">18</Input>
+              <Input Name="BoxHalfY" SigID="17" Optional="true">18</Input>
+              <Input Name="BoxHalfZ" SigID="18" Optional="true">18</Input>
+              <Output Name="SquadList" SigID="9" Optional="true">7</Output>
+              <Output Name="Count" SigID="7" Optional="true">20</Output>
+            </Condition>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="3" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="SquadList" SigID="1" Optional="false">7</Input>
+              <Input Name="ListPos" SigID="2" Optional="false">8</Input>
+              <Output Name="Squad" SigID="3" Optional="false">9</Output>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="2" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+            <Input Name="Squad" SigID="1" Optional="true">9</Input>
+            <Input Name="SquadList" SigID="2" Optional="true">15</Input>
+            <Input Name="TargetUnit" SigID="3" Optional="true">10</Input>
+            <Input Name="TargetLocation" SigID="4" Optional="true">16</Input>
+            <Input Name="TargetSquad" SigID="5" Optional="true">14</Input>
+            <Input Name="AttackMove" SigID="6" Optional="true">17</Input>
+            <Input Name="QueueOrder" SigID="7" Optional="true">17</Input>
+            <Input Name="DoAbility" SigID="8" Optional="true">17</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+    </Triggers>
+  </TriggerSystem>
+  <TriggerSystem Name="GarrisonTriggerSystem6" Type="Scenario" NextTriggerVarID="21" NextTriggerID="10" NextConditionID="20" NextEffectID="30" External="false">
+    <TriggerVars>
+      <TriggerVar ID="1" Type="Operator" Name="TimeCheckOperator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+      <TriggerVar ID="2" Type="Time" Name="GarrisonActivationTime" IsNull="false">5000</TriggerVar>
+      <TriggerVar ID="3" Type="Player" Name="PlayerID" IsNull="false">7</TriggerVar>
+      <TriggerVar ID="4" Type="Vector" Name="TargetLocation" IsNull="false">619.8897,-12.0409,495.1843</TriggerVar>
+      <TriggerVar ID="5" Type="Float" Name="SearchRadius" IsNull="false">25</TriggerVar>
+      <TriggerVar ID="6" Type="ObjectType" Name="GarrisonObjectType" IsNull="false">creep_rebel_infantry_01</TriggerVar>
+      <TriggerVar ID="7" Type="SquadList" Name="AvailableSquads" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="8" Type="ListPosition" Name="FirstPosition" IsNull="false">First</TriggerVar>
+      <TriggerVar ID="9" Type="Squad" Name="SelectedSquad" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="10" Type="Unit" Name="TargetUnitID" IsNull="false">231</TriggerVar>
+      <TriggerVar ID="11" Type="Trigger" Name="InitializeTrigger" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="12" Type="Trigger" Name="GarrisonTrigger" IsNull="false">2</TriggerVar>
+      <TriggerVar ID="13" Type="Trigger" Name="NullTrigger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="14" Type="Squad" Name="NullSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="15" Type="SquadList" Name="NullSquadList" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="16" Type="Vector" Name="NullVector" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="17" Type="Bool" Name="NullBool" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="18" Type="Float" Name="NullFloat" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="19" Type="ProtoSquad" Name="NullProtoSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="20" Type="Integer" Name="NullInteger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="21" Type="PlayerList" Name="NullPlayerList" IsNull="true">
+      </TriggerVar>
+    </TriggerVars>
+    <Triggers>
+      <Trigger ID="1" Name="InitializeGarrisonStructure" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="Operator" SigID="1" Optional="false">1</Input>
+              <Input Name="Time" SigID="2" Optional="false">2</Input>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Trigger" SigID="1" Optional="false">12</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+      <Trigger ID="2" Name="GarrisonStructure" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="2" Type="CanGetSquads" DBID="4" Version="8" CommentOut="false" X="0" Y="0">
+              <Input Name="Location" SigID="1" Optional="true">4</Input>
+              <Input Name="Distance" SigID="2" Optional="true">5</Input>
+              <Input Name="Player" SigID="3" Optional="true">3</Input>
+              <Input Name="ProtoSquad" SigID="6" Optional="true">19</Input>
+              <Input Name="FilterList" SigID="10" Optional="true">15</Input>
+              <Input Name="ObjectType" SigID="11" Optional="true">6</Input>
+              <Input Name="PlayerList" SigID="12" Optional="true">21</Input>
+              <Input Name="BoxForward" SigID="15" Optional="true">16</Input>
+              <Input Name="BoxHalfX" SigID="16" Optional="true">18</Input>
+              <Input Name="BoxHalfY" SigID="17" Optional="true">18</Input>
+              <Input Name="BoxHalfZ" SigID="18" Optional="true">18</Input>
+              <Output Name="SquadList" SigID="9" Optional="true">7</Output>
+              <Output Name="Count" SigID="7" Optional="true">20</Output>
+            </Condition>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="3" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="SquadList" SigID="1" Optional="false">7</Input>
+              <Input Name="ListPos" SigID="2" Optional="false">8</Input>
+              <Output Name="Squad" SigID="3" Optional="false">9</Output>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="2" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+            <Input Name="Squad" SigID="1" Optional="true">9</Input>
+            <Input Name="SquadList" SigID="2" Optional="true">15</Input>
+            <Input Name="TargetUnit" SigID="3" Optional="true">10</Input>
+            <Input Name="TargetLocation" SigID="4" Optional="true">16</Input>
+            <Input Name="TargetSquad" SigID="5" Optional="true">14</Input>
+            <Input Name="AttackMove" SigID="6" Optional="true">17</Input>
+            <Input Name="QueueOrder" SigID="7" Optional="true">17</Input>
+            <Input Name="DoAbility" SigID="8" Optional="true">17</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+    </Triggers>
+  </TriggerSystem>
+  <TriggerSystem Name="GarrisonTriggerSystem7" Type="Scenario" NextTriggerVarID="21" NextTriggerID="10" NextConditionID="20" NextEffectID="30" External="false">
+    <TriggerVars>
+      <TriggerVar ID="1" Type="Operator" Name="TimeCheckOperator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+      <TriggerVar ID="2" Type="Time" Name="GarrisonActivationTime" IsNull="false">7000</TriggerVar>
+      <TriggerVar ID="3" Type="Player" Name="PlayerID" IsNull="false">7</TriggerVar>
+      <TriggerVar ID="4" Type="Vector" Name="TargetLocation" IsNull="false">648.4368,-27.409,639.4859</TriggerVar>
+      <TriggerVar ID="5" Type="Float" Name="SearchRadius" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="6" Type="ObjectType" Name="GarrisonObjectType" IsNull="false">creep_rebel_infantry_01</TriggerVar>
+      <TriggerVar ID="7" Type="SquadList" Name="AvailableSquads" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="8" Type="ListPosition" Name="FirstPosition" IsNull="false">First</TriggerVar>
+      <TriggerVar ID="9" Type="Squad" Name="SelectedSquad" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="10" Type="Unit" Name="TargetUnitID" IsNull="false">12007</TriggerVar>
+      <TriggerVar ID="11" Type="Trigger" Name="InitializeTrigger" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="12" Type="Trigger" Name="GarrisonTrigger" IsNull="false">2</TriggerVar>
+      <TriggerVar ID="13" Type="Trigger" Name="NullTrigger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="14" Type="Squad" Name="NullSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="15" Type="SquadList" Name="NullSquadList" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="16" Type="Vector" Name="NullVector" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="17" Type="Bool" Name="NullBool" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="18" Type="Float" Name="NullFloat" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="19" Type="ProtoSquad" Name="NullProtoSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="20" Type="Integer" Name="NullInteger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="21" Type="PlayerList" Name="NullPlayerList" IsNull="true">
+      </TriggerVar>
+    </TriggerVars>
+    <Triggers>
+      <Trigger ID="1" Name="InitializeGarrisonStructure" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="Operator" SigID="1" Optional="false">1</Input>
+              <Input Name="Time" SigID="2" Optional="false">2</Input>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Trigger" SigID="1" Optional="false">12</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+      <Trigger ID="2" Name="GarrisonStructure" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="2" Type="CanGetSquads" DBID="4" Version="8" CommentOut="false" X="0" Y="0">
+              <Input Name="Location" SigID="1" Optional="true">4</Input>
+              <Input Name="Distance" SigID="2" Optional="true">5</Input>
+              <Input Name="Player" SigID="3" Optional="true">3</Input>
+              <Input Name="ProtoSquad" SigID="6" Optional="true">19</Input>
+              <Input Name="FilterList" SigID="10" Optional="true">15</Input>
+              <Input Name="ObjectType" SigID="11" Optional="true">6</Input>
+              <Input Name="PlayerList" SigID="12" Optional="true">21</Input>
+              <Input Name="BoxForward" SigID="15" Optional="true">16</Input>
+              <Input Name="BoxHalfX" SigID="16" Optional="true">18</Input>
+              <Input Name="BoxHalfY" SigID="17" Optional="true">18</Input>
+              <Input Name="BoxHalfZ" SigID="18" Optional="true">18</Input>
+              <Output Name="SquadList" SigID="9" Optional="true">7</Output>
+              <Output Name="Count" SigID="7" Optional="true">20</Output>
+            </Condition>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="3" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="SquadList" SigID="1" Optional="false">7</Input>
+              <Input Name="ListPos" SigID="2" Optional="false">8</Input>
+              <Output Name="Squad" SigID="3" Optional="false">9</Output>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="2" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+            <Input Name="Squad" SigID="1" Optional="true">9</Input>
+            <Input Name="SquadList" SigID="2" Optional="true">15</Input>
+            <Input Name="TargetUnit" SigID="3" Optional="true">10</Input>
+            <Input Name="TargetLocation" SigID="4" Optional="true">16</Input>
+            <Input Name="TargetSquad" SigID="5" Optional="true">14</Input>
+            <Input Name="AttackMove" SigID="6" Optional="true">17</Input>
+            <Input Name="QueueOrder" SigID="7" Optional="true">17</Input>
+            <Input Name="DoAbility" SigID="8" Optional="true">17</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+    </Triggers>
+  </TriggerSystem>
+  <TriggerSystem Name="GarrisonTriggerSystem8" Type="Scenario" NextTriggerVarID="21" NextTriggerID="10" NextConditionID="20" NextEffectID="30" External="false">
+    <TriggerVars>
+      <TriggerVar ID="1" Type="Operator" Name="TimeCheckOperator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+      <TriggerVar ID="2" Type="Time" Name="GarrisonActivationTime" IsNull="false">5000</TriggerVar>
+      <TriggerVar ID="3" Type="Player" Name="PlayerID" IsNull="false">7</TriggerVar>
+      <TriggerVar ID="4" Type="Vector" Name="TargetLocation" IsNull="false">627.0662,-28.6944,638.9551</TriggerVar>
+      <TriggerVar ID="5" Type="Float" Name="SearchRadius" IsNull="false">25</TriggerVar>
+      <TriggerVar ID="6" Type="ObjectType" Name="GarrisonObjectType" IsNull="false">creep_rebel_infantry_01</TriggerVar>
+      <TriggerVar ID="7" Type="SquadList" Name="AvailableSquads" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="8" Type="ListPosition" Name="FirstPosition" IsNull="false">First</TriggerVar>
+      <TriggerVar ID="9" Type="Squad" Name="SelectedSquad" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="10" Type="Unit" Name="TargetUnitID" IsNull="false">12006</TriggerVar>
+      <TriggerVar ID="11" Type="Trigger" Name="InitializeTrigger" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="12" Type="Trigger" Name="GarrisonTrigger" IsNull="false">2</TriggerVar>
+      <TriggerVar ID="13" Type="Trigger" Name="NullTrigger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="14" Type="Squad" Name="NullSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="15" Type="SquadList" Name="NullSquadList" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="16" Type="Vector" Name="NullVector" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="17" Type="Bool" Name="NullBool" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="18" Type="Float" Name="NullFloat" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="19" Type="ProtoSquad" Name="NullProtoSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="20" Type="Integer" Name="NullInteger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="21" Type="PlayerList" Name="NullPlayerList" IsNull="true">
+      </TriggerVar>
+    </TriggerVars>
+    <Triggers>
+      <Trigger ID="1" Name="InitializeGarrisonStructure" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="Operator" SigID="1" Optional="false">1</Input>
+              <Input Name="Time" SigID="2" Optional="false">2</Input>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Trigger" SigID="1" Optional="false">12</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+      <Trigger ID="2" Name="GarrisonStructure" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="2" Type="CanGetSquads" DBID="4" Version="8" CommentOut="false" X="0" Y="0">
+              <Input Name="Location" SigID="1" Optional="true">4</Input>
+              <Input Name="Distance" SigID="2" Optional="true">5</Input>
+              <Input Name="Player" SigID="3" Optional="true">3</Input>
+              <Input Name="ProtoSquad" SigID="6" Optional="true">19</Input>
+              <Input Name="FilterList" SigID="10" Optional="true">15</Input>
+              <Input Name="ObjectType" SigID="11" Optional="true">6</Input>
+              <Input Name="PlayerList" SigID="12" Optional="true">21</Input>
+              <Input Name="BoxForward" SigID="15" Optional="true">16</Input>
+              <Input Name="BoxHalfX" SigID="16" Optional="true">18</Input>
+              <Input Name="BoxHalfY" SigID="17" Optional="true">18</Input>
+              <Input Name="BoxHalfZ" SigID="18" Optional="true">18</Input>
+              <Output Name="SquadList" SigID="9" Optional="true">7</Output>
+              <Output Name="Count" SigID="7" Optional="true">20</Output>
+            </Condition>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="3" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="SquadList" SigID="1" Optional="false">7</Input>
+              <Input Name="ListPos" SigID="2" Optional="false">8</Input>
+              <Output Name="Squad" SigID="3" Optional="false">9</Output>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="2" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+            <Input Name="Squad" SigID="1" Optional="true">9</Input>
+            <Input Name="SquadList" SigID="2" Optional="true">15</Input>
+            <Input Name="TargetUnit" SigID="3" Optional="true">10</Input>
+            <Input Name="TargetLocation" SigID="4" Optional="true">16</Input>
+            <Input Name="TargetSquad" SigID="5" Optional="true">14</Input>
+            <Input Name="AttackMove" SigID="6" Optional="true">17</Input>
+            <Input Name="QueueOrder" SigID="7" Optional="true">17</Input>
+            <Input Name="DoAbility" SigID="8" Optional="true">17</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+    </Triggers>
+  </TriggerSystem>
+  <TriggerSystem Name="GarrisonTriggerSystem9" Type="Scenario" NextTriggerVarID="21" NextTriggerID="10" NextConditionID="20" NextEffectID="30" External="false">
+    <TriggerVars>
+      <TriggerVar ID="1" Type="Operator" Name="TimeCheckOperator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+      <TriggerVar ID="2" Type="Time" Name="GarrisonActivationTime" IsNull="false">5000</TriggerVar>
+      <TriggerVar ID="3" Type="Player" Name="PlayerID" IsNull="false">7</TriggerVar>
+      <TriggerVar ID="4" Type="Vector" Name="TargetLocation" IsNull="false">102.4531,-14.4334,639.4281</TriggerVar>
+      <TriggerVar ID="5" Type="Float" Name="SearchRadius" IsNull="false">25</TriggerVar>
+      <TriggerVar ID="6" Type="ObjectType" Name="GarrisonObjectType" IsNull="false">creep_rebel_infantry_01</TriggerVar>
+      <TriggerVar ID="7" Type="SquadList" Name="AvailableSquads" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="8" Type="ListPosition" Name="FirstPosition" IsNull="false">First</TriggerVar>
+      <TriggerVar ID="9" Type="Squad" Name="SelectedSquad" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="10" Type="Unit" Name="TargetUnitID" IsNull="false">12005</TriggerVar>
+      <TriggerVar ID="11" Type="Trigger" Name="InitializeTrigger" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="12" Type="Trigger" Name="GarrisonTrigger" IsNull="false">2</TriggerVar>
+      <TriggerVar ID="13" Type="Trigger" Name="NullTrigger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="14" Type="Squad" Name="NullSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="15" Type="SquadList" Name="NullSquadList" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="16" Type="Vector" Name="NullVector" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="17" Type="Bool" Name="NullBool" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="18" Type="Float" Name="NullFloat" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="19" Type="ProtoSquad" Name="NullProtoSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="20" Type="Integer" Name="NullInteger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="21" Type="PlayerList" Name="NullPlayerList" IsNull="true">
+      </TriggerVar>
+    </TriggerVars>
+    <Triggers>
+      <Trigger ID="1" Name="InitializeGarrisonStructure" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="Operator" SigID="1" Optional="false">1</Input>
+              <Input Name="Time" SigID="2" Optional="false">2</Input>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Trigger" SigID="1" Optional="false">12</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+      <Trigger ID="2" Name="GarrisonStructure" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="2" Type="CanGetSquads" DBID="4" Version="8" CommentOut="false" X="0" Y="0">
+              <Input Name="Location" SigID="1" Optional="true">4</Input>
+              <Input Name="Distance" SigID="2" Optional="true">5</Input>
+              <Input Name="Player" SigID="3" Optional="true">3</Input>
+              <Input Name="ProtoSquad" SigID="6" Optional="true">19</Input>
+              <Input Name="FilterList" SigID="10" Optional="true">15</Input>
+              <Input Name="ObjectType" SigID="11" Optional="true">6</Input>
+              <Input Name="PlayerList" SigID="12" Optional="true">21</Input>
+              <Input Name="BoxForward" SigID="15" Optional="true">16</Input>
+              <Input Name="BoxHalfX" SigID="16" Optional="true">18</Input>
+              <Input Name="BoxHalfY" SigID="17" Optional="true">18</Input>
+              <Input Name="BoxHalfZ" SigID="18" Optional="true">18</Input>
+              <Output Name="SquadList" SigID="9" Optional="true">7</Output>
+              <Output Name="Count" SigID="7" Optional="true">20</Output>
+            </Condition>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="3" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="SquadList" SigID="1" Optional="false">7</Input>
+              <Input Name="ListPos" SigID="2" Optional="false">8</Input>
+              <Output Name="Squad" SigID="3" Optional="false">9</Output>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="2" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+            <Input Name="Squad" SigID="1" Optional="true">9</Input>
+            <Input Name="SquadList" SigID="2" Optional="true">15</Input>
+            <Input Name="TargetUnit" SigID="3" Optional="true">10</Input>
+            <Input Name="TargetLocation" SigID="4" Optional="true">16</Input>
+            <Input Name="TargetSquad" SigID="5" Optional="true">14</Input>
+            <Input Name="AttackMove" SigID="6" Optional="true">17</Input>
+            <Input Name="QueueOrder" SigID="7" Optional="true">17</Input>
+            <Input Name="DoAbility" SigID="8" Optional="true">17</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+    </Triggers>
+  </TriggerSystem>
+  <TriggerSystem Name="GarrisonTriggerSystem10" Type="Scenario" NextTriggerVarID="21" NextTriggerID="10" NextConditionID="20" NextEffectID="30" External="false">
+    <TriggerVars>
+      <TriggerVar ID="1" Type="Operator" Name="TimeCheckOperator" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+      <TriggerVar ID="2" Type="Time" Name="GarrisonActivationTime" IsNull="false">5000</TriggerVar>
+      <TriggerVar ID="3" Type="Player" Name="PlayerID" IsNull="false">7</TriggerVar>
+      <TriggerVar ID="4" Type="Vector" Name="TargetLocation" IsNull="false">1140.923,-10.2967,643.2373</TriggerVar>
+      <TriggerVar ID="5" Type="Float" Name="SearchRadius" IsNull="false">25</TriggerVar>
+      <TriggerVar ID="6" Type="ObjectType" Name="GarrisonObjectType" IsNull="false">creep_rebel_infantry_01</TriggerVar>
+      <TriggerVar ID="7" Type="SquadList" Name="AvailableSquads" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="8" Type="ListPosition" Name="FirstPosition" IsNull="false">First</TriggerVar>
+      <TriggerVar ID="9" Type="Squad" Name="SelectedSquad" IsNull="false">
+      </TriggerVar>
+      <TriggerVar ID="10" Type="Unit" Name="TargetUnitID" IsNull="false">12010</TriggerVar>
+      <TriggerVar ID="11" Type="Trigger" Name="InitializeTrigger" IsNull="false">1</TriggerVar>
+      <TriggerVar ID="12" Type="Trigger" Name="GarrisonTrigger" IsNull="false">2</TriggerVar>
+      <TriggerVar ID="13" Type="Trigger" Name="NullTrigger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="14" Type="Squad" Name="NullSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="15" Type="SquadList" Name="NullSquadList" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="16" Type="Vector" Name="NullVector" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="17" Type="Bool" Name="NullBool" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="18" Type="Float" Name="NullFloat" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="19" Type="ProtoSquad" Name="NullProtoSquad" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="20" Type="Integer" Name="NullInteger" IsNull="true">
+      </TriggerVar>
+      <TriggerVar ID="21" Type="PlayerList" Name="NullPlayerList" IsNull="true">
+      </TriggerVar>
+    </TriggerVars>
+    <Triggers>
+      <Trigger ID="1" Name="InitializeGarrisonStructure" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="Operator" SigID="1" Optional="false">1</Input>
+              <Input Name="Time" SigID="2" Optional="false">2</Input>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Trigger" SigID="1" Optional="false">12</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+      <Trigger ID="2" Name="GarrisonStructure" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+        <TriggerConditions>
+          <And>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="2" Type="CanGetSquads" DBID="4" Version="8" CommentOut="false" X="0" Y="0">
+              <Input Name="Location" SigID="1" Optional="true">4</Input>
+              <Input Name="Distance" SigID="2" Optional="true">5</Input>
+              <Input Name="Player" SigID="3" Optional="true">3</Input>
+              <Input Name="ProtoSquad" SigID="6" Optional="true">19</Input>
+              <Input Name="FilterList" SigID="10" Optional="true">15</Input>
+              <Input Name="ObjectType" SigID="11" Optional="true">6</Input>
+              <Input Name="PlayerList" SigID="12" Optional="true">21</Input>
+              <Input Name="BoxForward" SigID="15" Optional="true">16</Input>
+              <Input Name="BoxHalfX" SigID="16" Optional="true">18</Input>
+              <Input Name="BoxHalfY" SigID="17" Optional="true">18</Input>
+              <Input Name="BoxHalfZ" SigID="18" Optional="true">18</Input>
+              <Output Name="SquadList" SigID="9" Optional="true">7</Output>
+              <Output Name="Count" SigID="7" Optional="true">20</Output>
+            </Condition>
+            <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="3" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" X="0" Y="0">
+              <Input Name="SquadList" SigID="1" Optional="false">7</Input>
+              <Input Name="ListPos" SigID="2" Optional="false">8</Input>
+              <Output Name="Squad" SigID="3" Optional="false">9</Output>
+            </Condition>
+          </And>
+        </TriggerConditions>
+        <TriggerEffectsOnTrue>
+          <Effect ID="2" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+            <Input Name="Squad" SigID="1" Optional="true">9</Input>
+            <Input Name="SquadList" SigID="2" Optional="true">15</Input>
+            <Input Name="TargetUnit" SigID="3" Optional="true">10</Input>
+            <Input Name="TargetLocation" SigID="4" Optional="true">16</Input>
+            <Input Name="TargetSquad" SigID="5" Optional="true">14</Input>
+            <Input Name="AttackMove" SigID="6" Optional="true">17</Input>
+            <Input Name="QueueOrder" SigID="7" Optional="true">17</Input>
+            <Input Name="DoAbility" SigID="8" Optional="true">17</Input>
+          </Effect>
+        </TriggerEffectsOnTrue>
+        <TriggerEffectsOnFalse />
+      </Trigger>
+    </Triggers>
+  </TriggerSystem>
   <NextID>12060</NextID>
-  <EditorOnlyData>
-    <HelperAreas>
-      <HelperAreaObject>
-        <Name>hardarea1</Name>
-        <ID>260</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>86.1925,-11.8254,108.5844</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medarea1</Name>
-        <ID>261</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>243.5279,-11.6172,83.5507</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easyarea1</Name>
-        <ID>262</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>281.7301,-13.8563,354.8168</Position>
-        <Direction>-0.1987,0,0.9801</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardd1</Name>
-        <ID>263</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>78.5294,-11.7126,111.7399</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>harde1</Name>
-        <ID>264</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>86.0965,-11.8352,114.9074</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>harda1</Name>
-        <ID>265</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>94.7519,-11.8276,107.4014</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardb1</Name>
-        <ID>266</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>87.3355,-11.8157,100.8269</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardc1</Name>
-        <ID>267</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>77.7494,-11.8431,104.6873</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medc1</Name>
-        <ID>268</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>251.1925,-10.9548,89.0627</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medb1</Name>
-        <ID>269</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>246.107,-11.5525,76.4125</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>meda1</Name>
-        <ID>270</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>237.6993,-11.7493,86.4372</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easya1</Name>
-        <ID>271</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>275.6158,-13.9901,353.8096</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easyb1</Name>
-        <ID>272</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>287.2324,-13.9652,353.5824</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sidearea1</Name>
-        <ID>273</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>211.2141,-11.875,573.954</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sideb1</Name>
-        <ID>274</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>209.7683,-11.8571,578.4884</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sidea1</Name>
-        <ID>275</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>203.0624,-11.8496,571.9779</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sided1</Name>
-        <ID>276</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>218.89,-11.8813,576.4916</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sidec1</Name>
-        <ID>277</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>210.8105,-11.8015,567.6456</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easyarea2</Name>
-        <ID>278</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>956.1434,-16.432,312.9524</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medarea2</Name>
-        <ID>279</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>1038.366,-11.7772,174.879</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardarea2</Name>
-        <ID>280</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>1205.462,-11.6196,151.5027</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>harda2</Name>
-        <ID>281</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1208.001,-11.598,161.4038</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardb2</Name>
-        <ID>282</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1200.875,-11.6898,154.6895</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardc2</Name>
-        <ID>283</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1198.156,-11.6953,146.0205</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>harde2</Name>
-        <ID>284</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1211.964,-11.5872,153.6843</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardd2</Name>
-        <ID>285</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1208.134,-11.657,143.7223</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medb2</Name>
-        <ID>286</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1040.668,-11.7831,182.9228</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>meda2</Name>
-        <ID>287</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1035.254,-12.0316,170.9042</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medc2</Name>
-        <ID>288</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1047,-11.7838,170.7604</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easyb2</Name>
-        <ID>289</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>952.9023,-16.4488,310.1274</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easya2</Name>
-        <ID>290</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>959.6445,-16.3945,317.7101</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sidearea2</Name>
-        <ID>291</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>977.7344,-10.7692,571.1783</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sideb2</Name>
-        <ID>292</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>978.1245,-10.4652,577.992</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sidea2</Name>
-        <ID>293</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>972.7545,-10.724,574.2974</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>Sided2</Name>
-        <ID>294</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>982.9644,-10.6491,569.1379</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>Sidec2</Name>
-        <ID>295</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>975.8604,-11.0546,563.5358</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>Sidearea3</Name>
-        <ID>296</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>1002.58,-11.7708,748.3875</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sidea3</Name>
-        <ID>297</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1004.723,-11.7226,741.3459</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sideb3</Name>
-        <ID>298</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1009.576,-11.7604,749.2587</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sided3</Name>
-        <ID>299</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>996.1138,-11.7726,747.6516</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sidec3</Name>
-        <ID>300</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1000.865,-11.7465,754.7406</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easyarea3</Name>
-        <ID>301</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>959.9512,-16.631,963.8795</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easya3</Name>
-        <ID>302</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>966.5042,-17.4633,963.5685</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easyb3</Name>
-        <ID>303</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>955.0421,-15.8968,965.6765</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medarea3</Name>
-        <ID>310</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>1015.928,-10.9367,1219.695</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>meda3</Name>
-        <ID>311</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1013.163,-11.0649,1216.069</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medb3</Name>
-        <ID>312</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1020.898,-11.0066,1221.601</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medc3</Name>
-        <ID>313</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>1011.504,-10.9168,1223.334</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardarea4</Name>
-        <ID>314</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>63.2501,-13.3775,1146.065</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardb4</Name>
-        <ID>315</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>65.9401,-13.4132,1142.043</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>harda4</Name>
-        <ID>316</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>71.3247,-13.0853,1148.851</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardc4</Name>
-        <ID>317</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>56.0177,-13.6071,1141.087</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardd4</Name>
-        <ID>318</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>61.1415,-13.3906,1147.483</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>harde4</Name>
-        <ID>319</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>63.3953,-13.1412,1154.338</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medarea4</Name>
-        <ID>320</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>268.391,-12.2742,1219.984</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medb4</Name>
-        <ID>321</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>267.4055,-12.3205,1216.941</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>meda4</Name>
-        <ID>322</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>271.8391,-12.0852,1223.526</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>medc4</Name>
-        <ID>323</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>262.4836,-12.104,1222.042</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easyarea4</Name>
-        <ID>324</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>320.901,-14.9713,964.3007</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easya4</Name>
-        <ID>325</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>325.755,-14.9929,963.7936</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>easyb4</Name>
-        <ID>326</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>314.5424,-15.0584,964.2466</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sidearea4</Name>
-        <ID>327</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>211.4734,-11.1044,707.5662</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sidec4</Name>
-        <ID>328</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>212.6841,-11.3964,701.0174</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sideb4</Name>
-        <ID>329</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>218.0837,-11.1199,706.695</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sided4</Name>
-        <ID>330</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>204.1083,-11.3659,706.7896</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>sidea4</Name>
-        <ID>331</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>209.8642,-10.9052,712.7112</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardarea3</Name>
-        <ID>10146</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>821.8486,-11.7646,701.252</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardb3</Name>
-        <ID>10147</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>821.8486,-11.7646,701.252</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>harda3</Name>
-        <ID>10148</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>821.8486,-11.7646,701.252</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>harde3</Name>
-        <ID>10149</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>821.8486,-11.7646,701.252</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardd3</Name>
-        <ID>10150</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>821.8486,-11.7646,701.252</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardc3</Name>
-        <ID>10151</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>821.8486,-11.7646,701.252</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardarea3</Name>
-        <ID>10153</ID>
-        <Group>-1</Group>
-        <Radius>15</Radius>
-        <Position>656.1946,-11.4303,906.2747</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardb3</Name>
-        <ID>10154</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>656.1946,23.1558,906.2747</Position>
-        <Direction>0.9996,0,-0.0292</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>harda3</Name>
-        <ID>10155</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>656.1946,-11.4303,906.2747</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>harde3</Name>
-        <ID>10156</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>656.1946,-11.4303,906.2747</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-      <HelperAreaObject>
-        <Name>hardd3</Name>
-        <ID>10157</ID>
-        <Group>-1</Group>
-        <Radius>3</Radius>
-        <Position>656.1946,-11.4303,906.2747</Position>
-        <Direction>0,0,1</Direction>
-        <Color>0,0,255</Color>
-      </HelperAreaObject>
-    </HelperAreas>
-    <HelperAreaBoxes />
-    <HelpePositions>
-      <HelpePositionObject>
-        <Name>Position9653</Name>
-        <ID>9653</ID>
-        <Group>-1</Group>
-        <Position>672.6891,92.6305,647.4663</Position>
-      </HelpePositionObject>
-    </HelpePositions>
-    <EditorOnlyObjects />
-  </EditorOnlyData>
   <SimBoundsMinX>0</SimBoundsMinX>
   <SimBoundsMinZ>0</SimBoundsMinZ>
   <SimBoundsMaxX>1280</SimBoundsMaxX>
