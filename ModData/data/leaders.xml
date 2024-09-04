@@ -51,6 +51,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Healer" Max="5">5</Pop>
 		<Pop Type="Spartan" Max="1">1</Pop>
 		<Pop Type="Watchtower" Max="2">2</Pop>
 	</Leader>
@@ -77,6 +78,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Healer" Max="5">5</Pop>
 		<Pop Type="Spartan" Max="1">1</Pop>
 		<Pop Type="Watchtower" Max="2">2</Pop>
 	</Leader>
@@ -103,6 +105,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Healer" Max="5">5</Pop>
 		<Pop Type="Spartan" Max="1">1</Pop>
 		<Pop Type="Watchtower" Max="2">2</Pop>
 	</Leader>
@@ -138,6 +141,7 @@
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
 		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Healer" Max="5">5</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
 	</Leader>
@@ -165,6 +169,7 @@
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
 		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Healer" Max="5">5</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 	</Leader>
@@ -192,6 +197,7 @@
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
 		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Healer" Max="5">5</Pop>
 		<Pop Type="HonorGuard" Max="3">3</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>

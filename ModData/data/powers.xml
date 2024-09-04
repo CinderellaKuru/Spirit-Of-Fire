@@ -43,19 +43,25 @@
 				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
 			</FlashUI>
-			<DataLevel level="0">
-				<Data type="sound" name="HudUpSound">play_unsc_transport_vo_ready</Data>
-				<Data type="sound" name="HudAbortSound">play_unsc_transport_vo_exit</Data>
-				<Data type="sound" name="HudFireSound">play_unsc_transport_vo_pickup</Data>
-				<Data type="sound" name="HudLastFireSound">play_unsc_transport_vo_dropoff</Data>
-				<Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
-				<Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
-				<Data type="int" name="MaxGroundVehicles">6</Data>
-				<Data type="int" name="MaxInfantryUnits">12</Data>
-				<Data type="texture" name="Base">ui\flash\shared\textures\powers\TransportBase</Data>
-				<Data type="texture" name="Mover">ui\flash\shared\textures\powers\TransportMover</Data>
-				<Data type="float" name="MinTransportDistance">45</Data>
-			</DataLevel>
+			<BaseDataLevel>
+                <Data type="sound" name="HudUpSound">play_unsc_transport_vo_ready</Data>
+                <Data type="sound" name="HudAbortSound">play_unsc_transport_vo_exit</Data>
+                <Data type="sound" name="HudFireSound">play_unsc_transport_vo_pickup</Data>
+                <Data type="sound" name="HudLastFireSound">play_unsc_transport_vo_dropoff</Data>
+                <Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
+                <Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
+                <Data type="texture" name="Base">ui\flash\shared\textures\powers\TransportBase</Data>
+                <Data type="texture" name="Mover">ui\flash\shared\textures\powers\TransportMover</Data>
+                <Data type="float" name="MinTransportDistance">45</Data>
+            </BaseDataLevel>
+            <DataLevel level="0">
+                <Data type="int" name="MaxGroundVehicles">3</Data>
+                <Data type="int" name="MaxInfantryUnits">6</Data>
+            </DataLevel>
+            <DataLevel level="1">
+                <Data type="int" name="MaxGroundVehicles">6</Data>
+                <Data type="int" name="MaxInfantryUnits">12</Data>
+            </DataLevel>
 		</Attributes>
 	</Power>
 	<Power name="CovCivTransport">

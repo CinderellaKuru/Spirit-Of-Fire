@@ -1178,8 +1178,8 @@
 			<Effect type="Data" amount="1.5" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_pelican_01</Target>
 			</Effect>
-			<Effect type="Data" amount="6" subtype="MaxContained" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_air_pelican_01</Target>
+			<Effect type="Data" subtype="PowerLevel" power="UnscCivTransport" amount="1" relativity="Absolute">
+				<Target type="Player" />
 			</Effect>
 		</Effects>
 	</Tech>
@@ -7646,6 +7646,8 @@
 				<Target type="Tech">unsc_cryo_upgrade1</Target>
 				<Target type="Tech">unsc_cryo_upgrade2</Target>
 				<Target type="Tech">unsc_cryo_upgrade3</Target>
+				<Target type="Tech">unsc_pelican_upgrade1</Target>
+				<Target type="Tech">unsc_pelican_upgrade2</Target>
 				<Target type="Tech">unsc_hawk_upgrade1</Target>
 			</Effect>
 			<Effect type="Data" subtype="ResearchPoints" amount="0.5" relativity="Percent">
@@ -7687,6 +7689,8 @@
 				<Target type="Tech">unsc_cryo_upgrade1</Target>
 				<Target type="Tech">unsc_cryo_upgrade2</Target>
 				<Target type="Tech">unsc_cryo_upgrade3</Target>
+				<Target type="Tech">unsc_pelican_upgrade1</Target>
+				<Target type="Tech">unsc_pelican_upgrade2</Target>
 				<Target type="Tech">unsc_hawk_upgrade1</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cryo_upgrade1" relativity="Absolute">

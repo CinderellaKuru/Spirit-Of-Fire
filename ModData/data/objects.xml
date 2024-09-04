@@ -3840,7 +3840,7 @@
 		<CombatValue>20</CombatValue>
 		<LOS>85</LOS>
 		<BuildPoints>30</BuildPoints>
-		<PopCapAddition Type="Unit">0</PopCapAddition>
+		<PopCapAddition Type="Unit">5</PopCapAddition>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Bounty>14</Bounty>
 		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -3959,7 +3959,7 @@
 		<CombatValue>20</CombatValue>
 		<LOS>85</LOS>
 		<BuildPoints>30</BuildPoints>
-		<PopCapAddition Type="Unit">0</PopCapAddition>
+		<PopCapAddition Type="Unit">5</PopCapAddition>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Bounty>14</Bounty>
 		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -4083,7 +4083,7 @@
 		<CombatValue>20</CombatValue>
 		<LOS>85</LOS>
 		<BuildPoints>30</BuildPoints>
-		<PopCapAddition Type="Unit">0</PopCapAddition>
+		<PopCapAddition Type="Unit">5</PopCapAddition>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Bounty>14</Bounty>
 		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -7499,7 +7499,7 @@
 		<CombatValue>20</CombatValue>
 		<LOS>75</LOS>
 		<BuildPoints>30</BuildPoints>
-		<PopCapAddition Type="Unit">0</PopCapAddition>
+		<PopCapAddition Type="Unit">5</PopCapAddition>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Bounty>14</Bounty>
 		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -7605,7 +7605,7 @@
 		<CombatValue>20</CombatValue>
 		<LOS>75</LOS>
 		<BuildPoints>30</BuildPoints>
-		<PopCapAddition Type="Unit">0</PopCapAddition>
+		<PopCapAddition Type="Unit">5</PopCapAddition>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Bounty>14</Bounty>
 		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -7716,7 +7716,7 @@
 		<CombatValue>20</CombatValue>
 		<LOS>75</LOS>
 		<BuildPoints>30</BuildPoints>
-		<PopCapAddition Type="Unit">0</PopCapAddition>
+		<PopCapAddition Type="Unit">5</PopCapAddition>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Bounty>14</Bounty>
 		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -9254,7 +9254,7 @@
 		<AttackGradeDPS>0</AttackGradeDPS>
 		<CombatValue>10</CombatValue>
 		<LOS>55</LOS>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Healer">1</Pop>
 		<Bounty>5</Bounty>
 		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -10949,8 +10949,8 @@
 		<MovementType>Land</MovementType>
 		<Velocity>15</Velocity>
 		<TurnRate>180</TurnRate>
-		<Shieldpoints>6000</Shieldpoints>
-		<Hitpoints>2500</Hitpoints>
+		<Shieldpoints>4000</Shieldpoints>
+		<Hitpoints>2000</Hitpoints>
 		<AttackGradeDPS>252</AttackGradeDPS>
 		<Hardpoint name="Turret" autocenter="true" yawrate="90" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="75" yawattachment="Turret" pitchattachment="Turret" />
 		<CombatValue>12</CombatValue>
@@ -33353,7 +33353,7 @@
 		<AttackGradeDPS>15</AttackGradeDPS>
 		<CombatValue>0.00999999978</CombatValue>
 		<LOS>55</LOS>
-		<Pop Type="Unit">2</Pop>
+		<Pop Type="Healer">1</Pop>
 		<Bounty>0</Bounty>
 		<RamDodgeFactor>0.5</RamDodgeFactor>
 		<Veterancy Level="1" XP="1" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />

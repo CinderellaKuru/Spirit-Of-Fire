@@ -806,7 +806,7 @@
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>CreateAudioReactions</Flag>
-		<DazeResist>1</DazeResist>
+		<DazeResist>0</DazeResist>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
@@ -1098,7 +1098,7 @@
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
-		<DazeResist>1</DazeResist>
+		<DazeResist>0</DazeResist>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
@@ -1308,7 +1308,7 @@
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>CreateAudioReactions</Flag>
-		<DazeResist>1</DazeResist>
+		<DazeResist>0</DazeResist>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
@@ -1664,7 +1664,7 @@
 			<Unit count="1" role="normal">cov_veh_scarab_01</Unit>
 		</Units>
 		<TurnRadius min="2" max="16" />
-		<DazeResist>1</DazeResist>
+		<DazeResist>0</DazeResist>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Selection>
@@ -1966,7 +1966,7 @@
 		<Flag>KBAware</Flag>
 		<Flag>Chatter</Flag>
 		<Flag>CreateAudioReactions</Flag>
-		<DazeResist>1</DazeResist>
+		<DazeResist>0</DazeResist>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
@@ -2796,7 +2796,7 @@
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>CreateAudioReactions</Flag>
-		<DazeResist>1</DazeResist>
+		<DazeResist>0</DazeResist>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
@@ -3482,7 +3482,7 @@
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>CreateAudioReactions</Flag>
-		<DazeResist>1</DazeResist>
+		<DazeResist>0</DazeResist>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
@@ -3599,7 +3599,7 @@
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>Chatter</Flag>
-		<DazeResist>1</DazeResist>
+		<DazeResist>0</DazeResist>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
@@ -4158,7 +4158,7 @@
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>Scarab</Flag>
-		<DazeResist>1</DazeResist>
+		<DazeResist>0</DazeResist>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
