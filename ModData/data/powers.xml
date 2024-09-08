@@ -547,9 +547,9 @@
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="float" name="TickDuration">0.125</Data>
 				<Data type="int" name="NumTicks">200</Data>
-				<Data type="float" name="RepairCombatValuePerTick">0.1</Data>
+				<Data type="float" name="RepairCombatValuePerTick">0.08</Data>
 				<Data type="bool" name="SpreadAmongSquads">true</Data>
-				<Data type="float" name="CooldownTimeIfDamaged">5</Data>
+				<Data type="float" name="CooldownTimeIfDamaged">0</Data>
 				<Data type="bool" name="AllowReinforce">true</Data>
 				<Data type="bool" name="IgnorePlacement">false</Data>
 				<Data type="bool" name="HealAny">false</Data>

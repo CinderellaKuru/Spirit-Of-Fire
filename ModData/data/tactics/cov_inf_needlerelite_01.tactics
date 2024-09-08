@@ -157,7 +157,7 @@
 	<Action>
 		<Name>Garrison</Name>
 		<ActionType>Garrison</ActionType>
-		<WorkRange>5</WorkRange>
+		<WorkRange>15</WorkRange>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>

@@ -14331,6 +14331,7 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook\building\wall_01\wall_01.vis</Visual>
 		<Ability>HookCoverWithLOS.triggerscript</Ability>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<DisplayNameID>24662</DisplayNameID>
 		<RolloverTextID>24663</RolloverTextID>
 		<RoleTextID>24663</RoleTextID>
@@ -14349,7 +14350,7 @@
 		<SelectType>Command</SelectType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 		<ObjectType>NonFlying</ObjectType>
@@ -14934,6 +14935,7 @@
 	<Object name="hook_spawner_FloodRelease_01" is="0" id="2333" dbid="3602">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook\spawner\FloodRelease_01\FloodRelease_01.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<DisplayNameID>24544</DisplayNameID>
 		<RolloverTextID>24545</RolloverTextID>
 		<RoleTextID>24546</RoleTextID>
@@ -14952,7 +14954,7 @@
 		<DamageType direction="Full">Heavy</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<ObjectType>Garrison</ObjectType>
 		<ObjectType>_Garrison</ObjectType>
 		<ObjectType>GaiaGarrison</ObjectType>
@@ -14973,6 +14975,7 @@
 	<Object name="hook_spawner_FloodRelease_02" is="0" id="2333" dbid="4145">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook\spawner\FloodRelease_02\FloodRelease_02.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<DisplayNameID>24544</DisplayNameID>
 		<RolloverTextID>24545</RolloverTextID>
 		<RoleTextID>24546</RoleTextID>
@@ -14991,7 +14994,7 @@
 		<DamageType direction="Full">Heavy</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<ObjectType>Garrison</ObjectType>
 		<ObjectType>_Garrison</ObjectType>
 		<ObjectType>GaiaGarrison</ObjectType>
@@ -15014,6 +15017,7 @@
 		<Visual>hook\building\MegaTurret_01\megaTurret_01.vis</Visual>
 		<PhysicsInfo>cov_bldg_megaturret_01</PhysicsInfo>
 		<Ability>HookCoverWithLOS.triggerscript</Ability>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\bldg_mega_turret</PortraitIcon>
 		<Tactics>hook_bldg_megaTurret_01.tactics</Tactics>
 		<MinimapIcon size="5">Building</MinimapIcon>
@@ -15043,7 +15047,7 @@
 		<Command Type="Power" Position="2">HookMegaTurret</Command>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
 		<Sound Type="Exist">start_exist_megaturret</Sound>
 		<Sound Type="StopExist">stop_exist_megaturret</Sound>
@@ -15092,7 +15096,7 @@
 		<DamageType direction="Full">Heavy</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>Garrison</ObjectType>
@@ -15143,7 +15147,7 @@
 		<DamageType direction="Full">Heavy</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>Garrison</ObjectType>
@@ -15195,6 +15199,7 @@
 	<Object name="hook_bldg_civbuscover_01" is="0" id="2272" dbid="3530">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook\building\civbuscover_01\civbuscover_01.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<DisplayNameID>25365</DisplayNameID>
 		<RolloverTextID>25366</RolloverTextID>
 		<RoleTextID>25321</RoleTextID>
@@ -15212,7 +15217,7 @@
 		<DamageType direction="Full">Building</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<SurfaceType>Metal</SurfaceType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
@@ -15234,6 +15239,7 @@
 	<Object name="hook_bldg_WarthogCover_01" is="0" id="2229" dbid="3477">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook\building\WarthogCover_01\WarthogCover_01.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<DisplayNameID>24387</DisplayNameID>
 		<RolloverTextID>24388</RolloverTextID>
 		<RoleTextID>25321</RoleTextID>
@@ -15251,7 +15257,7 @@
 		<DamageType direction="Full">Building</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<SurfaceType>Metal</SurfaceType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
@@ -15277,6 +15283,7 @@
 	<Object name="hook_bldg_WarthogCover_02" is="0" id="2230" dbid="3478">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook\building\WarthogCover_02\WarthogCover_02.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<DisplayNameID>24387</DisplayNameID>
 		<RolloverTextID>24388</RolloverTextID>
 		<RoleTextID>25321</RoleTextID>
@@ -15294,7 +15301,7 @@
 		<DamageType direction="Full">Building</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<SurfaceType>Metal</SurfaceType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
@@ -15316,6 +15323,7 @@
 	<Object name="hook_bldg_WarthogCover_03" is="0" id="2231" dbid="3479">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook\building\WarthogCover_03\WarthogCover_03.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<DisplayNameID>24387</DisplayNameID>
 		<RolloverTextID>24388</RolloverTextID>
 		<RoleTextID>25321</RoleTextID>
@@ -15333,7 +15341,7 @@
 		<DamageType direction="Full">Building</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<SurfaceType>Metal</SurfaceType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
@@ -15476,6 +15484,7 @@
 	<Object name="hook_bldg_pelicanCover_01" is="0" id="815" dbid="3217">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>environment\harvest\pelicanCover_01\pelicanCover_01.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<DisplayNameID>23926</DisplayNameID>
 		<RolloverTextID>23927</RolloverTextID>
 		<RoleTextID>25321</RoleTextID>
@@ -15493,7 +15502,7 @@
 		<DamageType direction="Full">Building</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<SurfaceType>Metal</SurfaceType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
@@ -15516,6 +15525,7 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook\building\sniperplatform_01\sniperplatform_01.vis</Visual>
 		<Ability>HookCoverWithLOS.triggerscript</Ability>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<DisplayNameID>24016</DisplayNameID>
 		<RolloverTextID>23929</RolloverTextID>
 		<RoleTextID>23929</RoleTextID>
@@ -15534,7 +15544,7 @@
 		<SelectType>Command</SelectType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<Sound Type="Exist">play_sniperplatform_01_exist</Sound>
 		<Sound Type="StopExist">stop_sniperplatform_01_exist</Sound>
 		<ObjectType>_Hook</ObjectType>
@@ -15561,6 +15571,7 @@
 	<Object name="hook_spawner_supply3hole_01" is="0" id="2049" dbid="3218">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook\spawner\supply3hole_01\supply3hole_01.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
 		<MovementType>Land</MovementType>
 		<DisplayNameID>24015</DisplayNameID>
 		<RolloverTextID>24010</RolloverTextID>
@@ -15584,7 +15595,7 @@
 		<ObjectType>Building</ObjectType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
+		<MaxContained>2</MaxContained>
 		<ObjectType>Garrison</ObjectType>
 		<ObjectType>_Garrison</ObjectType>
 		<ObjectType>GaiaGarrison</ObjectType>
